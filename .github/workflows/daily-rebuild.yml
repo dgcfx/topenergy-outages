@@ -1,0 +1,28 @@
+name: Daily video rebuild
+
+on:
+  schedule:
+    - cron: '15 0 * * *'  # 12:15pm NZ time
+  workflow_dispatch:
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Rebuild video
+        run: |
+          ffmpeg -framerate 8 -pattern_type glob -i 'frames/*.png' \
+            -c:v libx264 -crf 28 -tune stillimage -g 300 -pix_fmt yuv420p \
+            -movflags +faststart outages.mp4 -y
+      - name: Commit video
+        run: |
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add outages.mp4
+          git commit -m "Daily video rebuild $(date)" || exit 0
+          git push
