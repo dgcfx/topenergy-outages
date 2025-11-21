@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip'
+          # Removed "cache: pip" because you don't use a requirements.txt file
 
       - name: Install Python Libraries
         run: |
