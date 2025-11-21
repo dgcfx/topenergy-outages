@@ -1,70 +1,42 @@
-import os
-import json
-from datetime import datetime
-from playwright.sync_api import sync_playwright
+name: Capture Outage Data
 
-URL = "https://outages.topenergy.co.nz"
-FRAME_DIR = "frames"
-HISTORY_DIR = "data/history"
-os.makedirs(FRAME_DIR, exist_ok=True)
-os.makedirs(HISTORY_DIR, exist_ok=True)
+on:
+  schedule:
+    # Runs every 15 minutes
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
 
-def main():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        
-        # 1. Load the page
-        print(f"Loading {URL}...")
-        page.goto(URL, wait_until="networkidle")
-        
-        # 2. Wait for the data variable to exist in the browser context
-        # The variable 'frontendInitData' is created by the site's scripts.
-        try:
-            page.wait_for_function("() => typeof frontendInitData !== 'undefined'", timeout=15000)
-        except Exception as e:
-            print("Error: frontendInitData never appeared on the page.")
-            browser.close()
-            return
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-        # 3. Extract the object directly from the browser
-        # Playwright automatically converts the JavaScript Object (with Arrays, etc.) 
-        # into a Python Dictionary. We don't need regex or json.loads here.
-        data = page.evaluate("() => window.frontendInitData")
-        
-        if not data:
-            print("Warning: frontendInitData was empty.")
-            data = {}
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
 
-        # 4. Save full JSON with timestamp
-        ts = datetime.utcnow().strftime("%Y-%m-%dT%H-%M-%SZ")
-        json_filename = f"{HISTORY_DIR}/{ts}.json"
-        
-        with open(json_filename, "w") as f:
-            json.dump({
-                "timestamp": ts,
-                # Use .get() chains to avoid crashes if keys change
-                "customersCurrentlyOff": data.get("outageList", {}).get("customersCurrentlyOff", 0),
-                "rawFrontendInitData": data
-            }, f, indent=2)
-        
-        print(f"Saved data to {json_filename}")
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
 
-        # 5. Screenshot just the map
-        # We wait for the map tiles to ensure it looks good
-        try:
-            map_element = page.locator("#map").first
-            map_element.wait_for(state="visible", timeout=10000)
-            # Short sleep to let tiles render fully
-            page.wait_for_timeout(2000)
-            
-            map_element.screenshot(path=f"{FRAME_DIR}/{ts}.png")
-            map_element.screenshot(path="latest.jpg")
-            print("Saved screenshots.")
-        except Exception as e:
-            print(f"Could not take screenshot: {e}")
+      - name: Install Playwright browsers
+        run: playwright install --with-deps chromium
 
-        browser.close()
+      - name: Run scraper
+        run: python capture.py
 
-if __name__ == "__main__":
-    main()
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Update outage data"
+            git push
+          else
+            echo "No changes to commit."
+          fi
