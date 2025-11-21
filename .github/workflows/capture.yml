@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - uses: actions/checkout@v4
 
@@ -17,12 +18,41 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          cache: 'pip'
 
-      - name: Install dependencies
+      - name: Install Python Libraries
         run: |
           python -m pip install playwright
-          playwright install chromium --with-deps
-          sudo apt-get update && sudo apt-get install -y ffmpeg
+          # We install the python lib first so we can get its exact version for caching
+
+      - name: Get Playwright Version
+        id: playwright-version
+        run: |
+          # robust way to get version of installed package
+          echo "VERSION=$(python -c 'import playwright; print(playwright.__version__)')" >> $GITHUB_OUTPUT
+
+      - name: Cache Playwright Browsers
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ steps.playwright-version.outputs.VERSION }}
+
+      - name: Install System Dependencies
+        run: |
+          sudo apt-get update 
+          sudo apt-get install -y ffmpeg
+
+          # Check if cache was hit. If NOT, install browsers.
+          if [ "${{ steps.playwright-cache.outputs.cache-hit }}" != "true" ]; then
+            echo "Cache miss - downloading browsers..."
+            playwright install chromium --with-deps
+          else
+            echo "Cache hit - browsers already present."
+            # Even with cache, we run this to ensure OS-level libs (like libgtk) are present
+            # This step is very fast compared to downloading the browser
+            playwright install-deps chromium
+          fi
 
       - name: Run capture script
         run: python capture.py
@@ -32,5 +62,5 @@ jobs:
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
           git add -A
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update $(date -u)"
-          git push
+          timestamp=$(date -u)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update ${timestamp}" && git push)
