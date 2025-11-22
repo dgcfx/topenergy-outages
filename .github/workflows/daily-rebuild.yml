@@ -32,20 +32,20 @@ jobs:
           mkdir -p temp_frames
 
           # 2. STAMP FRAMES: Loop through all new images and apply text overlay
-          for img in $(ls -v frames/*.png); do
+          # Use a robust `find | sort | while read` loop to handle filenames safely
+          find frames/ -name "*.png" | sort -V | while read -r img; do
             filename=$(basename "$img")
             
             # 2a. Strip extension and prepare raw timestamp
             raw_ts="${filename%.*}"
             
             # 2b. Convert time portion (HH-MM-SS) to standard ISO format (HH:MM:SS) using sed
-            timestamp=$(echo "$raw_ts" | sed -E 's/T([0-9]{2})-([0-9]{2})-([0-9]{2})Z/T\1:\2:\3Z/')
+            timestamp=$(echo "$raw_ts" | sed 's/T\([0-9]\{2\}\)-\([0-9]\{2\}\)-\([0-9]\{2\}\)Z/T\1:\2:\3Z/')
             
             # 2c. Burn text into image copy using ffmpeg drawtext filter
             # Uses DejaVuSansMono (monospaced) and a semi-transparent black box for readability
             ffmpeg -y -i "$img" -vf "drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf:text='$timestamp':fontcolor=white:fontsize=24:box=1:boxcolor=black@0.5:boxborderw=5:x=15:y=15" -frames:v 1 "temp_frames/$filename"
           done
-
           echo "Frames stamped. Rendering video chunk..."
 
           # 3. RENDER CHUNK: Create a video of ONLY the new frames (using stamped temp_frames)
