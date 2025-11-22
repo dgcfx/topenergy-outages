@@ -43,7 +43,7 @@ jobs:
             
             # 2c. Burn text into image copy using ffmpeg drawtext filter
             # Uses DejaVuSansMono (monospaced) and a semi-transparent black box for readability
-            ffmpeg -y -i "$img" -vf "drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf:text='$timestamp':fontcolor=white:fontsize=24:box=1:boxcolor=black@0.5:boxborderw=5:x=15:y=15" "temp_frames/$filename"
+            ffmpeg -y -i "$img" -vf "drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf:text='$timestamp':fontcolor=white:fontsize=24:box=1:boxcolor=black@0.5:boxborderw=5:x=15:y=15" -frames:v 1 "temp_frames/$filename"
           done
 
           echo "Frames stamped. Rendering video chunk..."
