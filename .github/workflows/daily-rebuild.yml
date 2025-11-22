@@ -12,17 +12,92 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Install ffmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - name: Rebuild video
+
+      - name: Install ffmpeg and font
         run: |
-          ffmpeg -framerate 8 -pattern_type glob -i 'frames/*.png' \
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+
+      - name: Incremental Rebuild & Cleanup
+        run: |
+          # 1. CHECK: Are there new frames to process?
+          if [ -z "$(ls -A frames/*.png 2>/dev/null)" ]; then
+             echo "No new frames found in frames/. Exiting."
+             exit 0
+          fi
+
+          echo "Found new frames. Preparing timestamp overlays..."
+          
+          # Create a temp directory for the stamped images
+          mkdir -p temp_frames
+
+          # 2. STAMP FRAMES: Loop through all new images and apply text overlay
+          for img in $(ls -v frames/*.png); do
+            filename=$(basename "$img")
+            
+            # 2a. Strip extension and prepare raw timestamp
+            raw_ts="${filename%.*}"
+            
+            # 2b. Convert time portion (HH-MM-SS) to standard ISO format (HH:MM:SS) using sed
+            timestamp=$(echo "$raw_ts" | sed 's/T\([0-9][0-9]\)-\([0-9][0-9]\)-\([0-9][0-9]\)Z/T\1:\2:\3Z/')
+            
+            # 2c. Burn text into image copy using ffmpeg drawtext filter
+            # Uses DejaVuSansMono (monospaced) and a semi-transparent black box for readability
+            ffmpeg -y -i "$img" -vf "drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf:text='$timestamp':fontcolor=white:fontsize=24:box=1:boxcolor=black@0.5:boxborderw=5:x=15:y=15" "temp_frames/$filename"
+          done
+
+          echo "Frames stamped. Rendering video chunk..."
+
+          # 3. RENDER CHUNK: Create a video of ONLY the new frames (using stamped temp_frames)
+          # We use pipe input for safety (find | sort | xargs cat)
+          find temp_frames/ -name "*.png" | sort | xargs cat | ffmpeg -f image2pipe -framerate 8 -i - \
+            -r 8 -fflags +genpts -video_track_timescale 90000 \
             -c:v libx264 -crf 28 -tune stillimage -g 300 -pix_fmt yuv420p \
-            -movflags +faststart outages.mp4 -y
-      - name: Commit video
+            -movflags +faststart daily_chunk.mp4 -y
+
+          # 4. STITCH: Append chunk to master (or start fresh)
+          if [ -f "outages.mp4" ]; then
+              echo "Existing video found. Appending..."
+              
+              echo "file 'outages.mp4'" > concat_list.txt
+              echo "file 'daily_chunk.mp4'" >> concat_list.txt
+              
+              # Concat WITHOUT re-encoding (-c copy) to temp file
+              ffmpeg -f concat -safe 0 -i concat_list.txt -c copy temp_master.mp4 -y
+          else
+              echo "No existing video found. Starting fresh."
+              mv daily_chunk.mp4 temp_master.mp4
+          fi
+
+          # 5. VERIFY & CLEANUP: Check new file integrity before committing
+          echo "Verifying integrity of the new video..."
+          if ffprobe -v error -show_format -show_streams temp_master.mp4; then
+              echo "SUCCESS: Video verified. Swapping master file and cleaning up."
+              
+              # Overwrite the master file
+              mv temp_master.mp4 outages.mp4
+              
+              # Remove temporary artifacts
+              rm -rf temp_frames daily_chunk.mp4 concat_list.txt
+              
+              # Delete the ORIGINAL frames safely (handles massive file lists)
+              find frames/ -name "*.png" -delete
+          else
+              echo "CRITICAL FAILURE: New video is corrupt. Aborting to protect old video and frames."
+              exit 1
+          fi
+
+      - name: Commit changes
         run: |
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
+          
+          # Stage the updated master video
           git add outages.mp4
-          git commit -m "Daily video rebuild $(date)" || exit 0
+          
+          # Stage the DELETION of the frames (stages the files deleted in the previous step)
+          git add -u frames/
+          
+          # Commit only if there were actual changes (which avoids failure if no frames were processed)
+          git commit -m "Daily video append: $(date)" || exit 0
           git push

@@ -1,8 +1,9 @@
 name: Deploy to GitHub Pages
 
 on:
-  push:
-    branches: [ main ]
+  schedule:
+    - cron: '20 0 * * *' # 12:20pm NZ time
+  workflow_dispatch:
 
 permissions:
   contents: read
