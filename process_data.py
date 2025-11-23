@@ -63,7 +63,12 @@ def process_files(new_files, existing_data):
         with open(file_path, 'r') as f:
             data = json.load(f)
         
-        timestamp = data.get("timestamp")
+        # Get the timestamp and ensure it's in the correct ISO 8601 format
+        # This handles historical data that used hyphens in the time part.
+        timestamp_str = data.get("timestamp", "")
+        # A valid timestamp like "2025-11-22T10:00:00Z" will be unaffected.
+        # An invalid one like "2025-11-22T10-00-00Z" will be corrected.
+        timestamp = timestamp_str[:10] + timestamp_str[10:].replace('-', ':')
         outage_list = data.get("rawFrontendInitData", {}).get("outageList", {})
         active_outages = outage_list.get("active", [])
         
@@ -82,8 +87,8 @@ def process_files(new_files, existing_data):
                     "title": f"{outage.get('circuitName', 'Unknown')} ({outage.get('customersCurrentlyOff')} customers)",
                     "start": timestamp,
                     "end": None, # End time is unknown for now
-                    "allDay": False,
-                    "extendedProps": {
+                    "allDay": False, # Keep original field name for now
+                    "extendedProps": { # Keep original field name for now
                         "type": outage.get("type"),
                         "customers": outage.get("customersCurrentlyOff"),
                         "circuit": outage.get("circuitName"),

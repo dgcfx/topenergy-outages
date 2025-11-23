@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Top Energy Outages Timelapse</title>
+  <meta charset="utf-8">
+  <title>Top Energy Outages</title>
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css" rel="stylesheet">
   <style>
-    body { font-family: sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; }
-    video { width: 100%; max-width: 1200px; }
-    img { width: 100%; }
-    .controls { margin-top: 10px; display: flex; align-items: center; gap: 15px; font-size: 16px; }
+    /* General Body Styles */
+    body { font-family: system-ui, sans-serif; background: #f5f7fa; margin: 0; padding: 20px; color: #2c3e50; }
+    h1 { text-align: center; margin: 10px 0 20px; font-size: 2em; }
+    p { text-align: center; }
+
     /* Tab styles */
     .tab-container { overflow: hidden; border-bottom: 1px solid #ccc; margin-bottom: 20px; }
     .tab-button { background-color: #f1f1f1; float: left; border: none; outline: none; cursor: pointer; padding: 14px 16px; transition: 0.3s; }
@@ -14,10 +17,25 @@
     .tab-button.active { background-color: #ccc; }
     .tab-content { display: none; }
     .tab-content.active { display: block; }
+
+    /* Video Tab Styles */
+    video { width: 100%; max-width: 1200px; }
+    img { width: 100%; }
+    .controls { margin-top: 10px; display: flex; align-items: center; gap: 15px; font-size: 16px; margin-bottom: 20px; }
+
+    /* Calendar Tab Styles from Grok */
+    #calendar { max-width: 1200px; margin: 0 auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.15); }
+    .fc-event{font-weight:600;border:none !important;border-radius:4px;padding:2px 4px;font-size:0.9em;}
+    .fc-event.unplanned{background:#e74c3c !important;border-color:#c0392b !important;color:white;}
+    .fc-event.planned{background:#3498db !important;border-color:#2980b9 !important;color:white;}
+    .fc-toolbar { background: #2c3e50; color: white; }
+    .fc-button { background: #34495e !important; border: none !important; }
+    .fc-button:hover, .fc-button:active { background: #1abc9c !important; }
+    .fc-today-button { background: #27ae60 !important; }
   </style>
 </head>
 <body>
-  <h1>Top Energy Unplanned Outages – Live Timelapse</h1>
+  <h1>Top Energy Outages</h1>
 
   <div class="tab-container">
     <button class="tab-button active" onclick="openTab(event, 'Timelapse')">Timelapse</button>
@@ -34,33 +52,38 @@
       <input type="range" id="speed-slider" min="0.25" max="4" step="0.25" value="1">
       <span id="speed-display">1.00x</span>
     </div>
-    <h2>Latest map (updates every 15 min)</h2>
-    <img src="latest.jpg?ts=<%= new Date().getTime() %>" />
+    <img src="latest.jpg?v=<%= new Date().getTime() %>" alt="Latest outage map" />
   </div>
 
   <div id="Calendar" class="tab-content">
-    <div id="calendar-container"></div>
+    <div id="calendar"></div>
   </div>
 
   <p><small>Data captured every 15 minutes. Video rebuilt daily. Full raw history in /data/history/</small></p>
 
-  <!-- FullCalendar.io library -->
-  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
 
   <script>
+    let calendar; // This will hold our calendar instance, accessible to all functions
+
     // --- Tab switching logic ---
     function openTab(evt, tabName) {
-      let i, tabcontent, tablinks;
+      let i, tabcontent, tabbuttons;
       tabcontent = document.getElementsByClassName("tab-content");
       for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
       }
-      tablinks = document.getElementsByClassName("tab-button");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      tabbuttons = document.getElementsByClassName("tab-button");
+      for (i = 0; i < tabbuttons.length; i++) {
+        tabbuttons[i].className = tabbuttons[i].className.replace(" active", "");
       }
       document.getElementById(tabName).style.display = "block";
       evt.currentTarget.className += " active";
+
+      // When the calendar tab is shown, tell the calendar to update its size.
+      if (tabName === 'Calendar' && calendar) {
+        calendar.updateSize();
+      }
     }
 
     // --- Video playback speed logic ---
@@ -68,9 +91,7 @@
       const video = document.getElementById('timelapse-video');
       const speedSlider = document.getElementById('speed-slider');
       const speedDisplay = document.getElementById('speed-display');
-
       video.playbackRate = speedSlider.value;
-
       speedSlider.addEventListener('input', function() {
         video.playbackRate = this.value;
         speedDisplay.textContent = parseFloat(this.value).toFixed(2) + 'x';
@@ -79,27 +100,42 @@
 
     // --- Calendar logic ---
     document.addEventListener('DOMContentLoaded', function() {
-      const calendarEl = document.getElementById('calendar-container');
-      const calendar = new FullCalendar.Calendar(calendarEl, {
+      const calendarEl = document.getElementById('calendar');
+      calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: 'dayGridMonth',
         headerToolbar: {
           left: 'prev,next today',
           center: 'title',
           right: 'dayGridMonth,timeGridWeek,timeGridDay'
         },
-        // Fetch the events from our generated JSON file
-        events: 'public/outages.json',
-        eventDataTransform: function(eventData) {
-          // The 'events' property in our JSON is the array
-          return eventData.events;
-        },
-        eventDidMount: function(info) {
-          // Add a tooltip to show extended properties on hover
-          if (info.event.extendedProps) {
-            info.el.title = `Type: ${info.event.extendedProps.type}\nCircuit: ${info.event.extendedProps.circuit}`;
-          }
+        height: 'auto', // Let the container's height dictate the size
+        editable: false,
+        selectable: false,
+        dayMaxEvents: true,
+        eventClick: info => {
+          const e = info.event;
+          const ex = e.extendedProps;
+          alert(
+            `${e.title}\n` +
+            `Type: ${ex.type === 'planned' ? 'Planned' : 'Unplanned'}\n` +
+            `Customers affected: ${ex.customers}\n` +
+            `Circuit: ${ex.circuit}\n` +
+            `Start: ${e.start ? e.start.toLocaleString() : 'N/A'}\n` +
+            `End:   ${e.end ? e.end.toLocaleString() : 'N/A'}`
+          );
         }
       });
+
+      fetch('public/outages.json?v=' + new Date().getTime())
+        .then(response => response.json())
+        .then(data => {
+          const eventSource = data.events.map(ev => ({
+            ...ev,
+            className: ev.extendedProps.type  // this applies the red/blue styling
+          }));
+          calendar.addEventSource(eventSource);
+        });
+
       calendar.render();
     });
   </script>

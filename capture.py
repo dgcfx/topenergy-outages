@@ -38,7 +38,7 @@ def main():
             os.makedirs(monthly_history_dir, exist_ok=True)
 
             # Save full JSON with timestamp
-            ts = now.strftime("%Y-%m-%dT%H-%M-%SZ")
+            ts = now.strftime("%Y-%m-%dT%H:%M:%SZ") # CORRECTED: Use standard ISO 8601 format with colons
             json_filename = os.path.join(monthly_history_dir, f"{ts}.json")
             with open(json_filename, "w") as f:
                 json.dump({

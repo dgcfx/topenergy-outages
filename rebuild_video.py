@@ -8,6 +8,7 @@ FRAME_DIR = "frames"
 TEMP_DIR = "temp_frames"
 CHUNK_FILENAME = "daily_chunk.mp4"
 MASTER_FILENAME = "outages.mp4"
+STATE_FILE = "public/outages.json"
 
 def main():
     """
@@ -16,14 +17,30 @@ def main():
     """
     print("--- Python script starting: Finding frames ---")
 
-    # Use recursive glob to find all .png files in all subdirectories of frames/
-    files = glob.glob(os.path.join(FRAME_DIR, "**", "*.png"), recursive=True)
+    # --- Find only NEW frames based on the state file ---
+    last_processed_ts = None
+    if os.path.exists(STATE_FILE):
+        try:
+            with open(STATE_FILE, "r") as f:
+                state_data = json.load(f)
+            last_file = state_data.get("lastProcessedFile")
+            if last_file:
+                # Extract timestamp from filename e.g., 'data/history/2025-11/2025-11-23T04-57-56Z.json' -> '2025-11-23T04-57-56Z'
+                last_processed_ts = os.path.splitext(os.path.basename(last_file))[0]
+                print(f"Last processed timestamp is: {last_processed_ts}")
+        except (json.JSONDecodeError, FileNotFoundError):
+            print("Could not read state file, will process all frames.")
+
+    all_frames = sorted(glob.glob(os.path.join(FRAME_DIR, "**", "*.png"), recursive=True))
+    if last_processed_ts:
+        # Filter for frames that are newer than the last processed timestamp
+        files = [f for f in all_frames if os.path.splitext(os.path.basename(f))[0] > last_processed_ts]
+    else:
+        files = all_frames
 
     if not files:
         print("No new frames found. Exiting.")
         return
-
-    files.sort() # Sort the files alphabetically/chronologically
 
     # --- Create a clean temporary directory ---
     if os.path.exists(TEMP_DIR):
@@ -40,8 +57,8 @@ def main():
         raw_ts = os.path.splitext(filename)[0]
         output_path = os.path.join(TEMP_DIR, filename)
 
-        # Create readable timestamp (e.g., 2025-11-21T06:45:40Z)
-        timestamp = raw_ts.replace("-", ":", 2).replace("T", "T", 1)
+        # The timestamp from the filename is already in the correct format
+        timestamp = raw_ts
 
         # Write timestamp to a temporary file to avoid shell escaping issues
         timestamp_file_path = os.path.join(TEMP_DIR, f"{raw_ts}.txt")
