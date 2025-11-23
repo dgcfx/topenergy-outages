@@ -7,37 +7,100 @@
     video { width: 100%; max-width: 1200px; }
     img { width: 100%; }
     .controls { margin-top: 10px; display: flex; align-items: center; gap: 15px; font-size: 16px; }
+    /* Tab styles */
+    .tab-container { overflow: hidden; border-bottom: 1px solid #ccc; margin-bottom: 20px; }
+    .tab-button { background-color: #f1f1f1; float: left; border: none; outline: none; cursor: pointer; padding: 14px 16px; transition: 0.3s; }
+    .tab-button:hover { background-color: #ddd; }
+    .tab-button.active { background-color: #ccc; }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
   </style>
 </head>
 <body>
   <h1>Top Energy Unplanned Outages – Live Timelapse</h1>
-  <video id="timelapse-video" controls autoplay loop controlsList="nodownload">
-    <source src="outages.mp4" type="video/mp4">
-    Video still building...
-  </video>
-  <div class="controls">
-    <label for="speed-slider">Playback Speed:</label>
-    <input type="range" id="speed-slider" min="0.25" max="4" step="0.25" value="1">
-    <span id="speed-display">1.00x</span>
+
+  <div class="tab-container">
+    <button class="tab-button active" onclick="openTab(event, 'Timelapse')">Timelapse</button>
+    <button class="tab-button" onclick="openTab(event, 'Calendar')">Calendar</button>
   </div>
-  <h2>Latest map (updates every 15 min)</h2>
-  <img src="latest.jpg?ts=<%= new Date().getTime() %>" />
+
+  <div id="Timelapse" class="tab-content active">
+    <video id="timelapse-video" controls autoplay loop controlsList="nodownload">
+      <source src="outages.mp4" type="video/mp4">
+      Video still building...
+    </video>
+    <div class="controls">
+      <label for="speed-slider">Playback Speed:</label>
+      <input type="range" id="speed-slider" min="0.25" max="4" step="0.25" value="1">
+      <span id="speed-display">1.00x</span>
+    </div>
+    <h2>Latest map (updates every 15 min)</h2>
+    <img src="latest.jpg?ts=<%= new Date().getTime() %>" />
+  </div>
+
+  <div id="Calendar" class="tab-content">
+    <div id="calendar-container"></div>
+  </div>
+
   <p><small>Data captured every 15 minutes. Video rebuilt daily. Full raw history in /data/history/</small></p>
 
+  <!-- FullCalendar.io library -->
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
+
   <script>
-    const video = document.getElementById('timelapse-video');
-    const speedSlider = document.getElementById('speed-slider');
-    const speedDisplay = document.getElementById('speed-display');
+    // --- Tab switching logic ---
+    function openTab(evt, tabName) {
+      let i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tab-content");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tab-button");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
 
-    // Set the video's initial playback rate from the slider's default value
-    video.playbackRate = speedSlider.value;
+    // --- Video playback speed logic ---
+    (function() {
+      const video = document.getElementById('timelapse-video');
+      const speedSlider = document.getElementById('speed-slider');
+      const speedDisplay = document.getElementById('speed-display');
 
-    // Add an event listener to the slider
-    speedSlider.addEventListener('input', function() {
-      // Update the video's playback speed
-      video.playbackRate = this.value;
-      // Update the text display to show the current speed
-      speedDisplay.textContent = parseFloat(this.value).toFixed(2) + 'x';
+      video.playbackRate = speedSlider.value;
+
+      speedSlider.addEventListener('input', function() {
+        video.playbackRate = this.value;
+        speedDisplay.textContent = parseFloat(this.value).toFixed(2) + 'x';
+      });
+    })();
+
+    // --- Calendar logic ---
+    document.addEventListener('DOMContentLoaded', function() {
+      const calendarEl = document.getElementById('calendar-container');
+      const calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        headerToolbar: {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'dayGridMonth,timeGridWeek,timeGridDay'
+        },
+        // Fetch the events from our generated JSON file
+        events: 'public/outages.json',
+        eventDataTransform: function(eventData) {
+          // The 'events' property in our JSON is the array
+          return eventData.events;
+        },
+        eventDidMount: function(info) {
+          // Add a tooltip to show extended properties on hover
+          if (info.event.extendedProps) {
+            info.el.title = `Type: ${info.event.extendedProps.type}\nCircuit: ${info.event.extendedProps.circuit}`;
+          }
+        }
+      });
+      calendar.render();
     });
   </script>
 </body>
