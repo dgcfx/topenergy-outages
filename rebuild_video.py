@@ -77,19 +77,21 @@ def main():
             # The paths in the concat list must be relative to the concat file's location.
             filename = os.path.basename(sf)
             f.write(f"file '{filename}'\n")
+            # For the concat demuxer, we must specify the duration of each image.
+            # 1/8 fps = 0.125 seconds.
+            f.write("duration 0.125\n")
 
     # Build the ffmpeg command to create the video chunk
     command = [
         "ffmpeg", "-y",
         # --- INPUT OPTIONS ---
-        "-framerate", "8", # Treat each image in the list as one frame of an 8fps video
         "-f", "concat",
         "-safe", "0",
         "-i", "concat_list.txt", # Now relative to the new working directory
         # --- OUTPUT OPTIONS ---
         # Dynamically crop the height to the nearest even number for x264 compatibility
         "-vf", "crop=iw:floor(in_h/2)*2", 
-        "-c:v", "libx264", "-pix_fmt", "yuv420p", "-video_track_timescale", "90000",
+        "-c:v", "libx264", "-pix_fmt", "yuv420p",
         "-crf", "28", "-tune", "stillimage",
         f"../{CHUNK_FILENAME}" # The output path is now relative to the temp_frames dir
     ]
