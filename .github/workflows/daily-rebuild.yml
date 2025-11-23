@@ -18,16 +18,21 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg fonts-dejavu-core
 
-      - name: "DIAGNOSTIC STEP 1: Verify File Loop"
+      - name: "DIAGNOSTIC STEP 2: Verify Timestamp Generation"
         run: |
           echo "--- STARTING DIAGNOSTIC ---"
-          echo "This test will only read and print filenames to verify the loop is working."
+          echo "This test will verify the sed command is creating the timestamp correctly."
           
           find frames/ -name "*.png" | sort -V | while read -r img; do
-            echo "Loop read filename: [$img]"
+            filename=$(basename "$img")
+            raw_ts="${filename%.*}"
+            
+            # Run the sed command to generate the timestamp
+            timestamp=$(echo "$raw_ts" | sed 's/T\([0-9]\{2\}\)-\([0-9]\{2\}\)-\([0-9]\{2\}\)Z/T\1:\2:\3Z/')
+            
+            echo "File: [$filename] -> Timestamp: [$timestamp]"
           done
           echo "--- DIAGNOSTIC COMPLETE ---"
-          echo "If the filenames above look correct, we can proceed to the next step."
           echo "Intentionally exiting with error to prevent commit."
           exit 1
 
