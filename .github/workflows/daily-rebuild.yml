@@ -23,15 +23,16 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: "STEP 3: Create video chunk from 5 frames"
+      - name: "Run video rebuild script"
         run: |
           python rebuild_video.py
 
-      - name: "STEP 4: Commit video chunk for verification"
+      - name: "Commit final video and cleanup"
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add daily_chunk.mp4
-          # Commit only if there are changes
-          git commit -m "TEST: Commit daily_chunk.mp4 for verification" || echo "No changes to commit"
+          git add outages.mp4
+          # Stage the deletion of the processed frames
+          git add -u frames/
+          git commit -m "Daily video append: $(date)" || echo "No changes to commit"
           git push
