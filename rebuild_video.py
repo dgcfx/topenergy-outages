@@ -74,7 +74,6 @@ def main():
 
     with open(concat_list_path, "w") as f:
         for sf in stamped_files:
-            # The paths in the concat list must be relative to the list file itself.
             # The paths in the concat list must be relative to the concat file's location.
             filename = os.path.basename(sf)
             f.write(f"file '{filename}'\n")
@@ -82,12 +81,15 @@ def main():
     # Build the ffmpeg command to create the video chunk
     command = [
         "ffmpeg", "-y",
+        # --- INPUT OPTIONS ---
+        "-framerate", "8", # Treat each image in the list as one frame of an 8fps video
         "-f", "concat",
         "-safe", "0",
         "-i", "concat_list.txt", # Now relative to the new working directory
+        # --- OUTPUT OPTIONS ---
         # Dynamically crop the height to the nearest even number for x264 compatibility
-        "-vf", "crop=iw:floor(in_h/2)*2",
-        "-c:v", "libx264", "-r", "8", "-pix_fmt", "yuv420p", 
+        "-vf", "crop=iw:floor(in_h/2)*2", 
+        "-c:v", "libx264", "-pix_fmt", "yuv420p", "-video_track_timescale", "90000",
         "-crf", "28", "-tune", "stillimage",
         f"../{CHUNK_FILENAME}" # The output path is now relative to the temp_frames dir
     ]
