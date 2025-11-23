@@ -2,6 +2,7 @@ import os
 import glob
 import shutil
 import subprocess
+import json
 
 FRAME_DIR = "frames"
 TEMP_DIR = "temp_frames"
@@ -10,8 +11,8 @@ MASTER_FILENAME = "outages.mp4"
 
 def main():
     """
-    Finds PNG frames, stamps a timestamp on the first 5,
-    and saves them to a temporary directory.
+    Finds PNG frames, stamps them, creates a video chunk, appends it to the
+    master video, verifies the result, and cleans up.
     """
     print("--- Python script starting: Finding frames ---")
 
@@ -107,6 +108,32 @@ def main():
         print(f"  - Stderr: {e.stderr}")
         raise
     
+    # --- Predict expected properties ---
+    expected_frames = 0
+    expected_duration = 0.0
+
+    # Get properties of the old master video, if it exists
+    if os.path.exists(MASTER_FILENAME):
+        try:
+            probe_command = [
+                "ffprobe", "-v", "error", "-print_format", "json",
+                "-show_streams", MASTER_FILENAME
+            ]
+            result = subprocess.run(probe_command, check=True, capture_output=True, text=True)
+            video_info = json.loads(result.stdout)
+            stream = video_info["streams"][0]
+            expected_frames += int(stream.get("nb_frames", 0))
+            expected_duration += float(stream.get("duration", 0.0))
+        except Exception as e:
+            print(f"Warning: Could not probe existing master video. Will not check duration. Error: {e}")
+            # In case of error, disable the check for this run
+            expected_frames = -1 
+
+    # Add properties of the new chunk
+    if expected_frames != -1:
+        expected_frames += len(files_to_process)
+        expected_duration += len(files_to_process) / 8.0
+
     print(f"\n--- Stitching {CHUNK_FILENAME} to {MASTER_FILENAME} ---")
 
     # --- Stitch the new chunk to the master video ---
@@ -139,8 +166,25 @@ def main():
     # --- Verify the new master video and perform cleanup ---
     print("\n--- Verifying and cleaning up ---")
     try:
-        subprocess.run(["ffprobe", "-v", "error", temp_master], check=True)
-        print("SUCCESS: New master video is valid.")
+        # Observe the actual properties of the newly created video
+        probe_command = [
+            "ffprobe", "-v", "error", "-print_format", "json",
+            "-show_streams", temp_master
+        ]
+        result = subprocess.run(probe_command, check=True, capture_output=True, text=True)
+        video_info = json.loads(result.stdout)
+        stream = video_info["streams"][0]
+        actual_frames = int(stream.get("nb_frames", 0))
+        actual_duration = float(stream.get("duration", 0.0))
+
+        print(f"Verification: Expected ~{expected_frames} frames, got {actual_frames}.")
+        print(f"Verification: Expected ~{expected_duration:.2f}s duration, got {actual_duration:.2f}s.")
+
+        # Assert that observation matches prediction (with a small tolerance for duration)
+        if expected_frames != -1 and (actual_frames != expected_frames or abs(actual_duration - expected_duration) > 0.5):
+            raise RuntimeError(f"Verification failed: Properties do not match prediction.")
+
+        print("SUCCESS: New master video is valid and matches predictions.")
         shutil.move(temp_master, MASTER_FILENAME)
         print(f"Updated {MASTER_FILENAME}.")
 
@@ -152,9 +196,10 @@ def main():
             os.remove(f)
         print("Cleaned up temporary files and original frames.")
 
-    except (subprocess.CalledProcessError, FileNotFoundError):
+    except (subprocess.CalledProcessError, FileNotFoundError, RuntimeError) as e:
         print("CRITICAL FAILURE: New master video is corrupt. Aborting to protect old video and frames.")
-        raise
+        print(f"Error details: {e}")
+        raise # Re-raise the exception to fail the workflow
 
     print(f"\n--- Python script finished successfully. ---")
 
