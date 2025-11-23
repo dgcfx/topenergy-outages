@@ -7,8 +7,6 @@ from playwright.sync_api import sync_playwright
 URL = "https://outages.topenergy.co.nz"
 FRAME_DIR = "frames"
 HISTORY_DIR = "data/history"
-os.makedirs(FRAME_DIR, exist_ok=True)
-os.makedirs(HISTORY_DIR, exist_ok=True)
 
 def main():
     with sync_playwright() as p:
@@ -29,9 +27,19 @@ def main():
                 print("Warning: frontendInitData was empty or null.")
                 data = {}
 
+            # Get current year and month for directory structure
+            now = datetime.utcnow()
+            year_month = now.strftime("%Y-%m")
+            
+            # Define monthly subdirectories
+            monthly_frame_dir = os.path.join(FRAME_DIR, year_month)
+            monthly_history_dir = os.path.join(HISTORY_DIR, year_month)
+            os.makedirs(monthly_frame_dir, exist_ok=True)
+            os.makedirs(monthly_history_dir, exist_ok=True)
+
             # Save full JSON with timestamp
-            ts = datetime.utcnow().strftime("%Y-%m-%dT%H-%M-%SZ")
-            json_filename = f"{HISTORY_DIR}/{ts}.json"
+            ts = now.strftime("%Y-%m-%dT%H-%M-%SZ")
+            json_filename = os.path.join(monthly_history_dir, f"{ts}.json")
             with open(json_filename, "w") as f:
                 json.dump({
                     "timestamp": ts,
@@ -43,10 +51,9 @@ def main():
             # Screenshot just the map
             print("Taking screenshot...")
             map_element = page.locator("#map").first
-            # Wait for the map to be visible before taking a screenshot
             map_element.wait_for(state="visible", timeout=10000)
             page.wait_for_timeout(2000) # Allow time for map tiles to render
-            map_element.screenshot(path=f"{FRAME_DIR}/{ts}.png")
+            map_element.screenshot(path=os.path.join(monthly_frame_dir, f"{ts}.png"))
             map_element.screenshot(path="latest.jpg")
             print("Saved screenshots.")
 

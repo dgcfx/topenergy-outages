@@ -1,0 +1,29 @@
+name: ONE-TIME Migration
+
+on:
+  workflow_dispatch: # Allows us to run this manually
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Run migration script
+        run: python migrate_files.py
+
+      - name: Commit migrated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Migrate existing data to monthly subdirectories" || echo "No changes to commit"
+          git push
