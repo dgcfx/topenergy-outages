@@ -11,23 +11,25 @@ def get_last_processed_file():
     """Reads the state file and returns the last processed filename."""
     if not os.path.exists(OUTAGES_JSON):
         print("State file not found. Will process all history.")
-        return None
+        return None, {} # Return no file and no existing data
 
     try:
         with open(OUTAGES_JSON, "r") as f:
             data = json.load(f)
         # The state data is now the top-level object
         last_file = data.get("lastProcessedFile")
-        if last_file:
+        if last_file and "events" in data:
             # Return the full path for accurate comparison
             print(f"Last processed file was: {os.path.basename(last_file)}")
-            return last_file
+            # Convert list of events back to a dictionary keyed by ID for processing
+            events_dict = {event['id']: event for event in data['events']}
+            return last_file, {"events": events_dict}
         else:
             print("No marker found in state file. Will process all history.")
-            return None
+            return None, {}
     except (json.JSONDecodeError, FileNotFoundError):
         print("Could not read or parse state file. Will process all history.")
-        return None
+        return None, {}
 
 def find_new_files(last_processed_file):
     """Finds all data files newer than the last processed one."""
@@ -103,7 +105,7 @@ def main():
     print("\n--- Starting data processing ---")
     os.makedirs(PUBLIC_DIR, exist_ok=True)
 
-    last_processed_file = get_last_processed_file()
+    last_processed_file, existing_data = get_last_processed_file()
     new_files = find_new_files(last_processed_file)
 
     if not new_files:
@@ -111,8 +113,8 @@ def main():
         return
 
     print(f"Found {len(new_files)} new data files to process.")
-    
-    events = process_files(new_files, {}) # Start with empty data for now
+
+    events = process_files(new_files, existing_data)
 
     # Prepare the final JSON structure
     output_data = {

@@ -38,6 +38,6 @@ jobs:
           git add outages.mp4
           git add public/outages.json
           # Stage the deletion of the processed frames
-          git add -u frames/
+          git add -u
           git commit -m "Daily video append: $(date)" || echo "No changes to commit"
           git push
