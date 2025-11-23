@@ -6,16 +6,39 @@
     body { font-family: sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; }
     video { width: 100%; max-width: 1200px; }
     img { width: 100%; }
+    .controls { margin-top: 10px; display: flex; align-items: center; gap: 15px; font-size: 16px; }
   </style>
 </head>
 <body>
   <h1>Top Energy Unplanned Outages – Live Timelapse</h1>
-  <video controls autoplay loop>
+  <video id="timelapse-video" controls autoplay loop>
     <source src="outages.mp4" type="video/mp4">
     Video still building...
   </video>
+  <div class="controls">
+    <label for="speed-slider">Playback Speed:</label>
+    <input type="range" id="speed-slider" min="0.25" max="4" step="0.25" value="1">
+    <span id="speed-display">1.00x</span>
+  </div>
   <h2>Latest map (updates every 15 min)</h2>
   <img src="latest.jpg?ts=<%= new Date().getTime() %>" />
   <p><small>Data captured every 15 minutes. Video rebuilt daily. Full raw history in /data/history/</small></p>
+
+  <script>
+    const video = document.getElementById('timelapse-video');
+    const speedSlider = document.getElementById('speed-slider');
+    const speedDisplay = document.getElementById('speed-display');
+
+    // Set the video's initial playback rate from the slider's default value
+    video.playbackRate = speedSlider.value;
+
+    // Add an event listener to the slider
+    speedSlider.addEventListener('input', function() {
+      // Update the video's playback speed
+      video.playbackRate = this.value;
+      // Update the text display to show the current speed
+      speedDisplay.textContent = parseFloat(this.value).toFixed(2) + 'x';
+    });
+  </script>
 </body>
 </html>
