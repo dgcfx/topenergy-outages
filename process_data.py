@@ -37,7 +37,7 @@ def find_new_files(last_processed_file):
     # Find the index of the last processed file and return the slice of files after it
     # This is efficient because the list is sorted chronologically by filename
     for i, f in enumerate(all_files):
-        if f.replace("\", "/") == last_processed_file.replace("\", "/"):
+        if f.replace("\\", "/") == last_processed_file.replace("\\", "/"):
             return all_files[i+1:]
 
     # If the last processed file was not found (maybe deleted?), re-process everything
