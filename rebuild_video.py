@@ -29,9 +29,9 @@ def main():
     os.makedirs(TEMP_DIR)
     print(f"Created temporary directory: {TEMP_DIR}")
 
-    # --- Process only the first 5 files for a quick test ---
-    files_to_process = files[:5]
-    print(f"\nProcessing {len(files_to_process)} files for this test run...")
+    # --- Process all available frames ---
+    files_to_process = files
+    print(f"\nProcessing {len(files_to_process)} files...")
 
     for input_path in files_to_process:
         filename = os.path.basename(input_path)
