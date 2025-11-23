@@ -85,7 +85,9 @@ def main():
         "-f", "concat",
         "-safe", "0",
         "-i", "concat_list.txt", # Now relative to the new working directory
-        "-c:v", "libx264", "-r", "8", "-pix_fmt", "yuv420p",
+        # Dynamically crop the height to the nearest even number for x264 compatibility
+        "-vf", "crop=iw:floor(in_h/2)*2",
+        "-c:v", "libx264", "-r", "8", "-pix_fmt", "yuv420p", 
         "-crf", "28", "-tune", "stillimage",
         f"../{CHUNK_FILENAME}" # The output path is now relative to the temp_frames dir
     ]
