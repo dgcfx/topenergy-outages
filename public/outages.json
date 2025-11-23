@@ -1,0 +1,41 @@
+{
+  "lastProcessedFile": "data/history/2025-11/2025-11-23T04-47-22Z.json",
+  "events": [
+    {
+      "id": "35660F",
+      "title": "Oruru (3 customers)",
+      "start": "2025-11-22T06-50-09Z",
+      "end": "2025-11-22T07-23-35Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "3",
+        "circuit": "Oruru"
+      }
+    },
+    {
+      "id": "35549F",
+      "title": "Rangiahua (472 customers)",
+      "start": "2025-11-22T22-24-32Z",
+      "end": "2025-11-23T02-21-16Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "472",
+        "circuit": "Rangiahua"
+      }
+    },
+    {
+      "id": "35678F",
+      "title": "Horeke (3 customers)",
+      "start": "2025-11-23T03-44-28Z",
+      "end": "2025-11-23T04-21-01Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "3",
+        "circuit": "Horeke"
+      }
+    }
+  ]
+}
