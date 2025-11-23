@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-23T04-57-56Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-23T22-45-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -35,6 +35,18 @@
         "type": "unplanned",
         "customers": "3",
         "circuit": "Horeke"
+      }
+    },
+    {
+      "id": "35327F",
+      "title": "Orotere (16 customers)",
+      "start": "2025-11-23T20:28:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "16",
+        "circuit": "Orotere"
       }
     }
   ]
