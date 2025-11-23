@@ -18,22 +18,32 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg fonts-dejavu-core
 
-      - name: "DIAGNOSTIC STEP 2: Verify Timestamp Generation"
+      - name: "DIAGNOSTIC STEP 3: Verify ffmpeg Stamping via textfile"
         run: |
           echo "--- STARTING DIAGNOSTIC ---"
-          echo "This test will verify the sed command is creating the timestamp correctly."
+          echo "This test will attempt to stamp only the FIRST frame using the textfile method."
+          mkdir -p temp_frames
           
-          find frames/ -name "*.png" | sort -V | while read -r img; do
-            filename=$(basename "$img")
-            raw_ts="${filename%.*}"
-            
-            # Run the sed command to generate the timestamp
-            timestamp=$(echo "$raw_ts" | sed 's/T\([0-9]\{2\}\)-\([0-9]\{2\}\)-\([0-9]\{2\}\)Z/T\1:\2:\3Z/')
-            
-            echo "File: [$filename] -> Timestamp: [$timestamp]"
-          done
+          # Find just the first image to test with
+          img=$(find frames/ -name "*.png" | sort -V | head -n 1)
+          echo "Found test image: $img"
+
+          filename=$(basename "$img")
+          raw_ts="${filename%.*}"
+          timestamp=$(echo "$raw_ts" | sed 's/T\([0-9]\{2\}\)-\([0-9]\{2\}\)-\([0-9]\{2\}\)Z/T\1:\2:\3Z/')
+          echo "Generated timestamp: [$timestamp]"
+
+          echo "Writing timestamp to temp_frames/timestamp.txt"
+          echo "$timestamp" > temp_frames/timestamp.txt
+
+          echo "Running ffmpeg with textfile option..."
+          ffmpeg -y -i "$img" -vf "drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf:textfile='temp_frames/timestamp.txt':fontcolor=white:fontsize=24:box=1:boxcolor=black@0.5:boxborderw=5:x=15:y=15" -frames:v 1 "temp_frames/$filename"
+
+          echo "--- Verification ---"
+          echo "Listing contents of temp_frames/ to check for output:"
+          ls -l temp_frames/
+
           echo "--- DIAGNOSTIC COMPLETE ---"
-          echo "Intentionally exiting with error to prevent commit."
           exit 1
 
       - name: Commit changes
