@@ -74,9 +74,9 @@ def main():
 
     with open(concat_list_path, "w") as f:
         for sf in stamped_files:
-            # Need to escape backslashes for ffmpeg on Windows, but use forward slashes for cross-compatibility
-            safe_path = sf.replace("\\", "/")
-            f.write(f"file '{safe_path}'\n")
+            # The paths in the concat list must be relative to the list file itself.
+            filename = os.path.basename(sf)
+            f.write(f"file '{filename}'\n")
 
     # Build the ffmpeg command to create the video chunk
     command = [
