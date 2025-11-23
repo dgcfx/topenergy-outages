@@ -23,17 +23,16 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: "STEP 1: Run video rebuild script"
+      - name: "STEP 2: Stamp 5 frames using Python script"
         run: |
           python rebuild_video.py
-          echo "Intentionally exiting with error to prevent further steps."
-          exit 1
 
-      - name: Commit changes
+      - name: "STEP 3: Commit stamped frames for verification"
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add outages.mp4
-          git add -u frames/
-          git commit -m "Daily video append: $(date)" || exit 0
+          # Add the entire temp_frames directory
+          git add temp_frames/
+          # Commit only if there are changes
+          git commit -m "TEST: Commit 5 stamped frames for verification" || echo "No changes to commit"
           git push
