@@ -75,6 +75,7 @@ def main():
     with open(concat_list_path, "w") as f:
         for sf in stamped_files:
             # The paths in the concat list must be relative to the list file itself.
+            # The paths in the concat list must be relative to the concat file's location.
             filename = os.path.basename(sf)
             f.write(f"file '{filename}'\n")
 
@@ -83,14 +84,15 @@ def main():
         "ffmpeg", "-y",
         "-f", "concat",
         "-safe", "0",
-        "-i", concat_list_path,
+        "-i", "concat_list.txt", # Now relative to the new working directory
         "-c:v", "libx264", "-r", "8", "-pix_fmt", "yuv420p",
         "-crf", "28", "-tune", "stillimage",
-        CHUNK_FILENAME
+        f"../{CHUNK_FILENAME}" # The output path is now relative to the temp_frames dir
     ]
 
     try:
-        subprocess.run(command, check=True, capture_output=True, text=True)
+        # Run the command with the working directory set to TEMP_DIR
+        subprocess.run(command, check=True, capture_output=True, text=True, cwd=TEMP_DIR)
         if not os.path.exists(CHUNK_FILENAME):
             raise RuntimeError(f"ffmpeg command ran but output file was not created: {CHUNK_FILENAME}")
     except subprocess.CalledProcessError as e:
