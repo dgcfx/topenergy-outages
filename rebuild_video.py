@@ -16,8 +16,8 @@ def main():
     """
     print("--- Python script starting: Finding frames ---")
 
-    # Use glob to find all .png files in the frames directory
-    files = glob.glob(os.path.join(FRAME_DIR, "*.png"))
+    # Use recursive glob to find all .png files in all subdirectories of frames/
+    files = glob.glob(os.path.join(FRAME_DIR, "**", "*.png"), recursive=True)
 
     if not files:
         print("No new frames found. Exiting.")
