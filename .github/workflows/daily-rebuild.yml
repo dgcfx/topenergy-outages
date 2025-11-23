@@ -23,16 +23,15 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: "STEP 2: Stamp 5 frames using Python script"
+      - name: "STEP 3: Create video chunk from 5 frames"
         run: |
           python rebuild_video.py
 
-      - name: "STEP 3: Commit stamped frames for verification"
+      - name: "STEP 4: Commit video chunk for verification"
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Add the entire temp_frames directory
-          git add temp_frames/
+          git add daily_chunk.mp4
           # Commit only if there are changes
-          git commit -m "TEST: Commit 5 stamped frames for verification" || echo "No changes to commit"
+          git commit -m "TEST: Commit daily_chunk.mp4 for verification" || echo "No changes to commit"
           git push

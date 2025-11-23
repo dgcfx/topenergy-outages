@@ -5,6 +5,7 @@ import subprocess
 
 FRAME_DIR = "frames"
 TEMP_DIR = "temp_frames"
+CHUNK_FILENAME = "daily_chunk.mp4"
 
 def main():
     """
@@ -65,7 +66,39 @@ def main():
             print(f"  - Stderr: {e.stderr}")
             raise # Stop the script if any command fails
 
-    print(f"\n--- Python script finished: Stamped {len(files_to_process)} frames into {TEMP_DIR}/ ---")
+    print(f"\n--- Stamping complete. Rendering video chunk: {CHUNK_FILENAME} ---")
+
+    # --- Create video from stamped frames ---
+    stamped_files = sorted(glob.glob(os.path.join(TEMP_DIR, "*.png")))
+    concat_list_path = os.path.join(TEMP_DIR, "concat_list.txt")
+
+    with open(concat_list_path, "w") as f:
+        for sf in stamped_files:
+            # Need to escape backslashes for ffmpeg on Windows, but use forward slashes for cross-compatibility
+            safe_path = sf.replace("\\", "/")
+            f.write(f"file '{safe_path}'\n")
+
+    # Build the ffmpeg command to create the video chunk
+    command = [
+        "ffmpeg", "-y",
+        "-f", "concat",
+        "-safe", "0",
+        "-i", concat_list_path,
+        "-c:v", "libx264", "-r", "8", "-pix_fmt", "yuv420p",
+        "-crf", "28", "-tune", "stillimage",
+        CHUNK_FILENAME
+    ]
+
+    try:
+        subprocess.run(command, check=True, capture_output=True, text=True)
+        if not os.path.exists(CHUNK_FILENAME):
+            raise RuntimeError(f"ffmpeg command ran but output file was not created: {CHUNK_FILENAME}")
+    except subprocess.CalledProcessError as e:
+        print(f"ERROR: ffmpeg failed while creating video chunk.")
+        print(f"  - Stderr: {e.stderr}")
+        raise
+
+    print(f"\n--- Python script finished: Created {CHUNK_FILENAME} successfully. ---")
 
 if __name__ == "__main__":
     main()
