@@ -56,11 +56,14 @@ def main():
                             print(f"  - Warning: Could not fetch details for {outage_id}. Error: {e}")
 
             # Save full JSON with timestamp
-            ts = now.strftime("%Y-%m-%dT%H:%M:%SZ") # CORRECTED: Use standard ISO 8601 format with colons
-            json_filename = os.path.join(monthly_history_dir, f"{ts}.json")
+            # Create two separate timestamp formats
+            filename_ts = now.strftime("%Y-%m-%dT%H-%M-%SZ") # For Windows-safe filenames
+            json_ts = now.strftime("%Y-%m-%dT%H:%M:%SZ")     # For valid ISO 8601 timestamps
+
+            json_filename = os.path.join(monthly_history_dir, f"{filename_ts}.json")
             with open(json_filename, "w") as f:
                 json.dump({
-                    "timestamp": ts,
+                    "timestamp": json_ts, # Use the correct format inside the JSON
                     "rawFrontendInitData": data,
                     "detailedOutageInfo": detailed_outage_info # Embed the new detailed data
                 }, f, indent=2)
@@ -71,7 +74,7 @@ def main():
             map_element = page.locator("#map").first
             map_element.wait_for(state="visible", timeout=10000)
             page.wait_for_timeout(2000) # Allow time for map tiles to render
-            map_element.screenshot(path=os.path.join(monthly_frame_dir, f"{ts}.png"))
+            map_element.screenshot(path=os.path.join(monthly_frame_dir, f"{filename_ts}.png"))
             map_element.screenshot(path="latest.jpg")
             print("Saved screenshots.")
 
