@@ -118,16 +118,8 @@ def process_files(new_files, existing_data):
             # Always get the latest available details for the outage
             details = data.get("detailedOutageInfo", {}).get(outage_id)
 
-            # Check if we should update an existing event with new details
-            if outage_id in events and "Affected Roads" not in events[outage_id]["extendedProps"]["body"] and details:
-                print(f"  - Updating event {outage_id} with new details.")
-                events[outage_id]["extendedProps"]["body"] = format_event_body(outage, details)
-
             if outage_id not in events:
                 print(f"  - New outage started: {outage_id} at {timestamp}")
-                
-                # Get pre-fetched details from the raw data file
-                details = data.get("detailedOutageInfo", {}).get(outage_id)
                 
                 events[outage_id] = {
                     "id": outage_id,
@@ -139,9 +131,22 @@ def process_files(new_files, existing_data):
                         "type": outage.get("type"),
                         "customers": outage.get("customersCurrentlyOff"),
                         "circuit": outage.get("circuitName"),
-                        "body": format_event_body(outage, details) # Add the detailed body here
+                        "detail_history": [] # Initialize the history list
                     }
                 }
+            
+            # --- New Logic: Append details to history if they are new ---
+            if details:
+                history = events[outage_id]["extendedProps"].get("detail_history", [])
+                last_known_details = history[-1].get("details") if history else None
+
+                if details != last_known_details:
+                    print(f"  - Captured new/updated details for outage {outage_id} at {timestamp}")
+                    history.append({
+                        "capture_ts": timestamp,
+                        "details": details
+                    })
+                    events[outage_id]["extendedProps"]["detail_history"] = history
 
         # Find finished outages (were active before, but are not now)
         finished_outages = previously_active_ids - current_active_ids
