@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-24T19-30-43Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-24T20-30-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -131,7 +131,7 @@
       "id": "35696F",
       "title": "Sub-transmission (4607 customers)",
       "start": "2025-11-24T18:30:47Z",
-      "end": null,
+      "end": "2025-11-24T20:30:45Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -272,9 +272,63 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-11-24T19:45:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "25/11/2025",
+              "startTime": "07:16 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "CABLE BAY, MANGONUI, PERIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ALEXANDER STREET, BEACH ROAD, CABLE BAY BLOCK ROAD, COLONEL MOULD DRIVE, GEORGE STREET",
+                "hiddenStreets": "GREY STREET, GREY STREET EAST, KARAMEA ROAD, MABEL THORBURN PLACE, MARY HASSETT STREET, MELODY LANE, MILL BAY ROAD, RANGINUI STREET, RICHMOND ROAD, STATE HIGHWAY 10, TASMAN STREET, TE KAROA ROAD, THOMAS STREET, TURVEY ROAD, WATERFRONT DRIVE, WATERFRONT ROAD, WRATHALL ROAD"
+              },
+              "customersAffected": "408",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "25/11/2025 07:35 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-11-24T20:00:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "25/11/2025",
+              "startTime": "07:16 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "CABLE BAY, PERIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "CABLE BAY BLOCK ROAD, TE KAROA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "25/11/2025 07:35 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35696F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Under Investigation\n**Customers Affected:** 915\n**Suburbs:** CABLE BAY, HIHI, HIHI BEACH, MANGONUI, PERIA, TAUPO BAY\n---\n**Affected Roads:**\nAKATERE ROAD\nALEXANDER STREET\nBEACH ROAD\nBOWDEN ROAD\nCABLE BAY BLOCK ROAD\n---\n**Update History:**\n- 2025-11-24T19:30:43Z: Under Investigation\n- 2025-11-24T19:15:49Z: Under Investigation\n- 2025-11-24T19:00:50Z: Under Investigation\n- 2025-11-24T18:45:46Z: Under Investigation\n- 2025-11-24T18:30:47Z: Under Investigation"
+        "body": "**Outage ID:** 35696F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Under Investigation\n**Customers Affected:** 6\n**Suburbs:** CABLE BAY, PERIA\n---\n**Affected Roads:**\nCABLE BAY BLOCK ROAD\nTE KAROA ROAD\n---\n**Update History:**\n- 2025-11-24T20:00:42Z: Under Investigation\n- 2025-11-24T19:45:41Z: Under Investigation\n- 2025-11-24T19:30:43Z: Under Investigation\n- 2025-11-24T19:15:49Z: Under Investigation\n- 2025-11-24T19:00:50Z: Under Investigation\n- 2025-11-24T18:45:46Z: Under Investigation\n- 2025-11-24T18:30:47Z: Under Investigation"
       }
     }
   ]
