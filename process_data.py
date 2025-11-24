@@ -116,8 +116,8 @@ def process_files(new_files, existing_data):
             if outage_id not in events:
                 print(f"  - New outage started: {outage_id} at {timestamp}")
                 
-                # Fetch detailed data for the new outage
-                details = get_outage_details(outage_id)
+                # Get pre-fetched details from the raw data file
+                details = data.get("detailedOutageInfo", {}).get(outage_id)
                 
                 events[outage_id] = {
                     "id": outage_id,
