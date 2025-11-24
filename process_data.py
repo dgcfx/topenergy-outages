@@ -49,29 +49,37 @@ def find_new_files(last_processed_file):
     print("Warning: Last processed file not found in history. Re-processing all files.")
     return all_files
 
-def format_event_body(outage, details):
-    """Creates the formatted body text for the calendar event."""
-    if not details:
-        # If no details were captured, create a simpler body
-        return f"**Outage ID:** {outage.get('name', 'N/A')}\n**Customers Affected:** {outage.get('customersCurrentlyOff', 'N/A')}"
+def format_full_history_body(event):
+    """Creates the final, comprehensive body text from the detail history."""
+    history = event.get("extendedProps", {}).get("detail_history", [])
+    if not history:
+        return f"**Outage ID:** {event.get('id', 'N/A')}"
 
-    # Replace commas in streets with newlines for readability
-    affected_roads = details.get("streets", {}).get("showStreets", "N/A").replace(", ", "\n")
+    # Use the latest details for the main summary
+    latest_entry = history[-1]
+    latest_details = latest_entry.get("details", {})
+    
+    affected_roads = latest_details.get("streets", {}).get("showStreets", "N/A").replace(", ", "\n")
 
     body_parts = [
-        f"**Outage ID:** {outage.get('name', 'N/A')}",
-        f"**Status:** {details.get('status', 'N/A')}",
-        f"**Feeder / Circuit:** {details.get('feeder', 'N/A')}",
-        f"**Cause:** {details.get('cause', 'N/A')}",
-        f"**Customers Affected:** {details.get('customersAffected', 'N/A')}",
-        f"**Suburbs:** {details.get('suburbs', 'N/A')}",
+        f"**Outage ID:** {event.get('id', 'N/A')}",
+        f"**Status:** {latest_details.get('status', 'N/A')}",
+        f"**Feeder / Circuit:** {latest_details.get('feeder', 'N/A')}",
+        f"**Cause:** {latest_details.get('cause', 'N/A')}",
+        f"**Customers Affected:** {latest_details.get('customersAffected', 'N/A')}",
+        f"**Suburbs:** {latest_details.get('suburbs', 'N/A')}",
         "---",
         "**Affected Roads:**",
         affected_roads,
         "---",
-        f"**Estimated Time Frame:** {outage.get('startDateTime', 'N/A')} to {outage.get('endDateTime', 'N/A')}",
-        f"**Last Updated:** {details.get('lastUpdateTime', 'N/A')}"
     ]
+
+    if len(history) > 1:
+        body_parts.append("**Update History:**")
+        for entry in reversed(history):
+            update_ts = entry.get('capture_ts', 'N/A')
+            update_cause = entry.get('details', {}).get('cause', 'N/A')
+            body_parts.append(f"- {update_ts}: {update_cause}")
 
     return "\n".join(body_parts)
 
@@ -106,6 +114,14 @@ def process_files(new_files, existing_data):
             outage_id = outage.get("name")
             if not outage_id:
                 continue
+
+            # Always get the latest available details for the outage
+            details = data.get("detailedOutageInfo", {}).get(outage_id)
+
+            # Check if we should update an existing event with new details
+            if outage_id in events and "Affected Roads" not in events[outage_id]["extendedProps"]["body"] and details:
+                print(f"  - Updating event {outage_id} with new details.")
+                events[outage_id]["extendedProps"]["body"] = format_event_body(outage, details)
 
             if outage_id not in events:
                 print(f"  - New outage started: {outage_id} at {timestamp}")
@@ -152,6 +168,10 @@ def main():
     print(f"Found {len(new_files)} new data files to process.")
 
     events = process_files(new_files, existing_data)
+
+    # --- New Step: Generate the final body text from the history for each event ---
+    for event in events.values():
+        event["extendedProps"]["body"] = format_full_history_body(event)
 
     # Prepare the final JSON structure
     output_data = {
