@@ -3,6 +3,7 @@ import json
 import re
 from datetime import datetime
 from playwright.sync_api import sync_playwright
+import requests
 
 URL = "https://outages.topenergy.co.nz"
 FRAME_DIR = "frames"
@@ -37,14 +38,31 @@ def main():
             os.makedirs(monthly_frame_dir, exist_ok=True)
             os.makedirs(monthly_history_dir, exist_ok=True)
 
+            # --- NEW: Fetch detailed data for active outages ---
+            detailed_outage_info = {}
+            active_outages = data.get("outageList", {}).get("active", [])
+            if active_outages:
+                print(f"Found {len(active_outages)} active outage(s). Fetching details...")
+                for outage in active_outages:
+                    outage_id = outage.get("name")
+                    if outage_id:
+                        try:
+                            detail_url = f"{URL}/api/outage/{outage_id}/info"
+                            response = requests.get(detail_url, timeout=10)
+                            response.raise_for_status()
+                            detailed_outage_info[outage_id] = response.json()
+                            print(f"  - Successfully fetched details for {outage_id}")
+                        except requests.exceptions.RequestException as e:
+                            print(f"  - Warning: Could not fetch details for {outage_id}. Error: {e}")
+
             # Save full JSON with timestamp
             ts = now.strftime("%Y-%m-%dT%H:%M:%SZ") # CORRECTED: Use standard ISO 8601 format with colons
             json_filename = os.path.join(monthly_history_dir, f"{ts}.json")
             with open(json_filename, "w") as f:
                 json.dump({
                     "timestamp": ts,
-                    "customersCurrentlyOff": data.get("outageList", {}).get("customersCurrentlyOff", 0),
-                    "rawFrontendInitData": data
+                    "rawFrontendInitData": data,
+                    "detailedOutageInfo": detailed_outage_info # Embed the new detailed data
                 }, f, indent=2)
             print(f"Saved data to {json_filename}")
 

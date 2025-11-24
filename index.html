@@ -115,14 +115,8 @@
         eventClick: info => {
           const e = info.event;
           const ex = e.extendedProps;
-          alert(
-            `${e.title}\n` +
-            `Type: ${ex.type === 'planned' ? 'Planned' : 'Unplanned'}\n` +
-            `Customers affected: ${ex.customers}\n` +
-            `Circuit: ${ex.circuit}\n` +
-            `Start: ${e.start ? e.start.toLocaleString() : 'N/A'}\n` +
-            `End:   ${e.end ? e.end.toLocaleString() : 'N/A'}`
-          );
+          // The 'body' field from our JSON is automatically available in extendedProps
+          alert(ex.body);
         }
       });
 

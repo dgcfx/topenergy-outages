@@ -2,6 +2,7 @@ import os
 import glob
 import json
 import shutil
+import requests
 
 DATA_DIR = "data/history"
 PUBLIC_DIR = "public"
@@ -48,6 +49,39 @@ def find_new_files(last_processed_file):
     print("Warning: Last processed file not found in history. Re-processing all files.")
     return all_files
 
+def format_event_body(outage, details):
+    """Creates the formatted body text for the calendar event."""
+    if not details:
+        # If no details were captured, create a simpler body
+        return f"**Outage ID:** {outage.get('name', 'N/A')}\n**Customers Affected:** {outage.get('customersCurrentlyOff', 'N/A')}"
+
+    # Replace commas in streets with newlines for readability
+    affected_roads = details.get("streets", {}).get("showStreets", "N/A").replace(", ", "\n")
+
+    body_parts = [
+        f"**Outage ID:** {outage.get('name', 'N/A')}",
+        f"**Status:** {details.get('status', 'N/A')}",
+        f"**Feeder / Circuit:** {details.get('feeder', 'N/A')}",
+        f"**Cause:** {details.get('cause', 'N/A')}",
+        f"**Customers Affected:** {details.get('customersAffected', 'N/A')}",
+        f"**Suburbs:** {details.get('suburbs', 'N/A')}",
+        "---",
+        "**Affected Roads:**",
+        affected_roads,
+        "---",
+        f"**Estimated Time Frame:** {outage.get('startDateTime', 'N/A')} to {outage.get('endDateTime', 'N/A')}",
+        f"**Last Updated:** {details.get('lastUpdateTime', 'N/A')}"
+    ]
+
+    return "\n".join(body_parts)
+
+def get_all_outages_from_file(data):
+    """Extracts both active and planned outages from a raw data file."""
+    outage_list = data.get("rawFrontendInitData", {}).get("outageList", {})
+    active = outage_list.get("active", [])
+    planned = outage_list.get("planned", [])
+    return active + planned
+
 def process_files(new_files, existing_data):
     """
     Processes new data files to identify and update outage events.
@@ -69,22 +103,26 @@ def process_files(new_files, existing_data):
         # A valid timestamp like "2025-11-22T10:00:00Z" will be unaffected.
         # An invalid one like "2025-11-22T10-00-00Z" will be corrected.
         timestamp = timestamp_str[:10] + timestamp_str[10:].replace('-', ':')
-        outage_list = data.get("rawFrontendInitData", {}).get("outageList", {})
-        active_outages = outage_list.get("active", [])
+        all_current_outages = get_all_outages_from_file(data)
         
-        current_active_ids = {outage['name'] for outage in active_outages}
+        current_active_ids = {outage['name'] for outage in all_current_outages if outage.get('isActive')}
 
         # Find newly started outages
-        for outage in active_outages:
+        for outage in all_current_outages:
             outage_id = outage.get("name")
             if not outage_id:
                 continue
 
             if outage_id not in events:
                 print(f"  - New outage started: {outage_id} at {timestamp}")
+                
+                # Fetch detailed data for the new outage
+                details = get_outage_details(outage_id)
+                
                 events[outage_id] = {
                     "id": outage_id,
                     "title": f"{outage.get('circuitName', 'Unknown')} ({outage.get('customersCurrentlyOff')} customers)",
+                    "body": format_event_body(outage, details), # Add the detailed body
                     "start": timestamp,
                     "end": None, # End time is unknown for now
                     "allDay": False, # Keep original field name for now
