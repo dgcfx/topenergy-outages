@@ -1,8 +1,8 @@
-name: Daily video rebuild
+name: Hourly Rebuild
 
 on:
   schedule:
-    - cron: '15 0 * * *'  # 12:15pm NZ time
+    - cron: '35 * * * *'  # Run at 35 minutes past every hour
   workflow_dispatch:
 
 jobs:
@@ -44,5 +44,5 @@ jobs:
           git add public/outages.json
           # Stage the deletion of the processed frames
           git add -u
-          git commit -m "Daily video append: $(date)" || echo "No changes to commit"
+          git commit -m "Hourly data append: $(date)" || echo "No changes to commit"
           git push
