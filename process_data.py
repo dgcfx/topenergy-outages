@@ -75,13 +75,6 @@ def format_event_body(outage, details):
 
     return "\n".join(body_parts)
 
-def get_all_outages_from_file(data):
-    """Extracts both active and planned outages from a raw data file."""
-    outage_list = data.get("rawFrontendInitData", {}).get("outageList", {})
-    active = outage_list.get("active", [])
-    planned = outage_list.get("planned", [])
-    return active + planned
-
 def process_files(new_files, existing_data):
     """
     Processes new data files to identify and update outage events.
@@ -103,12 +96,13 @@ def process_files(new_files, existing_data):
         # A valid timestamp like "2025-11-22T10:00:00Z" will be unaffected.
         # An invalid one like "2025-11-22T10-00-00Z" will be corrected.
         timestamp = timestamp_str[:10] + timestamp_str[10:].replace('-', ':')
-        all_current_outages = get_all_outages_from_file(data)
+        outage_list = data.get("rawFrontendInitData", {}).get("outageList", {})
+        active_outages = outage_list.get("active", [])
         
-        current_active_ids = {outage['name'] for outage in all_current_outages if outage.get('isActive')}
+        current_active_ids = {outage['name'] for outage in active_outages}
 
         # Find newly started outages
-        for outage in all_current_outages:
+        for outage in active_outages:
             outage_id = outage.get("name")
             if not outage_id:
                 continue
