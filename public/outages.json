@@ -1,0 +1,356 @@
+{
+  "lastProcessedFile": "data/history/2025-11/2025-11-24T00-45-39Z.json",
+  "events": [
+    {
+      "id": "35549F",
+      "title": "Rangiahua (472 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": "2025-11-23T02:21:16Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "472",
+        "circuit": "Rangiahua",
+        "body": "**Outage ID:** 35549F\n**Customers Affected:** 472"
+      }
+    },
+    {
+      "id": "35327F",
+      "title": "Orotere (16 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "16",
+        "circuit": "Orotere",
+        "body": "**Outage ID:** 35327F\n**Customers Affected:** 16"
+      }
+    },
+    {
+      "id": "35051F",
+      "title": "Sub-transmission (42 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "42",
+        "circuit": "Sub-transmission",
+        "body": "**Outage ID:** 35051F\n**Customers Affected:** 42"
+      }
+    },
+    {
+      "id": "34991F",
+      "title": "Joyces Road (874 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "874",
+        "circuit": "Joyces Road",
+        "body": "**Outage ID:** 34991F\n**Customers Affected:** 874"
+      }
+    },
+    {
+      "id": "35330F",
+      "title": "Orotere (16 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "16",
+        "circuit": "Orotere",
+        "body": "**Outage ID:** 35330F\n**Customers Affected:** 16"
+      }
+    },
+    {
+      "id": "35342F",
+      "title": "Oruru (40 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "40",
+        "circuit": "Oruru",
+        "body": "**Outage ID:** 35342F\n**Customers Affected:** 40"
+      }
+    },
+    {
+      "id": "35375F",
+      "title": "Waima (32 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "32",
+        "circuit": "Waima",
+        "body": "**Outage ID:** 35375F\n**Customers Affected:** 32"
+      }
+    },
+    {
+      "id": "35465F",
+      "title": "Oruru (39 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "39",
+        "circuit": "Oruru",
+        "body": "**Outage ID:** 35465F\n**Customers Affected:** 39"
+      }
+    },
+    {
+      "id": "35483F",
+      "title": "Te Kao (9 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "9",
+        "circuit": "Te Kao",
+        "body": "**Outage ID:** 35483F\n**Customers Affected:** 9"
+      }
+    },
+    {
+      "id": "35630F",
+      "title": "Waima (155 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "155",
+        "circuit": "Waima",
+        "body": "**Outage ID:** 35630F\n**Customers Affected:** 155"
+      }
+    },
+    {
+      "id": "35348F",
+      "title": "Ti Bay (444 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "444",
+        "circuit": "Ti Bay",
+        "body": "**Outage ID:** 35348F\n**Customers Affected:** 444"
+      }
+    },
+    {
+      "id": "35456F",
+      "title": "Matauri Bay (14 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "14",
+        "circuit": "Matauri Bay",
+        "body": "**Outage ID:** 35456F\n**Customers Affected:** 14"
+      }
+    },
+    {
+      "id": "35063F",
+      "title": "Mangonui (402 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "402",
+        "circuit": "Mangonui",
+        "body": "**Outage ID:** 35063F\n**Customers Affected:** 402"
+      }
+    },
+    {
+      "id": "35060F",
+      "title": "Opononi (111 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "111",
+        "circuit": "Opononi",
+        "body": "**Outage ID:** 35060F\n**Customers Affected:** 111"
+      }
+    },
+    {
+      "id": "35585F",
+      "title": "Te Kemara Ave (4 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "4",
+        "circuit": "Te Kemara Ave",
+        "body": "**Outage ID:** 35585F\n**Customers Affected:** 4"
+      }
+    },
+    {
+      "id": "35057F",
+      "title": "Awarua (34 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "34",
+        "circuit": "Awarua",
+        "body": "**Outage ID:** 35057F\n**Customers Affected:** 34"
+      }
+    },
+    {
+      "id": "35066F",
+      "title": "Te Kao (4 customers)",
+      "start": "2025-11-21T06:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "4",
+        "circuit": "Te Kao",
+        "body": "**Outage ID:** 35066F\n**Customers Affected:** 4"
+      }
+    },
+    {
+      "id": "35534F",
+      "title": "South Road (728 customers)",
+      "start": "2025-11-21T20:43:48Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "728",
+        "circuit": "South Road",
+        "body": "**Outage ID:** 35534F\n**Customers Affected:** 728"
+      }
+    },
+    {
+      "id": "35054F",
+      "title": "Awanui (19 customers)",
+      "start": "2025-11-21T20:43:48Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "19",
+        "circuit": "Awanui",
+        "body": "**Outage ID:** 35054F\n**Customers Affected:** 19"
+      }
+    },
+    {
+      "id": "35660F",
+      "title": "Oruru (3 customers)",
+      "start": "2025-11-22T06:50:09Z",
+      "end": "2025-11-22T07:23:35Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "3",
+        "circuit": "Oruru",
+        "body": "**Outage ID:** 35660F\n**Customers Affected:** 3"
+      }
+    },
+    {
+      "id": "35393F",
+      "title": "Taipals (1664 customers)",
+      "start": "2025-11-22T20:27:42Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "1664",
+        "circuit": "Taipals",
+        "body": "**Outage ID:** 35393F\n**Customers Affected:** 1664"
+      }
+    },
+    {
+      "id": "35489F",
+      "title": "Purerua (58 customers)",
+      "start": "2025-11-22T20:27:42Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "58",
+        "circuit": "Purerua",
+        "body": "**Outage ID:** 35489F\n**Customers Affected:** 58"
+      }
+    },
+    {
+      "id": "35678F",
+      "title": "Horeke (3 customers)",
+      "start": "2025-11-23T03:44:28Z",
+      "end": "2025-11-23T04:21:01Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "3",
+        "circuit": "Horeke",
+        "body": "**Outage ID:** 35678F\n**Customers Affected:** 3"
+      }
+    },
+    {
+      "id": "35495F",
+      "title": "Awanui (46 customers)",
+      "start": "2025-11-23T19:40:10Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "46",
+        "circuit": "Awanui",
+        "body": "**Outage ID:** 35495F\n**Customers Affected:** 46"
+      }
+    },
+    {
+      "id": "35540F",
+      "title": "South Road (6 customers)",
+      "start": "2025-11-23T20:43:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "6",
+        "circuit": "South Road",
+        "body": "**Outage ID:** 35540F\n**Customers Affected:** 6"
+      }
+    },
+    {
+      "id": "35606F",
+      "title": "Oxford Street (49 customers)",
+      "start": "2025-11-23T20:43:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "49",
+        "circuit": "Oxford Street",
+        "body": "**Outage ID:** 35606F\n**Customers Affected:** 49"
+      }
+    },
+    {
+      "id": "35636F",
+      "title": "Horeke (400 customers)",
+      "start": "2025-11-23T20:43:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "400",
+        "circuit": "Horeke",
+        "body": "**Outage ID:** 35636F\n**Customers Affected:** 400"
+      }
+    }
+  ]
+}
