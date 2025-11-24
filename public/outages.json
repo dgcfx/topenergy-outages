@@ -1,0 +1,89 @@
+{
+  "lastProcessedFile": "data/history/2025-11/2025-11-24T01-16-00Z.json",
+  "events": [
+    {
+      "id": "35660F",
+      "title": "Oruru (3 customers)",
+      "start": "2025-11-22T06:50:09Z",
+      "end": "2025-11-22T07:23:35Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "3",
+        "circuit": "Oruru",
+        "detail_history": [],
+        "body": "**Outage ID:** 35660F"
+      }
+    },
+    {
+      "id": "35549F",
+      "title": "Rangiahua (472 customers)",
+      "start": "2025-11-22T22:24:32Z",
+      "end": "2025-11-23T02:21:16Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "472",
+        "circuit": "Rangiahua",
+        "detail_history": [],
+        "body": "**Outage ID:** 35549F"
+      }
+    },
+    {
+      "id": "35678F",
+      "title": "Horeke (3 customers)",
+      "start": "2025-11-23T03:44:28Z",
+      "end": "2025-11-23T04:21:01Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "3",
+        "circuit": "Horeke",
+        "detail_history": [],
+        "body": "**Outage ID:** 35678F"
+      }
+    },
+    {
+      "id": "35327F",
+      "title": "Orotere (16 customers)",
+      "start": "2025-11-23T20:28:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "16",
+        "circuit": "Orotere",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-24T00:38:06Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/11/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "24/11/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "25/11/2025",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAEO",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "TOPPS ACCESS ROAD, WAIARE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "16",
+              "feeder": "OROTERE",
+              "lastUpdateTime": "01/11/2025 08:41 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35327F\n**Status:** Active\n**Feeder / Circuit:** OROTERE\n**Cause:** Line Maintenance\n**Customers Affected:** 16\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nTOPPS ACCESS ROAD\nWAIARE ROAD\n---"
+      }
+    }
+  ]
+}
