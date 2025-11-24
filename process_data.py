@@ -122,7 +122,6 @@ def process_files(new_files, existing_data):
                 events[outage_id] = {
                     "id": outage_id,
                     "title": f"{outage.get('circuitName', 'Unknown')} ({outage.get('customersCurrentlyOff')} customers)",
-                    "body": format_event_body(outage, details), # Add the detailed body
                     "start": timestamp,
                     "end": None, # End time is unknown for now
                     "allDay": False, # Keep original field name for now
@@ -130,6 +129,7 @@ def process_files(new_files, existing_data):
                         "type": outage.get("type"),
                         "customers": outage.get("customersCurrentlyOff"),
                         "circuit": outage.get("circuitName"),
+                        "body": format_event_body(outage, details) # Add the detailed body here
                     }
                 }
 
