@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-25T03-30-48Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-25T04-45-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -149,9 +149,90 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-11-25T04:00:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "25/11/2025",
+              "startTime": "11:00 AM",
+              "estimatedRestorationDate": "25/11/2025",
+              "estimatedRestorationTime": "05:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "MATAUWHI BAY, ORONGO BAY, RUSSELL",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "ASHBY STREET, BAKER STREET, BERESFORD ST, BERESFORD STREET, BRIND ROAD",
+                "hiddenStreets": "CASS STREET, CHAPEL STREET, CHURCH STREET, DU FRESNE PLACE, EMERALD RIDGE, FLAGSTAFF ROAD, FLORANCE AVENUE, GOULD STREET, GRANTS AVENUE, HAZARD STREET, HOPE AVENUE, JAMES STREET, LITTLE QUEEN STREET, LONG BEACH ROAD, MATAUWHI ROAD, ONEROA ROAD, PITT STREET, POMARE ROAD, PROSPECT STREET, PUKEMATU LANE, QUEEN STREET, QUEENS VIEW ROAD, REWA PLACE, ROBERTSON STREET, RUSSELL HEIGHTS, RUSSELL ROAD, RUSSELL WHAKAPARA ROAD, TAPEKA HEIGHTS LANE, TAPEKA ROAD, THE STRAND, TITORE WAY, WELLINGTON STREET, YORK STREET"
+              },
+              "customersAffected": "757",
+              "feeder": "JOYCES ROAD",
+              "lastUpdateTime": "26/10/2025 09:07 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-11-25T04:15:50Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "25/11/2025",
+              "startTime": "11:00 AM",
+              "estimatedRestorationDate": "25/11/2025",
+              "estimatedRestorationTime": "05:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "ORONGO BAY, RUSSELL",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "RUSSELL ROAD, RUSSELL WHAKAPARA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "11",
+              "feeder": "JOYCES ROAD",
+              "lastUpdateTime": "26/10/2025 09:07 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-11-25T04:30:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "25/11/2025",
+              "startTime": "11:00 AM",
+              "estimatedRestorationDate": "25/11/2025",
+              "estimatedRestorationTime": "05:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "RUSSELL",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "RUSSELL ROAD, RUSSELL WHAKAPARA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "JOYCES ROAD",
+              "lastUpdateTime": "26/10/2025 09:07 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 34991F\n**Status:** Active\n**Feeder / Circuit:** JOYCES ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 875\n**Suburbs:** MATAUWHI BAY, ORONGO BAY, RUSSELL\n---\n**Affected Roads:**\nASHBY STREET\nAUCKS ROAD\nBAKER STREET\nBERESFORD ST\nBERESFORD STREET\n---\n**Update History:**\n- 2025-11-24T22:15:50Z: Line Maintenance\n- 2025-11-24T18:15:45Z: Line Maintenance"
+        "body": "**Outage ID:** 34991F\n**Status:** Active\n**Feeder / Circuit:** JOYCES ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 3\n**Suburbs:** RUSSELL\n---\n**Affected Roads:**\nRUSSELL ROAD\nRUSSELL WHAKAPARA ROAD\n---\n**Update History:**\n- 2025-11-25T04:30:43Z: Line Maintenance\n- 2025-11-25T04:15:50Z: Line Maintenance\n- 2025-11-25T04:00:43Z: Line Maintenance\n- 2025-11-24T22:15:50Z: Line Maintenance\n- 2025-11-24T18:15:45Z: Line Maintenance"
       }
     },
     {
