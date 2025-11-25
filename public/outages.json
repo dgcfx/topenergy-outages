@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-25T20-45-46Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-25T21-30-53Z.json",
   "events": [
     {
       "id": "35660F",
@@ -518,9 +518,78 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-11-25T21:00:55Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "26/11/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "26/11/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA, PARANUI, PERIA, TAIPA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "CAMPBELL ROAD, PARANUI ROAD, PARANUI-TOATOA ROAD, PARAPARA-TOATOA ROAD, TAYLOR ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "40",
+              "feeder": "ORURU",
+              "lastUpdateTime": "03/11/2025 11:16 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35342F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 39\n**Suburbs:** KAITAIA, PARANUI, PERIA, TAIPA\n---\n**Affected Roads:**\nCAMPBELL ROAD\nPARANUI ROAD\nPARANUI-TOATOA ROAD\nPARAPARA-TOATOA ROAD\nTAYLOR ROAD\n---"
+        "body": "**Outage ID:** 35342F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 40\n**Suburbs:** KAITAIA, PARANUI, PERIA, TAIPA\n---\n**Affected Roads:**\nCAMPBELL ROAD\nPARANUI ROAD\nPARANUI-TOATOA ROAD\nPARAPARA-TOATOA ROAD\nTAYLOR ROAD\n---\n**Update History:**\n- 2025-11-25T21:00:55Z: Line Maintenance\n- 2025-11-25T20:45:46Z: Line Maintenance"
+      }
+    },
+    {
+      "id": "35375F",
+      "title": "Waima (32 customers)",
+      "start": "2025-11-25T21:15:45Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "32",
+        "circuit": "Waima",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-25T21:15:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "26/11/2025",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "26/11/2025",
+              "estimatedRestorationTime": "01:00 PM",
+              "alternativeStartDate": "05/12/2025",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAIKOHE, TAHEKE",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "PUNAKITERE ROAD, ROGER ROAD, STATE HIGHWAY 12, TE IRENGA WEST ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "32",
+              "feeder": "WAIMA",
+              "lastUpdateTime": "04/11/2025 04:55 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35375F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Line Maintenance\n**Customers Affected:** 32\n**Suburbs:** KAIKOHE, TAHEKE\n---\n**Affected Roads:**\nPUNAKITERE ROAD\nROGER ROAD\nSTATE HIGHWAY 12\nTE IRENGA WEST ROAD\n---"
       }
     }
   ]
