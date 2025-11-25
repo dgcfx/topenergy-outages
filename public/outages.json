@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-25T04-45-47Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-25T05-45-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -89,7 +89,7 @@
       "id": "34991F",
       "title": "Joyces Road (5 customers)",
       "start": "2025-11-24T18:15:45Z",
-      "end": null,
+      "end": "2025-11-25T05:00:46Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
