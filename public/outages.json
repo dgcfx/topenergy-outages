@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-25T19-30-46Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-25T20-45-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -437,6 +437,90 @@
           }
         ],
         "body": "**Outage ID:** 35696F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Under Investigation\n**Customers Affected:** 6\n**Suburbs:** CABLE BAY, PERIA\n---\n**Affected Roads:**\nCABLE BAY BLOCK ROAD\nTE KAROA ROAD\n---\n**Update History:**\n- 2025-11-24T20:00:42Z: Under Investigation\n- 2025-11-24T19:45:41Z: Under Investigation\n- 2025-11-24T19:30:43Z: Under Investigation\n- 2025-11-24T19:15:49Z: Under Investigation\n- 2025-11-24T19:00:50Z: Under Investigation\n- 2025-11-24T18:45:46Z: Under Investigation\n- 2025-11-24T18:30:47Z: Under Investigation"
+      }
+    },
+    {
+      "id": "35330F",
+      "title": "Orotere (16 customers)",
+      "start": "2025-11-25T20:30:42Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "16",
+        "circuit": "Orotere",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-25T20:30:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "26/11/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "26/11/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "28/11/2025",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAEO",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "TOPPS ACCESS ROAD, WAIARE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "16",
+              "feeder": "OROTERE",
+              "lastUpdateTime": "02/11/2025 05:12 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35330F\n**Status:** Active\n**Feeder / Circuit:** OROTERE\n**Cause:** Line Maintenance\n**Customers Affected:** 16\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nTOPPS ACCESS ROAD\nWAIARE ROAD\n---"
+      }
+    },
+    {
+      "id": "35342F",
+      "title": "Oruru (39 customers)",
+      "start": "2025-11-25T20:45:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "39",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-25T20:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "26/11/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "26/11/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA, PARANUI, PERIA, TAIPA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "CAMPBELL ROAD, PARANUI ROAD, PARANUI-TOATOA ROAD, PARAPARA-TOATOA ROAD, TAYLOR ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "39",
+              "feeder": "ORURU",
+              "lastUpdateTime": "03/11/2025 11:16 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35342F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 39\n**Suburbs:** KAITAIA, PARANUI, PERIA, TAIPA\n---\n**Affected Roads:**\nCAMPBELL ROAD\nPARANUI ROAD\nPARANUI-TOATOA ROAD\nPARAPARA-TOATOA ROAD\nTAYLOR ROAD\n---"
       }
     }
   ]
