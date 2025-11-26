@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-26T21-30-40Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-26T22-30-49Z.json",
   "events": [
     {
       "id": "35660F",
@@ -923,6 +923,48 @@
           }
         ],
         "body": "**Outage ID:** 35483F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Line Maintenance\n**Customers Affected:** 9\n**Suburbs:** PUKENUI\n---\n**Affected Roads:**\nFAR NORTH ROAD\nSTATE HIGHWAY 1F\n---"
+      }
+    },
+    {
+      "id": "35456F",
+      "title": "Matauri Bay (14 customers)",
+      "start": "2025-11-26T22:15:52Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "14",
+        "circuit": "Matauri Bay",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-26T22:15:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "27/11/2025",
+              "startTime": "11:00 AM",
+              "estimatedRestorationDate": "27/11/2025",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAEO",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "MARTIN ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "14",
+              "feeder": "MATAURI BAY",
+              "lastUpdateTime": "09/11/2025 07:43 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35456F\n**Status:** Active\n**Feeder / Circuit:** MATAURI BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 14\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nMARTIN ROAD\n---"
       }
     }
   ]
