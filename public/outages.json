@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-26T04-45-44Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-26T06-46-14Z.json",
   "events": [
     {
       "id": "35660F",
@@ -671,6 +671,90 @@
           }
         ],
         "body": "**Outage ID:** 35375F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Line Maintenance\n**Customers Affected:** 32\n**Suburbs:** KAIKOHE, TAHEKE\n---\n**Affected Roads:**\nPUNAKITERE ROAD\nROGER ROAD\nSTATE HIGHWAY 12\nTE IRENGA WEST ROAD\n---"
+      }
+    },
+    {
+      "id": "35735F",
+      "title": "Awanui (2 customers)",
+      "start": "2025-11-26T06:30:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Awanui",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-26T06:30:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "26/11/2025",
+              "startTime": "06:15 PM",
+              "estimatedRestorationDate": "26/11/2025",
+              "estimatedRestorationTime": "08:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "AHIPARA, KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "SANDHILLS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "26/11/2025 07:20 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35735F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Equipment fault\n**Customers Affected:** 2\n**Suburbs:** AHIPARA, KAITAIA\n---\n**Affected Roads:**\nSANDHILLS ROAD\n---"
+      }
+    },
+    {
+      "id": "35738F",
+      "title": "Te Kao (2 customers)",
+      "start": "2025-11-26T06:46:14Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Te Kao",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-26T06:46:14Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "26/11/2025",
+              "startTime": "07:30 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Animal Contact",
+              "suburbs": "NGATAKI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "FAR NORTH ROAD, STATE HIGHWAY 1F",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "TE KAO",
+              "lastUpdateTime": "26/11/2025 07:41 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35738F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Animal Contact\n**Customers Affected:** 2\n**Suburbs:** NGATAKI\n---\n**Affected Roads:**\nFAR NORTH ROAD\nSTATE HIGHWAY 1F\n---"
       }
     }
   ]
