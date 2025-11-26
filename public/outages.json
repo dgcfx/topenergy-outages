@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-26T20-30-44Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-26T21-30-40Z.json",
   "events": [
     {
       "id": "35660F",
@@ -755,6 +755,174 @@
           }
         ],
         "body": "**Outage ID:** 35738F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Animal Contact\n**Customers Affected:** 2\n**Suburbs:** NGATAKI\n---\n**Affected Roads:**\nFAR NORTH ROAD\nSTATE HIGHWAY 1F\n---"
+      }
+    },
+    {
+      "id": "35465F",
+      "title": "Oruru (39 customers)",
+      "start": "2025-11-26T20:45:44Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "39",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-26T20:45:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "27/11/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "27/11/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "03/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA, PARANUI, PERIA, TAIPA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "CAMPBELL ROAD, PARANUI ROAD, PARANUI-TOATOA ROAD, PARAPARA-TOATOA ROAD, TAYLOR ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "39",
+              "feeder": "ORURU",
+              "lastUpdateTime": "13/11/2025 04:45 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35465F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 39\n**Suburbs:** KAITAIA, PARANUI, PERIA, TAIPA\n---\n**Affected Roads:**\nCAMPBELL ROAD\nPARANUI ROAD\nPARANUI-TOATOA ROAD\nPARAPARA-TOATOA ROAD\nTAYLOR ROAD\n---"
+      }
+    },
+    {
+      "id": "35630F",
+      "title": "Waima (157 customers)",
+      "start": "2025-11-26T20:45:44Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "157",
+        "circuit": "Waima",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-26T20:45:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "27/11/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "27/11/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "28/11/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAIKOHE, TAHEKE, WAIMA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "BEDGGOOD ROAD, HOREKE ROAD, MISSION OAK ROAD, OTATARA MARAE ROAD, PERAS ROAD",
+                "hiddenStreets": "PUHA ROAD, RAMSEY ROAD, STATE HIGHWAY 12, WAIMA SCHOOL ROAD, WAIMA VALLEY ROAD, WAOKU ROAD"
+              },
+              "customersAffected": "157",
+              "feeder": "WAIMA",
+              "lastUpdateTime": "21/11/2025 10:27 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35630F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Line Maintenance\n**Customers Affected:** 157\n**Suburbs:** KAIKOHE, TAHEKE, WAIMA\n---\n**Affected Roads:**\nBEDGGOOD ROAD\nHOREKE ROAD\nMISSION OAK ROAD\nOTATARA MARAE ROAD\nPERAS ROAD\n---"
+      }
+    },
+    {
+      "id": "35348F",
+      "title": "Ti Bay (444 customers)",
+      "start": "2025-11-26T21:00:43Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "444",
+        "circuit": "Ti Bay",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-26T21:00:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "27/11/2025",
+              "startTime": "09:45 AM",
+              "estimatedRestorationDate": "27/11/2025",
+              "estimatedRestorationTime": "02:15 PM",
+              "alternativeStartDate": "01/12/2025",
+              "alternativeStartTime": "09:45 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "HARURU, HARURU FALLS, PAIHIA, WAITANGI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "ASH GROVE CIRCLE, CAUSEWAY ROAD, FALLS VIEW ROAD, GARDEN COURT, GOFFE DRIVE",
+                "hiddenStreets": "JOHNSON LANE, KAIPATIKI RISE, KAIPATIKI ROAD, MARSDEN ROAD, NGATIRAHIRI DRIVE, OSLER AVENUE, PUKETONA ROAD, RIVER PALMS LANE, TAHUNA ROAD, TE KARUWHA PARADE, TE KEMARA AVENUE, WATERVIEW PLACE, WILSON ROAD, YORKE ROAD"
+              },
+              "customersAffected": "444",
+              "feeder": "TI BAY",
+              "lastUpdateTime": "03/11/2025 03:57 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35348F\n**Status:** Active\n**Feeder / Circuit:** TI BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 444\n**Suburbs:** HARURU, HARURU FALLS, PAIHIA, WAITANGI\n---\n**Affected Roads:**\nASH GROVE CIRCLE\nCAUSEWAY ROAD\nFALLS VIEW ROAD\nGARDEN COURT\nGOFFE DRIVE\n---"
+      }
+    },
+    {
+      "id": "35483F",
+      "title": "Te Kao (9 customers)",
+      "start": "2025-11-26T21:15:45Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "9",
+        "circuit": "Te Kao",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-26T21:15:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "27/11/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "27/11/2025",
+              "estimatedRestorationTime": "12:30 PM",
+              "alternativeStartDate": "01/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "PUKENUI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "FAR NORTH ROAD, STATE HIGHWAY 1F",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "9",
+              "feeder": "TE KAO",
+              "lastUpdateTime": "13/11/2025 01:37 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35483F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Line Maintenance\n**Customers Affected:** 9\n**Suburbs:** PUKENUI\n---\n**Affected Roads:**\nFAR NORTH ROAD\nSTATE HIGHWAY 1F\n---"
       }
     }
   ]
