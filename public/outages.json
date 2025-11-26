@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-26T02-15-43Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-26T03-30-48Z.json",
   "events": [
     {
       "id": "35660F",
@@ -443,7 +443,7 @@
       "id": "35330F",
       "title": "Orotere (16 customers)",
       "start": "2025-11-25T20:30:42Z",
-      "end": null,
+      "end": "2025-11-26T02:30:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -512,7 +512,7 @@
       "id": "35342F",
       "title": "Oruru (39 customers)",
       "start": "2025-11-25T20:45:46Z",
-      "end": null,
+      "end": "2025-11-26T03:15:52Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -572,9 +572,63 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-11-26T02:45:53Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "26/11/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "26/11/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA, PARANUI, PERIA, TAIPA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "CAMPBELL ROAD, PARANUI ROAD, PARANUI-TOATOA ROAD, PARAPARA-TOATOA ROAD, TAYLOR ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "39",
+              "feeder": "ORURU",
+              "lastUpdateTime": "03/11/2025 11:16 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-11-26T03:00:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "26/11/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "26/11/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "TAIPA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "TAYLOR ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "ORURU",
+              "lastUpdateTime": "03/11/2025 11:16 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35342F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 40\n**Suburbs:** KAITAIA, PARANUI, PERIA, TAIPA\n---\n**Affected Roads:**\nCAMPBELL ROAD\nPARANUI ROAD\nPARANUI-TOATOA ROAD\nPARAPARA-TOATOA ROAD\nTAYLOR ROAD\n---\n**Update History:**\n- 2025-11-25T21:00:55Z: Line Maintenance\n- 2025-11-25T20:45:46Z: Line Maintenance"
+        "body": "**Outage ID:** 35342F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 3\n**Suburbs:** TAIPA\n---\n**Affected Roads:**\nTAYLOR ROAD\n---\n**Update History:**\n- 2025-11-26T03:00:51Z: Line Maintenance\n- 2025-11-26T02:45:53Z: Line Maintenance\n- 2025-11-25T21:00:55Z: Line Maintenance\n- 2025-11-25T20:45:46Z: Line Maintenance"
       }
     },
     {
