@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-26T22-30-49Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-26T23-31-08Z.json",
   "events": [
     {
       "id": "35660F",
@@ -887,7 +887,7 @@
       "id": "35483F",
       "title": "Te Kao (9 customers)",
       "start": "2025-11-26T21:15:45Z",
-      "end": null,
+      "end": "2025-11-26T23:00:49Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
