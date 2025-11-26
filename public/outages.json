@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-25T23-30-51Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-26T02-15-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -476,9 +476,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-11-26T02:01:05Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "26/11/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "26/11/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "28/11/2025",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAEO",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "TOPPS ACCESS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "4",
+              "feeder": "OROTERE",
+              "lastUpdateTime": "02/11/2025 05:12 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35330F\n**Status:** Active\n**Feeder / Circuit:** OROTERE\n**Cause:** Line Maintenance\n**Customers Affected:** 16\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nTOPPS ACCESS ROAD\nWAIARE ROAD\n---"
+        "body": "**Outage ID:** 35330F\n**Status:** Active\n**Feeder / Circuit:** OROTERE\n**Cause:** Line Maintenance\n**Customers Affected:** 4\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nTOPPS ACCESS ROAD\n---\n**Update History:**\n- 2025-11-26T02:01:05Z: Line Maintenance\n- 2025-11-25T20:30:42Z: Line Maintenance"
       }
     },
     {
@@ -554,7 +581,7 @@
       "id": "35375F",
       "title": "Waima (32 customers)",
       "start": "2025-11-25T21:15:45Z",
-      "end": null,
+      "end": "2025-11-26T00:15:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
