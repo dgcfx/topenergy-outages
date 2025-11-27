@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-27T21-30-50Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-27T22-30-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1076,6 +1076,144 @@
           }
         ],
         "body": "**Outage ID:** 35747F\n**Status:** Active\n**Feeder / Circuit:** MANGONUI\n**Cause:** Line Maintenance\n**Customers Affected:** 402\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nALEXANDER STREET\nBEACH ROAD\nCOLONEL MOULD DRIVE\nGEORGE STREET\nGREY STREET\n---"
+      }
+    },
+    {
+      "id": "35750F",
+      "title": "South Road (7 customers)",
+      "start": "2025-11-27T21:45:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "7",
+        "circuit": "South Road",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-27T21:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "28/11/2025",
+              "startTime": "10:23 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "BROADWOOD, HEREKINO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "EATON ROAD, WAIOTEHUE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "7",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "28/11/2025 10:34 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-11-27T22:00:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "28/11/2025",
+              "startTime": "10:23 AM",
+              "estimatedRestorationDate": "28/11/2025",
+              "estimatedRestorationTime": "12:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "BROADWOOD, HEREKINO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "EATON ROAD, WAIOTEHUE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "7",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "28/11/2025 10:34 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-11-27T22:16:07Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "28/11/2025",
+              "startTime": "10:23 AM",
+              "estimatedRestorationDate": "28/11/2025",
+              "estimatedRestorationTime": "12:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "BROADWOOD, HEREKINO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "EATON ROAD, WAIOTEHUE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "7",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "28/11/2025 10:34 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35750F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Equipment damage\n**Customers Affected:** 7\n**Suburbs:** BROADWOOD, HEREKINO\n---\n**Affected Roads:**\nEATON ROAD\nWAIOTEHUE ROAD\n---\n**Update History:**\n- 2025-11-27T22:16:07Z: Equipment damage\n- 2025-11-27T22:00:43Z: Under Investigation\n- 2025-11-27T21:45:46Z: Under Investigation"
+      }
+    },
+    {
+      "id": "35060F",
+      "title": "Opononi (111 customers)",
+      "start": "2025-11-27T22:16:07Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "111",
+        "circuit": "Opononi",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-27T22:16:07Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "28/11/2025",
+              "startTime": "11:00 AM",
+              "estimatedRestorationDate": "28/11/2025",
+              "estimatedRestorationTime": "01:00 PM",
+              "alternativeStartDate": "01/12/2025",
+              "alternativeStartTime": "11:00 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAIKOHE, KOUTU, OPONONI, WHIRINAKI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "CABBAGE TREE BAY ROAD, DUNE RISE, KOUTU BEACH ROAD, KOUTU LOOP ROAD, KOUTU POINT RD",
+                "hiddenStreets": "KOUTU POINT ROAD, KOUTU TERRACE, MAHINA ROAD, TAPP ROAD, WAIONE ROAD"
+              },
+              "customersAffected": "111",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "26/10/2025 12:26 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35060F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Line Maintenance\n**Customers Affected:** 111\n**Suburbs:** KAIKOHE, KOUTU, OPONONI, WHIRINAKI\n---\n**Affected Roads:**\nCABBAGE TREE BAY ROAD\nDUNE RISE\nKOUTU BEACH ROAD\nKOUTU LOOP ROAD\nKOUTU POINT RD\n---"
       }
     }
   ]
