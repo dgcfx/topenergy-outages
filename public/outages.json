@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-27T13-45-44Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-27T14-45-51Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1040,7 +1040,7 @@
       "id": "35747F",
       "title": "Mangonui (402 customers)",
       "start": "2025-11-27T13:15:47Z",
-      "end": null,
+      "end": "2025-11-27T14:45:51Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
