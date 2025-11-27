@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-27T13-00-46Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-27T13-45-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1034,6 +1034,48 @@
           }
         ],
         "body": "**Outage ID:** 35741F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** WAIMAMAKU\n---\n**Affected Roads:**\nWEKAWEKA ROAD\n---"
+      }
+    },
+    {
+      "id": "35747F",
+      "title": "Mangonui (402 customers)",
+      "start": "2025-11-27T13:15:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "402",
+        "circuit": "Mangonui",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-27T13:15:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "28/11/2025",
+              "startTime": "02:00 AM",
+              "estimatedRestorationDate": "28/11/2025",
+              "estimatedRestorationTime": "04:30 AM",
+              "alternativeStartDate": "05/12/2025",
+              "alternativeStartTime": "02:00 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "MANGONUI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "ALEXANDER STREET, BEACH ROAD, COLONEL MOULD DRIVE, GEORGE STREET, GREY STREET",
+                "hiddenStreets": "GREY STREET EAST, KARAMEA ROAD, MABEL THORBURN PLACE, MARY HASSETT STREET, MELODY LANE, MILL BAY ROAD, RANGINUI STREET, RICHMOND ROAD, STATE HIGHWAY 10, TASMAN STREET, THOMAS STREET, TURVEY ROAD, WATERFRONT DRIVE, WATERFRONT ROAD, WRATHALL ROAD"
+              },
+              "customersAffected": "402",
+              "feeder": "MANGONUI",
+              "lastUpdateTime": "28/11/2025 02:00 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35747F\n**Status:** Active\n**Feeder / Circuit:** MANGONUI\n**Cause:** Line Maintenance\n**Customers Affected:** 402\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nALEXANDER STREET\nBEACH ROAD\nCOLONEL MOULD DRIVE\nGEORGE STREET\nGREY STREET\n---"
       }
     }
   ]
