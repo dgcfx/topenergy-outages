@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-27T22-30-41Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-27T23-30-48Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1082,7 +1082,7 @@
       "id": "35750F",
       "title": "South Road (7 customers)",
       "start": "2025-11-27T21:45:46Z",
-      "end": null,
+      "end": "2025-11-27T23:00:40Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -1178,7 +1178,7 @@
       "id": "35060F",
       "title": "Opononi (111 customers)",
       "start": "2025-11-27T22:16:07Z",
-      "end": null,
+      "end": "2025-11-27T23:30:48Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -1214,6 +1214,48 @@
           }
         ],
         "body": "**Outage ID:** 35060F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Line Maintenance\n**Customers Affected:** 111\n**Suburbs:** KAIKOHE, KOUTU, OPONONI, WHIRINAKI\n---\n**Affected Roads:**\nCABBAGE TREE BAY ROAD\nDUNE RISE\nKOUTU BEACH ROAD\nKOUTU LOOP ROAD\nKOUTU POINT RD\n---"
+      }
+    },
+    {
+      "id": "35585F",
+      "title": "Te Kemara Ave (4 customers)",
+      "start": "2025-11-27T23:15:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "4",
+        "circuit": "Te Kemara Ave",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-27T23:15:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "28/11/2025",
+              "startTime": "12:00 PM",
+              "estimatedRestorationDate": "28/11/2025",
+              "estimatedRestorationTime": "12:30 PM",
+              "alternativeStartDate": "01/12/2025",
+              "alternativeStartTime": "12:00 PM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "PAIHIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "DAVIS CRESCENT, MARSDEN ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "4",
+              "feeder": "TE KEMARA AVE",
+              "lastUpdateTime": "18/11/2025 02:14 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35585F\n**Status:** Active\n**Feeder / Circuit:** TE KEMARA AVE\n**Cause:** Line Maintenance\n**Customers Affected:** 4\n**Suburbs:** PAIHIA\n---\n**Affected Roads:**\nDAVIS CRESCENT\nMARSDEN ROAD\n---"
       }
     }
   ]
