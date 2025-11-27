@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-26T23-31-08Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-27T02-15-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -761,7 +761,7 @@
       "id": "35465F",
       "title": "Oruru (39 customers)",
       "start": "2025-11-26T20:45:44Z",
-      "end": null,
+      "end": "2025-11-27T00:00:54Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -803,7 +803,7 @@
       "id": "35630F",
       "title": "Waima (157 customers)",
       "start": "2025-11-26T20:45:44Z",
-      "end": null,
+      "end": "2025-11-27T01:45:50Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -836,16 +836,43 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-11-27T01:30:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "27/11/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "27/11/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "28/11/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "WAIMA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "WAIMA SCHOOL ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "WAIMA",
+              "lastUpdateTime": "21/11/2025 10:27 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35630F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Line Maintenance\n**Customers Affected:** 157\n**Suburbs:** KAIKOHE, TAHEKE, WAIMA\n---\n**Affected Roads:**\nBEDGGOOD ROAD\nHOREKE ROAD\nMISSION OAK ROAD\nOTATARA MARAE ROAD\nPERAS ROAD\n---"
+        "body": "**Outage ID:** 35630F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Line Maintenance\n**Customers Affected:** 2\n**Suburbs:** WAIMA\n---\n**Affected Roads:**\nWAIMA SCHOOL ROAD\n---\n**Update History:**\n- 2025-11-27T01:30:46Z: Line Maintenance\n- 2025-11-26T20:45:44Z: Line Maintenance"
       }
     },
     {
       "id": "35348F",
       "title": "Ti Bay (444 customers)",
       "start": "2025-11-26T21:00:43Z",
-      "end": null,
+      "end": "2025-11-27T01:15:46Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -929,7 +956,7 @@
       "id": "35456F",
       "title": "Matauri Bay (14 customers)",
       "start": "2025-11-26T22:15:52Z",
-      "end": null,
+      "end": "2025-11-27T00:15:47Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -965,6 +992,48 @@
           }
         ],
         "body": "**Outage ID:** 35456F\n**Status:** Active\n**Feeder / Circuit:** MATAURI BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 14\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nMARTIN ROAD\n---"
+      }
+    },
+    {
+      "id": "35741F",
+      "title": "Opononi (1 customers)",
+      "start": "2025-11-27T01:30:46Z",
+      "end": "2025-11-27T01:45:50Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Opononi",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-27T01:30:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "27/11/2025",
+              "startTime": "02:15 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "WAIMAMAKU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WEKAWEKA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "27/11/2025 02:15 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35741F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** WAIMAMAKU\n---\n**Affected Roads:**\nWEKAWEKA ROAD\n---"
       }
     }
   ]
