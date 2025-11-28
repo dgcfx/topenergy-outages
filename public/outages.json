@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-27T23-30-48Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-28T02-15-54Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1220,7 +1220,7 @@
       "id": "35585F",
       "title": "Te Kemara Ave (4 customers)",
       "start": "2025-11-27T23:15:46Z",
-      "end": null,
+      "end": "2025-11-27T23:45:46Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -1256,6 +1256,75 @@
           }
         ],
         "body": "**Outage ID:** 35585F\n**Status:** Active\n**Feeder / Circuit:** TE KEMARA AVE\n**Cause:** Line Maintenance\n**Customers Affected:** 4\n**Suburbs:** PAIHIA\n---\n**Affected Roads:**\nDAVIS CRESCENT\nMARSDEN ROAD\n---"
+      }
+    },
+    {
+      "id": "35753F",
+      "title": "Inlet Road (15 customers)",
+      "start": "2025-11-28T00:30:47Z",
+      "end": "2025-11-28T01:00:42Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "15",
+        "circuit": "Inlet Road",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-28T00:30:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "28/11/2025",
+              "startTime": "01:00 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KERIKERI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KERIKERI INLET ROAD, RIVERCREST WAY",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "15",
+              "feeder": "INLET ROAD",
+              "lastUpdateTime": "28/11/2025 01:15 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-11-28T00:45:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "28/11/2025",
+              "startTime": "01:00 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Animal Contact",
+              "suburbs": "KERIKERI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KERIKERI INLET ROAD, RIVERCREST WAY",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "15",
+              "feeder": "INLET ROAD",
+              "lastUpdateTime": "28/11/2025 01:15 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35753F\n**Status:** Active\n**Feeder / Circuit:** INLET ROAD\n**Cause:** Animal Contact\n**Customers Affected:** 15\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nKERIKERI INLET ROAD\nRIVERCREST WAY\n---\n**Update History:**\n- 2025-11-28T00:45:44Z: Animal Contact\n- 2025-11-28T00:30:47Z: Under Investigation"
       }
     }
   ]
