@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-28T10-45-45Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-28T11-30-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1325,6 +1325,48 @@
           }
         ],
         "body": "**Outage ID:** 35753F\n**Status:** Active\n**Feeder / Circuit:** INLET ROAD\n**Cause:** Animal Contact\n**Customers Affected:** 15\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nKERIKERI INLET ROAD\nRIVERCREST WAY\n---\n**Update History:**\n- 2025-11-28T00:45:44Z: Animal Contact\n- 2025-11-28T00:30:47Z: Under Investigation"
+      }
+    },
+    {
+      "id": "35759F",
+      "title": "Sub-transmission (1278 customers)",
+      "start": "2025-11-28T11:30:42Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1278",
+        "circuit": "Sub-transmission",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-28T11:30:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/11/2025",
+              "startTime": "12:18 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "AWANUI, HENDERSON BAY, HOUHORA, HOUHOURA, KAIMAUMAU, KAITAIA, MOTUTANGI, NGATAKI, OKAIHAU, PUKENUI, TE HAPUA, TE KAO, TE PAKI, TEHAPUA, WAIHARARA, WAIHOPO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BIG FLAT ROAD, BURNAGE ROAD, CAMEL VIEW HEIGHTS, CAMP ROAD, CAPE REINGA ROAD",
+                "hiddenStreets": "COX ROAD, ELINGAMITE DRIVE, EVERITT ROAD, FAR NORTH RD, FAR NORTH ROAD, FITZGERALD ROAD, GUMBOOT ROAD, HAGGER STREET, HARBOUR VIEW ROAD, HARRY'S LANE, HEATH ROAD, HENDERSON BAY ROAD, HOUHORA GREENS WAY, HOUHORA HEADS ROAD, HUKATERE ROAD, IMMS ROAD, JUNIPER LANE, KAIKATIA ROAD, KAIMAUMAU ROAD, KATAVICH ROAD, KAUERE ROAD, KIMBERLEY ROAD, LAKE ROAD, LAMB ROAD, MAIN ROAD, MAY ROAD, MCMANUS ROAD, NGATAKI ROAD, NORTHWOOD AVENUE, NORTON ROAD, OTAIPANGO ROAD, PAUA ROAD, PINE BLOCK ROAD, POTAHI ROAD, PUKENUI WHARF ROAD, RARAWA BEACH ROAD, SALEYARD AVENUE, SALT ROAD, SALVATION ROAD, SRHOJ ROAD, STATE HIGHWAY 1, STATE HIGHWAY 1F, SUBRITZKY ROAD, TAYLOR ROAD, TE AHU ROAD, TE HAPUA ROAD, TE PAKI STREAM ROAD, TE PUA ROAD, TE RAWHITIROA ROAD, TRIG ROAD, TURK VALLEY ROAD, VIEW LANE, WAGENER GROVE, WAHARUA ROAD, WATERFRONT ROAD, WATERSIDE WAY, WHALERS ROAD"
+              },
+              "customersAffected": "1278",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "29/11/2025 12:18 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35759F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Under Investigation\n**Customers Affected:** 1278\n**Suburbs:** AWANUI, HENDERSON BAY, HOUHORA, HOUHOURA, KAIMAUMAU, KAITAIA, MOTUTANGI, NGATAKI, OKAIHAU, PUKENUI, TE HAPUA, TE KAO, TE PAKI, TEHAPUA, WAIHARARA, WAIHOPO\n---\n**Affected Roads:**\nBIG FLAT ROAD\nBURNAGE ROAD\nCAMEL VIEW HEIGHTS\nCAMP ROAD\nCAPE REINGA ROAD\n---"
       }
     }
   ]
