@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-28T11-30-42Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-28T13-00-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1331,7 +1331,7 @@
       "id": "35759F",
       "title": "Sub-transmission (1278 customers)",
       "start": "2025-11-28T11:30:42Z",
-      "end": null,
+      "end": "2025-11-28T11:45:39Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -1367,6 +1367,48 @@
           }
         ],
         "body": "**Outage ID:** 35759F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Under Investigation\n**Customers Affected:** 1278\n**Suburbs:** AWANUI, HENDERSON BAY, HOUHORA, HOUHOURA, KAIMAUMAU, KAITAIA, MOTUTANGI, NGATAKI, OKAIHAU, PUKENUI, TE HAPUA, TE KAO, TE PAKI, TEHAPUA, WAIHARARA, WAIHOPO\n---\n**Affected Roads:**\nBIG FLAT ROAD\nBURNAGE ROAD\nCAMEL VIEW HEIGHTS\nCAMP ROAD\nCAPE REINGA ROAD\n---"
+      }
+    },
+    {
+      "id": "35762F",
+      "title": "Opononi (6 customers)",
+      "start": "2025-11-28T12:30:44Z",
+      "end": "2025-11-28T12:45:47Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "6",
+        "circuit": "Opononi",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-28T12:30:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/11/2025",
+              "startTime": "01:23 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "OUE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "OPARA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "29/11/2025 01:23 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35762F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Under Investigation\n**Customers Affected:** 6\n**Suburbs:** OUE\n---\n**Affected Roads:**\nOPARA ROAD\n---"
       }
     }
   ]
