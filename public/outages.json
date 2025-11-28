@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-28T21-30-51Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-28T22-30-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1457,7 +1457,7 @@
       "id": "35768F",
       "title": "Opononi (2 customers)",
       "start": "2025-11-28T21:30:51Z",
-      "end": null,
+      "end": "2025-11-28T22:00:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -1490,9 +1490,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-11-28T21:45:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/11/2025",
+              "startTime": "10:19 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KAIKOHE, OUE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WHAREKAWA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "29/11/2025 10:20 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35768F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** KAIKOHE, OUE\n---\n**Affected Roads:**\nWHAREKAWA ROAD\n---"
+        "body": "**Outage ID:** 35768F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Equipment fault\n**Customers Affected:** 2\n**Suburbs:** KAIKOHE, OUE\n---\n**Affected Roads:**\nWHAREKAWA ROAD\n---\n**Update History:**\n- 2025-11-28T21:45:45Z: Equipment fault\n- 2025-11-28T21:30:51Z: Under Investigation"
       }
     }
   ]
