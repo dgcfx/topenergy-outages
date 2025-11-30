@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-30T19-30-50Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-30T20-30-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1562,6 +1562,48 @@
           }
         ],
         "body": "**Outage ID:** 35771F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** RAWENE\n---\n**Affected Roads:**\nCLASSEN ROAD\n---"
+      }
+    },
+    {
+      "id": "35057F",
+      "title": "Awarua (34 customers)",
+      "start": "2025-11-30T20:15:52Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "34",
+        "circuit": "Awarua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-30T20:15:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "01/12/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "01/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAWAKAWA, MATAWAIA, PIPIWAI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "JAMES ROAD, LOVATT ROAD, MATAWAIA MAROMAKU ROAD, MATAWAIA ROAD, OPAHI ROAD",
+                "hiddenStreets": "PIPIWAI ROAD, WAA HOTERENE ROAD"
+              },
+              "customersAffected": "34",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "26/10/2025 12:13 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35057F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Line Maintenance\n**Customers Affected:** 34\n**Suburbs:** KAWAKAWA, MATAWAIA, PIPIWAI\n---\n**Affected Roads:**\nJAMES ROAD\nLOVATT ROAD\nMATAWAIA MAROMAKU ROAD\nMATAWAIA ROAD\nOPAHI ROAD\n---"
       }
     }
   ]
