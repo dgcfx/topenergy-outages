@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-30T20-30-47Z.json",
+  "lastProcessedFile": "data/history/2025-11/2025-11-30T21-30-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1604,6 +1604,48 @@
           }
         ],
         "body": "**Outage ID:** 35057F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Line Maintenance\n**Customers Affected:** 34\n**Suburbs:** KAWAKAWA, MATAWAIA, PIPIWAI\n---\n**Affected Roads:**\nJAMES ROAD\nLOVATT ROAD\nMATAWAIA MAROMAKU ROAD\nMATAWAIA ROAD\nOPAHI ROAD\n---"
+      }
+    },
+    {
+      "id": "35066F",
+      "title": "Te Kao (4 customers)",
+      "start": "2025-11-30T20:45:45Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "4",
+        "circuit": "Te Kao",
+        "detail_history": [
+          {
+            "capture_ts": "2025-11-30T20:45:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "01/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "01/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "02/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "PUKENUI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "ELINGAMITE DRIVE",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "4",
+              "feeder": "TE KAO",
+              "lastUpdateTime": "27/10/2025 09:18 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35066F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Line Maintenance\n**Customers Affected:** 4\n**Suburbs:** PUKENUI\n---\n**Affected Roads:**\nELINGAMITE DRIVE\n---"
       }
     }
   ]
