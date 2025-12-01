@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-01T21-30-44Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-01T22-45-49Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1757,6 +1757,75 @@
           }
         ],
         "body": "**Outage ID:** 35804F\n**Status:** Active\n**Feeder / Circuit:** PUKENUI SOUTH\n**Cause:** Under Investigation\n**Customers Affected:** 239\n**Suburbs:** AWANUI, KAIMAUMAU, KAITAIA, MOTUTANGI, PUKENUI, WAIHARARA\n---\n**Affected Roads:**\nBIG FLAT ROAD\nCAMP ROAD\nCOX ROAD\nFAR NORTH ROAD\nHAGGER STREET\n---"
+      }
+    },
+    {
+      "id": "35819F",
+      "title": "Oxford Street (37 customers)",
+      "start": "2025-12-01T22:15:52Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "37",
+        "circuit": "Oxford Street",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-01T22:15:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "02/12/2025",
+              "startTime": "11:11 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "CLOUGH ROAD, DODDS ROAD, SNELGAR ROAD, STATE HIGHWAY 1",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "37",
+              "feeder": "OXFORD STREET",
+              "lastUpdateTime": "02/12/2025 11:11 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-01T22:30:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "02/12/2025",
+              "startTime": "11:00 AM",
+              "estimatedRestorationDate": "02/12/2025",
+              "estimatedRestorationTime": "12:00 PM",
+              "alternativeStartDate": "09/12/2025",
+              "alternativeStartTime": "11:00 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "CLOUGH ROAD, DODDS ROAD, SNELGAR ROAD, STATE HIGHWAY 1",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "37",
+              "feeder": "OXFORD STREET",
+              "lastUpdateTime": "02/12/2025 11:11 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35819F\n**Status:** Active\n**Feeder / Circuit:** OXFORD STREET\n**Cause:** Line Maintenance\n**Customers Affected:** 37\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nCLOUGH ROAD\nDODDS ROAD\nSNELGAR ROAD\nSTATE HIGHWAY 1\n---\n**Update History:**\n- 2025-12-01T22:30:41Z: Line Maintenance\n- 2025-12-01T22:15:52Z: Under Investigation"
       }
     }
   ]
