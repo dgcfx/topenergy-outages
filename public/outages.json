@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-11/2025-11-30T23-30-41Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-01T02-45-48Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1568,7 +1568,7 @@
       "id": "35057F",
       "title": "Awarua (34 customers)",
       "start": "2025-11-30T20:15:52Z",
-      "end": null,
+      "end": "2025-12-01T00:45:46Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -1610,7 +1610,7 @@
       "id": "35066F",
       "title": "Te Kao (4 customers)",
       "start": "2025-11-30T20:45:45Z",
-      "end": null,
+      "end": "2025-12-01T02:15:53Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -1646,6 +1646,117 @@
           }
         ],
         "body": "**Outage ID:** 35066F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Line Maintenance\n**Customers Affected:** 4\n**Suburbs:** PUKENUI\n---\n**Affected Roads:**\nELINGAMITE DRIVE\n---"
+      }
+    },
+    {
+      "id": "35798F",
+      "title": "Rawene (47 customers)",
+      "start": "2025-12-01T00:45:46Z",
+      "end": "2025-12-01T01:15:46Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "47",
+        "circuit": "Rawene",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-01T00:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "01/12/2025",
+              "startTime": "01:42 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "OPONONI, WAIMAMAKU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KELLY ROAD, PINEHILL ROAD, SMOOTHY ROAD, WAIOTEMARAMA GORGE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "47",
+              "feeder": "RAWENE",
+              "lastUpdateTime": "01/12/2025 01:42 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-01T01:00:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "01/12/2025",
+              "startTime": "01:44 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "OPONONI, WAIMAMAKU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KELLY ROAD, PINEHILL ROAD, SMOOTHY ROAD, WAIOTEMARAMA GORGE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "47",
+              "feeder": "RAWENE",
+              "lastUpdateTime": "01/12/2025 01:42 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35798F\n**Status:** Active\n**Feeder / Circuit:** RAWENE\n**Cause:** Under Investigation\n**Customers Affected:** 47\n**Suburbs:** OPONONI, WAIMAMAKU\n---\n**Affected Roads:**\nKELLY ROAD\nPINEHILL ROAD\nSMOOTHY ROAD\nWAIOTEMARAMA GORGE ROAD\n---\n**Update History:**\n- 2025-12-01T01:00:51Z: Under Investigation\n- 2025-12-01T00:45:46Z: Under Investigation"
+      }
+    },
+    {
+      "id": "35804F",
+      "title": "Pukenui South (239 customers)",
+      "start": "2025-12-01T02:00:45Z",
+      "end": "2025-12-01T02:45:48Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "239",
+        "circuit": "Pukenui South",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-01T02:00:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "01/12/2025",
+              "startTime": "02:48 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "AWANUI, KAIMAUMAU, KAITAIA, MOTUTANGI, PUKENUI, WAIHARARA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BIG FLAT ROAD, CAMP ROAD, COX ROAD, FAR NORTH ROAD, HAGGER STREET",
+                "hiddenStreets": "HEATH ROAD, KAIMAUMAU ROAD, KATAVICH ROAD, LAKE ROAD, NORTON ROAD, SRHOJ ROAD, STATE HIGHWAY 1, STATE HIGHWAY 1F, TURK VALLEY ROAD"
+              },
+              "customersAffected": "239",
+              "feeder": "PUKENUI SOUTH",
+              "lastUpdateTime": "01/12/2025 02:57 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35804F\n**Status:** Active\n**Feeder / Circuit:** PUKENUI SOUTH\n**Cause:** Under Investigation\n**Customers Affected:** 239\n**Suburbs:** AWANUI, KAIMAUMAU, KAITAIA, MOTUTANGI, PUKENUI, WAIHARARA\n---\n**Affected Roads:**\nBIG FLAT ROAD\nCAMP ROAD\nCOX ROAD\nFAR NORTH ROAD\nHAGGER STREET\n---"
       }
     }
   ]
