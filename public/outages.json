@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-01T23-30-54Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-02T02-15-55Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1763,7 +1763,7 @@
       "id": "35819F",
       "title": "Oxford Street (37 customers)",
       "start": "2025-12-01T22:15:52Z",
-      "end": null,
+      "end": "2025-12-02T00:00:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -1826,6 +1826,48 @@
           }
         ],
         "body": "**Outage ID:** 35819F\n**Status:** Active\n**Feeder / Circuit:** OXFORD STREET\n**Cause:** Line Maintenance\n**Customers Affected:** 37\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nCLOUGH ROAD\nDODDS ROAD\nSNELGAR ROAD\nSTATE HIGHWAY 1\n---\n**Update History:**\n- 2025-12-01T22:30:41Z: Line Maintenance\n- 2025-12-01T22:15:52Z: Under Investigation"
+      }
+    },
+    {
+      "id": "35825F",
+      "title": "Opononi (2 customers)",
+      "start": "2025-12-02T01:51:42Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Opononi",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-02T01:51:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "02/12/2025",
+              "startTime": "02:31 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "WAIMAMAKU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "TAITA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "02/12/2025 02:43 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35825F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** WAIMAMAKU\n---\n**Affected Roads:**\nTAITA ROAD\n---"
       }
     }
   ]
