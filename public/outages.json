@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-02T21-30-51Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-02T22-30-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1991,9 +1991,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-02T21:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/12/2025",
+              "startTime": "10:26 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KARIKARI PENINSULA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "INLAND ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "10",
+              "feeder": "TAIPALS",
+              "lastUpdateTime": "03/12/2025 10:29 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35843F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Under Investigation\n**Customers Affected:** 10\n**Suburbs:** KARIKARI PENINSULA\n---\n**Affected Roads:**\nINLAND ROAD\n---"
+        "body": "**Outage ID:** 35843F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Equipment fault\n**Customers Affected:** 10\n**Suburbs:** KARIKARI PENINSULA\n---\n**Affected Roads:**\nINLAND ROAD\n---\n**Update History:**\n- 2025-12-02T21:45:46Z: Equipment fault\n- 2025-12-02T21:30:51Z: Under Investigation"
       }
     }
   ]
