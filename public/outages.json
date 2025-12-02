@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-02T02-15-55Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-02T03-30-53Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1832,7 +1832,7 @@
       "id": "35825F",
       "title": "Opononi (2 customers)",
       "start": "2025-12-02T01:51:42Z",
-      "end": null,
+      "end": "2025-12-02T02:30:54Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
