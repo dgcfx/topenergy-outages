@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-02T20-45-43Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-02T21-30-51Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1916,7 +1916,7 @@
       "id": "35840F",
       "title": "Taipals (837 customers)",
       "start": "2025-12-02T20:15:40Z",
-      "end": null,
+      "end": "2025-12-02T21:15:42Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -1952,6 +1952,48 @@
           }
         ],
         "body": "**Outage ID:** 35840F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Line Maintenance\n**Customers Affected:** 837\n**Suburbs:** KAITAIA, KARIKARI, KARIKARI PENINSULA, KARIKARI PENINSULAR, KARIKARI PENNINSULA, TOKERAU BEACH, WHATUWHIWHI\n---\n**Affected Roads:**\nAKEAKE CRESCENT\nBANYAN ROAD\nBAY HEIGHTS DRIVE\nBROOKE ROAD\nBRUNTON PLACE\n---"
+      }
+    },
+    {
+      "id": "35843F",
+      "title": "Taipals (10 customers)",
+      "start": "2025-12-02T21:30:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "10",
+        "circuit": "Taipals",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-02T21:30:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/12/2025",
+              "startTime": "10:26 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KARIKARI PENINSULA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "INLAND ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "10",
+              "feeder": "TAIPALS",
+              "lastUpdateTime": "03/12/2025 10:29 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35843F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Under Investigation\n**Customers Affected:** 10\n**Suburbs:** KARIKARI PENINSULA\n---\n**Affected Roads:**\nINLAND ROAD\n---"
       }
     }
   ]
