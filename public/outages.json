@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-02T19-30-50Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-02T20-45-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -1868,6 +1868,90 @@
           }
         ],
         "body": "**Outage ID:** 35825F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** WAIMAMAKU\n---\n**Affected Roads:**\nTAITA ROAD\n---"
+      }
+    },
+    {
+      "id": "35489F",
+      "title": "Purerua (58 customers)",
+      "start": "2025-12-02T20:15:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "58",
+        "circuit": "Purerua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-02T20:15:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/12/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "03/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "05/12/2025",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI, TAPUAETAHI, TE TII",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "TARONUI ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "58",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "13/11/2025 01:41 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35489F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Line Maintenance\n**Customers Affected:** 58\n**Suburbs:** KERIKERI, TAPUAETAHI, TE TII\n---\n**Affected Roads:**\nTARONUI ROAD\n---"
+      }
+    },
+    {
+      "id": "35840F",
+      "title": "Taipals (837 customers)",
+      "start": "2025-12-02T20:15:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "837",
+        "circuit": "Taipals",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-02T20:15:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/12/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "03/12/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA, KARIKARI, KARIKARI PENINSULA, KARIKARI PENINSULAR, KARIKARI PENNINSULA, TOKERAU BEACH, WHATUWHIWHI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "AKEAKE CRESCENT, BANYAN ROAD, BAY HEIGHTS DRIVE, BROOKE ROAD, BRUNTON PLACE",
+                "hiddenStreets": "CARRINGTON DRIVE, COURTNEY PLACE, DE SURVILLE ROAD, DOUBTLESS BAY DRIVE, INLAND ROAD, LINDSEY WAY, MATAI BAY ROAD, MATARIKI PLACE, PEREHIPE ROAD, SUNLOVER WAY, TE AHU PLACE, TE RANGINUI PLACE, TOKERAU BEACH RD, TOKERAU BEACH ROAD, TUITONGA ROAD, VIRTUE CRESCENT, WAIMANGO ROAD, WHALE CRESCENT, WHATUWHIWHI ROAD, WHITNEY LANE"
+              },
+              "customersAffected": "837",
+              "feeder": "TAIPALS",
+              "lastUpdateTime": "03/12/2025 09:01 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35840F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Line Maintenance\n**Customers Affected:** 837\n**Suburbs:** KAITAIA, KARIKARI, KARIKARI PENINSULA, KARIKARI PENINSULAR, KARIKARI PENNINSULA, TOKERAU BEACH, WHATUWHIWHI\n---\n**Affected Roads:**\nAKEAKE CRESCENT\nBANYAN ROAD\nBAY HEIGHTS DRIVE\nBROOKE ROAD\nBRUNTON PLACE\n---"
       }
     }
   ]
