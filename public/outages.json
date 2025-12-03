@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-03T11-30-43Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-03T13-15-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -2411,6 +2411,75 @@
           }
         ],
         "body": "**Outage ID:** 35876F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** AWARUA\n---\n**Affected Roads:**\nMANGAKAHIA ROAD\n---"
+      }
+    },
+    {
+      "id": "35882F",
+      "title": "Opononi (1047 customers)",
+      "start": "2025-12-03T12:00:43Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1047",
+        "circuit": "Opononi",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-03T12:00:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "12:35 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, KOUTU, OMAPERE, OPONONI, OUE, PAKANAE, WAIMAMAKU, WHIRINAKI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AKIHA STREET, AMBLER ROAD, BAKER ROAD, BRINDLE ROAD, CABBAGE TREE BAY ROAD",
+                "hiddenStreets": "DUNE RISE, FAIRLIE CRESCENT, FREESE PARK ROAD, GOODWIN ROAD, HALL ROAD, HANSEN ROAD, HOKIANGA HARBOUR DRIVE, JACKSON ROAD, KARUHIRUHI ROAD, KOKOHUIA ROAD, KOUTU BEACH ROAD, KOUTU LOOP ROAD, KOUTU POINT RD, KOUTU POINT ROAD, KOUTU TERRACE, MAHINA ROAD, MANGAPARA ROAD, MARTIN ROAD, MIRO AVENUE, MIRO PLACE, MITCHELL ROAD, MOTUTOA ROAD, MOUNTAIN ROAD, NEWTON ROAD, OLD WHARF ROAD, OPONONI HEIGHTS, OPONONI HEIGHTS DRIVE, PAKANAE CEMETERY ROAD, PANIORA ROAD, PIONEER WALK, POKAS ROAD, PUKAWA ROAD, SIGNAL STATION ROAD, STATE HIGHWAY 12, TAITA ROAD, TAPP ROAD, TAUMATAWIWI STREET, TE HUNOKE ROAD, VUJCICH ROAD, WAIANGA PLACE, WAIHOTU ROAD, WAIHUKA ROAD, WAIMAMAKU BEACH ROAD, WAIONE ROAD, WAIOTEMARAMA GORGE ROAD, WEKAWEKA ROAD, WHIRINAKI SCHOOL ROAD, WIKAIRA ROAD"
+              },
+              "customersAffected": "1047",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "04/12/2025 12:35 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-03T12:45:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "12:35 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, KOUTU, OMAPERE, OPONONI, OUE, PAKANAE, WAIMAMAKU, WHIRINAKI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AKIHA STREET, AMBLER ROAD, BAKER ROAD, BRINDLE ROAD, CABBAGE TREE BAY ROAD",
+                "hiddenStreets": "DUNE RISE, FAIRLIE CRESCENT, FREESE PARK ROAD, GOODWIN ROAD, HALL ROAD, HANSEN ROAD, HOKIANGA HARBOUR DRIVE, JACKSON ROAD, KARUHIRUHI ROAD, KOKOHUIA ROAD, KOUTU BEACH ROAD, KOUTU LOOP ROAD, KOUTU POINT RD, KOUTU POINT ROAD, KOUTU TERRACE, MAHINA ROAD, MANGAPARA ROAD, MARTIN ROAD, MIRO AVENUE, MIRO PLACE, MITCHELL ROAD, MOTUTOA ROAD, MOUNTAIN ROAD, NEWTON ROAD, OLD WHARF ROAD, OPONONI HEIGHTS, OPONONI HEIGHTS DRIVE, PAKANAE CEMETERY ROAD, PANIORA ROAD, PIONEER WALK, POKAS ROAD, PUKAWA ROAD, SIGNAL STATION ROAD, STATE HIGHWAY 12, TAITA ROAD, TAPP ROAD, TAUMATAWIWI STREET, TE HUNOKE ROAD, VUJCICH ROAD, WAIANGA PLACE, WAIHOTU ROAD, WAIHUKA ROAD, WAIMAMAKU BEACH ROAD, WAIONE ROAD, WAIOTEMARAMA GORGE ROAD, WEKAWEKA ROAD, WHIRINAKI SCHOOL ROAD, WIKAIRA ROAD"
+              },
+              "customersAffected": "1047",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "04/12/2025 01:36 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35882F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Under Investigation\n**Customers Affected:** 1047\n**Suburbs:** KAIKOHE, KOUTU, OMAPERE, OPONONI, OUE, PAKANAE, WAIMAMAKU, WHIRINAKI\n---\n**Affected Roads:**\nAKIHA STREET\nAMBLER ROAD\nBAKER ROAD\nBRINDLE ROAD\nCABBAGE TREE BAY ROAD\n---\n**Update History:**\n- 2025-12-03T12:45:40Z: Under Investigation\n- 2025-12-03T12:00:43Z: Under Investigation"
       }
     }
   ]
