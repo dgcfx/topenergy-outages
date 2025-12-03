@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-03T06-45-59Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-03T08-46-01Z.json",
   "events": [
     {
       "id": "35660F",
@@ -2174,6 +2174,201 @@
           }
         ],
         "body": "**Outage ID:** 35861F\n**Status:** Active\n**Feeder / Circuit:** BULLS GORGE\n**Cause:** Line fault\n**Customers Affected:** 30\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nWAKELIN ROAD\n---\n**Update History:**\n- 2025-12-03T04:30:42Z: Line fault\n- 2025-12-03T04:15:54Z: Under Investigation"
+      }
+    },
+    {
+      "id": "35864F",
+      "title": "Awarua (17 customers)",
+      "start": "2025-12-03T07:00:48Z",
+      "end": "2025-12-03T08:30:51Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "17",
+        "circuit": "Awarua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-03T07:00:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/12/2025",
+              "startTime": "05:52 PM",
+              "estimatedRestorationDate": "03/12/2025",
+              "estimatedRestorationTime": "09:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "KAIKOHE, TAUTORO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PICADILLY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "17",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "03/12/2025 07:46 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-03T08:00:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/12/2025",
+              "startTime": "05:52 PM",
+              "estimatedRestorationDate": "03/12/2025",
+              "estimatedRestorationTime": "09:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "TAUTORO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PICADILLY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "03/12/2025 07:46 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35864F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Equipment damage\n**Customers Affected:** 2\n**Suburbs:** TAUTORO\n---\n**Affected Roads:**\nPICADILLY ROAD\n---\n**Update History:**\n- 2025-12-03T08:00:47Z: Equipment damage\n- 2025-12-03T07:00:48Z: Equipment damage"
+      }
+    },
+    {
+      "id": "35867F",
+      "title": "Awarua (2 customers)",
+      "start": "2025-12-03T07:30:50Z",
+      "end": "2025-12-03T08:00:47Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Awarua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-03T07:30:50Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/12/2025",
+              "startTime": "08:26 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "NUKUTAWHITI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MANGAKAHIA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "03/12/2025 08:26 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35867F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** NUKUTAWHITI\n---\n**Affected Roads:**\nMANGAKAHIA ROAD\n---"
+      }
+    },
+    {
+      "id": "35870F",
+      "title": "Awarua (1 customers)",
+      "start": "2025-12-03T08:46:01Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Awarua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-03T08:46:01Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/12/2025",
+              "startTime": "09:37 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "AWARUA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MANGAKAHIA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "03/12/2025 09:37 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35870F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** AWARUA\n---\n**Affected Roads:**\nMANGAKAHIA ROAD\n---"
+      }
+    },
+    {
+      "id": "35873F",
+      "title": "Taheke (3 customers)",
+      "start": "2025-12-03T08:46:01Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "3",
+        "circuit": "Taheke",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-03T08:46:01Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/12/2025",
+              "startTime": "09:43 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MATARAUA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "TAHEKE",
+              "lastUpdateTime": "03/12/2025 09:43 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35873F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Under Investigation\n**Customers Affected:** 3\n**Suburbs:** KAIKOHE\n---\n**Affected Roads:**\nMATARAUA ROAD\n---"
       }
     }
   ]
