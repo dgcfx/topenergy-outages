@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-03T21-30-42Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-03T22-45-51Z.json",
   "events": [
     {
       "id": "35660F",
@@ -2333,7 +2333,7 @@
       "id": "35873F",
       "title": "Taheke (3 customers)",
       "start": "2025-12-03T08:46:01Z",
-      "end": null,
+      "end": "2025-12-03T22:00:42Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -2801,7 +2801,7 @@
       "id": "35897F",
       "title": "Kaitaia West (11 customers)",
       "start": "2025-12-03T20:00:53Z",
-      "end": null,
+      "end": "2025-12-03T22:15:51Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
