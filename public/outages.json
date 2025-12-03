@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-03T08-46-01Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-03T09-45-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -2291,7 +2291,7 @@
       "id": "35870F",
       "title": "Awarua (1 customers)",
       "start": "2025-12-03T08:46:01Z",
-      "end": null,
+      "end": "2025-12-03T09:15:57Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -2369,6 +2369,48 @@
           }
         ],
         "body": "**Outage ID:** 35873F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Under Investigation\n**Customers Affected:** 3\n**Suburbs:** KAIKOHE\n---\n**Affected Roads:**\nMATARAUA ROAD\n---"
+      }
+    },
+    {
+      "id": "35876F",
+      "title": "Awarua (1 customers)",
+      "start": "2025-12-03T09:45:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Awarua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-03T09:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/12/2025",
+              "startTime": "10:40 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "AWARUA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MANGAKAHIA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "03/12/2025 10:40 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35876F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** AWARUA\n---\n**Affected Roads:**\nMANGAKAHIA ROAD\n---"
       }
     }
   ]
