@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-03T13-45-40Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-03T14-46-06Z.json",
   "events": [
     {
       "id": "35660F",
@@ -2366,9 +2366,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-03T14:00:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/12/2025",
+              "startTime": "09:43 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KAIKOHE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MATARAUA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "TAHEKE",
+              "lastUpdateTime": "03/12/2025 09:43 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35873F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Under Investigation\n**Customers Affected:** 3\n**Suburbs:** KAIKOHE\n---\n**Affected Roads:**\nMATARAUA ROAD\n---"
+        "body": "**Outage ID:** 35873F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Equipment fault\n**Customers Affected:** 3\n**Suburbs:** KAIKOHE\n---\n**Affected Roads:**\nMATARAUA ROAD\n---\n**Update History:**\n- 2025-12-03T14:00:41Z: Equipment fault\n- 2025-12-03T08:46:01Z: Under Investigation"
       }
     },
     {
