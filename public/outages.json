@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-03T19-30-42Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-03T20-45-48Z.json",
   "events": [
     {
       "id": "35660F",
@@ -2654,9 +2654,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-03T19:45:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "07:07 AM",
+              "estimatedRestorationDate": "04/12/2025",
+              "estimatedRestorationTime": "11:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KERIKERI, OKAIHAU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MANGAKARETU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "21",
+              "feeder": "PUKETI",
+              "lastUpdateTime": "04/12/2025 05:59 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35888F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Under Investigation\n**Customers Affected:** 21\n**Suburbs:** KERIKERI, OKAIHAU\n---\n**Affected Roads:**\nMANGAKARETU ROAD\n---\n**Update History:**\n- 2025-12-03T19:15:46Z: Under Investigation\n- 2025-12-03T19:00:51Z: Under Investigation\n- 2025-12-03T18:15:42Z: Under Investigation\n- 2025-12-03T17:15:41Z: Under Investigation"
+        "body": "**Outage ID:** 35888F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Under Investigation\n**Customers Affected:** 21\n**Suburbs:** KERIKERI, OKAIHAU\n---\n**Affected Roads:**\nMANGAKARETU ROAD\n---\n**Update History:**\n- 2025-12-03T19:45:51Z: Under Investigation\n- 2025-12-03T19:15:46Z: Under Investigation\n- 2025-12-03T19:00:51Z: Under Investigation\n- 2025-12-03T18:15:42Z: Under Investigation\n- 2025-12-03T17:15:41Z: Under Investigation"
       }
     },
     {
@@ -2726,6 +2753,285 @@
           }
         ],
         "body": "**Outage ID:** 35894F\n**Status:** Active\n**Feeder / Circuit:** KARETU\n**Cause:** Equipment fault\n**Customers Affected:** 5\n**Suburbs:** KAWAKAWA\n---\n**Affected Roads:**\nCOOKSON ROAD\n---\n**Update History:**\n- 2025-12-03T19:00:51Z: Equipment fault\n- 2025-12-03T18:15:42Z: Equipment fault"
+      }
+    },
+    {
+      "id": "35495F",
+      "title": "Awanui (46 customers)",
+      "start": "2025-12-03T19:45:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "46",
+        "circuit": "Awanui",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-03T19:45:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "08:30 AM",
+              "estimatedRestorationDate": "04/12/2025",
+              "estimatedRestorationTime": "01:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "AWANUI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "DUKE STREET, MATARAU ROAD, NORTH ROAD, STATE HIGHWAY 1, STATE HIGHWAY 10",
+                "hiddenStreets": "STATE HIGHWAY 1F"
+              },
+              "customersAffected": "46",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "13/11/2025 01:45 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35495F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Line Maintenance\n**Customers Affected:** 46\n**Suburbs:** AWANUI\n---\n**Affected Roads:**\nDUKE STREET\nMATARAU ROAD\nNORTH ROAD\nSTATE HIGHWAY 1\nSTATE HIGHWAY 10\n---"
+      }
+    },
+    {
+      "id": "35897F",
+      "title": "Kaitaia West (11 customers)",
+      "start": "2025-12-03T20:00:53Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "11",
+        "circuit": "Kaitaia West",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-03T20:00:53Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "08:36 AM",
+              "estimatedRestorationDate": "04/12/2025",
+              "estimatedRestorationTime": "10:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PUKEPOTO ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "11",
+              "feeder": "KAITAIA WEST",
+              "lastUpdateTime": "04/12/2025 08:45 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-03T20:30:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "08:36 AM",
+              "estimatedRestorationDate": "04/12/2025",
+              "estimatedRestorationTime": "01:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PUKEPOTO ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "11",
+              "feeder": "KAITAIA WEST",
+              "lastUpdateTime": "04/12/2025 08:45 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35897F\n**Status:** Active\n**Feeder / Circuit:** KAITAIA WEST\n**Cause:** Equipment fault\n**Customers Affected:** 11\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nPUKEPOTO ROAD\n---\n**Update History:**\n- 2025-12-03T20:30:41Z: Equipment fault\n- 2025-12-03T20:00:53Z: Equipment fault"
+      }
+    },
+    {
+      "id": "35900F",
+      "title": "Te Kao (24 customers)",
+      "start": "2025-12-03T20:00:53Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "24",
+        "circuit": "Te Kao",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-03T20:00:53Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "08:52 AM",
+              "estimatedRestorationDate": "04/12/2025",
+              "estimatedRestorationTime": "11:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "TE KAO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "TE AHU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "24",
+              "feeder": "TE KAO",
+              "lastUpdateTime": "04/12/2025 08:53 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35900F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Equipment fault\n**Customers Affected:** 24\n**Suburbs:** TE KAO\n---\n**Affected Roads:**\nTE AHU ROAD\n---"
+      }
+    },
+    {
+      "id": "35906F",
+      "title": "Horeke (100 customers)",
+      "start": "2025-12-03T20:45:48Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "100",
+        "circuit": "Horeke",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-03T20:45:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "09:39 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "HOREKE, OKAIHAU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "HOREKE ROAD, OKAKA ROAD, PAREMATA ROADWAY, PUKEWHAO ROAD, RANGIAHUA ROAD",
+                "hiddenStreets": "UTAKURA VALLEY ROAD"
+              },
+              "customersAffected": "100",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "04/12/2025 09:40 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35906F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Under Investigation\n**Customers Affected:** 100\n**Suburbs:** HOREKE, OKAIHAU\n---\n**Affected Roads:**\nHOREKE ROAD\nOKAKA ROAD\nPAREMATA ROADWAY\nPUKEWHAO ROAD\nRANGIAHUA ROAD\n---"
+      }
+    },
+    {
+      "id": "35606F",
+      "title": "Oxford Street (49 customers)",
+      "start": "2025-12-03T20:45:48Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "49",
+        "circuit": "Oxford Street",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-03T20:45:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "04/12/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "05/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA, VICTORIA VALLEY",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "KITCHEN ROAD, PANTHER ROAD, PERIA VALLEY ROAD, STATE HIGHWAY 1, VICTORIA VALLEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "49",
+              "feeder": "OXFORD STREET",
+              "lastUpdateTime": "19/11/2025 10:40 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35606F\n**Status:** Active\n**Feeder / Circuit:** OXFORD STREET\n**Cause:** Line Maintenance\n**Customers Affected:** 49\n**Suburbs:** KAITAIA, VICTORIA VALLEY\n---\n**Affected Roads:**\nKITCHEN ROAD\nPANTHER ROAD\nPERIA VALLEY ROAD\nSTATE HIGHWAY 1\nVICTORIA VALLEY ROAD\n---"
+      }
+    },
+    {
+      "id": "35903F",
+      "title": "Horeke (297 customers)",
+      "start": "2025-12-03T20:45:48Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "297",
+        "circuit": "Horeke",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-03T20:45:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "04/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "05/12/2025",
+              "alternativeStartTime": "10:30 PM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "HOREKE, KOHUKOHU, MOTUKIORE, PANGURU, RAWENE",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "BEACH ROAD, BLUE MOUNTAIN ROAD, CHURCH STREET, CLASSEN ROAD, CREAMERY ROAD",
+                "hiddenStreets": "DUDDY ROAD, HAPANGA ROAD, HAWKINS ROAD, HOREKE ROAD, KIRKPATRICK STREET, KOHUKOHU ROAD, MACDONELL ROAD, MANING STREET, MARRINER STREET, MATAWERA ROAD, MCDONNELL ROAD, MOTUKARAKA POINT ROAD, MOTUKIORE ROAD, OLD BEACH ROAD, PAPONGA ROAD, POTTER STREET, RAKAUTAPU ROAD, RANGIORA NARROWS FERRY RAMP, SMITHS DEVIATION ROAD, TAHEKE ROAD, TAUTEIHIHI ROAD, TAUTEIHIIHI ROAD, TE HUA HUA ROAD, WEST COAST ROAD, YARBOROUGH STREET"
+              },
+              "customersAffected": "297",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "04/12/2025 09:31 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35903F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Line Maintenance\n**Customers Affected:** 297\n**Suburbs:** HOREKE, KOHUKOHU, MOTUKIORE, PANGURU, RAWENE\n---\n**Affected Roads:**\nBEACH ROAD\nBLUE MOUNTAIN ROAD\nCHURCH STREET\nCLASSEN ROAD\nCREAMERY ROAD\n---"
       }
     }
   ]
