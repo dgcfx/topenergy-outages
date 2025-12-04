@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-04T19-30-45Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-04T20-45-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -3362,6 +3362,48 @@
           }
         ],
         "body": "**Outage ID:** 35918F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Line fault\n**Customers Affected:** 265\n**Suburbs:** KAIKOHE, KERIKERI, OHAEAWAI, OKAIHAU, OROMAHOE, PAKARAKA, WAIMATE NORTH\n---\n**Affected Roads:**\nCOOKS LANE\nCOURTHOUSE LANE\nOKOKAKO ROAD\nOLD BAY ROAD\nSHOWGROUND ROAD\n---\n**Update History:**\n- 2025-12-04T03:00:46Z: Line fault\n- 2025-12-04T02:45:47Z: Line fault\n- 2025-12-04T02:15:45Z: Under Investigation"
+      }
+    },
+    {
+      "id": "35705F",
+      "title": "Awanui (19 customers)",
+      "start": "2025-12-04T20:45:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "19",
+        "circuit": "Awanui",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-04T20:45:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "05/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "05/12/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "06/01/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "PAPARORE, WAIHARARA, WAIPAPAKAURI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "HEATH ROAD, PAPARORE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "19",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "25/11/2025 11:50 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35705F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Line Maintenance\n**Customers Affected:** 19\n**Suburbs:** PAPARORE, WAIHARARA, WAIPAPAKAURI\n---\n**Affected Roads:**\nHEATH ROAD\nPAPARORE ROAD\n---"
       }
     }
   ]
