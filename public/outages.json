@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-04T02-15-45Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-04T03-30-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -2912,7 +2912,7 @@
       "id": "35906F",
       "title": "Horeke (100 customers)",
       "start": "2025-12-03T20:45:48Z",
-      "end": null,
+      "end": "2025-12-04T02:30:59Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -3305,9 +3305,63 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-04T02:45:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "02:55 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line fault",
+              "suburbs": "KAIKOHE, KERIKERI, OHAEAWAI, OKAIHAU, OROMAHOE, PAKARAKA, WAIMATE NORTH",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "COOKS LANE, COURTHOUSE LANE, OKOKAKO ROAD, OLD BAY ROAD, SHOWGROUND ROAD",
+                "hiddenStreets": "TE AHU AHU ROAD, TE RORE LANE, WAIKARAMU ROAD, WAIKUKU ROAD, WAIMATE NORTH ROAD, WAIMATE ROAD, WHAKATAHA ROAD"
+              },
+              "customersAffected": "265",
+              "feeder": "OHAEAWAI",
+              "lastUpdateTime": "04/12/2025 03:12 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-04T03:00:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "02:55 PM",
+              "estimatedRestorationDate": "04/12/2025",
+              "estimatedRestorationTime": "08:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line fault",
+              "suburbs": "KAIKOHE, KERIKERI, OHAEAWAI, OKAIHAU, OROMAHOE, PAKARAKA, WAIMATE NORTH",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "COOKS LANE, COURTHOUSE LANE, OKOKAKO ROAD, OLD BAY ROAD, SHOWGROUND ROAD",
+                "hiddenStreets": "TE AHU AHU ROAD, TE RORE LANE, WAIKARAMU ROAD, WAIKUKU ROAD, WAIMATE NORTH ROAD, WAIMATE ROAD, WHAKATAHA ROAD"
+              },
+              "customersAffected": "265",
+              "feeder": "OHAEAWAI",
+              "lastUpdateTime": "04/12/2025 03:12 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35918F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Under Investigation\n**Customers Affected:** 304\n**Suburbs:** KAIKOHE, KERIKERI, OHAEAWAI, OKAIHAU, OROMAHOE, PAKARAKA, WAIMATE NORTH\n---\n**Affected Roads:**\nCOOKS LANE\nCOURTHOUSE LANE\nOKOKAKO ROAD\nOLD BAY ROAD\nSHOWGROUND ROAD\n---"
+        "body": "**Outage ID:** 35918F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Line fault\n**Customers Affected:** 265\n**Suburbs:** KAIKOHE, KERIKERI, OHAEAWAI, OKAIHAU, OROMAHOE, PAKARAKA, WAIMATE NORTH\n---\n**Affected Roads:**\nCOOKS LANE\nCOURTHOUSE LANE\nOKOKAKO ROAD\nOLD BAY ROAD\nSHOWGROUND ROAD\n---\n**Update History:**\n- 2025-12-04T03:00:46Z: Line fault\n- 2025-12-04T02:45:47Z: Line fault\n- 2025-12-04T02:15:45Z: Under Investigation"
       }
     }
   ]
