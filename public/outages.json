@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-04T20-45-47Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-04T21-30-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -3404,6 +3404,48 @@
           }
         ],
         "body": "**Outage ID:** 35705F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Line Maintenance\n**Customers Affected:** 19\n**Suburbs:** PAPARORE, WAIHARARA, WAIPAPAKAURI\n---\n**Affected Roads:**\nHEATH ROAD\nPAPARORE ROAD\n---"
+      }
+    },
+    {
+      "id": "35639F",
+      "title": "Moerewa (13 customers)",
+      "start": "2025-12-04T21:15:43Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "13",
+        "circuit": "Moerewa",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-04T21:15:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "05/12/2025",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "05/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "08/12/2025",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "PAKARAKA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "LUDBROOK ROAD, STATE HIGHWAY 1",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "13",
+              "feeder": "MOEREWA",
+              "lastUpdateTime": "22/11/2025 07:56 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35639F\n**Status:** Active\n**Feeder / Circuit:** MOEREWA\n**Cause:** Line Maintenance\n**Customers Affected:** 13\n**Suburbs:** PAKARAKA\n---\n**Affected Roads:**\nLUDBROOK ROAD\nSTATE HIGHWAY 1\n---"
       }
     }
   ]
