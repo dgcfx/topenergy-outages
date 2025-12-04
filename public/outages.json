@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-03T23-30-48Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-04T02-15-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -2945,16 +2945,43 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-04T00:15:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "09:39 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "HOREKE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PAREMATA ROADWAY, RANGIAHUA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "9",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "04/12/2025 09:40 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35906F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Under Investigation\n**Customers Affected:** 100\n**Suburbs:** HOREKE, OKAIHAU\n---\n**Affected Roads:**\nHOREKE ROAD\nOKAKA ROAD\nPAREMATA ROADWAY\nPUKEWHAO ROAD\nRANGIAHUA ROAD\n---"
+        "body": "**Outage ID:** 35906F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Under Investigation\n**Customers Affected:** 9\n**Suburbs:** HOREKE\n---\n**Affected Roads:**\nPAREMATA ROADWAY\nRANGIAHUA ROAD\n---\n**Update History:**\n- 2025-12-04T00:15:45Z: Under Investigation\n- 2025-12-03T20:45:48Z: Under Investigation"
       }
     },
     {
       "id": "35606F",
       "title": "Oxford Street (49 customers)",
       "start": "2025-12-03T20:45:48Z",
-      "end": null,
+      "end": "2025-12-04T01:30:45Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -2996,7 +3023,7 @@
       "id": "35903F",
       "title": "Horeke (297 customers)",
       "start": "2025-12-03T20:45:48Z",
-      "end": null,
+      "end": "2025-12-04T00:15:45Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -3107,7 +3134,7 @@
       "id": "35912F",
       "title": "Puketi (13 customers)",
       "start": "2025-12-03T21:30:42Z",
-      "end": null,
+      "end": "2025-12-04T00:30:58Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -3176,7 +3203,7 @@
       "id": "35915F",
       "title": "Puketi (64 customers)",
       "start": "2025-12-03T23:15:52Z",
-      "end": null,
+      "end": "2025-12-04T00:30:58Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -3209,9 +3236,78 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-03T23:45:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "10:22 AM",
+              "estimatedRestorationDate": "04/12/2025",
+              "estimatedRestorationTime": "01:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "KERIKERI, OKAIHAU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MANGAKARETU ROAD, PUKETI ROAD, PUKETOTARA ROAD, WAIARE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "64",
+              "feeder": "PUKETI",
+              "lastUpdateTime": "04/12/2025 12:00 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35915F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Under Investigation\n**Customers Affected:** 64\n**Suburbs:** KERIKERI, OKAIHAU\n---\n**Affected Roads:**\nMANGAKARETU ROAD\nPUKETI ROAD\nPUKETOTARA ROAD\nWAIARE ROAD\n---"
+        "body": "**Outage ID:** 35915F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Equipment damage\n**Customers Affected:** 64\n**Suburbs:** KERIKERI, OKAIHAU\n---\n**Affected Roads:**\nMANGAKARETU ROAD\nPUKETI ROAD\nPUKETOTARA ROAD\nWAIARE ROAD\n---\n**Update History:**\n- 2025-12-03T23:45:48Z: Equipment damage\n- 2025-12-03T23:15:52Z: Under Investigation"
+      }
+    },
+    {
+      "id": "35918F",
+      "title": "Ohaeawai (304 customers)",
+      "start": "2025-12-04T02:15:45Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "304",
+        "circuit": "Ohaeawai",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-04T02:15:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/12/2025",
+              "startTime": "02:55 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, KERIKERI, OHAEAWAI, OKAIHAU, OROMAHOE, PAKARAKA, WAIMATE NORTH",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "COOKS LANE, COURTHOUSE LANE, OKOKAKO ROAD, OLD BAY ROAD, SHOWGROUND ROAD",
+                "hiddenStreets": "STATE HIGHWAY 1, TE AHU AHU ROAD, TE RORE LANE, WAIKARAMU ROAD, WAIKUKU ROAD, WAIMATE NORTH ROAD, WAIMATE ROAD, WHAKATAHA ROAD"
+              },
+              "customersAffected": "304",
+              "feeder": "OHAEAWAI",
+              "lastUpdateTime": "04/12/2025 03:12 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35918F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Under Investigation\n**Customers Affected:** 304\n**Suburbs:** KAIKOHE, KERIKERI, OHAEAWAI, OKAIHAU, OROMAHOE, PAKARAKA, WAIMATE NORTH\n---\n**Affected Roads:**\nCOOKS LANE\nCOURTHOUSE LANE\nOKOKAKO ROAD\nOLD BAY ROAD\nSHOWGROUND ROAD\n---"
       }
     }
   ]
