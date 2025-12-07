@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-06T23-30-45Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-07T02-30-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -3515,6 +3515,48 @@
           }
         ],
         "body": "**Outage ID:** 35954F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** BROADWOOD\n---\n**Affected Roads:**\nHUMPHREYS ROAD\n---\n**Update History:**\n- 2025-12-05T21:15:55Z: Under Investigation\n- 2025-12-05T21:00:44Z: Under Investigation"
+      }
+    },
+    {
+      "id": "35957F",
+      "title": "Totara North (2 customers)",
+      "start": "2025-12-07T02:30:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Totara North",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-07T02:30:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "07/12/2025",
+              "startTime": "03:28 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAEO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "OTANGAROA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "TOTARA NORTH",
+              "lastUpdateTime": "07/12/2025 03:28 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35957F\n**Status:** Active\n**Feeder / Circuit:** TOTARA NORTH\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nOTANGAROA ROAD\n---"
       }
     }
   ]
