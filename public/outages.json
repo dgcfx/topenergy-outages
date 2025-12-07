@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-07T20-30-53Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-07T21-30-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -3557,6 +3557,48 @@
           }
         ],
         "body": "**Outage ID:** 35957F\n**Status:** Active\n**Feeder / Circuit:** TOTARA NORTH\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nOTANGAROA ROAD\n---"
+      }
+    },
+    {
+      "id": "35033F",
+      "title": "Purerua (47 customers)",
+      "start": "2025-12-07T20:45:44Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "47",
+        "circuit": "Purerua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-07T20:45:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "08/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "08/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "08/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "DOVES BAY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "47",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "24/10/2025 10:25 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35033F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Line Maintenance\n**Customers Affected:** 47\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nDOVES BAY ROAD\n---"
       }
     }
   ]
