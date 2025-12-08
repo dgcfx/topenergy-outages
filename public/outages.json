@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-08T19-30-43Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-08T20-45-56Z.json",
   "events": [
     {
       "id": "35660F",
@@ -3599,6 +3599,132 @@
           }
         ],
         "body": "**Outage ID:** 35033F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Line Maintenance\n**Customers Affected:** 47\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nDOVES BAY ROAD\n---"
+      }
+    },
+    {
+      "id": "35534F",
+      "title": "South Road (732 customers)",
+      "start": "2025-12-08T20:45:56Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "732",
+        "circuit": "South Road",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-08T20:45:56Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "09/12/2025",
+              "estimatedRestorationTime": "10:30 AM",
+              "alternativeStartDate": "09/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "BROADWOOD, HEREKINO, KAITAIA, KOHUKOHU, MITIMITI, PANGURU, PAWARENGA, TAKAHUE",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "115 RUAROA ROAD, AWAROA ROAD, BONNIES LANE, BROADWOOD ROAD, BUCHANAN ROAD",
+                "hiddenStreets": "CARMEN ROAD, CARR ROAD, CEMETERY ROAD, CRENE ROAD, DIGGERS VALLEY ROAD, EATON ROAD, GROUNDS ROAD, GUEST ROAD, HAUMANGA ROAD, HICKS ROAD, HOHAIA ROAD, HUMPHREYS ROAD, IRVINE ROAD, KOHE ROAD, KOWHITIKARU ROAD, MAMARI VILLAGE ROAD, MANSBRIDGE ROAD, MATAWERA ROAD, MIHIRAU ROAD, MOTUTI ROAD, OKAKEWAI ROAD, OTENGI ROAD, PAPARANGI DRIVE, PAPONGA ROAD, PAWARENGA ROAD, PROCTOR ROAD, PUKEMIRO ROAD, PUKETAWA ROAD, RANGI POINT ROAD, RUAROA ROAD, RUNARUNA ROAD, SIMPSON ROAD, TAKAHUE ROAD, TAKAHUE SADDLE ROAD, TAMAHO ROAD, TAUTORO ROAD, TE KARAKA ROAD, TE RIHA ROADWAY, TE RORE ROAD, TE UMUHUKI ROAD, TEACHERS ROAD, WAIOTEHUE ROAD, WAIROA STREAM ROAD, WEST COAST ROAD, WINDY HILL ROAD"
+              },
+              "customersAffected": "732",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "25/11/2025 10:11 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35534F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 732\n**Suburbs:** BROADWOOD, HEREKINO, KAITAIA, KOHUKOHU, MITIMITI, PANGURU, PAWARENGA, TAKAHUE\n---\n**Affected Roads:**\n115 RUAROA ROAD\nAWAROA ROAD\nBONNIES LANE\nBROADWOOD ROAD\nBUCHANAN ROAD\n---"
+      }
+    },
+    {
+      "id": "35645F",
+      "title": "Oxford Street (24 customers)",
+      "start": "2025-12-08T20:45:56Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "24",
+        "circuit": "Oxford Street",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-08T20:45:56Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "09/12/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "10/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA, PERIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "EDWARDS ROAD, JACENTHO ROAD, PERIA ROAD, PERIA VALLEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "24",
+              "feeder": "OXFORD STREET",
+              "lastUpdateTime": "22/11/2025 09:12 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35645F\n**Status:** Active\n**Feeder / Circuit:** OXFORD STREET\n**Cause:** Line Maintenance\n**Customers Affected:** 24\n**Suburbs:** KAITAIA, PERIA\n---\n**Affected Roads:**\nEDWARDS ROAD\nJACENTHO ROAD\nPERIA ROAD\nPERIA VALLEY ROAD\n---"
+      }
+    },
+    {
+      "id": "35648F",
+      "title": "Takou Bay (144 customers)",
+      "start": "2025-12-08T20:45:56Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "144",
+        "circuit": "Takou Bay",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-08T20:45:56Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "09/12/2025",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "15/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI, WAIPAPA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "JENNINGS ROAD, NESS ROAD, SHIRLEY ROAD, WAIPAPA WEST ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "144",
+              "feeder": "TAKOU BAY",
+              "lastUpdateTime": "22/11/2025 09:46 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35648F\n**Status:** Active\n**Feeder / Circuit:** TAKOU BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 144\n**Suburbs:** KERIKERI, WAIPAPA\n---\n**Affected Roads:**\nJENNINGS ROAD\nNESS ROAD\nSHIRLEY ROAD\nWAIPAPA WEST ROAD\n---"
       }
     }
   ]
