@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-08T22-45-44Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-08T23-30-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -3674,7 +3674,7 @@
       "id": "35645F",
       "title": "Oxford Street (24 customers)",
       "start": "2025-12-08T20:45:56Z",
-      "end": null,
+      "end": "2025-12-08T23:15:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -3863,6 +3863,132 @@
           }
         ],
         "body": "**Outage ID:** 35972F\n**Status:** Active\n**Feeder / Circuit:** TAKOU BAY\n**Cause:** Equipment damage\n**Customers Affected:** 3\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nSTANNERS ROAD\n---\n**Update History:**\n- 2025-12-08T22:00:55Z: Equipment damage\n- 2025-12-08T21:30:41Z: Under Investigation"
+      }
+    },
+    {
+      "id": "35975F",
+      "title": "South Road (103 customers)",
+      "start": "2025-12-08T23:00:46Z",
+      "end": "2025-12-08T23:30:44Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "103",
+        "circuit": "South Road",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-08T23:00:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/12/2025",
+              "startTime": "11:13 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line fault",
+              "suburbs": "BROADWOOD, PAWARENGA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BONNIES LANE, KOHE ROAD, PAWARENGA ROAD, PROCTOR ROAD, TAMAHO ROAD",
+                "hiddenStreets": "TE RIHA ROADWAY, TE UMUHUKI ROAD"
+              },
+              "customersAffected": "103",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "09/12/2025 11:56 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35975F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Line fault\n**Customers Affected:** 103\n**Suburbs:** BROADWOOD, PAWARENGA\n---\n**Affected Roads:**\nBONNIES LANE\nKOHE ROAD\nPAWARENGA ROAD\nPROCTOR ROAD\nTAMAHO ROAD\n---"
+      }
+    },
+    {
+      "id": "35978F",
+      "title": "Awanui (79 customers)",
+      "start": "2025-12-08T23:30:44Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "79",
+        "circuit": "Awanui",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-08T23:30:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/12/2025",
+              "startTime": "12:18 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "AWANUI, PAPARORE, WAIHARARA, WAIPAPAKAURI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "CAMP ROAD, FAR NORTH ROAD, HEATH ROAD, IMMS ROAD, PAPARORE ROAD",
+                "hiddenStreets": "STATE HIGHWAY 1, STATE HIGHWAY 1F"
+              },
+              "customersAffected": "79",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "09/12/2025 12:18 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35978F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Under Investigation\n**Customers Affected:** 79\n**Suburbs:** AWANUI, PAPARORE, WAIHARARA, WAIPAPAKAURI\n---\n**Affected Roads:**\nCAMP ROAD\nFAR NORTH ROAD\nHEATH ROAD\nIMMS ROAD\nPAPARORE ROAD\n---"
+      }
+    },
+    {
+      "id": "35981F",
+      "title": "Oxford Street (110 customers)",
+      "start": "2025-12-08T23:30:44Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "110",
+        "circuit": "Oxford Street",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-08T23:30:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/12/2025",
+              "startTime": "12:27 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "CHURCH ROAD, CLOUGH ROAD, DODDS ROAD, SNELGAR ROAD, STATE HIGHWAY 1",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "110",
+              "feeder": "OXFORD STREET",
+              "lastUpdateTime": "09/12/2025 12:27 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35981F\n**Status:** Active\n**Feeder / Circuit:** OXFORD STREET\n**Cause:** Under Investigation\n**Customers Affected:** 110\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nCHURCH ROAD\nCLOUGH ROAD\nDODDS ROAD\nSNELGAR ROAD\nSTATE HIGHWAY 1\n---"
       }
     }
   ]
