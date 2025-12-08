@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-08T20-45-56Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-08T21-30-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -3725,6 +3725,90 @@
           }
         ],
         "body": "**Outage ID:** 35648F\n**Status:** Active\n**Feeder / Circuit:** TAKOU BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 144\n**Suburbs:** KERIKERI, WAIPAPA\n---\n**Affected Roads:**\nJENNINGS ROAD\nNESS ROAD\nSHIRLEY ROAD\nWAIPAPA WEST ROAD\n---"
+      }
+    },
+    {
+      "id": "35612F",
+      "title": "Joyces Road (8 customers)",
+      "start": "2025-12-08T21:15:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "8",
+        "circuit": "Joyces Road",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-08T21:15:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/12/2025",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "09/12/2025",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "12/12/2025",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "ORONGO BAY, RUSSELL",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "RUSSELL ROAD, RUSSELL WHAKAPARA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "8",
+              "feeder": "JOYCES ROAD",
+              "lastUpdateTime": "19/11/2025 02:54 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35612F\n**Status:** Active\n**Feeder / Circuit:** JOYCES ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 8\n**Suburbs:** ORONGO BAY, RUSSELL\n---\n**Affected Roads:**\nRUSSELL ROAD\nRUSSELL WHAKAPARA ROAD\n---"
+      }
+    },
+    {
+      "id": "35972F",
+      "title": "Takou Bay (3 customers)",
+      "start": "2025-12-08T21:30:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "3",
+        "circuit": "Takou Bay",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-08T21:30:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/12/2025",
+              "startTime": "10:01 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KERIKERI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "STANNERS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "TAKOU BAY",
+              "lastUpdateTime": "09/12/2025 10:18 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35972F\n**Status:** Active\n**Feeder / Circuit:** TAKOU BAY\n**Cause:** Under Investigation\n**Customers Affected:** 3\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nSTANNERS ROAD\n---"
       }
     }
   ]
