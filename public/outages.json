@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-09T18-45-44Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-09T19-35-15Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4112,6 +4112,48 @@
           }
         ],
         "body": "**Outage ID:** 35984F\n**Status:** Active\n**Feeder / Circuit:** OXFORD STREET\n**Cause:** Line Maintenance\n**Customers Affected:** 151\n**Suburbs:** KAINGAROA, KAITAIA, LAKE OHIA, PERIA, TAIPA\n---\n**Affected Roads:**\nDAWSON  ROAD\nDODDS ROAD\nDUNCAN ROAD\nEDWARDS ROAD\nFAIRBURN ROAD\n---\n**Update History:**\n- 2025-12-09T00:30:44Z: Line Maintenance\n- 2025-12-09T00:15:44Z: Under Investigation"
+      }
+    },
+    {
+      "id": "35651F",
+      "title": "Joyces Road (5 customers)",
+      "start": "2025-12-09T19:35:15Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "5",
+        "circuit": "Joyces Road",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-09T19:35:15Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/12/2025",
+              "startTime": "08:30 AM",
+              "estimatedRestorationDate": "10/12/2025",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "16/12/2025",
+              "alternativeStartTime": "08:30 AM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "HARURU, HARURU FALLS",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "PUKETONA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "5",
+              "feeder": "JOYCES ROAD",
+              "lastUpdateTime": "22/11/2025 11:29 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35651F\n**Status:** Active\n**Feeder / Circuit:** JOYCES ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 5\n**Suburbs:** HARURU, HARURU FALLS\n---\n**Affected Roads:**\nPUKETONA ROAD\n---"
       }
     }
   ]
