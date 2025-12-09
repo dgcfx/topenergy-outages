@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-08T23-30-44Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-09T02-15-54Z.json",
   "events": [
     {
       "id": "35660F",
@@ -3605,7 +3605,7 @@
       "id": "35534F",
       "title": "South Road (732 customers)",
       "start": "2025-12-08T20:45:56Z",
-      "end": null,
+      "end": "2025-12-09T01:30:48Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -3716,7 +3716,7 @@
       "id": "35648F",
       "title": "Takou Bay (144 customers)",
       "start": "2025-12-08T20:45:56Z",
-      "end": null,
+      "end": "2025-12-09T00:15:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -3758,7 +3758,7 @@
       "id": "35612F",
       "title": "Joyces Road (8 customers)",
       "start": "2025-12-08T21:15:51Z",
-      "end": null,
+      "end": "2025-12-09T01:00:59Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -3911,7 +3911,7 @@
       "id": "35978F",
       "title": "Awanui (79 customers)",
       "start": "2025-12-08T23:30:44Z",
-      "end": null,
+      "end": "2025-12-09T00:45:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -3944,16 +3944,43 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-09T00:15:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/12/2025",
+              "startTime": "12:19 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "AWANUI, PAPARORE, WAIHARARA, WAIPAPAKAURI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "CAMP ROAD, FAR NORTH ROAD, HEATH ROAD, IMMS ROAD, PAPARORE ROAD",
+                "hiddenStreets": "STATE HIGHWAY 1, STATE HIGHWAY 1F"
+              },
+              "customersAffected": "79",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "09/12/2025 12:18 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35978F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Under Investigation\n**Customers Affected:** 79\n**Suburbs:** AWANUI, PAPARORE, WAIHARARA, WAIPAPAKAURI\n---\n**Affected Roads:**\nCAMP ROAD\nFAR NORTH ROAD\nHEATH ROAD\nIMMS ROAD\nPAPARORE ROAD\n---"
+        "body": "**Outage ID:** 35978F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Under Investigation\n**Customers Affected:** 79\n**Suburbs:** AWANUI, PAPARORE, WAIHARARA, WAIPAPAKAURI\n---\n**Affected Roads:**\nCAMP ROAD\nFAR NORTH ROAD\nHEATH ROAD\nIMMS ROAD\nPAPARORE ROAD\n---\n**Update History:**\n- 2025-12-09T00:15:44Z: Under Investigation\n- 2025-12-08T23:30:44Z: Under Investigation"
       }
     },
     {
       "id": "35981F",
       "title": "Oxford Street (110 customers)",
       "start": "2025-12-08T23:30:44Z",
-      "end": null,
+      "end": "2025-12-09T01:00:59Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -3986,9 +4013,105 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-09T00:30:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/12/2025",
+              "startTime": "01:03 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "CHURCH ROAD, CLOUGH ROAD, DODDS ROAD, SNELGAR ROAD, STATE HIGHWAY 1",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "110",
+              "feeder": "OXFORD STREET",
+              "lastUpdateTime": "09/12/2025 12:27 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35981F\n**Status:** Active\n**Feeder / Circuit:** OXFORD STREET\n**Cause:** Under Investigation\n**Customers Affected:** 110\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nCHURCH ROAD\nCLOUGH ROAD\nDODDS ROAD\nSNELGAR ROAD\nSTATE HIGHWAY 1\n---"
+        "body": "**Outage ID:** 35981F\n**Status:** Active\n**Feeder / Circuit:** OXFORD STREET\n**Cause:** Under Investigation\n**Customers Affected:** 110\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nCHURCH ROAD\nCLOUGH ROAD\nDODDS ROAD\nSNELGAR ROAD\nSTATE HIGHWAY 1\n---\n**Update History:**\n- 2025-12-09T00:30:44Z: Under Investigation\n- 2025-12-08T23:30:44Z: Under Investigation"
+      }
+    },
+    {
+      "id": "35984F",
+      "title": "Oxford Street (151 customers)",
+      "start": "2025-12-09T00:15:44Z",
+      "end": "2025-12-09T01:30:48Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "151",
+        "circuit": "Oxford Street",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-09T00:15:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/12/2025",
+              "startTime": "01:00 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAINGAROA, KAITAIA, LAKE OHIA, PERIA, TAIPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "DAWSON  ROAD, DODDS ROAD, DUNCAN ROAD, EDWARDS ROAD, FAIRBURN ROAD",
+                "hiddenStreets": "FISHER-RILEY ROAD, JACENTHO ROAD, KOPUOKAI ROAD, MANGATOETOE ROAD, MEFFIN ROAD, METCALF ROAD, PEKERAU ROAD, PERIA ROAD, PERIA VALLEY ROAD, STATE HIGHWAY 1, SWITZER ROAD, TAUMATA ROAD, TRACEY ROAD, WALLACE ROAD"
+              },
+              "customersAffected": "151",
+              "feeder": "OXFORD STREET",
+              "lastUpdateTime": "09/12/2025 01:00 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-09T00:30:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/12/2025",
+              "startTime": "01:00 PM",
+              "estimatedRestorationDate": "09/12/2025",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "09/12/2025",
+              "alternativeStartTime": "01:00 PM",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAINGAROA, KAITAIA, LAKE OHIA, PERIA, TAIPA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "DAWSON  ROAD, DODDS ROAD, DUNCAN ROAD, EDWARDS ROAD, FAIRBURN ROAD",
+                "hiddenStreets": "FISHER-RILEY ROAD, JACENTHO ROAD, KOPUOKAI ROAD, MANGATOETOE ROAD, MEFFIN ROAD, METCALF ROAD, PEKERAU ROAD, PERIA ROAD, PERIA VALLEY ROAD, STATE HIGHWAY 1, SWITZER ROAD, TAUMATA ROAD, TRACEY ROAD, WALLACE ROAD"
+              },
+              "customersAffected": "151",
+              "feeder": "OXFORD STREET",
+              "lastUpdateTime": "09/12/2025 01:25 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35984F\n**Status:** Active\n**Feeder / Circuit:** OXFORD STREET\n**Cause:** Line Maintenance\n**Customers Affected:** 151\n**Suburbs:** KAINGAROA, KAITAIA, LAKE OHIA, PERIA, TAIPA\n---\n**Affected Roads:**\nDAWSON  ROAD\nDODDS ROAD\nDUNCAN ROAD\nEDWARDS ROAD\nFAIRBURN ROAD\n---\n**Update History:**\n- 2025-12-09T00:30:44Z: Line Maintenance\n- 2025-12-09T00:15:44Z: Under Investigation"
       }
     }
   ]
