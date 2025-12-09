@@ -1,0 +1,492 @@
+{
+  "timestamp": "2025-12-09T21:15:47Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "6efc3dc667cc455a",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "6efc3dc667cc455a",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [],
+      "planned": [
+        {
+          "id": "35309F",
+          "lat": -35.00918065923682,
+          "lng": 173.35484683324563
+        },
+        {
+          "id": "35537F",
+          "lat": -35.14291015126385,
+          "lng": 174.00202389985196
+        },
+        {
+          "id": "35657F",
+          "lat": -35.26377177748642,
+          "lng": 173.4504670840123
+        },
+        {
+          "id": "35669F",
+          "lat": -35.02335203984292,
+          "lng": 173.78822822356898
+        },
+        {
+          "id": "35675F",
+          "lat": -35.02059515526808,
+          "lng": 173.1971218372383
+        },
+        {
+          "id": "35681F",
+          "lat": -35.24927802968716,
+          "lng": 173.95397008774793
+        },
+        {
+          "id": "35684F",
+          "lat": -35.25068664488395,
+          "lng": 173.9539696969962
+        },
+        {
+          "id": "35702F",
+          "lat": -35.083757974644584,
+          "lng": 173.40691865281605
+        },
+        {
+          "id": "35708F",
+          "lat": -35.19719294113777,
+          "lng": 173.98882620005207
+        },
+        {
+          "id": "35723F",
+          "lat": -35.28335099270767,
+          "lng": 174.08832923082917
+        },
+        {
+          "id": "35732F",
+          "lat": -35.164645556003535,
+          "lng": 173.15583478624941
+        },
+        {
+          "id": "35777F",
+          "lat": -35.15406833267903,
+          "lng": 173.22308827228306
+        },
+        {
+          "id": "35780F",
+          "lat": -35.01151308810665,
+          "lng": 173.77861131964568
+        },
+        {
+          "id": "35783F",
+          "lat": -34.758838435514086,
+          "lng": 173.04786743809228
+        },
+        {
+          "id": "35801F",
+          "lat": -35.539716851801444,
+          "lng": 173.3798264928185
+        },
+        {
+          "id": "35810F",
+          "lat": -35.43493163583156,
+          "lng": 174.14858289665983
+        },
+        {
+          "id": "35831F",
+          "lat": -35.19164201816153,
+          "lng": 173.94784176225707
+        },
+        {
+          "id": "35834F",
+          "lat": -35.263824640137855,
+          "lng": 173.22028006130873
+        }
+      ],
+      "plannedActive": [
+        {
+          "id": "35651F",
+          "lat": -35.285483976045924,
+          "lng": 174.0537076947282
+        },
+        {
+          "id": "35654F",
+          "lat": -35.12046151239449,
+          "lng": 173.5491452553938
+        },
+        {
+          "id": "35729F",
+          "lat": -35.13742754766159,
+          "lng": 173.29832796978465
+        }
+      ]
+    },
+    "outageList": {
+      "customersCurrentlyOff": 149,
+      "activeOutageCount": 3,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35702F",
+          "startTimestamp": 1765238400,
+          "isActive": false,
+          "circuitName": "Oxford Street",
+          "customersCurrentlyOff": "151",
+          "startDateTime": "9th December 01:00 pm",
+          "endDateTime": "9th December 02:00 pm",
+          "alternativeStartDateTime": "9th December 01:00 pm",
+          "alternativeEndDateTime": "9th December 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35669F",
+          "startTimestamp": 1765396800,
+          "isActive": false,
+          "circuitName": "Whangaroa",
+          "customersCurrentlyOff": "106",
+          "startDateTime": "11th December 09:00 am",
+          "endDateTime": "11th December 02:30 pm",
+          "alternativeStartDateTime": "15th December 09:00 am",
+          "alternativeEndDateTime": "15th December 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35810F",
+          "startTimestamp": 1765398600,
+          "isActive": false,
+          "circuitName": "Towai",
+          "customersCurrentlyOff": "4",
+          "startDateTime": "11th December 09:30 am",
+          "endDateTime": "11th December 12:30 pm",
+          "alternativeStartDateTime": "17th December 09:30 am",
+          "alternativeEndDateTime": "17th December 12:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35675F",
+          "startTimestamp": 1765398600,
+          "isActive": false,
+          "circuitName": "Awanui",
+          "customersCurrentlyOff": "208",
+          "startDateTime": "11th December 09:30 am",
+          "endDateTime": "11th December 03:30 pm",
+          "alternativeStartDateTime": "12th December 09:30 am",
+          "alternativeEndDateTime": "12th December 09:30 am",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35537F",
+          "startTimestamp": 1765483200,
+          "isActive": false,
+          "circuitName": "Purerua",
+          "customersCurrentlyOff": "59",
+          "startDateTime": "12th December 09:00 am",
+          "endDateTime": "12th December 02:00 pm",
+          "alternativeStartDateTime": "12th December 09:00 am",
+          "alternativeEndDateTime": "12th December 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35657F",
+          "startTimestamp": 1765485000,
+          "isActive": false,
+          "circuitName": "South Road",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "12th December 09:30 am",
+          "endDateTime": "12th December 02:30 pm",
+          "alternativeStartDateTime": "17th December 09:30 am",
+          "alternativeEndDateTime": "17th December 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35777F",
+          "startTimestamp": 1765485000,
+          "isActive": false,
+          "circuitName": "Herekino",
+          "customersCurrentlyOff": "136",
+          "startDateTime": "12th December 09:30 am",
+          "endDateTime": "12th December 03:30 pm",
+          "alternativeStartDateTime": "15th December 09:30 am",
+          "alternativeEndDateTime": "15th December 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35732F",
+          "startTimestamp": 1765742400,
+          "isActive": false,
+          "circuitName": "Herekino",
+          "customersCurrentlyOff": "335",
+          "startDateTime": "15th December 09:00 am",
+          "endDateTime": "15th December 03:00 pm",
+          "alternativeStartDateTime": "16th December 09:00 am",
+          "alternativeEndDateTime": "16th December 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35681F",
+          "startTimestamp": 1765743300,
+          "isActive": false,
+          "circuitName": "Shepherd Road",
+          "customersCurrentlyOff": "8",
+          "startDateTime": "15th December 09:15 am",
+          "endDateTime": "15th December 10:30 am",
+          "alternativeStartDateTime": "16th December 09:15 am",
+          "alternativeEndDateTime": "16th December 10:30 am",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35708F",
+          "startTimestamp": 1765744200,
+          "isActive": false,
+          "circuitName": "Purerua",
+          "customersCurrentlyOff": "3",
+          "startDateTime": "15th December 09:30 am",
+          "endDateTime": "15th December 12:00 pm",
+          "alternativeStartDateTime": "16th December 09:30 am",
+          "alternativeEndDateTime": "16th December 12:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35831F",
+          "startTimestamp": 1765828800,
+          "isActive": false,
+          "circuitName": "Purerua",
+          "customersCurrentlyOff": "78",
+          "startDateTime": "16th December 09:00 am",
+          "endDateTime": "16th December 02:00 pm",
+          "alternativeStartDateTime": "18th December 09:00 am",
+          "alternativeEndDateTime": "18th December 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35834F",
+          "startTimestamp": 1765830600,
+          "isActive": false,
+          "circuitName": "Herekino",
+          "customersCurrentlyOff": "284",
+          "startDateTime": "16th December 09:30 am",
+          "endDateTime": "16th December 03:30 pm",
+          "alternativeStartDateTime": "17th December 09:30 am",
+          "alternativeEndDateTime": "17th December 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35723F",
+          "startTimestamp": 1765836000,
+          "isActive": false,
+          "circuitName": "Ti Bay",
+          "customersCurrentlyOff": "1",
+          "startDateTime": "16th December 11:00 am",
+          "endDateTime": "16th December 03:00 pm",
+          "alternativeStartDateTime": "17th December 11:00 am",
+          "alternativeEndDateTime": "17th December 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35783F",
+          "startTimestamp": 1765915200,
+          "isActive": false,
+          "circuitName": "Te Kao",
+          "customersCurrentlyOff": "34",
+          "startDateTime": "17th December 09:00 am",
+          "endDateTime": "17th December 03:00 pm",
+          "alternativeStartDateTime": "18th December 09:00 am",
+          "alternativeEndDateTime": "18th December 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35780F",
+          "startTimestamp": 1765915200,
+          "isActive": false,
+          "circuitName": "Whangaroa",
+          "customersCurrentlyOff": "94",
+          "startDateTime": "17th December 09:00 am",
+          "endDateTime": "17th December 02:30 pm",
+          "alternativeStartDateTime": "18th December 09:00 am",
+          "alternativeEndDateTime": "18th December 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35309F",
+          "startTimestamp": 1765917000,
+          "isActive": false,
+          "circuitName": "Taipals",
+          "customersCurrentlyOff": "95",
+          "startDateTime": "17th December 09:30 am",
+          "endDateTime": "17th December 03:30 pm",
+          "alternativeStartDateTime": "18th December 09:30 am",
+          "alternativeEndDateTime": "18th December 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35684F",
+          "startTimestamp": 1765929600,
+          "isActive": false,
+          "circuitName": "Shepherd Road",
+          "customersCurrentlyOff": "9",
+          "startDateTime": "17th December 01:00 pm",
+          "endDateTime": "17th December 03:00 pm",
+          "alternativeStartDateTime": "18th December 01:00 pm",
+          "alternativeEndDateTime": "18th December 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35801F",
+          "startTimestamp": 1766003400,
+          "isActive": false,
+          "circuitName": "Opononi",
+          "customersCurrentlyOff": "26",
+          "startDateTime": "18th December 09:30 am",
+          "endDateTime": "18th December 02:30 pm",
+          "alternativeStartDateTime": "3rd February 09:30 am",
+          "alternativeEndDateTime": "3rd February 02:30 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "planned",
+          "name": "35651F",
+          "startTimestamp": 1765308600,
+          "isActive": true,
+          "circuitName": "Joyces Road",
+          "customersCurrentlyOff": "5",
+          "startDateTime": "10th December 08:30 am",
+          "endDateTime": "10th December 02:30 pm",
+          "alternativeStartDateTime": "16th December 08:30 am",
+          "alternativeEndDateTime": "16th December 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35654F",
+          "startTimestamp": 1765312200,
+          "isActive": true,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "27",
+          "startDateTime": "10th December 09:30 am",
+          "endDateTime": "10th December 02:00 pm",
+          "alternativeStartDateTime": "16th January 09:30 am",
+          "alternativeEndDateTime": "16th January 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35729F",
+          "startTimestamp": 1765314000,
+          "isActive": true,
+          "circuitName": "South Road",
+          "customersCurrentlyOff": "117",
+          "startDateTime": "10th December 10:00 am",
+          "endDateTime": "10th December 03:00 pm",
+          "alternativeStartDateTime": "10th December 10:00 am",
+          "alternativeEndDateTime": "10th December 03:00 pm",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "35651F": {
+      "duration": "Unknown",
+      "startDate": "10/12/2025",
+      "startTime": "08:30 AM",
+      "estimatedRestorationDate": "10/12/2025",
+      "estimatedRestorationTime": "02:30 PM",
+      "alternativeStartDate": "16/12/2025",
+      "alternativeStartTime": "08:30 AM",
+      "alternativeEstimatedRestorationDate": "16/12/2025",
+      "alternativeEstimatedRestorationTime": "02:30 PM",
+      "additionalInformation": "",
+      "cause": "Line Maintenance",
+      "suburbs": "HARURU, HARURU FALLS",
+      "noticeType": "Planned",
+      "streets": {
+        "showStreets": "PUKETONA ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "5",
+      "feeder": "JOYCES ROAD",
+      "lastUpdateTime": "22/11/2025 11:29 AM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "35654F": {
+      "duration": "Unknown",
+      "startDate": "10/12/2025",
+      "startTime": "09:30 AM",
+      "estimatedRestorationDate": "10/12/2025",
+      "estimatedRestorationTime": "02:00 PM",
+      "alternativeStartDate": "16/01/2026",
+      "alternativeStartTime": "09:30 AM",
+      "alternativeEstimatedRestorationDate": "16/01/2026",
+      "alternativeEstimatedRestorationTime": "03:30 PM",
+      "additionalInformation": "",
+      "cause": "Line Maintenance",
+      "suburbs": "PERIA",
+      "noticeType": "Planned",
+      "streets": {
+        "showStreets": "FERN FLAT ROAD, SHEPHERD ROAD, TE KAROA ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "27",
+      "feeder": "ORURU",
+      "lastUpdateTime": "22/11/2025 11:59 AM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "35729F": {
+      "duration": "Unknown",
+      "startDate": "10/12/2025",
+      "startTime": "10:00 AM",
+      "estimatedRestorationDate": "10/12/2025",
+      "estimatedRestorationTime": "03:00 PM",
+      "alternativeStartDate": "10/12/2025",
+      "alternativeStartTime": "10:00 AM",
+      "alternativeEstimatedRestorationDate": "10/12/2025",
+      "alternativeEstimatedRestorationTime": "03:00 PM",
+      "additionalInformation": "",
+      "cause": "Line Maintenance",
+      "suburbs": "KAITAIA",
+      "noticeType": "Planned",
+      "streets": {
+        "showStreets": "BARRIBALL ROAD, FRYER ROAD, KAIAWE ROAD, LARMER ROAD, REED ROAD",
+        "hiddenStreets": "SOUTH ROAD, STATE HIGHWAY 1, STURMFEL ROAD"
+      },
+      "customersAffected": "117",
+      "feeder": "SOUTH ROAD",
+      "lastUpdateTime": "26/11/2025 01:31 PM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
