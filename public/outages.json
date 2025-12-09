@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-09T20-30-45Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-09T22-30-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4151,9 +4151,162 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-09T20:45:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/12/2025",
+              "startTime": "08:30 AM",
+              "estimatedRestorationDate": "10/12/2025",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "16/12/2025",
+              "alternativeStartTime": "08:30 AM",
+              "alternativeEstimatedRestorationDate": "16/12/2025",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "HARURU, HARURU FALLS",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "PUKETONA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "5",
+              "feeder": "JOYCES ROAD",
+              "lastUpdateTime": "22/11/2025 11:29 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35651F\n**Status:** Active\n**Feeder / Circuit:** JOYCES ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 5\n**Suburbs:** HARURU, HARURU FALLS\n---\n**Affected Roads:**\nPUKETONA ROAD\n---"
+        "body": "**Outage ID:** 35651F\n**Status:** Active\n**Feeder / Circuit:** JOYCES ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 5\n**Suburbs:** HARURU, HARURU FALLS\n---\n**Affected Roads:**\nPUKETONA ROAD\n---\n**Update History:**\n- 2025-12-09T20:45:42Z: Line Maintenance\n- 2025-12-09T19:35:15Z: Line Maintenance"
+      }
+    },
+    {
+      "id": "35654F",
+      "title": "Oruru (27 customers)",
+      "start": "2025-12-09T20:45:42Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "27",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-09T20:45:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "10/12/2025",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "16/01/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "16/01/2026",
+              "alternativeEstimatedRestorationTime": "03:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "PERIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "FERN FLAT ROAD, SHEPHERD ROAD, TE KAROA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "27",
+              "feeder": "ORURU",
+              "lastUpdateTime": "22/11/2025 11:59 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35654F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 27\n**Suburbs:** PERIA\n---\n**Affected Roads:**\nFERN FLAT ROAD\nSHEPHERD ROAD\nTE KAROA ROAD\n---"
+      }
+    },
+    {
+      "id": "35729F",
+      "title": "South Road (117 customers)",
+      "start": "2025-12-09T21:15:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "117",
+        "circuit": "South Road",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-09T21:15:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/12/2025",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "10/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "10/12/2025",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "10/12/2025",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "BARRIBALL ROAD, FRYER ROAD, KAIAWE ROAD, LARMER ROAD, REED ROAD",
+                "hiddenStreets": "SOUTH ROAD, STATE HIGHWAY 1, STURMFEL ROAD"
+              },
+              "customersAffected": "117",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "26/11/2025 01:31 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35729F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 117\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nBARRIBALL ROAD\nFRYER ROAD\nKAIAWE ROAD\nLARMER ROAD\nREED ROAD\n---"
+      }
+    },
+    {
+      "id": "35987F",
+      "title": "Opononi (1 customers)",
+      "start": "2025-12-09T21:45:42Z",
+      "end": "2025-12-09T22:15:46Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Opononi",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-09T21:45:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/12/2025",
+              "startTime": "10:30 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": "WAIMAMAKU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WEKAWEKA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "10/12/2025 10:30 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35987F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Vehicle impact\n**Customers Affected:** 1\n**Suburbs:** WAIMAMAKU\n---\n**Affected Roads:**\nWEKAWEKA ROAD\n---"
       }
     }
   ]
