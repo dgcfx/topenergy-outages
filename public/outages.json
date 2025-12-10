@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-10T02-15-53Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-10T03-30-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4376,6 +4376,48 @@
           }
         ],
         "body": "**Outage ID:** 35990F\n**Status:** Active\n**Feeder / Circuit:** MATAURI BAY\n**Cause:** Line fault\n**Customers Affected:** 1\n**Suburbs:** MATAURI BAY\n---\n**Affected Roads:**\nTEPENE TABLELANDS ROAD\n---"
+      }
+    },
+    {
+      "id": "35999F",
+      "title": "South Road (9 customers)",
+      "start": "2025-12-10T03:30:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "9",
+        "circuit": "South Road",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-10T03:30:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/12/2025",
+              "startTime": "04:25 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BARRIBALL ROAD, LARMER ROAD, SOUTH ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "9",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "10/12/2025 04:26 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35999F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Equipment fault\n**Customers Affected:** 9\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nBARRIBALL ROAD\nLARMER ROAD\nSOUTH ROAD\n---"
       }
     }
   ]
