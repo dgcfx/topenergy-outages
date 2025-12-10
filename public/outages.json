@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-09T23-30-45Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-10T02-15-53Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4118,7 +4118,7 @@
       "id": "35651F",
       "title": "Joyces Road (5 customers)",
       "start": "2025-12-09T19:35:15Z",
-      "end": null,
+      "end": "2025-12-10T00:36:49Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -4187,7 +4187,7 @@
       "id": "35654F",
       "title": "Oruru (27 customers)",
       "start": "2025-12-09T20:45:42Z",
-      "end": null,
+      "end": "2025-12-10T01:07:54Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -4229,7 +4229,7 @@
       "id": "35729F",
       "title": "South Road (117 customers)",
       "start": "2025-12-09T21:15:47Z",
-      "end": null,
+      "end": "2025-12-10T02:00:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -4262,9 +4262,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-10T01:45:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/12/2025",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "10/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "10/12/2025",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "10/12/2025",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "FRYER ROAD, REED ROAD, SOUTH ROAD, STATE HIGHWAY 1, STURMFEL ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "53",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "26/11/2025 01:31 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35729F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 117\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nBARRIBALL ROAD\nFRYER ROAD\nKAIAWE ROAD\nLARMER ROAD\nREED ROAD\n---"
+        "body": "**Outage ID:** 35729F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 53\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nFRYER ROAD\nREED ROAD\nSOUTH ROAD\nSTATE HIGHWAY 1\nSTURMFEL ROAD\n---\n**Update History:**\n- 2025-12-10T01:45:45Z: Line Maintenance\n- 2025-12-09T21:15:47Z: Line Maintenance"
       }
     },
     {
@@ -4307,6 +4334,48 @@
           }
         ],
         "body": "**Outage ID:** 35987F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Vehicle impact\n**Customers Affected:** 1\n**Suburbs:** WAIMAMAKU\n---\n**Affected Roads:**\nWEKAWEKA ROAD\n---"
+      }
+    },
+    {
+      "id": "35990F",
+      "title": "Matauri Bay (1 customers)",
+      "start": "2025-12-10T01:15:46Z",
+      "end": "2025-12-10T02:00:44Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Matauri Bay",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-10T01:15:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/10/2025",
+              "startTime": "10:55 AM",
+              "estimatedRestorationDate": "30/10/2025",
+              "estimatedRestorationTime": "05:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line fault",
+              "suburbs": "MATAURI BAY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "TEPENE TABLELANDS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "MATAURI BAY",
+              "lastUpdateTime": "10/12/2025 02:10 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35990F\n**Status:** Active\n**Feeder / Circuit:** MATAURI BAY\n**Cause:** Line fault\n**Customers Affected:** 1\n**Suburbs:** MATAURI BAY\n---\n**Affected Roads:**\nTEPENE TABLELANDS ROAD\n---"
       }
     }
   ]
