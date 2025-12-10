@@ -1,0 +1,363 @@
+{
+  "timestamp": "2025-12-10T14:45:47Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "62b3853710b5d620",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "62b3853710b5d620",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [],
+      "planned": [
+        {
+          "id": "35309F",
+          "lat": -35.009179448188725,
+          "lng": 173.35484708400514
+        },
+        {
+          "id": "35537F",
+          "lat": -35.14292656978049,
+          "lng": 174.00202389981558
+        },
+        {
+          "id": "35669F",
+          "lat": -35.023352039773144,
+          "lng": 173.78822295612306
+        },
+        {
+          "id": "35675F",
+          "lat": -35.02062978661965,
+          "lng": 173.19712474503245
+        },
+        {
+          "id": "35681F",
+          "lat": -35.24924716510804,
+          "lng": 173.95393076703706
+        },
+        {
+          "id": "35684F",
+          "lat": -35.25063927972462,
+          "lng": 173.9539304010976
+        },
+        {
+          "id": "35702F",
+          "lat": -35.083749893548514,
+          "lng": 173.40689385017893
+        },
+        {
+          "id": "35708F",
+          "lat": -35.19725214485849,
+          "lng": 173.98889462661458
+        },
+        {
+          "id": "35723F",
+          "lat": -35.28335099270767,
+          "lng": 174.08832923082917
+        },
+        {
+          "id": "35732F",
+          "lat": -35.16465138952061,
+          "lng": 173.15582929559247
+        },
+        {
+          "id": "35777F",
+          "lat": -35.1540931618378,
+          "lng": 173.2231065021826
+        },
+        {
+          "id": "35780F",
+          "lat": -35.01151308810268,
+          "lng": 173.7786241946449
+        },
+        {
+          "id": "35783F",
+          "lat": -34.758833002167556,
+          "lng": 173.04785014267148
+        },
+        {
+          "id": "35801F",
+          "lat": -35.539716851801444,
+          "lng": 173.3798264928185
+        },
+        {
+          "id": "35810F",
+          "lat": -35.43493665171117,
+          "lng": 174.14857513344174
+        },
+        {
+          "id": "35831F",
+          "lat": -35.19164201816295,
+          "lng": 173.9478417622743
+        },
+        {
+          "id": "35834F",
+          "lat": -35.26378083781394,
+          "lng": 173.2202800607786
+        },
+        {
+          "id": "35993F",
+          "lat": -35.28008648116414,
+          "lng": 173.57266445075663
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 0,
+      "activeOutageCount": 0,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35702F",
+          "startTimestamp": 1765238400,
+          "isActive": false,
+          "circuitName": "Oxford Street",
+          "customersCurrentlyOff": "151",
+          "startDateTime": "9th December 01:00 pm",
+          "endDateTime": "9th December 02:00 pm",
+          "alternativeStartDateTime": "9th December 01:00 pm",
+          "alternativeEndDateTime": "9th December 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35669F",
+          "startTimestamp": 1765396800,
+          "isActive": false,
+          "circuitName": "Whangaroa",
+          "customersCurrentlyOff": "106",
+          "startDateTime": "11th December 09:00 am",
+          "endDateTime": "11th December 02:30 pm",
+          "alternativeStartDateTime": "15th December 09:00 am",
+          "alternativeEndDateTime": "15th December 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35675F",
+          "startTimestamp": 1765398600,
+          "isActive": false,
+          "circuitName": "Awanui",
+          "customersCurrentlyOff": "208",
+          "startDateTime": "11th December 09:30 am",
+          "endDateTime": "11th December 03:30 pm",
+          "alternativeStartDateTime": "12th December 09:30 am",
+          "alternativeEndDateTime": "12th December 09:30 am",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35810F",
+          "startTimestamp": 1765398600,
+          "isActive": false,
+          "circuitName": "Towai",
+          "customersCurrentlyOff": "4",
+          "startDateTime": "11th December 09:30 am",
+          "endDateTime": "11th December 12:30 pm",
+          "alternativeStartDateTime": "17th December 09:30 am",
+          "alternativeEndDateTime": "17th December 12:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35537F",
+          "startTimestamp": 1765483200,
+          "isActive": false,
+          "circuitName": "Purerua",
+          "customersCurrentlyOff": "59",
+          "startDateTime": "12th December 09:00 am",
+          "endDateTime": "12th December 02:00 pm",
+          "alternativeStartDateTime": "12th December 09:00 am",
+          "alternativeEndDateTime": "12th December 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35777F",
+          "startTimestamp": 1765485000,
+          "isActive": false,
+          "circuitName": "Herekino",
+          "customersCurrentlyOff": "136",
+          "startDateTime": "12th December 09:30 am",
+          "endDateTime": "12th December 03:30 pm",
+          "alternativeStartDateTime": "15th December 09:30 am",
+          "alternativeEndDateTime": "15th December 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1765486800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "12th December 10:00 am",
+          "endDateTime": "12th December 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35732F",
+          "startTimestamp": 1765742400,
+          "isActive": false,
+          "circuitName": "Herekino",
+          "customersCurrentlyOff": "335",
+          "startDateTime": "15th December 09:00 am",
+          "endDateTime": "15th December 03:00 pm",
+          "alternativeStartDateTime": "16th December 09:00 am",
+          "alternativeEndDateTime": "16th December 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35681F",
+          "startTimestamp": 1765743300,
+          "isActive": false,
+          "circuitName": "Shepherd Road",
+          "customersCurrentlyOff": "8",
+          "startDateTime": "15th December 09:15 am",
+          "endDateTime": "15th December 10:30 am",
+          "alternativeStartDateTime": "16th December 09:15 am",
+          "alternativeEndDateTime": "16th December 10:30 am",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35708F",
+          "startTimestamp": 1765744200,
+          "isActive": false,
+          "circuitName": "Purerua",
+          "customersCurrentlyOff": "3",
+          "startDateTime": "15th December 09:30 am",
+          "endDateTime": "15th December 12:00 pm",
+          "alternativeStartDateTime": "16th December 09:30 am",
+          "alternativeEndDateTime": "16th December 12:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35831F",
+          "startTimestamp": 1765828800,
+          "isActive": false,
+          "circuitName": "Purerua",
+          "customersCurrentlyOff": "78",
+          "startDateTime": "16th December 09:00 am",
+          "endDateTime": "16th December 02:00 pm",
+          "alternativeStartDateTime": "18th December 09:00 am",
+          "alternativeEndDateTime": "18th December 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35834F",
+          "startTimestamp": 1765830600,
+          "isActive": false,
+          "circuitName": "Herekino",
+          "customersCurrentlyOff": "284",
+          "startDateTime": "16th December 09:30 am",
+          "endDateTime": "16th December 03:30 pm",
+          "alternativeStartDateTime": "17th December 09:30 am",
+          "alternativeEndDateTime": "17th December 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35723F",
+          "startTimestamp": 1765836000,
+          "isActive": false,
+          "circuitName": "Ti Bay",
+          "customersCurrentlyOff": "1",
+          "startDateTime": "16th December 11:00 am",
+          "endDateTime": "16th December 03:00 pm",
+          "alternativeStartDateTime": "17th December 11:00 am",
+          "alternativeEndDateTime": "17th December 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35780F",
+          "startTimestamp": 1765915200,
+          "isActive": false,
+          "circuitName": "Whangaroa",
+          "customersCurrentlyOff": "94",
+          "startDateTime": "17th December 09:00 am",
+          "endDateTime": "17th December 02:30 pm",
+          "alternativeStartDateTime": "18th December 09:00 am",
+          "alternativeEndDateTime": "18th December 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35783F",
+          "startTimestamp": 1765915200,
+          "isActive": false,
+          "circuitName": "Te Kao",
+          "customersCurrentlyOff": "34",
+          "startDateTime": "17th December 09:00 am",
+          "endDateTime": "17th December 03:00 pm",
+          "alternativeStartDateTime": "18th December 09:00 am",
+          "alternativeEndDateTime": "18th December 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35309F",
+          "startTimestamp": 1765917000,
+          "isActive": false,
+          "circuitName": "Taipals",
+          "customersCurrentlyOff": "95",
+          "startDateTime": "17th December 09:30 am",
+          "endDateTime": "17th December 03:30 pm",
+          "alternativeStartDateTime": "18th December 09:30 am",
+          "alternativeEndDateTime": "18th December 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35684F",
+          "startTimestamp": 1765929600,
+          "isActive": false,
+          "circuitName": "Shepherd Road",
+          "customersCurrentlyOff": "9",
+          "startDateTime": "17th December 01:00 pm",
+          "endDateTime": "17th December 03:00 pm",
+          "alternativeStartDateTime": "18th December 01:00 pm",
+          "alternativeEndDateTime": "18th December 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35801F",
+          "startTimestamp": 1766003400,
+          "isActive": false,
+          "circuitName": "Opononi",
+          "customersCurrentlyOff": "26",
+          "startDateTime": "18th December 09:30 am",
+          "endDateTime": "18th December 02:30 pm",
+          "alternativeStartDateTime": "3rd February 09:30 am",
+          "alternativeEndDateTime": "3rd February 02:30 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": []
+    }
+  },
+  "detailedOutageInfo": {}
+}
