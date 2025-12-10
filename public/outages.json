@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-10T19-30-55Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-10T20-46-14Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4418,6 +4418,132 @@
           }
         ],
         "body": "**Outage ID:** 35999F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Equipment fault\n**Customers Affected:** 9\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nBARRIBALL ROAD\nLARMER ROAD\nSOUTH ROAD\n---"
+      }
+    },
+    {
+      "id": "35669F",
+      "title": "Whangaroa (106 customers)",
+      "start": "2025-12-10T20:15:42Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "106",
+        "circuit": "Whangaroa",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-10T20:15:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "11/12/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "11/12/2025",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "15/12/2025",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "15/12/2025",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAEO, MATANGIRAU, TAURANGA BAY",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "MATANGIRAU SCHOOL ROAD, TAURANGA BAY BEACH ROAD, TAURANGA BAY ROAD, WAINUI ROAD, WHANGAROA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "106",
+              "feeder": "WHANGAROA",
+              "lastUpdateTime": "23/11/2025 11:54 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35669F\n**Status:** Active\n**Feeder / Circuit:** WHANGAROA\n**Cause:** Line Maintenance\n**Customers Affected:** 106\n**Suburbs:** KAEO, MATANGIRAU, TAURANGA BAY\n---\n**Affected Roads:**\nMATANGIRAU SCHOOL ROAD\nTAURANGA BAY BEACH ROAD\nTAURANGA BAY ROAD\nWAINUI ROAD\nWHANGAROA ROAD\n---"
+      }
+    },
+    {
+      "id": "35675F",
+      "title": "Awanui (208 customers)",
+      "start": "2025-12-10T20:46:14Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "208",
+        "circuit": "Awanui",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-10T20:46:14Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "11/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "11/12/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "12/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "12/12/2025",
+              "alternativeEstimatedRestorationTime": "09:30 AM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "AWANUI, PAPARORE, WAIPAPAKAURI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "FAR NORTH ROAD, HINAU STREET, IMMS ROAD, LAKE NGATU ROAD, MATAI STREET",
+                "hiddenStreets": "MATICH ROAD, NGAKAPUA ROAD, PAPARORE ROAD, RAMP ROAD, RATA STREET, ROSEMAY LANE, ROTOKAWAU ROAD, STATE HIGHWAY 1, STATE HIGHWAY 1F, SULENTA LOOP ROAD, SWEETWATER ROAD, WEST COAST ROAD"
+              },
+              "customersAffected": "208",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "23/11/2025 03:51 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35675F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Line Maintenance\n**Customers Affected:** 208\n**Suburbs:** AWANUI, PAPARORE, WAIPAPAKAURI\n---\n**Affected Roads:**\nFAR NORTH ROAD\nHINAU STREET\nIMMS ROAD\nLAKE NGATU ROAD\nMATAI STREET\n---"
+      }
+    },
+    {
+      "id": "35810F",
+      "title": "Towai (4 customers)",
+      "start": "2025-12-10T20:46:14Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "4",
+        "circuit": "Towai",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-10T20:46:14Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "11/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "11/12/2025",
+              "estimatedRestorationTime": "12:30 PM",
+              "alternativeStartDate": "17/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "17/12/2025",
+              "alternativeEstimatedRestorationTime": "12:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "TOWAI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "HAY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "4",
+              "feeder": "TOWAI",
+              "lastUpdateTime": "02/12/2025 10:01 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35810F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Line Maintenance\n**Customers Affected:** 4\n**Suburbs:** TOWAI\n---\n**Affected Roads:**\nHAY ROAD\n---"
       }
     }
   ]
