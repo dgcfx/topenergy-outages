@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-10T21-45-51Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-10T22-45-51Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4508,7 +4508,7 @@
       "id": "35810F",
       "title": "Towai (4 customers)",
       "start": "2025-12-10T20:46:14Z",
-      "end": null,
+      "end": "2025-12-10T22:45:51Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -4541,9 +4541,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-10T22:30:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "11/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "11/12/2025",
+              "estimatedRestorationTime": "12:30 PM",
+              "alternativeStartDate": "17/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "17/12/2025",
+              "alternativeEstimatedRestorationTime": "12:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "HUKERENUI, TOWAI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "AKERAMA ROAD, HAY ROAD, MONUMENT ROAD, RUAPEKAPEKA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "22",
+              "feeder": "TOWAI",
+              "lastUpdateTime": "02/12/2025 10:01 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35810F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Line Maintenance\n**Customers Affected:** 4\n**Suburbs:** TOWAI\n---\n**Affected Roads:**\nHAY ROAD\n---"
+        "body": "**Outage ID:** 35810F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Line Maintenance\n**Customers Affected:** 22\n**Suburbs:** HUKERENUI, TOWAI\n---\n**Affected Roads:**\nAKERAMA ROAD\nHAY ROAD\nMONUMENT ROAD\nRUAPEKAPEKA ROAD\n---\n**Update History:**\n- 2025-12-10T22:30:51Z: Line Maintenance\n- 2025-12-10T20:46:14Z: Line Maintenance"
       }
     }
   ]
