@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-11T19-30-41Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-11T21-30-40Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4571,6 +4571,90 @@
           }
         ],
         "body": "**Outage ID:** 35810F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Line Maintenance\n**Customers Affected:** 22\n**Suburbs:** HUKERENUI, TOWAI\n---\n**Affected Roads:**\nAKERAMA ROAD\nHAY ROAD\nMONUMENT ROAD\nRUAPEKAPEKA ROAD\n---\n**Update History:**\n- 2025-12-10T22:30:51Z: Line Maintenance\n- 2025-12-10T20:46:14Z: Line Maintenance"
+      }
+    },
+    {
+      "id": "35537F",
+      "title": "Purerua (59 customers)",
+      "start": "2025-12-11T20:15:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "59",
+        "circuit": "Purerua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-11T20:15:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/12/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "12/12/2025",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "12/12/2025",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "12/12/2025",
+              "alternativeEstimatedRestorationTime": "02:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI, PURERUA, TE TII",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "AHIRAU ROAD, TE TII ROAD, TE TII ROAD EXTENSION",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "59",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "16/11/2025 07:43 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35537F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Line Maintenance\n**Customers Affected:** 59\n**Suburbs:** KERIKERI, PURERUA, TE TII\n---\n**Affected Roads:**\nAHIRAU ROAD\nTE TII ROAD\nTE TII ROAD EXTENSION\n---"
+      }
+    },
+    {
+      "id": "35777F",
+      "title": "Herekino (136 customers)",
+      "start": "2025-12-11T20:45:42Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "136",
+        "circuit": "Herekino",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-11T20:45:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "12/12/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "15/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "15/12/2025",
+              "alternativeEstimatedRestorationTime": "03:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "AHIPARA, KAITAIA, PUKEPOTO",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "ARAROA ROAD, AWAROA ROAD, KAITAIA AWAROA ROAD, KAITAIA-AWAROA ROAD, OKAHU ROAD",
+                "hiddenStreets": "PUKEPOTO ROAD, TANGONGE ROAD"
+              },
+              "customersAffected": "136",
+              "feeder": "HEREKINO",
+              "lastUpdateTime": "30/11/2025 02:48 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35777F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Line Maintenance\n**Customers Affected:** 136\n**Suburbs:** AHIPARA, KAITAIA, PUKEPOTO\n---\n**Affected Roads:**\nARAROA ROAD\nAWAROA ROAD\nKAITAIA AWAROA ROAD\nKAITAIA-AWAROA ROAD\nOKAHU ROAD\n---"
       }
     }
   ]
