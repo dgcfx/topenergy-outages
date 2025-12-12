@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-11T23-30-44Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-12T02-15-50Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4619,7 +4619,7 @@
       "id": "35777F",
       "title": "Herekino (136 customers)",
       "start": "2025-12-11T20:45:42Z",
-      "end": null,
+      "end": "2025-12-12T00:15:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -4652,9 +4652,78 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-12T00:00:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "12/12/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "15/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "15/12/2025",
+              "alternativeEstimatedRestorationTime": "03:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "AHIPARA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "TANGONGE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "HEREKINO",
+              "lastUpdateTime": "30/11/2025 02:48 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35777F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Line Maintenance\n**Customers Affected:** 136\n**Suburbs:** AHIPARA, KAITAIA, PUKEPOTO\n---\n**Affected Roads:**\nARAROA ROAD\nAWAROA ROAD\nKAITAIA AWAROA ROAD\nKAITAIA-AWAROA ROAD\nOKAHU ROAD\n---"
+        "body": "**Outage ID:** 35777F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Line Maintenance\n**Customers Affected:** 1\n**Suburbs:** AHIPARA\n---\n**Affected Roads:**\nTANGONGE ROAD\n---\n**Update History:**\n- 2025-12-12T00:00:42Z: Line Maintenance\n- 2025-12-11T20:45:42Z: Line Maintenance"
+      }
+    },
+    {
+      "id": "36023F",
+      "title": "Puketi (9 customers)",
+      "start": "2025-12-12T00:30:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "9",
+        "circuit": "Puketi",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-12T00:30:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/12/2025",
+              "startTime": "10:27 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAEO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WAIARE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "9",
+              "feeder": "PUKETI",
+              "lastUpdateTime": "12/12/2025 01:27 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36023F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Under Investigation\n**Customers Affected:** 9\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nWAIARE ROAD\n---"
       }
     }
   ]
