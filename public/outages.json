@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-12T07-30-46Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-12T08-45-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4577,7 +4577,7 @@
       "id": "35537F",
       "title": "Purerua (59 customers)",
       "start": "2025-12-11T20:15:40Z",
-      "end": null,
+      "end": "2025-12-12T08:45:46Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -4688,7 +4688,7 @@
       "id": "36023F",
       "title": "Puketi (9 customers)",
       "start": "2025-12-12T00:30:41Z",
-      "end": null,
+      "end": "2025-12-12T08:45:46Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
