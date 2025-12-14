@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-14T20-30-41Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-14T21-30-48Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4901,9 +4901,78 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-14T21:30:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "15/12/2025",
+              "startTime": "09:15 AM",
+              "estimatedRestorationDate": "15/12/2025",
+              "estimatedRestorationTime": "10:30 AM",
+              "alternativeStartDate": "16/12/2025",
+              "alternativeStartTime": "09:15 AM",
+              "alternativeEstimatedRestorationDate": "16/12/2025",
+              "alternativeEstimatedRestorationTime": "10:30 AM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "RIDDELL ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "SHEPHERD ROAD",
+              "lastUpdateTime": "24/11/2025 03:53 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35681F\n**Status:** Active\n**Feeder / Circuit:** SHEPHERD ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 9\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nRIDDELL ROAD\n---"
+        "body": "**Outage ID:** 35681F\n**Status:** Active\n**Feeder / Circuit:** SHEPHERD ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 1\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nRIDDELL ROAD\n---\n**Update History:**\n- 2025-12-14T21:30:48Z: Line Maintenance\n- 2025-12-14T20:30:41Z: Line Maintenance"
+      }
+    },
+    {
+      "id": "35708F",
+      "title": "Purerua (3 customers)",
+      "start": "2025-12-14T21:00:52Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "3",
+        "circuit": "Purerua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-14T21:00:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "15/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "15/12/2025",
+              "estimatedRestorationTime": "12:00 PM",
+              "alternativeStartDate": "16/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "16/12/2025",
+              "alternativeEstimatedRestorationTime": "12:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "KURAPARI ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "25/11/2025 12:04 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35708F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Line Maintenance\n**Customers Affected:** 3\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nKURAPARI ROAD\n---"
       }
     }
   ]
