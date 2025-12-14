@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-14T21-30-48Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-14T22-30-53Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4859,9 +4859,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-14T22:00:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "15/12/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "15/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "16/12/2025",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "16/12/2025",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "AHIPARA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "BEATSON PLACE, KAKA STREET, KAKAPO STREET, KOTARE STREET, TAKAHE ROAD",
+                "hiddenStreets": "WEKA STREET"
+              },
+              "customersAffected": "61",
+              "feeder": "HEREKINO",
+              "lastUpdateTime": "26/11/2025 03:13 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35732F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Line Maintenance\n**Customers Affected:** 335\n**Suburbs:** AHIPARA\n---\n**Affected Roads:**\nAHIPARA ROAD\nBEATSON PLACE\nFORESHORE ROAD\nKAKA STREET\nKAKAPO STREET\n---"
+        "body": "**Outage ID:** 35732F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Line Maintenance\n**Customers Affected:** 61\n**Suburbs:** AHIPARA\n---\n**Affected Roads:**\nBEATSON PLACE\nKAKA STREET\nKAKAPO STREET\nKOTARE STREET\nTAKAHE ROAD\n---\n**Update History:**\n- 2025-12-14T22:00:42Z: Line Maintenance\n- 2025-12-14T20:30:41Z: Line Maintenance"
       }
     },
     {
