@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-14T19-30-51Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-14T20-30-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4820,6 +4820,90 @@
           }
         ],
         "body": "**Outage ID:** 36041F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** AHIPARA\n---\n**Affected Roads:**\nSANDHILLS ROAD\n---\n**Update History:**\n- 2025-12-14T10:30:48Z: Under Investigation\n- 2025-12-14T10:15:46Z: Under Investigation\n- 2025-12-14T09:45:41Z: Under Investigation"
+      }
+    },
+    {
+      "id": "35732F",
+      "title": "Herekino (335 customers)",
+      "start": "2025-12-14T20:30:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "335",
+        "circuit": "Herekino",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-14T20:30:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "15/12/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "15/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "16/12/2025",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "16/12/2025",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "AHIPARA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "AHIPARA ROAD, BEATSON PLACE, FORESHORE ROAD, KAKA STREET, KAKAPO STREET",
+                "hiddenStreets": "KIWI STREET, KORORA STREET, KOTARE STREET, MOA STREET, TAKAHE ROAD, TUI STREET, WEKA STREET"
+              },
+              "customersAffected": "335",
+              "feeder": "HEREKINO",
+              "lastUpdateTime": "26/11/2025 03:13 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35732F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Line Maintenance\n**Customers Affected:** 335\n**Suburbs:** AHIPARA\n---\n**Affected Roads:**\nAHIPARA ROAD\nBEATSON PLACE\nFORESHORE ROAD\nKAKA STREET\nKAKAPO STREET\n---"
+      }
+    },
+    {
+      "id": "35681F",
+      "title": "Shepherd Road (9 customers)",
+      "start": "2025-12-14T20:30:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "9",
+        "circuit": "Shepherd Road",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-14T20:30:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "15/12/2025",
+              "startTime": "09:15 AM",
+              "estimatedRestorationDate": "15/12/2025",
+              "estimatedRestorationTime": "10:30 AM",
+              "alternativeStartDate": "16/12/2025",
+              "alternativeStartTime": "09:15 AM",
+              "alternativeEstimatedRestorationDate": "16/12/2025",
+              "alternativeEstimatedRestorationTime": "10:30 AM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "RIDDELL ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "9",
+              "feeder": "SHEPHERD ROAD",
+              "lastUpdateTime": "24/11/2025 03:53 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35681F\n**Status:** Active\n**Feeder / Circuit:** SHEPHERD ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 9\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nRIDDELL ROAD\n---"
       }
     }
   ]
