@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-14T09-30-46Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-14T11-30-50Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4724,6 +4724,102 @@
           }
         ],
         "body": "**Outage ID:** 36023F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Under Investigation\n**Customers Affected:** 9\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nWAIARE ROAD\n---"
+      }
+    },
+    {
+      "id": "36041F",
+      "title": "Awanui (986 customers)",
+      "start": "2025-12-14T09:45:41Z",
+      "end": "2025-12-14T11:15:51Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "986",
+        "circuit": "Awanui",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-14T09:45:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "14/12/2025",
+              "startTime": "10:42 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "AHIPARA, AWANUI, KAITAIA, PAPARORE, WAIHARARA, WAIPAPAKAURI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ALBATROSS ALLEY, BELL ROAD, BIRD ROAD, BRASS ROAD, BROTT  ROAD",
+                "hiddenStreets": "CAMP ROAD, CLARKE ROAD, COLLARD STREET, DICK SMITH LOOP ROAD, DOEL ROAD, DUKE STREET, FAR NORTH ROAD, GILL ROAD, HEATH ROAD, HINAU STREET, IMMS ROAD, KUNICICH ROAD, LAKE NGATU ROAD, LONG STREET, MATAI STREET, MATARAU ROAD, MATICH ROAD, NGAKAPUA ROAD, NORTH ROAD, OINU ROAD, OTURU BLOCK ROAD, PAPARORE ROAD, POKO POHAIA ROAD, POSEIDON WAY, PUCKEY ROAD, QUARRY ROAD, QUEEN STREET, RAMP ROAD, RATA STREET, ROSEMAY LANE, ROTOKAWAU ROAD, SANDHILLS ROAD, SOUTHEY STREET, SPAINS ROAD, STATE HIGHWAY 1, STATE HIGHWAY 10, STATE HIGHWAY 1F, SULENTA LOOP ROAD, SWEETWATER ROAD, TAMATEA ROAD, THE ANCHORAGE, UNAHI ROAD, WAIMANONI ROAD, WAIPAPAKAURI DOMAIN ROAD, WALKER ROAD, WARAU STREET, WEKA STREET, WEST COAST ROAD, WEST ROAD, WHANGATANE DRIVE, WIRELESS ROAD"
+              },
+              "customersAffected": "986",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "14/12/2025 10:42 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-14T10:15:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "14/12/2025",
+              "startTime": "10:59 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "AHIPARA, AWANUI, KAITAIA, PAPARORE, WAIHARARA, WAIPAPAKAURI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BIRD ROAD, BROTT  ROAD, CAMP ROAD, COLLARD STREET, DICK SMITH LOOP ROAD",
+                "hiddenStreets": "DOEL ROAD, DUKE STREET, FAR NORTH ROAD, GILL ROAD, HEATH ROAD, HINAU STREET, IMMS ROAD, KUNICICH ROAD, LAKE NGATU ROAD, LONG STREET, MATAI STREET, MATARAU ROAD, MATICH ROAD, NGAKAPUA ROAD, NORTH ROAD, OINU ROAD, OTURU BLOCK ROAD, PAPARORE ROAD, POKO POHAIA ROAD, QUARRY ROAD, QUEEN STREET, RAMP ROAD, RATA STREET, ROSEMAY LANE, ROTOKAWAU ROAD, SANDHILLS ROAD, SOUTHEY STREET, SPAINS ROAD, STATE HIGHWAY 1, STATE HIGHWAY 10, STATE HIGHWAY 1F, SULENTA LOOP ROAD, SWEETWATER ROAD, TAMATEA ROAD, UNAHI ROAD, WAIMANONI ROAD, WAIPAPAKAURI DOMAIN ROAD, WALKER ROAD, WARAU STREET, WEST COAST ROAD, WEST ROAD, WHANGATANE DRIVE"
+              },
+              "customersAffected": "812",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "14/12/2025 10:42 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-14T10:30:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "14/12/2025",
+              "startTime": "10:59 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "AHIPARA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "SANDHILLS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "14/12/2025 10:42 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36041F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** AHIPARA\n---\n**Affected Roads:**\nSANDHILLS ROAD\n---\n**Update History:**\n- 2025-12-14T10:30:48Z: Under Investigation\n- 2025-12-14T10:15:46Z: Under Investigation\n- 2025-12-14T09:45:41Z: Under Investigation"
       }
     }
   ]
