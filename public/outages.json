@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-15T03-45-45Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-15T04-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4895,7 +4895,7 @@
       "id": "35681F",
       "title": "Shepherd Road (9 customers)",
       "start": "2025-12-14T20:30:41Z",
-      "end": null,
+      "end": "2025-12-15T04:00:52Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
