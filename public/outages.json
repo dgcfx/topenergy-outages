@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-14T23-30-45Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-15T02-30-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -4826,7 +4826,7 @@
       "id": "35732F",
       "title": "Herekino (335 customers)",
       "start": "2025-12-14T20:30:41Z",
-      "end": null,
+      "end": "2025-12-15T00:00:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -4964,7 +4964,7 @@
       "id": "35708F",
       "title": "Purerua (3 customers)",
       "start": "2025-12-14T21:00:52Z",
-      "end": null,
+      "end": "2025-12-15T00:30:47Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -5000,6 +5000,48 @@
           }
         ],
         "body": "**Outage ID:** 35708F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Line Maintenance\n**Customers Affected:** 3\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nKURAPARI ROAD\n---"
+      }
+    },
+    {
+      "id": "36053F",
+      "title": "Awarua (2 customers)",
+      "start": "2025-12-14T23:45:52Z",
+      "end": "2025-12-15T00:15:43Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Awarua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-14T23:45:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "15/12/2025",
+              "startTime": "12:41 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "PUNAKITERE VALLEY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ORAKAU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "15/12/2025 12:41 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36053F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** PUNAKITERE VALLEY\n---\n**Affected Roads:**\nORAKAU ROAD\n---"
       }
     }
   ]
