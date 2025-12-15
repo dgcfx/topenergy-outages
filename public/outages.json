@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-15T19-30-46Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-15T20-45-40Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5084,6 +5084,90 @@
           }
         ],
         "body": "**Outage ID:** 36059F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Line maintenance\n**Customers Affected:** 2\n**Suburbs:** WAIHARARA\n---\n**Affected Roads:**\nFAR NORTH ROAD\nSTATE HIGHWAY 1F\n---"
+      }
+    },
+    {
+      "id": "35831F",
+      "title": "Purerua (78 customers)",
+      "start": "2025-12-15T20:15:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "78",
+        "circuit": "Purerua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-15T20:15:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/12/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "16/12/2025",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "18/12/2025",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "18/12/2025",
+              "alternativeEstimatedRestorationTime": "02:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI, WAIPAPA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "EQUESTRIAN DRIVE, KAPIRO ROAD, ORANGEWOOD ROAD, PUKEKO LANE",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "78",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "02/12/2025 09:50 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35831F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Line Maintenance\n**Customers Affected:** 78\n**Suburbs:** KERIKERI, WAIPAPA\n---\n**Affected Roads:**\nEQUESTRIAN DRIVE\nKAPIRO ROAD\nORANGEWOOD ROAD\nPUKEKO LANE\n---"
+      }
+    },
+    {
+      "id": "35834F",
+      "title": "Herekino (284 customers)",
+      "start": "2025-12-15T20:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "284",
+        "circuit": "Herekino",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-15T20:45:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "16/12/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "17/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "17/12/2025",
+              "alternativeEstimatedRestorationTime": "03:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "AHIPARA, BROADWOOD, HEREKINO, KAITAIA, PUKEPOTO, WHANGAPE",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "AHIPARA ROAD, AWAROA ROAD, BRASS ROAD, DIGGERS VALLEY ROAD, DYSART ROAD",
+                "hiddenStreets": "HUI ROAD, KAITAIA AWAROA ROAD, KAITAIA-AWAROA ROAD, KAUHANGA ROAD, MANUKAU ROAD, MASTERS ACCESS ROAD, MCDONALD ROAD, NGAKAROA ROAD, OROWHANA ROAD, OWHATA ROAD, POWELL ROAD, PUHATA ROAD, RANGIKOHU ROAD, RANGIKOHU SETTLEMENT WAY, ROMA ROAD, SANDHILLS ROAD, SMITH ROAD, TATANA ROAD, WAINUI ROAD, WHANGAPE ROAD"
+              },
+              "customersAffected": "284",
+              "feeder": "HEREKINO",
+              "lastUpdateTime": "03/12/2025 02:25 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35834F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Line Maintenance\n**Customers Affected:** 284\n**Suburbs:** AHIPARA, BROADWOOD, HEREKINO, KAITAIA, PUKEPOTO, WHANGAPE\n---\n**Affected Roads:**\nAHIPARA ROAD\nAWAROA ROAD\nBRASS ROAD\nDIGGERS VALLEY ROAD\nDYSART ROAD\n---"
       }
     }
   ]
