@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-15T04-45-45Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-15T05-45-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5042,6 +5042,48 @@
           }
         ],
         "body": "**Outage ID:** 36053F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** PUNAKITERE VALLEY\n---\n**Affected Roads:**\nORAKAU ROAD\n---"
+      }
+    },
+    {
+      "id": "36059F",
+      "title": "Awanui (2 customers)",
+      "start": "2025-12-15T05:30:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Awanui",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-15T05:30:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "15/12/2025",
+              "startTime": "06:20 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line maintenance",
+              "suburbs": "WAIHARARA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "FAR NORTH ROAD, STATE HIGHWAY 1F",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "15/12/2025 06:26 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36059F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Line maintenance\n**Customers Affected:** 2\n**Suburbs:** WAIHARARA\n---\n**Affected Roads:**\nFAR NORTH ROAD\nSTATE HIGHWAY 1F\n---"
       }
     }
   ]
