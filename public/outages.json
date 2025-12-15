@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-15T20-45-40Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-15T22-45-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5168,6 +5168,48 @@
           }
         ],
         "body": "**Outage ID:** 35834F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Line Maintenance\n**Customers Affected:** 284\n**Suburbs:** AHIPARA, BROADWOOD, HEREKINO, KAITAIA, PUKEPOTO, WHANGAPE\n---\n**Affected Roads:**\nAHIPARA ROAD\nAWAROA ROAD\nBRASS ROAD\nDIGGERS VALLEY ROAD\nDYSART ROAD\n---"
+      }
+    },
+    {
+      "id": "35723F",
+      "title": "Ti Bay (1 customers)",
+      "start": "2025-12-15T22:09:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "1",
+        "circuit": "Ti Bay",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-15T22:09:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/12/2025",
+              "startTime": "11:00 AM",
+              "estimatedRestorationDate": "16/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "17/12/2025",
+              "alternativeStartTime": "11:00 AM",
+              "alternativeEstimatedRestorationDate": "17/12/2025",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "PAIHIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "WILLIAMS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "TI BAY",
+              "lastUpdateTime": "26/11/2025 01:11 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35723F\n**Status:** Active\n**Feeder / Circuit:** TI BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 1\n**Suburbs:** PAIHIA\n---\n**Affected Roads:**\nWILLIAMS ROAD\n---"
       }
     }
   ]
