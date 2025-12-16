@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-16T19-30-54Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-16T20-45-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5243,7 +5243,7 @@
       "id": "36068F",
       "title": "Opua (2 customers)",
       "start": "2025-12-16T19:15:44Z",
-      "end": null,
+      "end": "2025-12-16T19:45:41Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -5279,6 +5279,132 @@
           }
         ],
         "body": "**Outage ID:** 36068F\n**Status:** Active\n**Feeder / Circuit:** OPUA\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** OPUA\n---\n**Affected Roads:**\nSTATE HIGHWAY 11\nTE RAUPO ROAD\n---"
+      }
+    },
+    {
+      "id": "35780F",
+      "title": "Whangaroa (94 customers)",
+      "start": "2025-12-16T20:15:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "94",
+        "circuit": "Whangaroa",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-16T20:15:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "17/12/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "17/12/2025",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "18/12/2025",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "18/12/2025",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAEO, TAURANGA BAY",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "TAURANGA BAY BEACH ROAD, TAURANGA BAY ROAD, WHANGAROA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "94",
+              "feeder": "WHANGAROA",
+              "lastUpdateTime": "30/11/2025 08:32 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35780F\n**Status:** Active\n**Feeder / Circuit:** WHANGAROA\n**Cause:** Line Maintenance\n**Customers Affected:** 94\n**Suburbs:** KAEO, TAURANGA BAY\n---\n**Affected Roads:**\nTAURANGA BAY BEACH ROAD\nTAURANGA BAY ROAD\nWHANGAROA ROAD\n---"
+      }
+    },
+    {
+      "id": "35783F",
+      "title": "Te Kao (34 customers)",
+      "start": "2025-12-16T20:15:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "34",
+        "circuit": "Te Kao",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-16T20:15:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "17/12/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "17/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "18/12/2025",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "18/12/2025",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "HOUHORA, KAITAIA, NGATAKI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "FAR NORTH ROAD, KIMBERLEY ROAD, MCMANUS ROAD, STATE HIGHWAY 1F",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "34",
+              "feeder": "TE KAO",
+              "lastUpdateTime": "30/11/2025 08:55 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35783F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Line Maintenance\n**Customers Affected:** 34\n**Suburbs:** HOUHORA, KAITAIA, NGATAKI\n---\n**Affected Roads:**\nFAR NORTH ROAD\nKIMBERLEY ROAD\nMCMANUS ROAD\nSTATE HIGHWAY 1F\n---"
+      }
+    },
+    {
+      "id": "36074F",
+      "title": "Taipals (96 customers)",
+      "start": "2025-12-16T20:45:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "96",
+        "circuit": "Taipals",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-16T20:45:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "17/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "17/12/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "18/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "18/12/2025",
+              "alternativeEstimatedRestorationTime": "03:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAINGAROA, KAITAIA, LAKE OHIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "HOUSHAM ROAD, INLAND FLOOD BYPASS ROAD, MANGATETE ROAD, PEKERAU ROAD, PUKEWHAI ROAD",
+                "hiddenStreets": "RUSSELL ROAD, SIMPSON ROAD, STATE HIGHWAY 10, TAHANGA ROAD, ZIDICH ROAD"
+              },
+              "customersAffected": "96",
+              "feeder": "TAIPALS",
+              "lastUpdateTime": "17/12/2025 09:31 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36074F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Line Maintenance\n**Customers Affected:** 96\n**Suburbs:** KAINGAROA, KAITAIA, LAKE OHIA\n---\n**Affected Roads:**\nHOUSHAM ROAD\nINLAND FLOOD BYPASS ROAD\nMANGATETE ROAD\nPEKERAU ROAD\nPUKEWHAI ROAD\n---"
       }
     }
   ]
