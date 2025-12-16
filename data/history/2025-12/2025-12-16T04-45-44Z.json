@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-12-16T04:45:44Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "e311a12503cddb01",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "e311a12503cddb01",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [],
+      "planned": [
+        {
+          "id": "35309F",
+          "lat": -35.009177931130495,
+          "lng": 173.35483481389875
+        },
+        {
+          "id": "35684F",
+          "lat": -35.25069134387977,
+          "lng": 173.95396968440036
+        },
+        {
+          "id": "35780F",
+          "lat": -35.01151308810268,
+          "lng": 173.7786241946449
+        },
+        {
+          "id": "35783F",
+          "lat": -34.75884039560016,
+          "lng": 173.0478674381239
+        },
+        {
+          "id": "35801F",
+          "lat": -35.53972191670314,
+          "lng": 173.3798404034865
+        },
+        {
+          "id": "35993F",
+          "lat": -35.28008648116414,
+          "lng": 173.57266445075663
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 0,
+      "activeOutageCount": 0,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35780F",
+          "startTimestamp": 1765915200,
+          "isActive": false,
+          "circuitName": "Whangaroa",
+          "customersCurrentlyOff": "94",
+          "startDateTime": "17th December 09:00 am",
+          "endDateTime": "17th December 02:30 pm",
+          "alternativeStartDateTime": "18th December 09:00 am",
+          "alternativeEndDateTime": "18th December 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35783F",
+          "startTimestamp": 1765915200,
+          "isActive": false,
+          "circuitName": "Te Kao",
+          "customersCurrentlyOff": "34",
+          "startDateTime": "17th December 09:00 am",
+          "endDateTime": "17th December 03:00 pm",
+          "alternativeStartDateTime": "18th December 09:00 am",
+          "alternativeEndDateTime": "18th December 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35309F",
+          "startTimestamp": 1765917000,
+          "isActive": false,
+          "circuitName": "Taipals",
+          "customersCurrentlyOff": "95",
+          "startDateTime": "17th December 09:30 am",
+          "endDateTime": "17th December 03:30 pm",
+          "alternativeStartDateTime": "18th December 09:30 am",
+          "alternativeEndDateTime": "18th December 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35684F",
+          "startTimestamp": 1765929600,
+          "isActive": false,
+          "circuitName": "Shepherd Road",
+          "customersCurrentlyOff": "9",
+          "startDateTime": "17th December 01:00 pm",
+          "endDateTime": "17th December 03:00 pm",
+          "alternativeStartDateTime": "18th December 01:00 pm",
+          "alternativeEndDateTime": "18th December 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35801F",
+          "startTimestamp": 1766003400,
+          "isActive": false,
+          "circuitName": "Opononi",
+          "customersCurrentlyOff": "26",
+          "startDateTime": "18th December 09:30 am",
+          "endDateTime": "18th December 02:30 pm",
+          "alternativeStartDateTime": "3rd February 09:30 am",
+          "alternativeEndDateTime": "3rd February 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": []
+    }
+  },
+  "detailedOutageInfo": {}
+}
