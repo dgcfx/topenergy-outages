@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-15T22-45-44Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-16T02-15-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5090,7 +5090,7 @@
       "id": "35831F",
       "title": "Purerua (78 customers)",
       "start": "2025-12-15T20:15:41Z",
-      "end": null,
+      "end": "2025-12-16T01:45:48Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -5123,16 +5123,43 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-16T01:15:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/12/2025",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "16/12/2025",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "18/12/2025",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "18/12/2025",
+              "alternativeEstimatedRestorationTime": "02:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "KAPIRO ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "02/12/2025 09:50 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35831F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Line Maintenance\n**Customers Affected:** 78\n**Suburbs:** KERIKERI, WAIPAPA\n---\n**Affected Roads:**\nEQUESTRIAN DRIVE\nKAPIRO ROAD\nORANGEWOOD ROAD\nPUKEKO LANE\n---"
+        "body": "**Outage ID:** 35831F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Line Maintenance\n**Customers Affected:** 1\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nKAPIRO ROAD\n---\n**Update History:**\n- 2025-12-16T01:15:41Z: Line Maintenance\n- 2025-12-15T20:15:41Z: Line Maintenance"
       }
     },
     {
       "id": "35834F",
       "title": "Herekino (284 customers)",
       "start": "2025-12-15T20:45:40Z",
-      "end": null,
+      "end": "2025-12-16T02:15:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -5174,7 +5201,7 @@
       "id": "35723F",
       "title": "Ti Bay (1 customers)",
       "start": "2025-12-15T22:09:40Z",
-      "end": null,
+      "end": "2025-12-15T23:09:49Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
