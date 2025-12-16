@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-16T20-45-47Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-16T22-45-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5402,9 +5402,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-16T21:00:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "17/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "17/12/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "18/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "18/12/2025",
+              "alternativeEstimatedRestorationTime": "03:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAINGAROA, KAITAIA, LAKE OHIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "HOUSHAM ROAD, INLAND FLOOD BYPASS ROAD, MANGATETE ROAD, PEKERAU ROAD, PUKEWHAI ROAD",
+                "hiddenStreets": "RUSSELL ROAD, SIMPSON ROAD, STATE HIGHWAY 10, TAHANGA ROAD, ZIDICH ROAD"
+              },
+              "customersAffected": "96",
+              "feeder": "TAIPALS",
+              "lastUpdateTime": "17/12/2025 09:48 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36074F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Line Maintenance\n**Customers Affected:** 96\n**Suburbs:** KAINGAROA, KAITAIA, LAKE OHIA\n---\n**Affected Roads:**\nHOUSHAM ROAD\nINLAND FLOOD BYPASS ROAD\nMANGATETE ROAD\nPEKERAU ROAD\nPUKEWHAI ROAD\n---"
+        "body": "**Outage ID:** 36074F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Line Maintenance\n**Customers Affected:** 96\n**Suburbs:** KAINGAROA, KAITAIA, LAKE OHIA\n---\n**Affected Roads:**\nHOUSHAM ROAD\nINLAND FLOOD BYPASS ROAD\nMANGATETE ROAD\nPEKERAU ROAD\nPUKEWHAI ROAD\n---\n**Update History:**\n- 2025-12-16T21:00:42Z: Line Maintenance\n- 2025-12-16T20:45:47Z: Line Maintenance"
       }
     }
   ]
