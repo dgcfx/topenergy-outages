@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-16T18-45-40Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-16T19-30-54Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5237,6 +5237,48 @@
           }
         ],
         "body": "**Outage ID:** 35723F\n**Status:** Active\n**Feeder / Circuit:** TI BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 1\n**Suburbs:** PAIHIA\n---\n**Affected Roads:**\nWILLIAMS ROAD\n---"
+      }
+    },
+    {
+      "id": "36068F",
+      "title": "Opua (2 customers)",
+      "start": "2025-12-16T19:15:44Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Opua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-16T19:15:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "17/12/2025",
+              "startTime": "08:11 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "OPUA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 11, TE RAUPO ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "OPUA",
+              "lastUpdateTime": "17/12/2025 08:11 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36068F\n**Status:** Active\n**Feeder / Circuit:** OPUA\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** OPUA\n---\n**Affected Roads:**\nSTATE HIGHWAY 11\nTE RAUPO ROAD\n---"
       }
     }
   ]
