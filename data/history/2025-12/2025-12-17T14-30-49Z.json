@@ -1,0 +1,129 @@
+{
+  "timestamp": "2025-12-17T14:30:49Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "879130201e58ca25",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "879130201e58ca25",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [],
+      "planned": [
+        {
+          "id": "35309F",
+          "lat": -35.00917671991954,
+          "lng": 173.35484628589188
+        },
+        {
+          "id": "35684F",
+          "lat": -35.2506561952145,
+          "lng": 173.9538950623688
+        },
+        {
+          "id": "35801F",
+          "lat": -35.53972190396528,
+          "lng": 173.37981743993905
+        },
+        {
+          "id": "35993F",
+          "lat": -35.28008648116414,
+          "lng": 173.57266445075663
+        },
+        {
+          "id": "36080F",
+          "lat": -35.33305391127599,
+          "lng": 173.66420678355658
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 0,
+      "activeOutageCount": 0,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35309F",
+          "startTimestamp": 1765917000,
+          "isActive": false,
+          "circuitName": "Taipals",
+          "customersCurrentlyOff": "95",
+          "startDateTime": "17th December 09:30 am",
+          "endDateTime": "17th December 03:30 pm",
+          "alternativeStartDateTime": "18th December 09:30 am",
+          "alternativeEndDateTime": "18th December 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35801F",
+          "startTimestamp": 1766003400,
+          "isActive": false,
+          "circuitName": "Opononi",
+          "customersCurrentlyOff": "26",
+          "startDateTime": "18th December 09:30 am",
+          "endDateTime": "18th December 02:30 pm",
+          "alternativeStartDateTime": "3rd February 09:30 am",
+          "alternativeEndDateTime": "3rd February 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35684F",
+          "startTimestamp": 1766016000,
+          "isActive": false,
+          "circuitName": "Shepherd Road",
+          "customersCurrentlyOff": "9",
+          "startDateTime": "18th December 01:00 pm",
+          "endDateTime": "18th December 03:00 pm",
+          "alternativeStartDateTime": "18th December 01:00 pm",
+          "alternativeEndDateTime": "18th December 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36080F",
+          "startTimestamp": 1766435400,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "23rd December 09:30 am",
+          "endDateTime": "23rd December 02:00 pm",
+          "alternativeStartDateTime": "7th January 10:00 am",
+          "alternativeEndDateTime": "7th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": []
+    }
+  },
+  "detailedOutageInfo": {}
+}
