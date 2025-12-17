@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-17T19-30-47Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-17T20-45-54Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5459,6 +5459,48 @@
           }
         ],
         "body": "**Outage ID:** 36074F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Line Maintenance\n**Customers Affected:** 3\n**Suburbs:** KAINGAROA\n---\n**Affected Roads:**\nSTATE HIGHWAY 10\n---\n**Update History:**\n- 2025-12-17T00:15:43Z: Line Maintenance\n- 2025-12-16T21:00:42Z: Line Maintenance\n- 2025-12-16T20:45:47Z: Line Maintenance"
+      }
+    },
+    {
+      "id": "35801F",
+      "title": "Opononi (26 customers)",
+      "start": "2025-12-17T20:45:54Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "26",
+        "circuit": "Opononi",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-17T20:45:54Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "18/12/2025",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "03/02/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "03/02/2026",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "OMAPERE",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "SIGNAL STATION ROAD, STATE HIGHWAY 12",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "26",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "01/12/2025 01:48 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35801F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Line Maintenance\n**Customers Affected:** 26\n**Suburbs:** OMAPERE\n---\n**Affected Roads:**\nSIGNAL STATION ROAD\nSTATE HIGHWAY 12\n---"
       }
     }
   ]
