@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-16T23-30-59Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-17T02-15-50Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5285,7 +5285,7 @@
       "id": "35780F",
       "title": "Whangaroa (94 customers)",
       "start": "2025-12-16T20:15:40Z",
-      "end": null,
+      "end": "2025-12-17T01:00:50Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -5327,7 +5327,7 @@
       "id": "35783F",
       "title": "Te Kao (34 customers)",
       "start": "2025-12-16T20:15:40Z",
-      "end": null,
+      "end": "2025-12-17T00:30:55Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -5369,7 +5369,7 @@
       "id": "36074F",
       "title": "Taipals (96 customers)",
       "start": "2025-12-16T20:45:47Z",
-      "end": null,
+      "end": "2025-12-17T00:30:55Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -5429,9 +5429,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-17T00:15:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "17/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "17/12/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "18/12/2025",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "18/12/2025",
+              "alternativeEstimatedRestorationTime": "03:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAINGAROA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 10",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "TAIPALS",
+              "lastUpdateTime": "17/12/2025 09:48 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36074F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Line Maintenance\n**Customers Affected:** 96\n**Suburbs:** KAINGAROA, KAITAIA, LAKE OHIA\n---\n**Affected Roads:**\nHOUSHAM ROAD\nINLAND FLOOD BYPASS ROAD\nMANGATETE ROAD\nPEKERAU ROAD\nPUKEWHAI ROAD\n---\n**Update History:**\n- 2025-12-16T21:00:42Z: Line Maintenance\n- 2025-12-16T20:45:47Z: Line Maintenance"
+        "body": "**Outage ID:** 36074F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Line Maintenance\n**Customers Affected:** 3\n**Suburbs:** KAINGAROA\n---\n**Affected Roads:**\nSTATE HIGHWAY 10\n---\n**Update History:**\n- 2025-12-17T00:15:43Z: Line Maintenance\n- 2025-12-16T21:00:42Z: Line Maintenance\n- 2025-12-16T20:45:47Z: Line Maintenance"
       }
     }
   ]
