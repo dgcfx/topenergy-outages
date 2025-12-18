@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-12-18T22:15:44Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "8ef2e011f08905e0",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "8ef2e011f08905e0",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36095F",
+          "lat": -35.3460591842599,
+          "lng": 173.8732266363941
+        }
+      ],
+      "planned": [
+        {
+          "id": "35993F",
+          "lat": -35.28005752138607,
+          "lng": 173.57261823907822
+        },
+        {
+          "id": "36080F",
+          "lat": -35.33305681824544,
+          "lng": 173.66421712841665
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 19,
+      "activeOutageCount": 1,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36080F",
+          "startTimestamp": 1766435400,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "23rd December 09:30 am",
+          "endDateTime": "23rd December 02:00 pm",
+          "alternativeStartDateTime": "7th January 10:00 am",
+          "alternativeEndDateTime": "7th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36095F",
+          "startTimestamp": 1766077260,
+          "isActive": true,
+          "circuitName": "Ohaeawai",
+          "customersCurrentlyOff": "19",
+          "startDateTime": "19th December 06:01 am",
+          "endDateTime": "19th December 11:30 am",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36095F": {
+      "duration": "Unknown",
+      "startDate": "19/12/2025",
+      "startTime": "06:01 AM",
+      "estimatedRestorationDate": "19/12/2025",
+      "estimatedRestorationTime": "11:30 AM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Vehicle impact",
+      "suburbs": "OHAEAWAI",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "STATE HIGHWAY 1",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "19",
+      "feeder": "OHAEAWAI",
+      "lastUpdateTime": "19/12/2025 10:25 AM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
