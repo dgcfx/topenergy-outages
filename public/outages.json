@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-18T17-45-39Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-18T18-46-00Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5636,9 +5636,63 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-18T18:15:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "19/12/2025",
+              "startTime": "06:01 AM",
+              "estimatedRestorationDate": "19/12/2025",
+              "estimatedRestorationTime": "11:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": "KAIKOHE, KERIKERI, OHAEAWAI, OKAIHAU, OROMAHOE, PAKARAKA, WAIMATE NORTH",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "COOKS LANE, COURTHOUSE LANE, OKOKAKO ROAD, OLD BAY ROAD, SHOWGROUND ROAD",
+                "hiddenStreets": "STATE HIGHWAY 1, TE AHU AHU ROAD, TE RORE LANE, WAIKARAMU ROAD, WAIKUKU ROAD, WAIMATE NORTH ROAD, WAIMATE ROAD, WHAKATAHA ROAD"
+              },
+              "customersAffected": "323",
+              "feeder": "OHAEAWAI",
+              "lastUpdateTime": "19/12/2025 06:34 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-18T18:30:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "19/12/2025",
+              "startTime": "06:01 AM",
+              "estimatedRestorationDate": "19/12/2025",
+              "estimatedRestorationTime": "11:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": "OHAEAWAI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 1",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "19",
+              "feeder": "OHAEAWAI",
+              "lastUpdateTime": "19/12/2025 06:34 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36095F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Vehicle impact\n**Customers Affected:** 756\n**Suburbs:** KAIKOHE, KERIKERI, NGAWHA, NGAWHA SPRINGS, OHAEAWAI, OKAIHAU, OROMAHOE, PAKARAKA, WAIMATE NORTH\n---\n**Affected Roads:**\nCOOKS LANE\nCOURTHOUSE LANE\nHOBSON STREET\nLAKELAND LANE\nLUDBROOK ROAD\n---\n**Update History:**\n- 2025-12-18T17:45:39Z: Vehicle impact\n- 2025-12-18T17:15:45Z: Under Investigation"
+        "body": "**Outage ID:** 36095F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Vehicle impact\n**Customers Affected:** 19\n**Suburbs:** OHAEAWAI\n---\n**Affected Roads:**\nSTATE HIGHWAY 1\n---\n**Update History:**\n- 2025-12-18T18:30:41Z: Vehicle impact\n- 2025-12-18T18:15:46Z: Vehicle impact\n- 2025-12-18T17:45:39Z: Vehicle impact\n- 2025-12-18T17:15:45Z: Under Investigation"
       }
     }
   ]
