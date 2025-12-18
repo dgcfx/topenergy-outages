@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-18T21-30-52Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-18T22-45-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5717,9 +5717,63 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-18T22:30:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "19/12/2025",
+              "startTime": "06:01 AM",
+              "estimatedRestorationDate": "19/12/2025",
+              "estimatedRestorationTime": "11:55 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": "OHAEAWAI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 1",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "19",
+              "feeder": "OHAEAWAI",
+              "lastUpdateTime": "19/12/2025 10:25 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-18T22:45:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "19/12/2025",
+              "startTime": "06:01 AM",
+              "estimatedRestorationDate": "19/12/2025",
+              "estimatedRestorationTime": "11:55 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": "OHAEAWAI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 1",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "OHAEAWAI",
+              "lastUpdateTime": "19/12/2025 10:25 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36095F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Vehicle impact\n**Customers Affected:** 19\n**Suburbs:** OHAEAWAI\n---\n**Affected Roads:**\nSTATE HIGHWAY 1\n---\n**Update History:**\n- 2025-12-18T21:30:52Z: Vehicle impact\n- 2025-12-18T18:30:41Z: Vehicle impact\n- 2025-12-18T18:15:46Z: Vehicle impact\n- 2025-12-18T17:45:39Z: Vehicle impact\n- 2025-12-18T17:15:45Z: Under Investigation"
+        "body": "**Outage ID:** 36095F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Vehicle impact\n**Customers Affected:** 6\n**Suburbs:** OHAEAWAI\n---\n**Affected Roads:**\nSTATE HIGHWAY 1\n---\n**Update History:**\n- 2025-12-18T22:45:41Z: Vehicle impact\n- 2025-12-18T22:30:42Z: Vehicle impact\n- 2025-12-18T21:30:52Z: Vehicle impact\n- 2025-12-18T18:30:41Z: Vehicle impact\n- 2025-12-18T18:15:46Z: Vehicle impact\n- 2025-12-18T17:45:39Z: Vehicle impact\n- 2025-12-18T17:15:45Z: Under Investigation"
       }
     }
   ]
