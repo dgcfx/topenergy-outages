@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-17T23-30-48Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-18T02-15-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5465,7 +5465,7 @@
       "id": "35801F",
       "title": "Opononi (26 customers)",
       "start": "2025-12-17T20:45:54Z",
-      "end": null,
+      "end": "2025-12-18T01:45:42Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -5498,9 +5498,78 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-18T01:30:49Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "18/12/2025",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "03/02/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "03/02/2026",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "OMAPERE",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 12",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "4",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "01/12/2025 01:48 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35801F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Line Maintenance\n**Customers Affected:** 26\n**Suburbs:** OMAPERE\n---\n**Affected Roads:**\nSIGNAL STATION ROAD\nSTATE HIGHWAY 12\n---"
+        "body": "**Outage ID:** 35801F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Line Maintenance\n**Customers Affected:** 4\n**Suburbs:** OMAPERE\n---\n**Affected Roads:**\nSTATE HIGHWAY 12\n---\n**Update History:**\n- 2025-12-18T01:30:49Z: Line Maintenance\n- 2025-12-17T20:45:54Z: Line Maintenance"
+      }
+    },
+    {
+      "id": "35684F",
+      "title": "Shepherd Road (8 customers)",
+      "start": "2025-12-18T00:15:43Z",
+      "end": "2025-12-18T02:15:42Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "8",
+        "circuit": "Shepherd Road",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-18T00:15:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/12/2025",
+              "startTime": "01:00 PM",
+              "estimatedRestorationDate": "18/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "18/12/2025",
+              "alternativeStartTime": "01:00 PM",
+              "alternativeEstimatedRestorationDate": "18/12/2025",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "RIDDELL ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "8",
+              "feeder": "SHEPHERD ROAD",
+              "lastUpdateTime": "24/11/2025 03:51 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35684F\n**Status:** Active\n**Feeder / Circuit:** SHEPHERD ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 8\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nRIDDELL ROAD\n---"
       }
     }
   ]
