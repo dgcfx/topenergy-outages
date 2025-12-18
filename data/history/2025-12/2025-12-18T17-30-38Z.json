@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-12-18T17:30:38Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "ff5dc58de0c35383",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "ff5dc58de0c35383",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36095F",
+          "lat": -35.35198895678394,
+          "lng": 173.89718103116238
+        }
+      ],
+      "planned": [
+        {
+          "id": "35993F",
+          "lat": -35.28005752138607,
+          "lng": 173.57261823907822
+        },
+        {
+          "id": "36080F",
+          "lat": -35.33305681824544,
+          "lng": 173.66421712841665
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 756,
+      "activeOutageCount": 1,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36080F",
+          "startTimestamp": 1766435400,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "23rd December 09:30 am",
+          "endDateTime": "23rd December 02:00 pm",
+          "alternativeStartDateTime": "7th January 10:00 am",
+          "alternativeEndDateTime": "7th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36095F",
+          "startTimestamp": 1766077140,
+          "isActive": true,
+          "circuitName": "Ohaeawai",
+          "customersCurrentlyOff": "756",
+          "startDateTime": "19th December 05:59 am",
+          "endDateTime": "Not available",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36095F": {
+      "duration": "Unknown",
+      "startDate": "19/12/2025",
+      "startTime": "05:59 AM",
+      "estimatedRestorationDate": null,
+      "estimatedRestorationTime": null,
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": "KAIKOHE, KERIKERI, NGAWHA, NGAWHA SPRINGS, OHAEAWAI, OKAIHAU, OROMAHOE, PAKARAKA, WAIMATE NORTH",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "COOKS LANE, COURTHOUSE LANE, HOBSON STREET, LAKELAND LANE, LUDBROOK ROAD",
+        "hiddenStreets": "NGAWHA SCHOOL ROAD, NGAWHA SPRINGS ROAD, OHARA STREET, OKOKAKO ROAD, OLD BAY ROAD, PUIA STREET, REMUERA SETTLEMENT ROAD, SHOWGROUND ROAD, STATE HIGHWAY  12, STATE HIGHWAY 1, STATE HIGHWAY 12, TE AHU AHU ROAD, TE RORE LANE, TENNYSON STREET, WAIKARAMU ROAD, WAIKUKU ROAD, WAIMATE NORTH ROAD, WAIMATE ROAD, WAITAHEKE ROAD, WHAKATAHA ROAD"
+      },
+      "customersAffected": "756",
+      "feeder": "OHAEAWAI",
+      "lastUpdateTime": "19/12/2025 05:59 AM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
