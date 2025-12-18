@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-18T16-45-51Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-18T17-45-39Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5570,6 +5570,75 @@
           }
         ],
         "body": "**Outage ID:** 35684F\n**Status:** Active\n**Feeder / Circuit:** SHEPHERD ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 8\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nRIDDELL ROAD\n---"
+      }
+    },
+    {
+      "id": "36095F",
+      "title": "Ohaeawai (756 customers)",
+      "start": "2025-12-18T17:15:45Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "756",
+        "circuit": "Ohaeawai",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-18T17:15:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "19/12/2025",
+              "startTime": "05:59 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, KERIKERI, NGAWHA, NGAWHA SPRINGS, OHAEAWAI, OKAIHAU, OROMAHOE, PAKARAKA, WAIMATE NORTH",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "COOKS LANE, COURTHOUSE LANE, HOBSON STREET, LAKELAND LANE, LUDBROOK ROAD",
+                "hiddenStreets": "NGAWHA SCHOOL ROAD, NGAWHA SPRINGS ROAD, OHARA STREET, OKOKAKO ROAD, OLD BAY ROAD, PUIA STREET, REMUERA SETTLEMENT ROAD, SHOWGROUND ROAD, STATE HIGHWAY  12, STATE HIGHWAY 1, STATE HIGHWAY 12, TE AHU AHU ROAD, TE RORE LANE, TENNYSON STREET, WAIKARAMU ROAD, WAIKUKU ROAD, WAIMATE NORTH ROAD, WAIMATE ROAD, WAITAHEKE ROAD, WHAKATAHA ROAD"
+              },
+              "customersAffected": "756",
+              "feeder": "OHAEAWAI",
+              "lastUpdateTime": "19/12/2025 05:59 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-18T17:45:39Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "19/12/2025",
+              "startTime": "06:01 AM",
+              "estimatedRestorationDate": "19/12/2025",
+              "estimatedRestorationTime": "11:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": "KAIKOHE, KERIKERI, NGAWHA, NGAWHA SPRINGS, OHAEAWAI, OKAIHAU, OROMAHOE, PAKARAKA, WAIMATE NORTH",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "COOKS LANE, COURTHOUSE LANE, HOBSON STREET, LAKELAND LANE, LUDBROOK ROAD",
+                "hiddenStreets": "NGAWHA SCHOOL ROAD, NGAWHA SPRINGS ROAD, OHARA STREET, OKOKAKO ROAD, OLD BAY ROAD, PUIA STREET, REMUERA SETTLEMENT ROAD, SHOWGROUND ROAD, STATE HIGHWAY  12, STATE HIGHWAY 1, STATE HIGHWAY 12, TE AHU AHU ROAD, TE RORE LANE, TENNYSON STREET, WAIKARAMU ROAD, WAIKUKU ROAD, WAIMATE NORTH ROAD, WAIMATE ROAD, WAITAHEKE ROAD, WHAKATAHA ROAD"
+              },
+              "customersAffected": "756",
+              "feeder": "OHAEAWAI",
+              "lastUpdateTime": "19/12/2025 06:34 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36095F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Vehicle impact\n**Customers Affected:** 756\n**Suburbs:** KAIKOHE, KERIKERI, NGAWHA, NGAWHA SPRINGS, OHAEAWAI, OKAIHAU, OROMAHOE, PAKARAKA, WAIMATE NORTH\n---\n**Affected Roads:**\nCOOKS LANE\nCOURTHOUSE LANE\nHOBSON STREET\nLAKELAND LANE\nLUDBROOK ROAD\n---\n**Update History:**\n- 2025-12-18T17:45:39Z: Vehicle impact\n- 2025-12-18T17:15:45Z: Under Investigation"
       }
     }
   ]
