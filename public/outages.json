@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-19T02-15-48Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-19T03-45-51Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5780,7 +5780,7 @@
       "id": "36098F",
       "title": "Tau Block (1 customers)",
       "start": "2025-12-19T02:00:46Z",
-      "end": null,
+      "end": "2025-12-19T03:45:51Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
