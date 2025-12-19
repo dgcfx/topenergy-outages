@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-19T20-45-52Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-19T21-30-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5966,6 +5966,48 @@
           }
         ],
         "body": "**Outage ID:** 36101F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Line fault\n**Customers Affected:** 1523\n**Suburbs:** , DOUBTLESS BAY, KAITAIA, KARIKARI, KARIKARI PENINSULA, KARIKARI PENINSULAR, KARIKARI PENNINSULA, KARIKARI PENSULIA, LAKE OHIA, PARAPARA, RANGIPUTA, TAIPA, TOKERAU BEACH, WHATUWHIWHI\n---\n**Affected Roads:**\nADAMSON ROAD\nAKEAKE CRESCENT\nARKLES WAY\nAURERE BEACH ROAD\nBANYAN ROAD\n---\n**Update History:**\n- 2025-12-19T13:45:41Z: Line fault\n- 2025-12-19T13:15:51Z: Under Investigation\n- 2025-12-19T13:00:46Z: Under Investigation\n- 2025-12-19T12:46:11Z: Under Investigation\n- 2025-12-19T12:30:44Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36104F",
+      "title": "Te Kao (2 customers)",
+      "start": "2025-12-19T21:30:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Te Kao",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-19T21:30:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "20/12/2025",
+              "startTime": "10:26 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "NGATAKI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "FAR NORTH ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "TE KAO",
+              "lastUpdateTime": "20/12/2025 10:27 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36104F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** NGATAKI\n---\n**Affected Roads:**\nFAR NORTH ROAD\n---"
       }
     }
   ]
