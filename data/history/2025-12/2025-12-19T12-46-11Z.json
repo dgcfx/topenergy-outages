@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-12-19T12:46:11Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "291f554e54f15134",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "291f554e54f15134",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36101F",
+          "lat": -35.033763823941364,
+          "lng": 173.57010646589782
+        }
+      ],
+      "planned": [
+        {
+          "id": "35993F",
+          "lat": -35.28005752138607,
+          "lng": 173.57261823907822
+        },
+        {
+          "id": "36080F",
+          "lat": -35.33305391127599,
+          "lng": 173.66420678355658
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 2652,
+      "activeOutageCount": 1,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36080F",
+          "startTimestamp": 1766435400,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "23rd December 09:30 am",
+          "endDateTime": "23rd December 02:00 pm",
+          "alternativeStartDateTime": "7th January 10:00 am",
+          "alternativeEndDateTime": "7th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36101F",
+          "startTimestamp": 1766147100,
+          "isActive": true,
+          "circuitName": "Sub-transmission",
+          "customersCurrentlyOff": "2652",
+          "startDateTime": "20th December 01:25 am",
+          "endDateTime": "Not available",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36101F": {
+      "duration": "Unknown",
+      "startDate": "20/12/2025",
+      "startTime": "01:25 AM",
+      "estimatedRestorationDate": null,
+      "estimatedRestorationTime": null,
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": "CABLE BAY, COOPERS BEACH, HIHI, HIHI BEACH, MANGONUI, MILL BAY, PAEWHENUA ISLAND, PERIA, TAIPA, TAUPO BAY",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "AKATERE ROAD, ALEXANDER STREET, AMELIE PLACE, APUTEREWA ROAD, BACKRIVER ROAD",
+        "hiddenStreets": "BANKSIA ROAD, BARRIBALL ROAD, BAY VIEW ROAD, BAYSIDE DRIVE, BAYVIEW ROAD, BEACH ROAD, BERGHAN ROAD, BOWDEN ROAD, BRAEMAR AVENUE, BUSH POINT ROAD, CABLE BAY BLOCK RD, CABLE BAY BLOCK ROAD, CABLE BAY HEIGHTS DRIVE, CHRISTINE DRIVE, CHUCKS COVE, COACHMANS WAY, COLONEL MOULD DRIVE, COMPASS COVE, CONAGLEN ROAD, COOPERS DRIVE, DRIFTWOOD LANE, DUDLEY CRESCENT, EAGLES WAY, FAIRWINDS PLACE, FAITH LANE, FOSTERS ROAD, FRANGIPANI STREET, FRANTOIO RIDGE ROAD, FRAZER PLACE, FREAR RISE, FREYJA CRESCENT, GEORGE STREET, GREY STREET, GREY STREET EAST, HAEKARO LANE, HARBOUR VIEW RISE, HEIMDAL WAY, HERETAUNGA CRESCENT, HERETAUNGA CRESENT, HIBISCUS AVE, HIBISCUS AVENUE, HIHI BEACH ROAD, HIHI ROAD, KARAMEA ROAD, KOHUMARU ROAD, KOTARE DRIVE, KUPE ROAD, LECCINO VALLEY ROAD, LESLIE ROAD, LOKE CRESCENT, LORI LANE, MABEL THORBURN PLACE, MAGNOLIA DRIVE, MAHOE LANE, MAKO STREET, MARCHANT ROAD, MARLIN DRIVE, MARY HASSETT STREET, MATAHOURUA CLOSE, MEENAS PLACE, MELODY LANE, MIDGARD ROAD, MIDGLEY ROAD, MILL BAY ROAD, MOREY ROAD, NANCY WAKE PLACE, OCEAN VIEW ROAD, OCEANVIEW ROAD, ODEN HILL, OLIVE VIEW HEIGHTS DRIVE, OPARIHI ROAD, OPOI LANE, ORUAITI ROAD, ORURU ROAD, ORURU VALLEY ROAD, PACKARD ROAD, PARADISE ROAD, PARANUI ROAD, PARIRI ROAD, PEKAMA DRIVE, PENINSULA PARADE, POHUTUKAWA DRIVE, POWELLS ROAD, PROTEA DRIVE, PUKETITI DRIVE, RANGIKAPITI ROAD, RANGINUI STREET, RICHMOND ROAD, SAN MARINO DRIVE, SAWYER ROAD, SEASCAPE LANE, SEAVIEW ROAD, SILVER EGG ROAD, SIMMENTAL LANE, SPICER ROAD, ST JOHNS ROAD, STATE HIGHWAY 10, STONEY CREEK ROAD, STRATFORD DRIVE, SUNRISE PLACE, SUNSET HEIGHTS, TAEMARO ROAD, TAIPA HEIGHTS DRIVE, TAIPA TIDES DRIVE, TASMAN STREET, TAUPO BAY RD, TAUPO BAY ROAD, TE KAROA ROAD, THOMAS STREET, THOMPSON PLACE, TORSBY ROAD, TUNA PLACE, TURVEY ROAD, VIDAR WAY, WAIAUA ROAD, WALTERS WAY, WATERFRONT DRIVE, WATERFRONT ROAD, WHITECAPS PLACE, WILSON WAY, WINDUST ROAD, WRATHALL ROAD"
+      },
+      "customersAffected": "2652",
+      "feeder": "Sub-Transmission",
+      "lastUpdateTime": "20/12/2025 01:18 AM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
