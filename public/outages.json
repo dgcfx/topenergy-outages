@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-18T23-30-44Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-19T02-15-48Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5774,6 +5774,48 @@
           }
         ],
         "body": "**Outage ID:** 36095F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Vehicle impact\n**Customers Affected:** 6\n**Suburbs:** OHAEAWAI\n---\n**Affected Roads:**\nSTATE HIGHWAY 1\n---\n**Update History:**\n- 2025-12-18T22:45:41Z: Vehicle impact\n- 2025-12-18T22:30:42Z: Vehicle impact\n- 2025-12-18T21:30:52Z: Vehicle impact\n- 2025-12-18T18:30:41Z: Vehicle impact\n- 2025-12-18T18:15:46Z: Vehicle impact\n- 2025-12-18T17:45:39Z: Vehicle impact\n- 2025-12-18T17:15:45Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36098F",
+      "title": "Tau Block (1 customers)",
+      "start": "2025-12-19T02:00:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Tau Block",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-19T02:00:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "19/12/2025",
+              "startTime": "02:27 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "MOEREWA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 1",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "TAU BLOCK",
+              "lastUpdateTime": "19/12/2025 02:35 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36098F\n**Status:** Active\n**Feeder / Circuit:** TAU BLOCK\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** MOEREWA\n---\n**Affected Roads:**\nSTATE HIGHWAY 1\n---"
       }
     }
   ]
