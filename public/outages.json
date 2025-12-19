@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-19T13-45-41Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-19T14-45-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -5822,7 +5822,7 @@
       "id": "36101F",
       "title": "Sub-transmission (4271 customers)",
       "start": "2025-12-19T12:30:44Z",
-      "end": null,
+      "end": "2025-12-19T14:00:41Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
