@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-12-19T13:15:51Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "ca86c3de58d84306",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "ca86c3de58d84306",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36101F",
+          "lat": -34.92336985786062,
+          "lng": 173.38018103855765
+        }
+      ],
+      "planned": [
+        {
+          "id": "35993F",
+          "lat": -35.28005752138607,
+          "lng": 173.57261823907822
+        },
+        {
+          "id": "36080F",
+          "lat": -35.33305391127599,
+          "lng": 173.66420678355658
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 1523,
+      "activeOutageCount": 1,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36080F",
+          "startTimestamp": 1766435400,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "23rd December 09:30 am",
+          "endDateTime": "23rd December 02:00 pm",
+          "alternativeStartDateTime": "7th January 10:00 am",
+          "alternativeEndDateTime": "7th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36101F",
+          "startTimestamp": 1766147100,
+          "isActive": true,
+          "circuitName": "Taipals",
+          "customersCurrentlyOff": "1523",
+          "startDateTime": "20th December 01:25 am",
+          "endDateTime": "Not available",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36101F": {
+      "duration": "Unknown",
+      "startDate": "20/12/2025",
+      "startTime": "01:25 AM",
+      "estimatedRestorationDate": null,
+      "estimatedRestorationTime": null,
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": ", DOUBTLESS BAY, KAITAIA, KARIKARI, KARIKARI PENINSULA, KARIKARI PENINSULAR, KARIKARI PENNINSULA, KARIKARI PENSULIA, LAKE OHIA, PARAPARA, RANGIPUTA, TAIPA, TOKERAU BEACH, WHATUWHIWHI",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "ADAMSON ROAD, AKEAKE CRESCENT, ARKLES WAY, AURERE BEACH ROAD, BANYAN ROAD",
+        "hiddenStreets": "BAY HEIGHTS DRIVE, BROOKE ROAD, BRUNTON PLACE, CARRINGTON DRIVE, COURTNEY PLACE, DE SURVILLE ROAD, DICK URLICH ROAD, DOUBTLESS BAY DRIVE, EAST STREET, FLAME TREE LANE, GILLIES ROAD, INLAND ROAD, LAKE OHIA ROAD, LINDSEY WAY, MAMARU ROAD, MARREINE PLACE, MATAI BAY ROAD, MATARIKI PLACE, MELISSA ROAD, MOTUTARA DRIVE, NGATIKAHU ROAD, ORURU ROAD, PARANUI-TOATOA ROAD, PARAPARA ROAD, PARAPARA -TOATOA ROAD, PARAPARA-TOATOA ROAD, PAREMATA NEXUS ROAD, PEREHIPE ROAD, PUHEKE ROAD, RAMP ROAD, RANGIPUTA ROAD, RYDER ROAD, SIMON URLICH ROAD, STATE HIGHWAY 10, SUNLOVER WAY, TAIPA POINT ROAD, TAIPA VIEW ROAD, TAUMATA ROAD, TE AHU PLACE, TE MOHO ROAD, TE RANGINUI PLACE, TOKERAU BEACH RD, TOKERAU BEACH ROAD, TUITONGA ROAD, VIRTUE CRESCENT, WAIMANGO ROAD, WALLACE ROAD, WHALE CRESCENT, WHATUWHIWHI ROAD, WHITNEY LANE"
+      },
+      "customersAffected": "1523",
+      "feeder": "TAIPALS",
+      "lastUpdateTime": "20/12/2025 01:18 AM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
