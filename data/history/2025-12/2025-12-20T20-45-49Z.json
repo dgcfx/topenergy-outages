@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-12-20T20:45:49Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "1cce8e2856257aea",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "1cce8e2856257aea",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [],
+      "planned": [
+        {
+          "id": "35993F",
+          "lat": -35.28008648116414,
+          "lng": 173.57266445075663
+        },
+        {
+          "id": "36080F",
+          "lat": -35.33305681824544,
+          "lng": 173.66421712841665
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 0,
+      "activeOutageCount": 0,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36080F",
+          "startTimestamp": 1766435400,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "23rd December 09:30 am",
+          "endDateTime": "23rd December 02:00 pm",
+          "alternativeStartDateTime": "7th January 10:00 am",
+          "alternativeEndDateTime": "7th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": []
+    }
+  },
+  "detailedOutageInfo": {}
+}
