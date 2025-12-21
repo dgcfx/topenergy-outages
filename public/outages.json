@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-21T02-30-44Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-21T04-15-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -6008,6 +6008,48 @@
           }
         ],
         "body": "**Outage ID:** 36104F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** NGATAKI\n---\n**Affected Roads:**\nFAR NORTH ROAD\n---"
+      }
+    },
+    {
+      "id": "36107F",
+      "title": "Awanui (79 customers)",
+      "start": "2025-12-21T03:00:54Z",
+      "end": "2025-12-21T03:30:39Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "79",
+        "circuit": "Awanui",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-21T03:00:54Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "21/12/2025",
+              "startTime": "03:53 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "AWANUI, PAPARORE, WAIHARARA, WAIPAPAKAURI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "CAMP ROAD, FAR NORTH ROAD, HEATH ROAD, IMMS ROAD, PAPARORE ROAD",
+                "hiddenStreets": "STATE HIGHWAY 1, STATE HIGHWAY 1F"
+              },
+              "customersAffected": "79",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "21/12/2025 03:53 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36107F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Under Investigation\n**Customers Affected:** 79\n**Suburbs:** AWANUI, PAPARORE, WAIHARARA, WAIPAPAKAURI\n---\n**Affected Roads:**\nCAMP ROAD\nFAR NORTH ROAD\nHEATH ROAD\nIMMS ROAD\nPAPARORE ROAD\n---"
       }
     }
   ]
