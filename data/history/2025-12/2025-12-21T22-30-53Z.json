@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-12-21T22:30:53Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "d92fc81756f4b402",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "d92fc81756f4b402",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36110F",
+          "lat": -35.372958988814425,
+          "lng": 173.57900275063247
+        }
+      ],
+      "planned": [
+        {
+          "id": "35993F",
+          "lat": -35.28005752138607,
+          "lng": 173.57261823907822
+        },
+        {
+          "id": "36080F",
+          "lat": -35.33305681824544,
+          "lng": 173.66421712841665
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 497,
+      "activeOutageCount": 1,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36080F",
+          "startTimestamp": 1766435400,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "23rd December 09:30 am",
+          "endDateTime": "23rd December 02:00 pm",
+          "alternativeStartDateTime": "7th January 10:00 am",
+          "alternativeEndDateTime": "7th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36110F",
+          "startTimestamp": 1766345100,
+          "isActive": true,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "497",
+          "startDateTime": "22nd December 08:25 am",
+          "endDateTime": "22nd December 01:25 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36110F": {
+      "duration": "Unknown",
+      "startDate": "22/12/2025",
+      "startTime": "08:25 AM",
+      "estimatedRestorationDate": "22/12/2025",
+      "estimatedRestorationTime": "01:25 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Vehicle impact",
+      "suburbs": "HOREKE, KERIKERI, KOHUKOHU, MOTUKIORE, OKAIHAU, PANGURU, RAWENE, UTAKURA",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "BEACH ROAD, BLUE MOUNTAIN ROAD, CHURCH STREET, CLASSEN ROAD, COOK ROAD",
+        "hiddenStreets": "CREAMERY ROAD, DONALDSON ROAD, DUDDY ROAD, HAPANGA ROAD, HARRISON ROAD, HAWKINS ROAD, HOREKE ROAD, KIRKPATRICK STREET, KOHUKOHU ROAD, MACDONELL ROAD, MANGATARAIRE ROAD, MANING STREET, MARRINER STREET, MATAWERA ROAD, MCDONNELL ROAD, MOTUKARAKA POINT ROAD, MOTUKIORE ROAD, OKAKA ROAD, OLD BEACH ROAD, PAPONGA ROAD, PAREMATA ROADWAY, POTTER STREET, PUKEWHAO ROAD, RAKAUTAPU ROAD, RANGIAHUA ROAD, RANGIORA NARROWS FERRY RAMP, RIDDELL ROAD, SETTLERS WAY, SMITHS DEVIATION ROAD, TAHEKE ROAD, TAUTEIHIHI ROAD, TAUTEIHIIHI ROAD, TE HUA HUA ROAD, UTAKURA VALLEY ROAD, WAIKERIKERI FORD ROAD, WAIKERIKERI ROAD, WEST COAST ROAD, YARBOROUGH STREET"
+      },
+      "customersAffected": "497",
+      "feeder": "HOREKE",
+      "lastUpdateTime": "22/12/2025 08:24 AM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
