@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-12-21T03:00:54Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "61f1aad8cc6fa14f",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "61f1aad8cc6fa14f",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36107F",
+          "lat": -34.980080957387244,
+          "lng": 173.19437292151866
+        }
+      ],
+      "planned": [
+        {
+          "id": "35993F",
+          "lat": -35.28008648116414,
+          "lng": 173.57266445075663
+        },
+        {
+          "id": "36080F",
+          "lat": -35.33305681824544,
+          "lng": 173.66421712841665
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 79,
+      "activeOutageCount": 1,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36080F",
+          "startTimestamp": 1766435400,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "23rd December 09:30 am",
+          "endDateTime": "23rd December 02:00 pm",
+          "alternativeStartDateTime": "7th January 10:00 am",
+          "alternativeEndDateTime": "7th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36107F",
+          "startTimestamp": 1766285580,
+          "isActive": true,
+          "circuitName": "Awanui",
+          "customersCurrentlyOff": "79",
+          "startDateTime": "21st December 03:53 pm",
+          "endDateTime": "Not available",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36107F": {
+      "duration": "Unknown",
+      "startDate": "21/12/2025",
+      "startTime": "03:53 PM",
+      "estimatedRestorationDate": null,
+      "estimatedRestorationTime": null,
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": "AWANUI, PAPARORE, WAIHARARA, WAIPAPAKAURI",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "CAMP ROAD, FAR NORTH ROAD, HEATH ROAD, IMMS ROAD, PAPARORE ROAD",
+        "hiddenStreets": "STATE HIGHWAY 1, STATE HIGHWAY 1F"
+      },
+      "customersAffected": "79",
+      "feeder": "AWANUI",
+      "lastUpdateTime": "21/12/2025 03:53 PM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
