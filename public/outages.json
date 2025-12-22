@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-22T19-30-43Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-22T20-45-38Z.json",
   "events": [
     {
       "id": "35660F",
@@ -6227,6 +6227,48 @@
           }
         ],
         "body": "**Outage ID:** 36110F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Vehicle impact\n**Customers Affected:** 4\n**Suburbs:** OKAIHAU\n---\n**Affected Roads:**\nHOREKE ROAD\n---\n**Update History:**\n- 2025-12-22T01:45:43Z: Vehicle impact\n- 2025-12-22T01:30:41Z: Vehicle impact\n- 2025-12-22T01:15:44Z: Vehicle impact\n- 2025-12-22T00:15:44Z: Vehicle impact\n- 2025-12-21T19:45:42Z: Vehicle impact\n- 2025-12-21T19:30:43Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36080F",
+      "title": "Horeke (6 customers)",
+      "start": "2025-12-22T20:45:38Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "6",
+        "circuit": "Horeke",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-22T20:45:38Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "23/12/2025",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "23/12/2025",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "07/01/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "07/01/2026",
+              "alternativeEstimatedRestorationTime": "02:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "HOREKE",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "OKAKA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "17/12/2025 01:50 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36080F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Line Maintenance\n**Customers Affected:** 6\n**Suburbs:** HOREKE\n---\n**Affected Roads:**\nOKAKA ROAD\n---"
       }
     }
   ]
