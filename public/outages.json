@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-23T22-45-41Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-23T23-30-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -6338,6 +6338,75 @@
           }
         ],
         "body": "**Outage ID:** 36119F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Equipment fault\n**Customers Affected:** 84\n**Suburbs:** KAIKOHE, OTAUA\n---\n**Affected Roads:**\nMATARAUA ROAD\nPARKER ROAD\nPICADILLY ROAD\nSTEWARD ROAD\nTE IRENGA ROAD\n---\n**Update History:**\n- 2025-12-23T05:00:52Z: Equipment fault\n- 2025-12-23T03:15:50Z: Equipment fault"
+      }
+    },
+    {
+      "id": "36122F",
+      "title": "South Road (30 customers)",
+      "start": "2025-12-23T23:00:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "30",
+        "circuit": "South Road",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-23T23:00:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/12/2025",
+              "startTime": "11:48 AM",
+              "estimatedRestorationDate": "24/12/2025",
+              "estimatedRestorationTime": "12:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "BROADWOOD, KOHUKOHU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BROADWOOD ROAD, CARMEN ROAD, GROUNDS ROAD, HUMPHREYS ROAD, MANSBRIDGE ROAD",
+                "hiddenStreets": "PAPONGA ROAD"
+              },
+              "customersAffected": "30",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "24/12/2025 11:49 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-23T23:30:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/12/2025",
+              "startTime": "11:48 AM",
+              "estimatedRestorationDate": "24/12/2025",
+              "estimatedRestorationTime": "01:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "BROADWOOD, KOHUKOHU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BROADWOOD ROAD, CARMEN ROAD, GROUNDS ROAD, HUMPHREYS ROAD, MANSBRIDGE ROAD",
+                "hiddenStreets": "PAPONGA ROAD"
+              },
+              "customersAffected": "30",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "24/12/2025 11:49 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36122F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Tree contact\n**Customers Affected:** 30\n**Suburbs:** BROADWOOD, KOHUKOHU\n---\n**Affected Roads:**\nBROADWOOD ROAD\nCARMEN ROAD\nGROUNDS ROAD\nHUMPHREYS ROAD\nMANSBRIDGE ROAD\n---\n**Update History:**\n- 2025-12-23T23:30:42Z: Tree contact\n- 2025-12-23T23:00:51Z: Tree contact"
       }
     }
   ]
