@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-22T23-30-51Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-23T03-45-39Z.json",
   "events": [
     {
       "id": "35660F",
@@ -6269,6 +6269,48 @@
           }
         ],
         "body": "**Outage ID:** 36080F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Line Maintenance\n**Customers Affected:** 6\n**Suburbs:** HOREKE\n---\n**Affected Roads:**\nOKAKA ROAD\n---"
+      }
+    },
+    {
+      "id": "36119F",
+      "title": "Taheke (1 customers)",
+      "start": "2025-12-23T03:15:50Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Taheke",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-23T03:15:50Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "23/12/2025",
+              "startTime": "01:13 PM",
+              "estimatedRestorationDate": "23/12/2025",
+              "estimatedRestorationTime": "07:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KAIKOHE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PICADILLY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "TAHEKE",
+              "lastUpdateTime": "23/12/2025 04:02 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36119F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Equipment fault\n**Customers Affected:** 1\n**Suburbs:** KAIKOHE\n---\n**Affected Roads:**\nPICADILLY ROAD\n---"
       }
     }
   ]
