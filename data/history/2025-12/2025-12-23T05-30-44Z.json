@@ -1,0 +1,102 @@
+{
+  "timestamp": "2025-12-23T05:30:44Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "a5298c5b0ef1f908",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "a5298c5b0ef1f908",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36119F",
+          "lat": -35.54602595116033,
+          "lng": 173.7357198244058
+        }
+      ],
+      "planned": [
+        {
+          "id": "35993F",
+          "lat": -35.28005752138607,
+          "lng": 173.57261823907822
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 84,
+      "activeOutageCount": 1,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36119F",
+          "startTimestamp": 1766448780,
+          "isActive": true,
+          "circuitName": "Taheke",
+          "customersCurrentlyOff": "84",
+          "startDateTime": "23rd December 01:13 pm",
+          "endDateTime": "23rd December 07:30 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36119F": {
+      "duration": "Unknown",
+      "startDate": "23/12/2025",
+      "startTime": "01:13 PM",
+      "estimatedRestorationDate": "23/12/2025",
+      "estimatedRestorationTime": "07:30 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Equipment fault",
+      "suburbs": "KAIKOHE, OTAUA",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "MATARAUA ROAD, PARKER ROAD, PICADILLY ROAD, STEWARD ROAD, TE IRENGA ROAD",
+        "hiddenStreets": "WAIMATENUI ROAD, WHAREPUNGA ROAD, WHIU ROAD"
+      },
+      "customersAffected": "84",
+      "feeder": "TAHEKE",
+      "lastUpdateTime": "23/12/2025 04:02 PM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
