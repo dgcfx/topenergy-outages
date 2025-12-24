@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-23T23-30-42Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-24T02-15-54Z.json",
   "events": [
     {
       "id": "35660F",
@@ -6404,9 +6404,132 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-24T00:15:39Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/12/2025",
+              "startTime": "11:48 AM",
+              "estimatedRestorationDate": "24/12/2025",
+              "estimatedRestorationTime": "04:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "BROADWOOD",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MANSBRIDGE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "24/12/2025 11:49 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36122F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Tree contact\n**Customers Affected:** 30\n**Suburbs:** BROADWOOD, KOHUKOHU\n---\n**Affected Roads:**\nBROADWOOD ROAD\nCARMEN ROAD\nGROUNDS ROAD\nHUMPHREYS ROAD\nMANSBRIDGE ROAD\n---\n**Update History:**\n- 2025-12-23T23:30:42Z: Tree contact\n- 2025-12-23T23:00:51Z: Tree contact"
+        "body": "**Outage ID:** 36122F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Tree contact\n**Customers Affected:** 3\n**Suburbs:** BROADWOOD\n---\n**Affected Roads:**\nMANSBRIDGE ROAD\n---\n**Update History:**\n- 2025-12-24T00:15:39Z: Tree contact\n- 2025-12-23T23:30:42Z: Tree contact\n- 2025-12-23T23:00:51Z: Tree contact"
+      }
+    },
+    {
+      "id": "36125F",
+      "title": "Opua (691 customers)",
+      "start": "2025-12-24T01:00:38Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "691",
+        "circuit": "Opua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-24T01:00:38Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/12/2025",
+              "startTime": "01:58 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAWAKAWA, OPUA, PAIHIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ARABELLA ROAD, AUSTIN STREET, BAFFIN STREET, BEAUFORT STREET, BEECHY STREET",
+                "hiddenStreets": "BRISTOW ROAD, BROADVIEW ROAD, DERRICK ROAD, DOEL ROAD, FRANKLIN STREET, GILL DRIVE, HARRYS PLACE, KANE STREET, KELLET STREET, KENNEDY STREET, LEONARD STREET, LYON STREET, MARINA RISE, NEUMANN STREET, NORTH ROAD, OROMAHOE ROAD, PAIHIA ROAD, PARRY STREET, PENNEY STREET, RAILWAY ROAD, RAYMOND STREET, RESERVOIR ROAD, RICHARDSON STREET, RIGDEN ROAD, ROSS STREET, SCORESBY STREET, SETTLEMENT ROAD, SIR GEORGE BACK STREET, STATE HIGHWAY 11, TE RAUPO ROAD, TIROHANGA ROAD, TOOTS DRIVE, VERONICA POINT DRIVE, WAIMANGARO ROAD, WARD DRIVE, WHITEMAN ROAD, WILLIAMS STREET"
+              },
+              "customersAffected": "691",
+              "feeder": "OPUA",
+              "lastUpdateTime": "24/12/2025 01:58 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-24T01:45:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/12/2025",
+              "startTime": "02:10 PM",
+              "estimatedRestorationDate": "24/12/2025",
+              "estimatedRestorationTime": "04:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAWAKAWA, OPUA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AUSTIN STREET, BEAUFORT STREET, BRISTOW ROAD, DERRICK ROAD, DOEL ROAD",
+                "hiddenStreets": "GILL DRIVE, HARRYS PLACE, KENNEDY STREET, LEONARD STREET, LYON STREET, MARINA RISE, NEUMANN STREET, NORTH ROAD, PAIHIA ROAD, RAILWAY ROAD, RAYMOND STREET, RESERVOIR ROAD, RIGDEN ROAD, ROSS STREET, SCORESBY STREET, SETTLEMENT ROAD, STATE HIGHWAY 11, TE RAUPO ROAD, TIROHANGA ROAD, TOOTS DRIVE, WHITEMAN ROAD, WILLIAMS STREET"
+              },
+              "customersAffected": "427",
+              "feeder": "OPUA",
+              "lastUpdateTime": "24/12/2025 01:58 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-24T02:01:33Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/12/2025",
+              "startTime": "02:10 PM",
+              "estimatedRestorationDate": "24/12/2025",
+              "estimatedRestorationTime": "04:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAWAKAWA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "DERRICK ROAD, GILL DRIVE, HARRYS PLACE, LEONARD STREET, NEUMANN STREET",
+                "hiddenStreets": "NORTH ROAD, RAILWAY ROAD, RAYMOND STREET, SETTLEMENT ROAD, WHITEMAN ROAD, WILLIAMS STREET"
+              },
+              "customersAffected": "233",
+              "feeder": "OPUA",
+              "lastUpdateTime": "24/12/2025 01:58 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36125F\n**Status:** Active\n**Feeder / Circuit:** OPUA\n**Cause:** Under Investigation\n**Customers Affected:** 233\n**Suburbs:** KAWAKAWA\n---\n**Affected Roads:**\nDERRICK ROAD\nGILL DRIVE\nHARRYS PLACE\nLEONARD STREET\nNEUMANN STREET\n---\n**Update History:**\n- 2025-12-24T02:01:33Z: Under Investigation\n- 2025-12-24T01:45:41Z: Under Investigation\n- 2025-12-24T01:00:38Z: Under Investigation"
       }
     }
   ]
