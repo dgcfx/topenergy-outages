@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-24T06-45-46Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-24T07-45-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -6344,7 +6344,7 @@
       "id": "36122F",
       "title": "South Road (30 customers)",
       "start": "2025-12-23T23:00:51Z",
-      "end": null,
+      "end": "2025-12-24T07:45:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -6431,9 +6431,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-24T07:15:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/12/2025",
+              "startTime": "11:48 AM",
+              "estimatedRestorationDate": "24/12/2025",
+              "estimatedRestorationTime": "09:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "BROADWOOD",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MANSBRIDGE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "24/12/2025 11:49 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36122F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Tree contact\n**Customers Affected:** 3\n**Suburbs:** BROADWOOD\n---\n**Affected Roads:**\nMANSBRIDGE ROAD\n---\n**Update History:**\n- 2025-12-24T00:15:39Z: Tree contact\n- 2025-12-23T23:30:42Z: Tree contact\n- 2025-12-23T23:00:51Z: Tree contact"
+        "body": "**Outage ID:** 36122F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Tree contact\n**Customers Affected:** 3\n**Suburbs:** BROADWOOD\n---\n**Affected Roads:**\nMANSBRIDGE ROAD\n---\n**Update History:**\n- 2025-12-24T07:15:42Z: Tree contact\n- 2025-12-24T00:15:39Z: Tree contact\n- 2025-12-23T23:30:42Z: Tree contact\n- 2025-12-23T23:00:51Z: Tree contact"
       }
     },
     {
