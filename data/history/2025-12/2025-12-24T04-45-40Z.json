@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-12-24T04:45:40Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "ac4e8cfbd336da17",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "ac4e8cfbd336da17",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36122F",
+          "lat": -35.25678021849223,
+          "lng": 173.4250224066969
+        },
+        {
+          "id": "36128F",
+          "lat": -35.12056764527457,
+          "lng": 173.5496463896756
+        }
+      ],
+      "planned": [
+        {
+          "id": "35993F",
+          "lat": -35.28008648116414,
+          "lng": 173.57266445075663
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 27,
+      "activeOutageCount": 2,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36122F",
+          "startTimestamp": 1766530080,
+          "isActive": true,
+          "circuitName": "South Road",
+          "customersCurrentlyOff": "3",
+          "startDateTime": "24th December 11:48 am",
+          "endDateTime": "24th December 04:00 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "unplanned",
+          "name": "36128F",
+          "startTimestamp": 1766547540,
+          "isActive": true,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "24",
+          "startDateTime": "24th December 04:39 pm",
+          "endDateTime": "24th December 07:30 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36128F": {
+      "duration": "Unknown",
+      "startDate": "24/12/2025",
+      "startTime": "04:39 PM",
+      "estimatedRestorationDate": "24/12/2025",
+      "estimatedRestorationTime": "07:30 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": "PERIA",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "FERN FLAT ROAD, SHEPHERD ROAD, TE KAROA ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "24",
+      "feeder": "ORURU",
+      "lastUpdateTime": "24/12/2025 05:11 PM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
