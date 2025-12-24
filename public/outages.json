@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-24T03-45-43Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-24T04-45-40Z.json",
   "events": [
     {
       "id": "35660F",
@@ -6557,6 +6557,75 @@
           }
         ],
         "body": "**Outage ID:** 36125F\n**Status:** Active\n**Feeder / Circuit:** OPUA\n**Cause:** Under Investigation\n**Customers Affected:** 228\n**Suburbs:** KAWAKAWA\n---\n**Affected Roads:**\nDERRICK ROAD\nGILL DRIVE\nHARRYS PLACE\nLEONARD STREET\nNEUMANN STREET\n---\n**Update History:**\n- 2025-12-24T02:30:49Z: Under Investigation\n- 2025-12-24T02:01:33Z: Under Investigation\n- 2025-12-24T01:45:41Z: Under Investigation\n- 2025-12-24T01:00:38Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36128F",
+      "title": "Oruru (24 customers)",
+      "start": "2025-12-24T04:15:43Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "24",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-24T04:15:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/12/2025",
+              "startTime": "05:04 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "PERIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "FERN FLAT ROAD, SHEPHERD ROAD, TE KAROA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "24",
+              "feeder": "ORURU",
+              "lastUpdateTime": "24/12/2025 05:11 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-24T04:45:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/12/2025",
+              "startTime": "04:39 PM",
+              "estimatedRestorationDate": "24/12/2025",
+              "estimatedRestorationTime": "07:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "PERIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "FERN FLAT ROAD, SHEPHERD ROAD, TE KAROA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "24",
+              "feeder": "ORURU",
+              "lastUpdateTime": "24/12/2025 05:11 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36128F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Under Investigation\n**Customers Affected:** 24\n**Suburbs:** PERIA\n---\n**Affected Roads:**\nFERN FLAT ROAD\nSHEPHERD ROAD\nTE KAROA ROAD\n---\n**Update History:**\n- 2025-12-24T04:45:40Z: Under Investigation\n- 2025-12-24T04:15:43Z: Under Investigation"
       }
     }
   ]
