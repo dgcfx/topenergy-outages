@@ -1,0 +1,102 @@
+{
+  "timestamp": "2025-12-24T03:00:44Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "c2aaf444085e6cf6",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "c2aaf444085e6cf6",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36122F",
+          "lat": -35.25678021849223,
+          "lng": 173.4250224066969
+        }
+      ],
+      "planned": [
+        {
+          "id": "35993F",
+          "lat": -35.28008648116414,
+          "lng": 173.57266445075663
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 3,
+      "activeOutageCount": 1,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36122F",
+          "startTimestamp": 1766530080,
+          "isActive": true,
+          "circuitName": "South Road",
+          "customersCurrentlyOff": "3",
+          "startDateTime": "24th December 11:48 am",
+          "endDateTime": "24th December 04:00 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36122F": {
+      "duration": "Unknown",
+      "startDate": "24/12/2025",
+      "startTime": "11:48 AM",
+      "estimatedRestorationDate": "24/12/2025",
+      "estimatedRestorationTime": "04:00 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Tree contact",
+      "suburbs": "BROADWOOD",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "MANSBRIDGE ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "3",
+      "feeder": "SOUTH ROAD",
+      "lastUpdateTime": "24/12/2025 11:49 AM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
