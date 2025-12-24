@@ -1,0 +1,144 @@
+{
+  "timestamp": "2025-12-24T01:45:41Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "5ef5b89a2d2b3793",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "5ef5b89a2d2b3793",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36122F",
+          "lat": -35.25678021849223,
+          "lng": 173.4250224066969
+        },
+        {
+          "id": "36125F",
+          "lat": -35.35398692025227,
+          "lng": 174.08852393648755
+        }
+      ],
+      "planned": [
+        {
+          "id": "35993F",
+          "lat": -35.28008648116414,
+          "lng": 173.57266445075663
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 430,
+      "activeOutageCount": 2,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36122F",
+          "startTimestamp": 1766530080,
+          "isActive": true,
+          "circuitName": "South Road",
+          "customersCurrentlyOff": "3",
+          "startDateTime": "24th December 11:48 am",
+          "endDateTime": "24th December 04:00 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "unplanned",
+          "name": "36125F",
+          "startTimestamp": 1766538600,
+          "isActive": true,
+          "circuitName": "Opua",
+          "customersCurrentlyOff": "427",
+          "startDateTime": "24th December 02:10 pm",
+          "endDateTime": "24th December 04:00 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36122F": {
+      "duration": "Unknown",
+      "startDate": "24/12/2025",
+      "startTime": "11:48 AM",
+      "estimatedRestorationDate": "24/12/2025",
+      "estimatedRestorationTime": "04:00 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Tree contact",
+      "suburbs": "BROADWOOD",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "MANSBRIDGE ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "3",
+      "feeder": "SOUTH ROAD",
+      "lastUpdateTime": "24/12/2025 11:49 AM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "36125F": {
+      "duration": "Unknown",
+      "startDate": "24/12/2025",
+      "startTime": "02:10 PM",
+      "estimatedRestorationDate": "24/12/2025",
+      "estimatedRestorationTime": "04:00 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": "KAWAKAWA, OPUA",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "AUSTIN STREET, BEAUFORT STREET, BRISTOW ROAD, DERRICK ROAD, DOEL ROAD",
+        "hiddenStreets": "GILL DRIVE, HARRYS PLACE, KENNEDY STREET, LEONARD STREET, LYON STREET, MARINA RISE, NEUMANN STREET, NORTH ROAD, PAIHIA ROAD, RAILWAY ROAD, RAYMOND STREET, RESERVOIR ROAD, RIGDEN ROAD, ROSS STREET, SCORESBY STREET, SETTLEMENT ROAD, STATE HIGHWAY 11, TE RAUPO ROAD, TIROHANGA ROAD, TOOTS DRIVE, WHITEMAN ROAD, WILLIAMS STREET"
+      },
+      "customersAffected": "427",
+      "feeder": "OPUA",
+      "lastUpdateTime": "24/12/2025 01:58 PM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
