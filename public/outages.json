@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-26T03-45-49Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-26T04-45-39Z.json",
   "events": [
     {
       "id": "35660F",
@@ -6653,6 +6653,75 @@
           }
         ],
         "body": "**Outage ID:** 36128F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Under Investigation\n**Customers Affected:** 24\n**Suburbs:** PERIA\n---\n**Affected Roads:**\nFERN FLAT ROAD\nSHEPHERD ROAD\nTE KAROA ROAD\n---\n**Update History:**\n- 2025-12-24T04:45:40Z: Under Investigation\n- 2025-12-24T04:15:43Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36143F",
+      "title": "Ohaeawai (6 customers)",
+      "start": "2025-12-26T04:15:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "6",
+        "circuit": "Ohaeawai",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-26T04:15:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "26/12/2025",
+              "startTime": "05:02 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "PAKARAKA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "LUDBROOK ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "OHAEAWAI",
+              "lastUpdateTime": "26/12/2025 05:02 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-26T04:31:01Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "26/12/2025",
+              "startTime": "05:02 PM",
+              "estimatedRestorationDate": "26/12/2025",
+              "estimatedRestorationTime": "07:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "PAKARAKA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "LUDBROOK ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "OHAEAWAI",
+              "lastUpdateTime": "26/12/2025 05:02 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36143F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Equipment fault\n**Customers Affected:** 6\n**Suburbs:** PAKARAKA\n---\n**Affected Roads:**\nLUDBROOK ROAD\n---\n**Update History:**\n- 2025-12-26T04:31:01Z: Equipment fault\n- 2025-12-26T04:15:51Z: Under Investigation"
       }
     }
   ]
