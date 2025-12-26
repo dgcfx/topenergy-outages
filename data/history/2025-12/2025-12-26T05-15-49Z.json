@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-12-26T05:15:49Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "56ccb5499f204b4d",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "56ccb5499f204b4d",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36143F",
+          "lat": -35.38046981912857,
+          "lng": 173.93533196427535
+        },
+        {
+          "id": "36146F",
+          "lat": -35.34934517227395,
+          "lng": 173.75806406338617
+        }
+      ],
+      "planned": [
+        {
+          "id": "35966F",
+          "lat": -35.09738552734754,
+          "lng": 173.25976984453948
+        },
+        {
+          "id": "35993F",
+          "lat": -35.28005752138607,
+          "lng": 173.57261823907822
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 7,
+      "activeOutageCount": 2,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35966F",
+          "startTimestamp": 1767591000,
+          "isActive": false,
+          "circuitName": "North Road",
+          "customersCurrentlyOff": "13",
+          "startDateTime": "5th January 06:30 pm",
+          "endDateTime": "5th January 08:30 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "9th December 08:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36143F",
+          "startTimestamp": 1766721720,
+          "isActive": true,
+          "circuitName": "Ohaeawai",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "26th December 05:02 pm",
+          "endDateTime": "26th December 07:00 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "unplanned",
+          "name": "36146F",
+          "startTimestamp": 1766725200,
+          "isActive": true,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "1",
+          "startDateTime": "26th December 06:00 pm",
+          "endDateTime": "Not available",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36143F": {
+      "duration": "Unknown",
+      "startDate": "26/12/2025",
+      "startTime": "05:02 PM",
+      "estimatedRestorationDate": "26/12/2025",
+      "estimatedRestorationTime": "07:00 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Equipment fault",
+      "suburbs": "PAKARAKA",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "LUDBROOK ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "6",
+      "feeder": "OHAEAWAI",
+      "lastUpdateTime": "26/12/2025 05:02 PM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "36146F": {
+      "duration": "Unknown",
+      "startDate": "26/12/2025",
+      "startTime": "06:00 PM",
+      "estimatedRestorationDate": null,
+      "estimatedRestorationTime": null,
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": "OKAIHAU",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "IMMS ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "1",
+      "feeder": "HOREKE",
+      "lastUpdateTime": "26/12/2025 06:02 PM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
