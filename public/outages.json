@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-26T04-45-39Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-26T05-45-50Z.json",
   "events": [
     {
       "id": "35660F",
@@ -6722,6 +6722,48 @@
           }
         ],
         "body": "**Outage ID:** 36143F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Equipment fault\n**Customers Affected:** 6\n**Suburbs:** PAKARAKA\n---\n**Affected Roads:**\nLUDBROOK ROAD\n---\n**Update History:**\n- 2025-12-26T04:31:01Z: Equipment fault\n- 2025-12-26T04:15:51Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36146F",
+      "title": "Horeke (1 customers)",
+      "start": "2025-12-26T05:15:49Z",
+      "end": "2025-12-26T05:30:50Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Horeke",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-26T05:15:49Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "26/12/2025",
+              "startTime": "06:00 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "OKAIHAU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "IMMS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "26/12/2025 06:02 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36146F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** OKAIHAU\n---\n**Affected Roads:**\nIMMS ROAD\n---"
       }
     }
   ]
