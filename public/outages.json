@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-28T22-45-50Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-28T23-30-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -6887,9 +6887,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-28T23:00:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/12/2025",
+              "startTime": "08:49 AM",
+              "estimatedRestorationDate": "29/12/2025",
+              "estimatedRestorationTime": "01:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": "KAEO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MATAURI BAY ROAD, MCGEE ROAD, OROTERE LANE, STATE HIGHWAY 10, TE MAORI ROAD",
+                "hiddenStreets": "TOPPS ACCESS ROAD, UPOKORAU ROAD, WAIARE ROAD"
+              },
+              "customersAffected": "60",
+              "feeder": "OROTERE",
+              "lastUpdateTime": "29/12/2025 11:52 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36188F\n**Status:** Active\n**Feeder / Circuit:** OROTERE\n**Cause:** Vehicle impact\n**Customers Affected:** 60\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nMATAURI BAY ROAD\nMCGEE ROAD\nOROTERE LANE\nSTATE HIGHWAY 10\nTE MAORI ROAD\n---"
+        "body": "**Outage ID:** 36188F\n**Status:** Active\n**Feeder / Circuit:** OROTERE\n**Cause:** Vehicle impact\n**Customers Affected:** 60\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nMATAURI BAY ROAD\nMCGEE ROAD\nOROTERE LANE\nSTATE HIGHWAY 10\nTE MAORI ROAD\n---\n**Update History:**\n- 2025-12-28T23:00:48Z: Vehicle impact\n- 2025-12-28T21:00:42Z: Vehicle impact"
       }
     },
     {
@@ -6983,9 +7010,63 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-28T23:00:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/12/2025",
+              "startTime": "09:43 AM",
+              "estimatedRestorationDate": "29/12/2025",
+              "estimatedRestorationTime": "11:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "KERIKERI, MOTUROA ISLAND",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BLACKS ROAD, DARWIN ROAD, DAVIS STRONGMAN PLACE, EDMONDS ROAD, FULLER TERRACE",
+                "hiddenStreets": "FURNESS ROAD, HAUPARUA LANE, HERON HILL, HIRERE WAY, HOULTS WAY, HUAPARUA LANE, KERI KERI INLET ROAD, KERIDALE LANE, KERIKERI INLET ROAD, KOTARE HEIGHTS, KOTARE HEIGHTS ESTATE, KOTARE PLACE, MANAWA VIEW, MOTUROA ISLAND, PA ROAD, PEIHANA RISE, PICKMERE LANE, QUINCES LANDING, RARERE TERRACE, REINGA ROAD, RIVERCREST WAY, RURU LANE, SHEPHERD ROAD, TASMAN PLACE, TE WAIRERE CRESCENT, THE LOOKOUT, WHARAU ROAD"
+              },
+              "customersAffected": "864",
+              "feeder": "INLET ROAD",
+              "lastUpdateTime": "29/12/2025 10:13 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-28T23:15:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/12/2025",
+              "startTime": "09:43 AM",
+              "estimatedRestorationDate": "29/12/2025",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "KERIKERI, MOTUROA ISLAND",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "DAVIS STRONGMAN PLACE, EDMONDS ROAD, FURNESS ROAD, HAUPARUA LANE, HUAPARUA LANE",
+                "hiddenStreets": "KERIKERI INLET ROAD, MOTUROA ISLAND, QUINCES LANDING, WHARAU ROAD"
+              },
+              "customersAffected": "237",
+              "feeder": "INLET ROAD",
+              "lastUpdateTime": "29/12/2025 10:13 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36176F\n**Status:** Active\n**Feeder / Circuit:** INLET ROAD\n**Cause:** Tree contact\n**Customers Affected:** 237\n**Suburbs:** KERIKERI, MOTUROA ISLAND\n---\n**Affected Roads:**\nDAVIS STRONGMAN PLACE\nEDMONDS ROAD\nFURNESS ROAD\nHAUPARUA LANE\nHUAPARUA LANE\n---\n**Update History:**\n- 2025-12-28T21:45:44Z: Tree contact\n- 2025-12-28T21:30:40Z: Tree contact\n- 2025-12-28T21:15:53Z: Under Investigation"
+        "body": "**Outage ID:** 36176F\n**Status:** Active\n**Feeder / Circuit:** INLET ROAD\n**Cause:** Tree contact\n**Customers Affected:** 237\n**Suburbs:** KERIKERI, MOTUROA ISLAND\n---\n**Affected Roads:**\nDAVIS STRONGMAN PLACE\nEDMONDS ROAD\nFURNESS ROAD\nHAUPARUA LANE\nHUAPARUA LANE\n---\n**Update History:**\n- 2025-12-28T23:15:46Z: Tree contact\n- 2025-12-28T23:00:48Z: Tree contact\n- 2025-12-28T21:45:44Z: Tree contact\n- 2025-12-28T21:30:40Z: Tree contact\n- 2025-12-28T21:15:53Z: Under Investigation"
       }
     }
   ]
