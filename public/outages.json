@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-28T21-30-40Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-28T22-45-50Z.json",
   "events": [
     {
       "id": "35660F",
@@ -6956,9 +6956,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-28T21:45:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/12/2025",
+              "startTime": "09:43 AM",
+              "estimatedRestorationDate": "29/12/2025",
+              "estimatedRestorationTime": "11:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "KERIKERI, MOTUROA ISLAND",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "DAVIS STRONGMAN PLACE, EDMONDS ROAD, FURNESS ROAD, HAUPARUA LANE, HUAPARUA LANE",
+                "hiddenStreets": "KERIKERI INLET ROAD, MOTUROA ISLAND, QUINCES LANDING, WHARAU ROAD"
+              },
+              "customersAffected": "237",
+              "feeder": "INLET ROAD",
+              "lastUpdateTime": "29/12/2025 10:13 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36176F\n**Status:** Active\n**Feeder / Circuit:** INLET ROAD\n**Cause:** Tree contact\n**Customers Affected:** 864\n**Suburbs:** KERIKERI, MOTUROA ISLAND\n---\n**Affected Roads:**\nBLACKS ROAD\nDARWIN ROAD\nDAVIS STRONGMAN PLACE\nEDMONDS ROAD\nFULLER TERRACE\n---\n**Update History:**\n- 2025-12-28T21:30:40Z: Tree contact\n- 2025-12-28T21:15:53Z: Under Investigation"
+        "body": "**Outage ID:** 36176F\n**Status:** Active\n**Feeder / Circuit:** INLET ROAD\n**Cause:** Tree contact\n**Customers Affected:** 237\n**Suburbs:** KERIKERI, MOTUROA ISLAND\n---\n**Affected Roads:**\nDAVIS STRONGMAN PLACE\nEDMONDS ROAD\nFURNESS ROAD\nHAUPARUA LANE\nHUAPARUA LANE\n---\n**Update History:**\n- 2025-12-28T21:45:44Z: Tree contact\n- 2025-12-28T21:30:40Z: Tree contact\n- 2025-12-28T21:15:53Z: Under Investigation"
       }
     }
   ]
