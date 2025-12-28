@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-28T17-30-41Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-28T18-45-51Z.json",
   "events": [
     {
       "id": "35660F",
@@ -6806,6 +6806,48 @@
           }
         ],
         "body": "**Outage ID:** 36155F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** AWANUI\n---\n**Affected Roads:**\nBIRD ROAD\n---"
+      }
+    },
+    {
+      "id": "36167F",
+      "title": "Oruru (233 customers)",
+      "start": "2025-12-28T18:45:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "233",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-28T18:45:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/12/2025",
+              "startTime": "07:40 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "MANGONUI, TAUPO BAY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AKATERE ROAD, BOWDEN ROAD, MAKO STREET, MARLIN DRIVE, STONEY CREEK ROAD",
+                "hiddenStreets": "TAUPO BAY RD, TAUPO BAY ROAD, TUNA PLACE"
+              },
+              "customersAffected": "233",
+              "feeder": "ORURU",
+              "lastUpdateTime": "29/12/2025 07:40 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36167F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Under Investigation\n**Customers Affected:** 233\n**Suburbs:** MANGONUI, TAUPO BAY\n---\n**Affected Roads:**\nAKATERE ROAD\nBOWDEN ROAD\nMAKO STREET\nMARLIN DRIVE\nSTONEY CREEK ROAD\n---"
       }
     }
   ]
