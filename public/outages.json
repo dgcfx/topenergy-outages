@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-29T02-30-47Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-29T04-30-58Z.json",
   "events": [
     {
       "id": "35660F",
@@ -7121,6 +7121,48 @@
           }
         ],
         "body": "**Outage ID:** 36176F\n**Status:** Active\n**Feeder / Circuit:** INLET ROAD\n**Cause:** Tree contact\n**Customers Affected:** 88\n**Suburbs:** KERIKERI, MOTUROA ISLAND\n---\n**Affected Roads:**\nHAUPARUA LANE\nHUAPARUA LANE\nKERIKERI INLET ROAD\nMOTUROA ISLAND\nQUINCES LANDING\n---\n**Update History:**\n- 2025-12-29T00:15:47Z: Tree contact\n- 2025-12-28T23:15:46Z: Tree contact\n- 2025-12-28T23:00:48Z: Tree contact\n- 2025-12-28T21:45:44Z: Tree contact\n- 2025-12-28T21:30:40Z: Tree contact\n- 2025-12-28T21:15:53Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36206F",
+      "title": "Inlet Road (13 customers)",
+      "start": "2025-12-29T03:45:44Z",
+      "end": "2025-12-29T04:15:44Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "13",
+        "circuit": "Inlet Road",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-29T03:45:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/12/2025",
+              "startTime": "04:30 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KERIKERI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "DAVIS STRONGMAN PLACE",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "13",
+              "feeder": "INLET ROAD",
+              "lastUpdateTime": "29/12/2025 04:31 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36206F\n**Status:** Active\n**Feeder / Circuit:** INLET ROAD\n**Cause:** Under Investigation\n**Customers Affected:** 13\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nDAVIS STRONGMAN PLACE\n---"
       }
     }
   ]
