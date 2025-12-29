@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-29T04-30-58Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-29T05-45-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -7163,6 +7163,48 @@
           }
         ],
         "body": "**Outage ID:** 36206F\n**Status:** Active\n**Feeder / Circuit:** INLET ROAD\n**Cause:** Under Investigation\n**Customers Affected:** 13\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nDAVIS STRONGMAN PLACE\n---"
+      }
+    },
+    {
+      "id": "36209F",
+      "title": "Towai (1 customers)",
+      "start": "2025-12-29T04:45:42Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Towai",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-29T04:45:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/12/2025",
+              "startTime": "05:23 PM",
+              "estimatedRestorationDate": "29/12/2025",
+              "estimatedRestorationTime": "06:15 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "TOWAI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "RUAPEKAPEKA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "TOWAI",
+              "lastUpdateTime": "29/12/2025 05:34 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36209F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Equipment damage\n**Customers Affected:** 1\n**Suburbs:** TOWAI\n---\n**Affected Roads:**\nRUAPEKAPEKA ROAD\n---"
       }
     }
   ]
