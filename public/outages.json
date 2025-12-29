@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-29T21-30-46Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-29T22-45-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -7244,9 +7244,105 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-29T22:00:50Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "10:33 AM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "12:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line fault",
+              "suburbs": "AHIPARA, AWANUI, KAITAIA, PAPARORE, WAIHARARA, WAIPAPAKAURI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ALBATROSS ALLEY, BELL ROAD, BIRD ROAD, BRASS ROAD, BROTT  ROAD",
+                "hiddenStreets": "CAMP ROAD, CLARKE ROAD, COLLARD STREET, DICK SMITH LOOP ROAD, DOEL ROAD, DUKE STREET, FAR NORTH ROAD, GILL ROAD, HEATH ROAD, HINAU STREET, IMMS ROAD, KUNICICH ROAD, LAKE NGATU ROAD, LONG STREET, MATAI STREET, MATARAU ROAD, MATICH ROAD, NGAKAPUA ROAD, NORTH ROAD, OINU ROAD, OTURU BLOCK ROAD, PAPARORE ROAD, POKO POHAIA ROAD, POSEIDON WAY, PUCKEY ROAD, QUARRY ROAD, QUEEN STREET, RAMP ROAD, RATA STREET, ROSEMAY LANE, ROTOKAWAU ROAD, SANDHILLS ROAD, SOUTHEY STREET, SPAINS ROAD, STATE HIGHWAY 1, STATE HIGHWAY 10, STATE HIGHWAY 1F, SULENTA LOOP ROAD, SWEETWATER ROAD, TAMATEA ROAD, THE ANCHORAGE, UNAHI ROAD, WAIMANONI ROAD, WAIPAPAKAURI DOMAIN ROAD, WALKER ROAD, WARAU STREET, WEKA STREET, WEST COAST ROAD, WEST ROAD, WHANGATANE DRIVE, WIRELESS ROAD"
+              },
+              "customersAffected": "985",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "30/12/2025 10:26 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-29T22:45:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "10:33 AM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "12:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line fault",
+              "suburbs": "AHIPARA, AWANUI, KAITAIA, PAPARORE, WAIHARARA, WAIPAPAKAURI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BIRD ROAD, BROTT  ROAD, CAMP ROAD, COLLARD STREET, DICK SMITH LOOP ROAD",
+                "hiddenStreets": "DOEL ROAD, DUKE STREET, FAR NORTH ROAD, GILL ROAD, HEATH ROAD, HINAU STREET, IMMS ROAD, KUNICICH ROAD, LAKE NGATU ROAD, LONG STREET, MATAI STREET, MATARAU ROAD, MATICH ROAD, NGAKAPUA ROAD, NORTH ROAD, OINU ROAD, OTURU BLOCK ROAD, PAPARORE ROAD, POKO POHAIA ROAD, QUARRY ROAD, QUEEN STREET, RAMP ROAD, RATA STREET, ROSEMAY LANE, ROTOKAWAU ROAD, SANDHILLS ROAD, SOUTHEY STREET, SPAINS ROAD, STATE HIGHWAY 1, STATE HIGHWAY 10, STATE HIGHWAY 1F, SULENTA LOOP ROAD, SWEETWATER ROAD, TAMATEA ROAD, UNAHI ROAD, WAIMANONI ROAD, WAIPAPAKAURI DOMAIN ROAD, WALKER ROAD, WEST COAST ROAD, WEST ROAD"
+              },
+              "customersAffected": "712",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "30/12/2025 10:26 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36218F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Under Investigation\n**Customers Affected:** 985\n**Suburbs:** AHIPARA, AWANUI, KAITAIA, PAPARORE, WAIHARARA, WAIPAPAKAURI\n---\n**Affected Roads:**\nALBATROSS ALLEY\nBELL ROAD\nBIRD ROAD\nBRASS ROAD\nBROTT  ROAD\n---"
+        "body": "**Outage ID:** 36218F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Line fault\n**Customers Affected:** 712\n**Suburbs:** AHIPARA, AWANUI, KAITAIA, PAPARORE, WAIHARARA, WAIPAPAKAURI\n---\n**Affected Roads:**\nBIRD ROAD\nBROTT  ROAD\nCAMP ROAD\nCOLLARD STREET\nDICK SMITH LOOP ROAD\n---\n**Update History:**\n- 2025-12-29T22:45:43Z: Line fault\n- 2025-12-29T22:00:50Z: Line fault\n- 2025-12-29T21:30:46Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36221F",
+      "title": "Horeke (705 customers)",
+      "start": "2025-12-29T22:45:43Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "705",
+        "circuit": "Horeke",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-29T22:45:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "11:35 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "HOREKE, KAIKOHE, KERIKERI, KOHUKOHU, MOTUKIORE, OKAIHAU, PANGURU, RAWENE, UTAKURA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BEACH ROAD, BLUE MOUNTAIN ROAD, CHURCH STREET, CLASSEN ROAD, COOK ROAD",
+                "hiddenStreets": "CREAMERY ROAD, DONALDSON ROAD, DUDDY ROAD, HAPANGA ROAD, HARRISON ROAD, HAWKINS ROAD, HOREKE ROAD, HULME DRIVE, IMMS ROAD, KIRKPATRICK STREET, KOHUKOHU ROAD, LAKE ROAD, LAWN STREET, MACDONELL ROAD, MANGATARAIRE ROAD, MANING STREET, MARRINER STREET, MATAWERA ROAD, MCDONNELL ROAD, MICHIE STREET, MOTUKARAKA POINT ROAD, MOTUKIORE ROAD, NOVA STREET, OKAKA ROAD, OLD BEACH ROAD, PAPONGA ROAD, PAREMATA ROADWAY, POTTER STREET, PUKEWHAO ROAD, RAKAUTAPU ROAD, RANGIAHUA ROAD, RANGIORA NARROWS FERRY RAMP, RESERVOIR ROAD, RIDDELL ROAD, SETTLERS WAY, SMITHS DEVIATION ROAD, TAHEKE ROAD, TAUTEIHIHI ROAD, TAUTEIHIIHI ROAD, TE HUA HUA ROAD, TE PUA ROAD, TOIA ROAD, TUI STREET, UTAKURA VALLEY ROAD, WAIKERIKERI FORD ROAD, WAIKERIKERI ROAD, WAIOHANGA ROAD, WEST COAST ROAD, YARBOROUGH STREET"
+              },
+              "customersAffected": "705",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "30/12/2025 11:35 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36221F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Under Investigation\n**Customers Affected:** 705\n**Suburbs:** HOREKE, KAIKOHE, KERIKERI, KOHUKOHU, MOTUKIORE, OKAIHAU, PANGURU, RAWENE, UTAKURA\n---\n**Affected Roads:**\nBEACH ROAD\nBLUE MOUNTAIN ROAD\nCHURCH STREET\nCLASSEN ROAD\nCOOK ROAD\n---"
       }
     }
   ]
