@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-30T07-30-42Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-30T08-45-39Z.json",
   "events": [
     {
       "id": "35660F",
@@ -7991,7 +7991,7 @@
       "id": "36245F",
       "title": "Oruru (33 customers)",
       "start": "2025-12-30T05:15:45Z",
-      "end": null,
+      "end": "2025-12-30T08:15:51Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -8096,6 +8096,48 @@
           }
         ],
         "body": "**Outage ID:** 36248F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Tree contact\n**Customers Affected:** 6\n**Suburbs:** OPONONI\n---\n**Affected Roads:**\nPAKANAE CEMETERY ROAD\n---"
+      }
+    },
+    {
+      "id": "36254F",
+      "title": "Herekino (5 customers)",
+      "start": "2025-12-30T08:00:49Z",
+      "end": "2025-12-30T08:30:42Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "5",
+        "circuit": "Herekino",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-30T08:00:49Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "08:25 PM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "10:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "HEREKINO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "DYSART ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "5",
+              "feeder": "HEREKINO",
+              "lastUpdateTime": "30/12/2025 08:52 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36254F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Equipment fault\n**Customers Affected:** 5\n**Suburbs:** HEREKINO\n---\n**Affected Roads:**\nDYSART ROAD\n---"
       }
     }
   ]
