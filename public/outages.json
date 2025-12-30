@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-30T05-45-42Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-30T06-45-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -7706,9 +7706,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-30T06:30:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "01:48 PM",
+              "estimatedRestorationDate": "31/12/2025",
+              "estimatedRestorationTime": "05:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line fault",
+              "suburbs": "KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BONNETT ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "7",
+              "feeder": "PUKEPOTO",
+              "lastUpdateTime": "30/12/2025 12:49 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36224F\n**Status:** Active\n**Feeder / Circuit:** PUKEPOTO\n**Cause:** Line fault\n**Customers Affected:** 7\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nBONNETT ROAD\n---\n**Update History:**\n- 2025-12-30T01:00:51Z: Line fault\n- 2025-12-30T00:00:40Z: Under Investigation"
+        "body": "**Outage ID:** 36224F\n**Status:** Active\n**Feeder / Circuit:** PUKEPOTO\n**Cause:** Line fault\n**Customers Affected:** 7\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nBONNETT ROAD\n---\n**Update History:**\n- 2025-12-30T06:30:51Z: Line fault\n- 2025-12-30T01:00:51Z: Line fault\n- 2025-12-30T00:00:40Z: Under Investigation"
       }
     },
     {
@@ -7868,7 +7895,7 @@
       "id": "36242F",
       "title": "Rangiahua (78 customers)",
       "start": "2025-12-30T04:30:51Z",
-      "end": null,
+      "end": "2025-12-30T06:45:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -7901,9 +7928,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-30T06:15:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "05:17 PM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "10:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "KOHUKOHU, MANGAMUKA, TUTEKEHUA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KAUAEPEPE ROAD, KAUAPEPE ROAD, KOHUKOHU ROAD, MANGAMUKA ROAD, MATA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "78",
+              "feeder": "RANGIAHUA",
+              "lastUpdateTime": "30/12/2025 05:23 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36242F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Under Investigation\n**Customers Affected:** 78\n**Suburbs:** KOHUKOHU, MANGAMUKA, TUTEKEHUA\n---\n**Affected Roads:**\nKAUAEPEPE ROAD\nKAUAPEPE ROAD\nKOHUKOHU ROAD\nMANGAMUKA ROAD\nMATA ROAD\n---"
+        "body": "**Outage ID:** 36242F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Tree contact\n**Customers Affected:** 78\n**Suburbs:** KOHUKOHU, MANGAMUKA, TUTEKEHUA\n---\n**Affected Roads:**\nKAUAEPEPE ROAD\nKAUAPEPE ROAD\nKOHUKOHU ROAD\nMANGAMUKA ROAD\nMATA ROAD\n---\n**Update History:**\n- 2025-12-30T06:15:41Z: Tree contact\n- 2025-12-30T04:30:51Z: Under Investigation"
       }
     },
     {
@@ -7943,9 +7997,78 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-30T06:30:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "01:13 PM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "08:45 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "PERIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "DUTTON ROAD, HONEYMOON VALLEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "33",
+              "feeder": "ORURU",
+              "lastUpdateTime": "30/12/2025 05:49 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36245F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Equipment fault\n**Customers Affected:** 33\n**Suburbs:** PERIA\n---\n**Affected Roads:**\nDUTTON ROAD\nHONEYMOON VALLEY ROAD\n---"
+        "body": "**Outage ID:** 36245F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Equipment fault\n**Customers Affected:** 33\n**Suburbs:** PERIA\n---\n**Affected Roads:**\nDUTTON ROAD\nHONEYMOON VALLEY ROAD\n---\n**Update History:**\n- 2025-12-30T06:30:51Z: Equipment fault\n- 2025-12-30T05:15:45Z: Equipment fault"
+      }
+    },
+    {
+      "id": "36248F",
+      "title": "Opononi (6 customers)",
+      "start": "2025-12-30T06:30:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "6",
+        "circuit": "Opononi",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-30T06:30:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "07:09 PM",
+              "estimatedRestorationDate": "31/12/2025",
+              "estimatedRestorationTime": "06:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "OPONONI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PAKANAE CEMETERY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "30/12/2025 07:14 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36248F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Tree contact\n**Customers Affected:** 6\n**Suburbs:** OPONONI\n---\n**Affected Roads:**\nPAKANAE CEMETERY ROAD\n---"
       }
     }
   ]
