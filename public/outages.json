@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-29T23-30-48Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-30T02-30-52Z.json",
   "events": [
     {
       "id": "35660F",
@@ -7352,9 +7352,90 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-30T01:15:53Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "10:33 AM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "AWANUI, KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "OINU ROAD, OTURU BLOCK ROAD, QUARRY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "44",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "30/12/2025 10:26 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-30T02:15:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "10:33 AM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "04:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "AWANUI, KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "OINU ROAD, OTURU BLOCK ROAD, QUARRY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "44",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "30/12/2025 10:26 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-30T02:30:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "10:33 AM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "04:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "AHIPARA, AWANUI, KAITAIA, PAPARORE, WAIHARARA, WAIPAPAKAURI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ALBATROSS ALLEY, BELL ROAD, BIRD ROAD, BRASS ROAD, BROTT  ROAD",
+                "hiddenStreets": "CAMP ROAD, CLARKE ROAD, COLLARD STREET, DICK SMITH LOOP ROAD, DOEL ROAD, DUKE STREET, FAR NORTH ROAD, GILL ROAD, HEATH ROAD, HINAU STREET, IMMS ROAD, KUNICICH ROAD, LAKE NGATU ROAD, LONG STREET, MATAI STREET, MATARAU ROAD, MATICH ROAD, NGAKAPUA ROAD, NORTH ROAD, OINU ROAD, OTURU BLOCK ROAD, PAPARORE ROAD, POKO POHAIA ROAD, POSEIDON WAY, PUCKEY ROAD, QUARRY ROAD, QUEEN STREET, RAMP ROAD, RATA STREET, ROSEMAY LANE, ROTOKAWAU ROAD, SANDHILLS ROAD, SOUTHEY STREET, SPAINS ROAD, STATE HIGHWAY 1, STATE HIGHWAY 10, STATE HIGHWAY 1F, SULENTA LOOP ROAD, SWEETWATER ROAD, TAMATEA ROAD, THE ANCHORAGE, UNAHI ROAD, WAIMANONI ROAD, WAIPAPAKAURI DOMAIN ROAD, WALKER ROAD, WARAU STREET, WEKA STREET, WEST COAST ROAD, WEST ROAD, WHANGATANE DRIVE, WIRELESS ROAD"
+              },
+              "customersAffected": "985",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "30/12/2025 10:26 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36218F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Line fault\n**Customers Affected:** 44\n**Suburbs:** AWANUI, KAITAIA\n---\n**Affected Roads:**\nOINU ROAD\nOTURU BLOCK ROAD\nQUARRY ROAD\n---\n**Update History:**\n- 2025-12-29T23:15:41Z: Line fault\n- 2025-12-29T23:00:47Z: Line fault\n- 2025-12-29T22:45:43Z: Line fault\n- 2025-12-29T22:00:50Z: Line fault\n- 2025-12-29T21:30:46Z: Under Investigation"
+        "body": "**Outage ID:** 36218F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Equipment damage\n**Customers Affected:** 985\n**Suburbs:** AHIPARA, AWANUI, KAITAIA, PAPARORE, WAIHARARA, WAIPAPAKAURI\n---\n**Affected Roads:**\nALBATROSS ALLEY\nBELL ROAD\nBIRD ROAD\nBRASS ROAD\nBROTT  ROAD\n---\n**Update History:**\n- 2025-12-30T02:30:52Z: Equipment damage\n- 2025-12-30T02:15:41Z: Equipment damage\n- 2025-12-30T01:15:53Z: Equipment damage\n- 2025-12-29T23:15:41Z: Line fault\n- 2025-12-29T23:00:47Z: Line fault\n- 2025-12-29T22:45:43Z: Line fault\n- 2025-12-29T22:00:50Z: Line fault\n- 2025-12-29T21:30:46Z: Under Investigation"
       }
     },
     {
@@ -7421,9 +7502,285 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-29T23:45:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "11:46 AM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "HOREKE, KAIKOHE, KERIKERI, KOHUKOHU, MOTUKIORE, OKAIHAU, PANGURU, RAWENE, UTAKURA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BEACH ROAD, BLUE MOUNTAIN ROAD, CHURCH STREET, CLASSEN ROAD, COOK ROAD",
+                "hiddenStreets": "CREAMERY ROAD, DONALDSON ROAD, DUDDY ROAD, HAPANGA ROAD, HARRISON ROAD, HAWKINS ROAD, HOREKE ROAD, HULME DRIVE, IMMS ROAD, KIRKPATRICK STREET, KOHUKOHU ROAD, LAKE ROAD, LAWN STREET, MACDONELL ROAD, MANGATARAIRE ROAD, MANING STREET, MARRINER STREET, MATAWERA ROAD, MCDONNELL ROAD, MICHIE STREET, MOTUKARAKA POINT ROAD, MOTUKIORE ROAD, NOVA STREET, OKAKA ROAD, OLD BEACH ROAD, PAPONGA ROAD, PAREMATA ROADWAY, POTTER STREET, PUKEWHAO ROAD, RAKAUTAPU ROAD, RANGIAHUA ROAD, RANGIORA NARROWS FERRY RAMP, RESERVOIR ROAD, RIDDELL ROAD, SETTLERS WAY, SMITHS DEVIATION ROAD, TAHEKE ROAD, TAUTEIHIHI ROAD, TAUTEIHIIHI ROAD, TE HUA HUA ROAD, TE PUA ROAD, TOIA ROAD, TUI STREET, UTAKURA VALLEY ROAD, WAIKERIKERI FORD ROAD, WAIKERIKERI ROAD, WAIOHANGA ROAD, WEST COAST ROAD, YARBOROUGH STREET"
+              },
+              "customersAffected": "705",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "30/12/2025 11:35 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-30T00:45:56Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "11:46 AM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "HOREKE, KAIKOHE, OKAIHAU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "IMMS ROAD, LAKE ROAD, RESERVOIR ROAD, TE PUA ROAD, TOIA ROAD",
+                "hiddenStreets": "WAIOHANGA ROAD"
+              },
+              "customersAffected": "82",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "30/12/2025 11:35 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-30T02:30:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "11:46 AM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "HOREKE, KAIKOHE, OKAIHAU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "IMMS ROAD, LAKE ROAD, TE PUA ROAD, TOIA ROAD, WAIOHANGA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "56",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "30/12/2025 11:35 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36221F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Under Investigation\n**Customers Affected:** 705\n**Suburbs:** HOREKE, KAIKOHE, KERIKERI, KOHUKOHU, MOTUKIORE, OKAIHAU, PANGURU, RAWENE, UTAKURA\n---\n**Affected Roads:**\nBEACH ROAD\nBLUE MOUNTAIN ROAD\nCHURCH STREET\nCLASSEN ROAD\nCOOK ROAD\n---\n**Update History:**\n- 2025-12-29T23:00:47Z: Under Investigation\n- 2025-12-29T22:45:43Z: Under Investigation"
+        "body": "**Outage ID:** 36221F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Tree contact\n**Customers Affected:** 56\n**Suburbs:** HOREKE, KAIKOHE, OKAIHAU\n---\n**Affected Roads:**\nIMMS ROAD\nLAKE ROAD\nTE PUA ROAD\nTOIA ROAD\nWAIOHANGA ROAD\n---\n**Update History:**\n- 2025-12-30T02:30:52Z: Tree contact\n- 2025-12-30T00:45:56Z: Tree contact\n- 2025-12-29T23:45:42Z: Tree contact\n- 2025-12-29T23:00:47Z: Under Investigation\n- 2025-12-29T22:45:43Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36224F",
+      "title": "Pukepoto (1065 customers)",
+      "start": "2025-12-30T00:00:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1065",
+        "circuit": "Pukepoto",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-30T00:00:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "12:49 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ARCHIBALD STREET, BANK STREET, BLENCOWE STREET, BONNETT ROAD, BONNETTS ROAD",
+                "hiddenStreets": "COMMERCE STREET, DOMINION ROAD, EDEN TERRACE, FOLEY STREET, GRIGG STREET, HUREPO PLACE, JAMIESON ROAD, KOHUHU STREET, LAKE ROAD, MASFEN TERRACE, MASTERS PLACE, MELODY LANE, MIRO PLACE, NORMAN SENN AVENUE, NORTH ROAD, OHOTU WAY, ORCHARD PLACE, PUCKEY AVENUE, PUKEPOTO ROAD, RATA PLACE, RATA STREET, REDAN ROAD, STANDING PLACE, SYDANN PLACE, TAAFFE STREET, TANGONGE CRESCENT, TE REINGA STREET, VEGAR STREET, WEBER PLACE, WILLIAMS STREET, WORTH STREET"
+              },
+              "customersAffected": "1065",
+              "feeder": "PUKEPOTO",
+              "lastUpdateTime": "30/12/2025 12:49 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-30T01:00:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "01:48 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line fault",
+              "suburbs": "KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BONNETT ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "7",
+              "feeder": "PUKEPOTO",
+              "lastUpdateTime": "30/12/2025 12:49 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36224F\n**Status:** Active\n**Feeder / Circuit:** PUKEPOTO\n**Cause:** Line fault\n**Customers Affected:** 7\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nBONNETT ROAD\n---\n**Update History:**\n- 2025-12-30T01:00:51Z: Line fault\n- 2025-12-30T00:00:40Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36227F",
+      "title": "Joyces Road (862 customers)",
+      "start": "2025-12-30T00:00:40Z",
+      "end": "2025-12-30T00:15:44Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "862",
+        "circuit": "Joyces Road",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-30T00:00:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "12:50 PM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "01:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "MATAUWHI BAY, ORONGO BAY, RUSSELL",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ASHBY STREET, AUCKS ROAD, BAKER STREET, BERESFORD ST, BERESFORD STREET",
+                "hiddenStreets": "BRIND ROAD, BRUMBY LANE, CASS STREET, CHAPEL STREET, CHURCH STREET, DU FRESNE PLACE, EMERALD RIDGE, FLAGSTAFF ROAD, FLORANCE AVENUE, GOULD STREET, GRANTS AVENUE, HAZARD STREET, HOPE AVENUE, JAMES STREET, LICHEN GROVE, LITTLE QUEEN STREET, LONG BEACH ROAD, MATAUWHI ROAD, ONEROA ROAD, PITT STREET, POMARE ROAD, PROSPECT STREET, PUKEMATU LANE, QUEEN STREET, QUEENS VIEW ROAD, REWA PLACE, ROBERTSON STREET, RUSSELL HEIGHTS, RUSSELL ROAD, RUSSELL WHAKAPARA ROAD, TAPEKA HEIGHTS LANE, TAPEKA ROAD, TE AKAU DRIVE, THE STRAND, TITORE WAY, TOI TRACK, URETI ROAD, URUTI ROAD, WEKA LANE, WELLINGTON STREET, YORK STREET"
+              },
+              "customersAffected": "862",
+              "feeder": "JOYCES ROAD",
+              "lastUpdateTime": "30/12/2025 12:53 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36227F\n**Status:** Active\n**Feeder / Circuit:** JOYCES ROAD\n**Cause:** Equipment fault\n**Customers Affected:** 862\n**Suburbs:** MATAUWHI BAY, ORONGO BAY, RUSSELL\n---\n**Affected Roads:**\nASHBY STREET\nAUCKS ROAD\nBAKER STREET\nBERESFORD ST\nBERESFORD STREET\n---"
+      }
+    },
+    {
+      "id": "36233F",
+      "title": "Oruru (33 customers)",
+      "start": "2025-12-30T01:15:53Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "33",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-30T01:15:53Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "01:13 PM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "04:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "PERIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "DUTTON ROAD, HONEYMOON VALLEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "33",
+              "feeder": "ORURU",
+              "lastUpdateTime": "30/12/2025 02:09 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36233F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Equipment fault\n**Customers Affected:** 33\n**Suburbs:** PERIA\n---\n**Affected Roads:**\nDUTTON ROAD\nHONEYMOON VALLEY ROAD\n---"
+      }
+    },
+    {
+      "id": "36236F",
+      "title": "Bulls Gorge (31 customers)",
+      "start": "2025-12-30T02:00:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "31",
+        "circuit": "Bulls Gorge",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-30T02:00:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "08:33 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "KERIKERI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BULLS ROAD, PUKEWHAU ROAD, STATE HIGHWAY 1, STATE HIGHWAY 10",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "31",
+              "feeder": "BULLS GORGE",
+              "lastUpdateTime": "30/12/2025 02:13 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36236F\n**Status:** Active\n**Feeder / Circuit:** BULLS GORGE\n**Cause:** Equipment damage\n**Customers Affected:** 31\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nBULLS ROAD\nPUKEWHAU ROAD\nSTATE HIGHWAY 1\nSTATE HIGHWAY 10\n---"
       }
     }
   ]
