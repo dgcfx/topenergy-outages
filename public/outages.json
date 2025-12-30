@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-30T20-45-37Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-30T22-45-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -7646,7 +7646,7 @@
       "id": "36224F",
       "title": "Pukepoto (1065 customers)",
       "start": "2025-12-30T00:00:40Z",
-      "end": null,
+      "end": "2025-12-30T21:45:41Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
