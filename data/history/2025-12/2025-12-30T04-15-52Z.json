@@ -1,0 +1,258 @@
+{
+  "timestamp": "2025-12-30T04:15:52Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "494271be86a3ed66",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "494271be86a3ed66",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36218F",
+          "lat": -35.070066969826534,
+          "lng": 173.28822421484463
+        },
+        {
+          "id": "36221F",
+          "lat": -35.34727670330646,
+          "lng": 173.7714584237043
+        },
+        {
+          "id": "36224F",
+          "lat": -35.111564226773524,
+          "lng": 173.23784127275863
+        }
+      ],
+      "planned": [
+        {
+          "id": "35789F",
+          "lat": -35.33291758060594,
+          "lng": 173.27556613942224
+        },
+        {
+          "id": "35792F",
+          "lat": -35.48724332191607,
+          "lng": 174.15356489225323
+        },
+        {
+          "id": "35933F",
+          "lat": -35.01102375862856,
+          "lng": 173.6010181365731
+        },
+        {
+          "id": "35966F",
+          "lat": -35.09738552734754,
+          "lng": 173.25976984453948
+        },
+        {
+          "id": "35993F",
+          "lat": -35.28008648116414,
+          "lng": 173.57266445075663
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 107,
+      "activeOutageCount": 3,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35966F",
+          "startTimestamp": 1767591000,
+          "isActive": false,
+          "circuitName": "North Road",
+          "customersCurrentlyOff": "13",
+          "startDateTime": "5th January 06:30 pm",
+          "endDateTime": "5th January 08:30 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "9th December 08:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35933F",
+          "startTimestamp": 1767645000,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "17",
+          "startDateTime": "6th January 09:30 am",
+          "endDateTime": "6th January 02:30 pm",
+          "alternativeStartDateTime": "7th January 09:30 am",
+          "alternativeEndDateTime": "7th January 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35789F",
+          "startTimestamp": 1767817800,
+          "isActive": false,
+          "circuitName": "South Road",
+          "customersCurrentlyOff": "99",
+          "startDateTime": "8th January 09:30 am",
+          "endDateTime": "8th January 02:00 pm",
+          "alternativeStartDateTime": "9th January 09:30 am",
+          "alternativeEndDateTime": "9th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35792F",
+          "startTimestamp": 1767817800,
+          "isActive": false,
+          "circuitName": "Towai",
+          "customersCurrentlyOff": "252",
+          "startDateTime": "8th January 09:30 am",
+          "endDateTime": "8th January 02:00 pm",
+          "alternativeStartDateTime": "19th January 10:00 am",
+          "alternativeEndDateTime": "19th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36218F",
+          "startTimestamp": 1767043980,
+          "isActive": true,
+          "circuitName": "Awanui",
+          "customersCurrentlyOff": "44",
+          "startDateTime": "30th December 10:33 am",
+          "endDateTime": "30th December 04:30 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "unplanned",
+          "name": "36221F",
+          "startTimestamp": 1767048360,
+          "isActive": true,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "56",
+          "startDateTime": "30th December 11:46 am",
+          "endDateTime": "30th December 02:00 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "unplanned",
+          "name": "36224F",
+          "startTimestamp": 1767055680,
+          "isActive": true,
+          "circuitName": "Pukepoto",
+          "customersCurrentlyOff": "7",
+          "startDateTime": "30th December 01:48 pm",
+          "endDateTime": "Not available",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36218F": {
+      "duration": "Unknown",
+      "startDate": "30/12/2025",
+      "startTime": "10:33 AM",
+      "estimatedRestorationDate": "30/12/2025",
+      "estimatedRestorationTime": "04:30 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Equipment damage",
+      "suburbs": "AWANUI, KAITAIA",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "OINU ROAD, OTURU BLOCK ROAD, QUARRY ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "44",
+      "feeder": "AWANUI",
+      "lastUpdateTime": "30/12/2025 10:26 AM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "36221F": {
+      "duration": "Unknown",
+      "startDate": "30/12/2025",
+      "startTime": "11:46 AM",
+      "estimatedRestorationDate": "30/12/2025",
+      "estimatedRestorationTime": "02:00 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Tree contact",
+      "suburbs": "HOREKE, KAIKOHE, OKAIHAU",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "IMMS ROAD, LAKE ROAD, TE PUA ROAD, TOIA ROAD, WAIOHANGA ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "56",
+      "feeder": "HOREKE",
+      "lastUpdateTime": "30/12/2025 11:35 AM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "36224F": {
+      "duration": "Unknown",
+      "startDate": "30/12/2025",
+      "startTime": "01:48 PM",
+      "estimatedRestorationDate": null,
+      "estimatedRestorationTime": null,
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Line fault",
+      "suburbs": "KAITAIA",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "BONNETT ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "7",
+      "feeder": "PUKEPOTO",
+      "lastUpdateTime": "30/12/2025 12:49 PM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
