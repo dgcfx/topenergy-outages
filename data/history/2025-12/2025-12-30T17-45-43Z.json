@@ -1,0 +1,216 @@
+{
+  "timestamp": "2025-12-30T17:45:43Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "7affbd7bfc198a66",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "7affbd7bfc198a66",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36224F",
+          "lat": -35.11156421568852,
+          "lng": 173.23784126576152
+        },
+        {
+          "id": "36248F",
+          "lat": -35.49549529956208,
+          "lng": 173.4078797653394
+        }
+      ],
+      "planned": [
+        {
+          "id": "35789F",
+          "lat": -35.33291758055973,
+          "lng": 173.27560415249062
+        },
+        {
+          "id": "35792F",
+          "lat": -35.48723914927994,
+          "lng": 174.15356722783423
+        },
+        {
+          "id": "35933F",
+          "lat": -35.01103790362323,
+          "lng": 173.60101132924711
+        },
+        {
+          "id": "35966F",
+          "lat": -35.09738552734754,
+          "lng": 173.25976984453948
+        },
+        {
+          "id": "35993F",
+          "lat": -35.28005752138607,
+          "lng": 173.57261823907822
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 13,
+      "activeOutageCount": 2,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35966F",
+          "startTimestamp": 1767591000,
+          "isActive": false,
+          "circuitName": "North Road",
+          "customersCurrentlyOff": "13",
+          "startDateTime": "5th January 06:30 pm",
+          "endDateTime": "5th January 08:30 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "9th December 08:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35933F",
+          "startTimestamp": 1767645000,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "17",
+          "startDateTime": "6th January 09:30 am",
+          "endDateTime": "6th January 02:30 pm",
+          "alternativeStartDateTime": "7th January 09:30 am",
+          "alternativeEndDateTime": "7th January 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35789F",
+          "startTimestamp": 1767817800,
+          "isActive": false,
+          "circuitName": "South Road",
+          "customersCurrentlyOff": "99",
+          "startDateTime": "8th January 09:30 am",
+          "endDateTime": "8th January 02:00 pm",
+          "alternativeStartDateTime": "9th January 09:30 am",
+          "alternativeEndDateTime": "9th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35792F",
+          "startTimestamp": 1767817800,
+          "isActive": false,
+          "circuitName": "Towai",
+          "customersCurrentlyOff": "252",
+          "startDateTime": "8th January 09:30 am",
+          "endDateTime": "8th January 02:00 pm",
+          "alternativeStartDateTime": "19th January 10:00 am",
+          "alternativeEndDateTime": "19th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36224F",
+          "startTimestamp": 1767055680,
+          "isActive": true,
+          "circuitName": "Pukepoto",
+          "customersCurrentlyOff": "7",
+          "startDateTime": "30th December 01:48 pm",
+          "endDateTime": "31st December 05:30 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "unplanned",
+          "name": "36248F",
+          "startTimestamp": 1767074940,
+          "isActive": true,
+          "circuitName": "Opononi",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "30th December 07:09 pm",
+          "endDateTime": "31st December 06:00 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36224F": {
+      "duration": "Unknown",
+      "startDate": "30/12/2025",
+      "startTime": "01:48 PM",
+      "estimatedRestorationDate": "31/12/2025",
+      "estimatedRestorationTime": "05:30 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Line fault",
+      "suburbs": "KAITAIA",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "BONNETT ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "7",
+      "feeder": "PUKEPOTO",
+      "lastUpdateTime": "30/12/2025 12:49 PM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "36248F": {
+      "duration": "Unknown",
+      "startDate": "30/12/2025",
+      "startTime": "07:09 PM",
+      "estimatedRestorationDate": "31/12/2025",
+      "estimatedRestorationTime": "06:00 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Tree contact",
+      "suburbs": "OPONONI",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "PAKANAE CEMETERY ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "6",
+      "feeder": "OPONONI",
+      "lastUpdateTime": "30/12/2025 07:14 PM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
