@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-30T03-45-39Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-30T04-45-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -7433,9 +7433,63 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-30T04:00:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "10:33 AM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "04:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "AHIPARA, AWANUI, KAITAIA, PAPARORE, WAIHARARA, WAIPAPAKAURI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BIRD ROAD, BROTT  ROAD, CAMP ROAD, COLLARD STREET, DICK SMITH LOOP ROAD",
+                "hiddenStreets": "DOEL ROAD, DUKE STREET, FAR NORTH ROAD, GILL ROAD, HEATH ROAD, HINAU STREET, IMMS ROAD, KUNICICH ROAD, LAKE NGATU ROAD, LONG STREET, MATAI STREET, MATARAU ROAD, MATICH ROAD, NGAKAPUA ROAD, NORTH ROAD, OINU ROAD, OTURU BLOCK ROAD, PAPARORE ROAD, POKO POHAIA ROAD, QUARRY ROAD, QUEEN STREET, RAMP ROAD, RATA STREET, ROSEMAY LANE, ROTOKAWAU ROAD, SANDHILLS ROAD, SOUTHEY STREET, SPAINS ROAD, STATE HIGHWAY 1, STATE HIGHWAY 10, STATE HIGHWAY 1F, SULENTA LOOP ROAD, SWEETWATER ROAD, TAMATEA ROAD, UNAHI ROAD, WAIMANONI ROAD, WAIPAPAKAURI DOMAIN ROAD, WALKER ROAD, WEST COAST ROAD, WEST ROAD"
+              },
+              "customersAffected": "712",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "30/12/2025 10:26 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2025-12-30T04:15:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "10:33 AM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "04:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "AWANUI, KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "OINU ROAD, OTURU BLOCK ROAD, QUARRY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "44",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "30/12/2025 10:26 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36218F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Equipment damage\n**Customers Affected:** 985\n**Suburbs:** AHIPARA, AWANUI, KAITAIA, PAPARORE, WAIHARARA, WAIPAPAKAURI\n---\n**Affected Roads:**\nALBATROSS ALLEY\nBELL ROAD\nBIRD ROAD\nBRASS ROAD\nBROTT  ROAD\n---\n**Update History:**\n- 2025-12-30T02:30:52Z: Equipment damage\n- 2025-12-30T02:15:41Z: Equipment damage\n- 2025-12-30T01:15:53Z: Equipment damage\n- 2025-12-29T23:15:41Z: Line fault\n- 2025-12-29T23:00:47Z: Line fault\n- 2025-12-29T22:45:43Z: Line fault\n- 2025-12-29T22:00:50Z: Line fault\n- 2025-12-29T21:30:46Z: Under Investigation"
+        "body": "**Outage ID:** 36218F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Equipment damage\n**Customers Affected:** 44\n**Suburbs:** AWANUI, KAITAIA\n---\n**Affected Roads:**\nOINU ROAD\nOTURU BLOCK ROAD\nQUARRY ROAD\n---\n**Update History:**\n- 2025-12-30T04:15:52Z: Equipment damage\n- 2025-12-30T04:00:46Z: Equipment damage\n- 2025-12-30T02:30:52Z: Equipment damage\n- 2025-12-30T02:15:41Z: Equipment damage\n- 2025-12-30T01:15:53Z: Equipment damage\n- 2025-12-29T23:15:41Z: Line fault\n- 2025-12-29T23:00:47Z: Line fault\n- 2025-12-29T22:45:43Z: Line fault\n- 2025-12-29T22:00:50Z: Line fault\n- 2025-12-29T21:30:46Z: Under Investigation"
       }
     },
     {
@@ -7808,6 +7862,48 @@
           }
         ],
         "body": "**Outage ID:** 36236F\n**Status:** Active\n**Feeder / Circuit:** BULLS GORGE\n**Cause:** Equipment damage\n**Customers Affected:** 26\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nBULLS ROAD\nPUKEWHAU ROAD\nSTATE HIGHWAY 10\n---\n**Update History:**\n- 2025-12-30T02:45:43Z: Equipment damage\n- 2025-12-30T02:00:41Z: Equipment damage"
+      }
+    },
+    {
+      "id": "36242F",
+      "title": "Rangiahua (78 customers)",
+      "start": "2025-12-30T04:30:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "78",
+        "circuit": "Rangiahua",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-30T04:30:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "05:17 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KOHUKOHU, MANGAMUKA, TUTEKEHUA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KAUAEPEPE ROAD, KAUAPEPE ROAD, KOHUKOHU ROAD, MANGAMUKA ROAD, MATA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "78",
+              "feeder": "RANGIAHUA",
+              "lastUpdateTime": "30/12/2025 05:23 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36242F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Under Investigation\n**Customers Affected:** 78\n**Suburbs:** KOHUKOHU, MANGAMUKA, TUTEKEHUA\n---\n**Affected Roads:**\nKAUAEPEPE ROAD\nKAUAPEPE ROAD\nKOHUKOHU ROAD\nMANGAMUKA ROAD\nMATA ROAD\n---"
       }
     }
   ]
