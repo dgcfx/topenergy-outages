@@ -1,0 +1,300 @@
+{
+  "timestamp": "2025-12-30T00:00:40Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "5fa825d63e035650",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "5fa825d63e035650",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36218F",
+          "lat": -35.070066969826534,
+          "lng": 173.28822421484463
+        },
+        {
+          "id": "36221F",
+          "lat": -35.37295364285816,
+          "lng": 173.64588541189428
+        },
+        {
+          "id": "36224F",
+          "lat": -35.115804032901494,
+          "lng": 173.25070453537026
+        },
+        {
+          "id": "36227F",
+          "lat": -35.26601997803821,
+          "lng": 174.13273849779395
+        }
+      ],
+      "planned": [
+        {
+          "id": "35789F",
+          "lat": -35.33291758060594,
+          "lng": 173.27556613942224
+        },
+        {
+          "id": "35792F",
+          "lat": -35.48724332191607,
+          "lng": 174.15356489225323
+        },
+        {
+          "id": "35933F",
+          "lat": -35.01102375862856,
+          "lng": 173.6010181365731
+        },
+        {
+          "id": "35966F",
+          "lat": -35.09738552734754,
+          "lng": 173.25976984453948
+        },
+        {
+          "id": "35993F",
+          "lat": -35.28008648116414,
+          "lng": 173.57266445075663
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 2676,
+      "activeOutageCount": 4,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35966F",
+          "startTimestamp": 1767591000,
+          "isActive": false,
+          "circuitName": "North Road",
+          "customersCurrentlyOff": "13",
+          "startDateTime": "5th January 06:30 pm",
+          "endDateTime": "5th January 08:30 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "9th December 08:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35933F",
+          "startTimestamp": 1767645000,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "17",
+          "startDateTime": "6th January 09:30 am",
+          "endDateTime": "6th January 02:30 pm",
+          "alternativeStartDateTime": "7th January 09:30 am",
+          "alternativeEndDateTime": "7th January 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35789F",
+          "startTimestamp": 1767817800,
+          "isActive": false,
+          "circuitName": "South Road",
+          "customersCurrentlyOff": "99",
+          "startDateTime": "8th January 09:30 am",
+          "endDateTime": "8th January 02:00 pm",
+          "alternativeStartDateTime": "9th January 09:30 am",
+          "alternativeEndDateTime": "9th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35792F",
+          "startTimestamp": 1767817800,
+          "isActive": false,
+          "circuitName": "Towai",
+          "customersCurrentlyOff": "252",
+          "startDateTime": "8th January 09:30 am",
+          "endDateTime": "8th January 02:00 pm",
+          "alternativeStartDateTime": "19th January 10:00 am",
+          "alternativeEndDateTime": "19th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36218F",
+          "startTimestamp": 1767043980,
+          "isActive": true,
+          "circuitName": "Awanui",
+          "customersCurrentlyOff": "44",
+          "startDateTime": "30th December 10:33 am",
+          "endDateTime": "30th December 12:30 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "unplanned",
+          "name": "36221F",
+          "startTimestamp": 1767048360,
+          "isActive": true,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "705",
+          "startDateTime": "30th December 11:46 am",
+          "endDateTime": "30th December 02:00 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "unplanned",
+          "name": "36224F",
+          "startTimestamp": 1767052140,
+          "isActive": true,
+          "circuitName": "Pukepoto",
+          "customersCurrentlyOff": "1065",
+          "startDateTime": "30th December 12:49 pm",
+          "endDateTime": "Not available",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "unplanned",
+          "name": "36227F",
+          "startTimestamp": 1767052200,
+          "isActive": true,
+          "circuitName": "Joyces Road",
+          "customersCurrentlyOff": "862",
+          "startDateTime": "30th December 12:50 pm",
+          "endDateTime": "30th December 01:30 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36218F": {
+      "duration": "Unknown",
+      "startDate": "30/12/2025",
+      "startTime": "10:33 AM",
+      "estimatedRestorationDate": "30/12/2025",
+      "estimatedRestorationTime": "12:30 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Line fault",
+      "suburbs": "AWANUI, KAITAIA",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "OINU ROAD, OTURU BLOCK ROAD, QUARRY ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "44",
+      "feeder": "AWANUI",
+      "lastUpdateTime": "30/12/2025 10:26 AM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "36221F": {
+      "duration": "Unknown",
+      "startDate": "30/12/2025",
+      "startTime": "11:46 AM",
+      "estimatedRestorationDate": "30/12/2025",
+      "estimatedRestorationTime": "02:00 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Tree contact",
+      "suburbs": "HOREKE, KAIKOHE, KERIKERI, KOHUKOHU, MOTUKIORE, OKAIHAU, PANGURU, RAWENE, UTAKURA",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "BEACH ROAD, BLUE MOUNTAIN ROAD, CHURCH STREET, CLASSEN ROAD, COOK ROAD",
+        "hiddenStreets": "CREAMERY ROAD, DONALDSON ROAD, DUDDY ROAD, HAPANGA ROAD, HARRISON ROAD, HAWKINS ROAD, HOREKE ROAD, HULME DRIVE, IMMS ROAD, KIRKPATRICK STREET, KOHUKOHU ROAD, LAKE ROAD, LAWN STREET, MACDONELL ROAD, MANGATARAIRE ROAD, MANING STREET, MARRINER STREET, MATAWERA ROAD, MCDONNELL ROAD, MICHIE STREET, MOTUKARAKA POINT ROAD, MOTUKIORE ROAD, NOVA STREET, OKAKA ROAD, OLD BEACH ROAD, PAPONGA ROAD, PAREMATA ROADWAY, POTTER STREET, PUKEWHAO ROAD, RAKAUTAPU ROAD, RANGIAHUA ROAD, RANGIORA NARROWS FERRY RAMP, RESERVOIR ROAD, RIDDELL ROAD, SETTLERS WAY, SMITHS DEVIATION ROAD, TAHEKE ROAD, TAUTEIHIHI ROAD, TAUTEIHIIHI ROAD, TE HUA HUA ROAD, TE PUA ROAD, TOIA ROAD, TUI STREET, UTAKURA VALLEY ROAD, WAIKERIKERI FORD ROAD, WAIKERIKERI ROAD, WAIOHANGA ROAD, WEST COAST ROAD, YARBOROUGH STREET"
+      },
+      "customersAffected": "705",
+      "feeder": "HOREKE",
+      "lastUpdateTime": "30/12/2025 11:35 AM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "36224F": {
+      "duration": "Unknown",
+      "startDate": "30/12/2025",
+      "startTime": "12:49 PM",
+      "estimatedRestorationDate": null,
+      "estimatedRestorationTime": null,
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": "KAITAIA",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "ARCHIBALD STREET, BANK STREET, BLENCOWE STREET, BONNETT ROAD, BONNETTS ROAD",
+        "hiddenStreets": "COMMERCE STREET, DOMINION ROAD, EDEN TERRACE, FOLEY STREET, GRIGG STREET, HUREPO PLACE, JAMIESON ROAD, KOHUHU STREET, LAKE ROAD, MASFEN TERRACE, MASTERS PLACE, MELODY LANE, MIRO PLACE, NORMAN SENN AVENUE, NORTH ROAD, OHOTU WAY, ORCHARD PLACE, PUCKEY AVENUE, PUKEPOTO ROAD, RATA PLACE, RATA STREET, REDAN ROAD, STANDING PLACE, SYDANN PLACE, TAAFFE STREET, TANGONGE CRESCENT, TE REINGA STREET, VEGAR STREET, WEBER PLACE, WILLIAMS STREET, WORTH STREET"
+      },
+      "customersAffected": "1065",
+      "feeder": "PUKEPOTO",
+      "lastUpdateTime": "30/12/2025 12:49 PM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "36227F": {
+      "duration": "Unknown",
+      "startDate": "30/12/2025",
+      "startTime": "12:50 PM",
+      "estimatedRestorationDate": "30/12/2025",
+      "estimatedRestorationTime": "01:30 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Equipment fault",
+      "suburbs": "MATAUWHI BAY, ORONGO BAY, RUSSELL",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "ASHBY STREET, AUCKS ROAD, BAKER STREET, BERESFORD ST, BERESFORD STREET",
+        "hiddenStreets": "BRIND ROAD, BRUMBY LANE, CASS STREET, CHAPEL STREET, CHURCH STREET, DU FRESNE PLACE, EMERALD RIDGE, FLAGSTAFF ROAD, FLORANCE AVENUE, GOULD STREET, GRANTS AVENUE, HAZARD STREET, HOPE AVENUE, JAMES STREET, LICHEN GROVE, LITTLE QUEEN STREET, LONG BEACH ROAD, MATAUWHI ROAD, ONEROA ROAD, PITT STREET, POMARE ROAD, PROSPECT STREET, PUKEMATU LANE, QUEEN STREET, QUEENS VIEW ROAD, REWA PLACE, ROBERTSON STREET, RUSSELL HEIGHTS, RUSSELL ROAD, RUSSELL WHAKAPARA ROAD, TAPEKA HEIGHTS LANE, TAPEKA ROAD, TE AKAU DRIVE, THE STRAND, TITORE WAY, TOI TRACK, URETI ROAD, URUTI ROAD, WEKA LANE, WELLINGTON STREET, YORK STREET"
+      },
+      "customersAffected": "862",
+      "feeder": "JOYCES ROAD",
+      "lastUpdateTime": "30/12/2025 12:53 PM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
