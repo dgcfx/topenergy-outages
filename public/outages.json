@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-30T06-45-44Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-30T07-30-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -7955,9 +7955,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2025-12-30T07:00:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "05:17 PM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "10:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "KOHUKOHU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KOHUKOHU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "5",
+              "feeder": "RANGIAHUA",
+              "lastUpdateTime": "30/12/2025 05:23 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36242F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Tree contact\n**Customers Affected:** 78\n**Suburbs:** KOHUKOHU, MANGAMUKA, TUTEKEHUA\n---\n**Affected Roads:**\nKAUAEPEPE ROAD\nKAUAPEPE ROAD\nKOHUKOHU ROAD\nMANGAMUKA ROAD\nMATA ROAD\n---\n**Update History:**\n- 2025-12-30T06:15:41Z: Tree contact\n- 2025-12-30T04:30:51Z: Under Investigation"
+        "body": "**Outage ID:** 36242F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Tree contact\n**Customers Affected:** 5\n**Suburbs:** KOHUKOHU\n---\n**Affected Roads:**\nKOHUKOHU ROAD\n---\n**Update History:**\n- 2025-12-30T07:00:40Z: Tree contact\n- 2025-12-30T06:15:41Z: Tree contact\n- 2025-12-30T04:30:51Z: Under Investigation"
       }
     },
     {
