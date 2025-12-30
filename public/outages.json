@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-30T04-45-43Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-30T05-45-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -7211,7 +7211,7 @@
       "id": "36218F",
       "title": "Awanui (985 customers)",
       "start": "2025-12-29T21:30:46Z",
-      "end": null,
+      "end": "2025-12-30T05:30:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -7496,7 +7496,7 @@
       "id": "36221F",
       "title": "Horeke (705 customers)",
       "start": "2025-12-29T22:45:43Z",
-      "end": null,
+      "end": "2025-12-30T05:30:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -7904,6 +7904,48 @@
           }
         ],
         "body": "**Outage ID:** 36242F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Under Investigation\n**Customers Affected:** 78\n**Suburbs:** KOHUKOHU, MANGAMUKA, TUTEKEHUA\n---\n**Affected Roads:**\nKAUAEPEPE ROAD\nKAUAPEPE ROAD\nKOHUKOHU ROAD\nMANGAMUKA ROAD\nMATA ROAD\n---"
+      }
+    },
+    {
+      "id": "36245F",
+      "title": "Oruru (33 customers)",
+      "start": "2025-12-30T05:15:45Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "33",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-30T05:15:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/12/2025",
+              "startTime": "01:13 PM",
+              "estimatedRestorationDate": "30/12/2025",
+              "estimatedRestorationTime": "04:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "PERIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "DUTTON ROAD, HONEYMOON VALLEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "33",
+              "feeder": "ORURU",
+              "lastUpdateTime": "30/12/2025 05:49 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36245F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Equipment fault\n**Customers Affected:** 33\n**Suburbs:** PERIA\n---\n**Affected Roads:**\nDUTTON ROAD\nHONEYMOON VALLEY ROAD\n---"
       }
     }
   ]
