@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-31T17-30-41Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-31T18-45-51Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8138,6 +8138,48 @@
           }
         ],
         "body": "**Outage ID:** 36254F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Equipment fault\n**Customers Affected:** 5\n**Suburbs:** HEREKINO\n---\n**Affected Roads:**\nDYSART ROAD\n---"
+      }
+    },
+    {
+      "id": "36263F",
+      "title": "Herekino (5 customers)",
+      "start": "2025-12-31T18:45:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "5",
+        "circuit": "Herekino",
+        "detail_history": [
+          {
+            "capture_ts": "2025-12-31T18:45:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "01/01/2026",
+              "startTime": "06:31 AM",
+              "estimatedRestorationDate": "01/01/2026",
+              "estimatedRestorationTime": "12:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "AHIPARA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WAITEHUIA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "5",
+              "feeder": "HEREKINO",
+              "lastUpdateTime": "01/01/2026 07:40 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36263F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Equipment fault\n**Customers Affected:** 5\n**Suburbs:** AHIPARA\n---\n**Affected Roads:**\nWAITEHUIA ROAD\n---"
       }
     }
   ]
