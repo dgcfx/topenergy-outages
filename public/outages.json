@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-31T22-45-40Z.json",
+  "lastProcessedFile": "data/history/2025-12/2025-12-31T23-30-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8144,7 +8144,7 @@
       "id": "36263F",
       "title": "Herekino (5 customers)",
       "start": "2025-12-31T18:45:51Z",
-      "end": null,
+      "end": "2025-12-31T23:00:52Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
