@@ -1,0 +1,174 @@
+{
+  "timestamp": "2025-12-31T21:15:48Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "06f07d1efaff71ab",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "06f07d1efaff71ab",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36263F",
+          "lat": -35.18179771374244,
+          "lng": 173.15478566469747
+        }
+      ],
+      "planned": [
+        {
+          "id": "35789F",
+          "lat": -35.33291758053936,
+          "lng": 173.27556660191846
+        },
+        {
+          "id": "35792F",
+          "lat": -35.48723455923304,
+          "lng": 174.15357477192936
+        },
+        {
+          "id": "35933F",
+          "lat": -35.01102593888559,
+          "lng": 173.60103000117442
+        },
+        {
+          "id": "35966F",
+          "lat": -35.09738552734754,
+          "lng": 173.25976984453948
+        },
+        {
+          "id": "35993F",
+          "lat": -35.28008648116414,
+          "lng": 173.57266445075663
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 5,
+      "activeOutageCount": 1,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35966F",
+          "startTimestamp": 1767591000,
+          "isActive": false,
+          "circuitName": "North Road",
+          "customersCurrentlyOff": "13",
+          "startDateTime": "5th January 06:30 pm",
+          "endDateTime": "5th January 08:30 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "9th December 08:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35933F",
+          "startTimestamp": 1767645000,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "17",
+          "startDateTime": "6th January 09:30 am",
+          "endDateTime": "6th January 02:30 pm",
+          "alternativeStartDateTime": "7th January 09:30 am",
+          "alternativeEndDateTime": "7th January 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35789F",
+          "startTimestamp": 1767817800,
+          "isActive": false,
+          "circuitName": "South Road",
+          "customersCurrentlyOff": "99",
+          "startDateTime": "8th January 09:30 am",
+          "endDateTime": "8th January 02:00 pm",
+          "alternativeStartDateTime": "9th January 09:30 am",
+          "alternativeEndDateTime": "9th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35792F",
+          "startTimestamp": 1767817800,
+          "isActive": false,
+          "circuitName": "Towai",
+          "customersCurrentlyOff": "252",
+          "startDateTime": "8th January 09:30 am",
+          "endDateTime": "8th January 02:00 pm",
+          "alternativeStartDateTime": "19th January 10:00 am",
+          "alternativeEndDateTime": "19th January 02:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36263F",
+          "startTimestamp": 1767202260,
+          "isActive": true,
+          "circuitName": "Herekino",
+          "customersCurrentlyOff": "5",
+          "startDateTime": "1st January 06:31 am",
+          "endDateTime": "1st January 12:00 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36263F": {
+      "duration": "Unknown",
+      "startDate": "01/01/2026",
+      "startTime": "06:31 AM",
+      "estimatedRestorationDate": "01/01/2026",
+      "estimatedRestorationTime": "12:00 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Equipment fault",
+      "suburbs": "AHIPARA",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "WAITEHUIA ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "5",
+      "feeder": "HEREKINO",
+      "lastUpdateTime": "01/01/2026 07:40 AM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
