@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2025-12/2025-12-31T23-30-42Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-01T02-45-54Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8180,6 +8180,48 @@
           }
         ],
         "body": "**Outage ID:** 36263F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Equipment fault\n**Customers Affected:** 5\n**Suburbs:** AHIPARA\n---\n**Affected Roads:**\nWAITEHUIA ROAD\n---"
+      }
+    },
+    {
+      "id": "36269F",
+      "title": "Taipals (54 customers)",
+      "start": "2026-01-01T01:45:54Z",
+      "end": "2026-01-01T02:30:55Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "54",
+        "circuit": "Taipals",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-01T01:45:54Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "01/01/2026",
+              "startTime": "02:35 PM",
+              "estimatedRestorationDate": "01/01/2026",
+              "estimatedRestorationTime": "06:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KARIKARI PENINSULA, TOKERAU BEACH",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MARREINE PLACE, PAREMATA NEXUS ROAD, SIMON URLICH ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "54",
+              "feeder": "TAIPALS",
+              "lastUpdateTime": "01/01/2026 02:43 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36269F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Equipment fault\n**Customers Affected:** 54\n**Suburbs:** KARIKARI PENINSULA, TOKERAU BEACH\n---\n**Affected Roads:**\nMARREINE PLACE\nPAREMATA NEXUS ROAD\nSIMON URLICH ROAD\n---"
       }
     }
   ]
