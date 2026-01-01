@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-01T02-45-54Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-01T04-30-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8222,6 +8222,48 @@
           }
         ],
         "body": "**Outage ID:** 36269F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Equipment fault\n**Customers Affected:** 54\n**Suburbs:** KARIKARI PENINSULA, TOKERAU BEACH\n---\n**Affected Roads:**\nMARREINE PLACE\nPAREMATA NEXUS ROAD\nSIMON URLICH ROAD\n---"
+      }
+    },
+    {
+      "id": "36275F",
+      "title": "Totara North (1 customers)",
+      "start": "2026-01-01T04:30:45Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Totara North",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-01T04:30:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "01/01/2026",
+              "startTime": "04:23 PM",
+              "estimatedRestorationDate": "01/01/2026",
+              "estimatedRestorationTime": "07:23 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "TOTARA NORTH",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "NESS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "TOTARA NORTH",
+              "lastUpdateTime": "01/01/2026 05:24 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36275F\n**Status:** Active\n**Feeder / Circuit:** TOTARA NORTH\n**Cause:** Equipment fault\n**Customers Affected:** 1\n**Suburbs:** TOTARA NORTH\n---\n**Affected Roads:**\nNESS ROAD\n---"
       }
     }
   ]
