@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-02T19-30-47Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-02T20-45-53Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8357,9 +8357,90 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-02T20:00:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/01/2026",
+              "startTime": "07:57 AM",
+              "estimatedRestorationDate": "03/01/2026",
+              "estimatedRestorationTime": "09:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KERIKERI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AO MARAMA PLACE, BLUE PENGUIN DRIVE, CLEO JANE MEMORIAL DRIVE, DOONSIDE ROAD, FANTAIL RISE",
+                "hiddenStreets": "FERNBIRD GROVE, KAPIRO ROAD, KENDALL ROAD, KERIKERI ROAD, KINGFISHER DRIVE, LANDING ROAD, LENSVELT LANE, NEWTON DRIVE, NEWTON WATTS DRIVE, PALM DRIVE, PARETU DRIVE, RIVERVIEW ROAD, SKUDDERS BEACH ROAD, SPOONBILL DRIVE, TAREHA PLACE, TITOKI PLACE, TOTARA PLACE, TUI PLACE, WAIPAPA LANDING PLACE, WAIPAPA ROAD"
+              },
+              "customersAffected": "495",
+              "feeder": "RIVERVIEW",
+              "lastUpdateTime": "03/01/2026 07:56 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-02T20:30:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/01/2026",
+              "startTime": "07:57 AM",
+              "estimatedRestorationDate": "03/01/2026",
+              "estimatedRestorationTime": "09:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KERIKERI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AO MARAMA PLACE, BLUE PENGUIN DRIVE, CLEO JANE MEMORIAL DRIVE, FANTAIL RISE, FERNBIRD GROVE",
+                "hiddenStreets": "KAPIRO ROAD, KERIKERI ROAD, KINGFISHER DRIVE, LANDING ROAD, LENSVELT LANE, NEWTON DRIVE, NEWTON WATTS DRIVE, PALM DRIVE, PARETU DRIVE, SKUDDERS BEACH ROAD, SPOONBILL DRIVE, TITOKI PLACE, WAIPAPA LANDING PLACE"
+              },
+              "customersAffected": "287",
+              "feeder": "RIVERVIEW",
+              "lastUpdateTime": "03/01/2026 07:56 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-02T20:45:53Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/01/2026",
+              "startTime": "07:57 AM",
+              "estimatedRestorationDate": "03/01/2026",
+              "estimatedRestorationTime": "11:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KERIKERI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AO MARAMA PLACE, BLUE PENGUIN DRIVE, CLEO JANE MEMORIAL DRIVE, FANTAIL RISE, FERNBIRD GROVE",
+                "hiddenStreets": "KAPIRO ROAD, KERIKERI ROAD, KINGFISHER DRIVE, LANDING ROAD, LENSVELT LANE, NEWTON DRIVE, NEWTON WATTS DRIVE, PALM DRIVE, PARETU DRIVE, SKUDDERS BEACH ROAD, SPOONBILL DRIVE, TITOKI PLACE, WAIPAPA LANDING PLACE"
+              },
+              "customersAffected": "287",
+              "feeder": "RIVERVIEW",
+              "lastUpdateTime": "03/01/2026 07:56 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36281F\n**Status:** Active\n**Feeder / Circuit:** RIVERVIEW\n**Cause:** Equipment fault\n**Customers Affected:** 683\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nAO MARAMA PLACE\nBLUE PENGUIN DRIVE\nCLEO JANE MEMORIAL DRIVE\nDOONSIDE ROAD\nEDKINS ROAD\n---\n**Update History:**\n- 2026-01-02T19:30:47Z: Equipment fault\n- 2026-01-02T19:15:45Z: Under Investigation\n- 2026-01-02T19:00:40Z: Under Investigation"
+        "body": "**Outage ID:** 36281F\n**Status:** Active\n**Feeder / Circuit:** RIVERVIEW\n**Cause:** Equipment fault\n**Customers Affected:** 287\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nAO MARAMA PLACE\nBLUE PENGUIN DRIVE\nCLEO JANE MEMORIAL DRIVE\nFANTAIL RISE\nFERNBIRD GROVE\n---\n**Update History:**\n- 2026-01-02T20:45:53Z: Equipment fault\n- 2026-01-02T20:30:44Z: Equipment fault\n- 2026-01-02T20:00:48Z: Equipment fault\n- 2026-01-02T19:30:47Z: Equipment fault\n- 2026-01-02T19:15:45Z: Under Investigation\n- 2026-01-02T19:00:40Z: Under Investigation"
       }
     }
   ]
