@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-02T20-45-53Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-02T21-30-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8270,7 +8270,7 @@
       "id": "36281F",
       "title": "Riverview (1267 customers)",
       "start": "2026-01-02T19:00:40Z",
-      "end": null,
+      "end": "2026-01-02T21:30:45Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -8438,9 +8438,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-02T21:00:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/01/2026",
+              "startTime": "07:57 AM",
+              "estimatedRestorationDate": "03/01/2026",
+              "estimatedRestorationTime": "11:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KERIKERI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AO MARAMA PLACE, KINGFISHER DRIVE, PARETU DRIVE, SKUDDERS BEACH ROAD, TITOKI PLACE",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "117",
+              "feeder": "RIVERVIEW",
+              "lastUpdateTime": "03/01/2026 07:56 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36281F\n**Status:** Active\n**Feeder / Circuit:** RIVERVIEW\n**Cause:** Equipment fault\n**Customers Affected:** 287\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nAO MARAMA PLACE\nBLUE PENGUIN DRIVE\nCLEO JANE MEMORIAL DRIVE\nFANTAIL RISE\nFERNBIRD GROVE\n---\n**Update History:**\n- 2026-01-02T20:45:53Z: Equipment fault\n- 2026-01-02T20:30:44Z: Equipment fault\n- 2026-01-02T20:00:48Z: Equipment fault\n- 2026-01-02T19:30:47Z: Equipment fault\n- 2026-01-02T19:15:45Z: Under Investigation\n- 2026-01-02T19:00:40Z: Under Investigation"
+        "body": "**Outage ID:** 36281F\n**Status:** Active\n**Feeder / Circuit:** RIVERVIEW\n**Cause:** Equipment fault\n**Customers Affected:** 117\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nAO MARAMA PLACE\nKINGFISHER DRIVE\nPARETU DRIVE\nSKUDDERS BEACH ROAD\nTITOKI PLACE\n---\n**Update History:**\n- 2026-01-02T21:00:40Z: Equipment fault\n- 2026-01-02T20:45:53Z: Equipment fault\n- 2026-01-02T20:30:44Z: Equipment fault\n- 2026-01-02T20:00:48Z: Equipment fault\n- 2026-01-02T19:30:47Z: Equipment fault\n- 2026-01-02T19:15:45Z: Under Investigation\n- 2026-01-02T19:00:40Z: Under Investigation"
       }
     }
   ]
