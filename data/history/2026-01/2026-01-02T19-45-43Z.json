@@ -1,0 +1,210 @@
+{
+  "timestamp": "2026-01-02T19:45:43Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "d986fcc622d6afcd",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "d986fcc622d6afcd",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36281F",
+          "lat": -35.20476874770058,
+          "lng": 173.9751176054605
+        }
+      ],
+      "planned": [
+        {
+          "id": "35789F",
+          "lat": -35.33291758054006,
+          "lng": 173.27556660191766
+        },
+        {
+          "id": "35792F",
+          "lat": -35.487243321920936,
+          "lng": 174.15357109263462
+        },
+        {
+          "id": "35933F",
+          "lat": -35.01102594154378,
+          "lng": 173.60101852824678
+        },
+        {
+          "id": "35966F",
+          "lat": -35.09738552734754,
+          "lng": 173.25976984453948
+        },
+        {
+          "id": "35993F",
+          "lat": -35.28005752138607,
+          "lng": 173.57261823907822
+        },
+        {
+          "id": "36113F",
+          "lat": -35.114651362315065,
+          "lng": 173.94036908419457
+        },
+        {
+          "id": "36116F",
+          "lat": -35.25529456878261,
+          "lng": 173.24789627310435
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 683,
+      "activeOutageCount": 1,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35966F",
+          "startTimestamp": 1767591000,
+          "isActive": false,
+          "circuitName": "North Road",
+          "customersCurrentlyOff": "13",
+          "startDateTime": "5th January 06:30 pm",
+          "endDateTime": "5th January 08:30 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "9th December 08:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35933F",
+          "startTimestamp": 1767645000,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "17",
+          "startDateTime": "6th January 09:30 am",
+          "endDateTime": "6th January 02:30 pm",
+          "alternativeStartDateTime": "7th January 09:30 am",
+          "alternativeEndDateTime": "7th January 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35993F",
+          "startTimestamp": 1767646800,
+          "isActive": false,
+          "circuitName": "Rangiahua",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "6th January 10:00 am",
+          "endDateTime": "6th January 02:00 pm",
+          "alternativeStartDateTime": "6th January 10:00 am",
+          "alternativeEndDateTime": "6th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35789F",
+          "startTimestamp": 1767817800,
+          "isActive": false,
+          "circuitName": "South Road",
+          "customersCurrentlyOff": "99",
+          "startDateTime": "8th January 09:30 am",
+          "endDateTime": "8th January 02:00 pm",
+          "alternativeStartDateTime": "9th January 09:30 am",
+          "alternativeEndDateTime": "9th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35792F",
+          "startTimestamp": 1767817800,
+          "isActive": false,
+          "circuitName": "Towai",
+          "customersCurrentlyOff": "252",
+          "startDateTime": "8th January 09:30 am",
+          "endDateTime": "8th January 02:00 pm",
+          "alternativeStartDateTime": "19th January 10:00 am",
+          "alternativeEndDateTime": "19th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36113F",
+          "startTimestamp": 1768167000,
+          "isActive": false,
+          "circuitName": "Takou Bay",
+          "customersCurrentlyOff": "31",
+          "startDateTime": "12th January 10:30 am",
+          "endDateTime": "12th January 01:30 pm",
+          "alternativeStartDateTime": "13th January 10:30 am",
+          "alternativeEndDateTime": "13th January 01:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36116F",
+          "startTimestamp": 1768249800,
+          "isActive": false,
+          "circuitName": "Herekino",
+          "customersCurrentlyOff": "58",
+          "startDateTime": "13th January 09:30 am",
+          "endDateTime": "13th January 03:30 pm",
+          "alternativeStartDateTime": "14th January 09:30 am",
+          "alternativeEndDateTime": "14th January 03:30 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36281F",
+          "startTimestamp": 1767380220,
+          "isActive": true,
+          "circuitName": "Riverview",
+          "customersCurrentlyOff": "683",
+          "startDateTime": "3rd January 07:57 am",
+          "endDateTime": "3rd January 09:30 am",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36281F": {
+      "duration": "Unknown",
+      "startDate": "03/01/2026",
+      "startTime": "07:57 AM",
+      "estimatedRestorationDate": "03/01/2026",
+      "estimatedRestorationTime": "09:30 AM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Equipment fault",
+      "suburbs": "KERIKERI",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "AO MARAMA PLACE, BLUE PENGUIN DRIVE, CLEO JANE MEMORIAL DRIVE, DOONSIDE ROAD, EDKINS ROAD",
+        "hiddenStreets": "FANTAIL RISE, FERNBIRD GROVE, JAMES KEMP PLACE, KAPIRO ROAD, KEMP ROAD, KENDALL ROAD, KERIKERI ROAD, KINGFISHER DRIVE, LANDING ROAD, LENSVELT LANE, MARSDEN PLACE, MISSION ROAD, NEWTON DRIVE, NEWTON WATTS DRIVE, PALM DRIVE, PARETU DRIVE, RIVERVIEW ROAD, SELWYN PLACE, SKUDDERS BEACH ROAD, SPOONBILL DRIVE, TAREHA PLACE, TITOKI PLACE, TOTARA PLACE, TUI PLACE, WAIPAPA LANDING PLACE, WAIPAPA ROAD"
+      },
+      "customersAffected": "683",
+      "feeder": "RIVERVIEW",
+      "lastUpdateTime": "03/01/2026 07:56 AM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
