@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-02T18-45-41Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-02T19-30-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8264,6 +8264,102 @@
           }
         ],
         "body": "**Outage ID:** 36275F\n**Status:** Active\n**Feeder / Circuit:** TOTARA NORTH\n**Cause:** Equipment fault\n**Customers Affected:** 1\n**Suburbs:** TOTARA NORTH\n---\n**Affected Roads:**\nNESS ROAD\n---"
+      }
+    },
+    {
+      "id": "36281F",
+      "title": "Riverview (1267 customers)",
+      "start": "2026-01-02T19:00:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1267",
+        "circuit": "Riverview",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-02T19:00:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/01/2026",
+              "startTime": "07:56 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "285, KERIKERI, WAIPAPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AMBER LANE, AMSHARLO DRIVE, AO MARAMA PLACE, ASCOT DOWNS, ASCOT DOWNS LANE",
+                "hiddenStreets": "ASCOT LANE, ASTRID DRIVE, AWHITU ROAD, BLUE MARLIN DRIVE, BLUE PENGUIN DRIVE, CLEO JANE MEMORIAL DRIVE, COCHRANE DRIVE, COTTLE WAY, DOONSIDE ROAD, EDKINS ROAD, FANTAIL RISE, FERNBIRD GROVE, GREENFIELDS WAY, HARMONY LANE, HERITAGE BYPASS, JAMES KEMP PLACE, KAPIRO ROAD, KARAKA DRIVE, KEMP ROAD, KENDALL ROAD, KERIKERI ROAD, KINGFISHER DRIVE, LACEBARK LANE, LANDING ROAD, LEATHAM TERRACE, LENSVELT LANE, MARSDEN PLACE, MATAU PLACE, MILLERS LANE, MISSION ROAD, NEWTON DRIVE, NEWTON WATTS DRIVE, PALM DRIVE, PARETU DRIVE, PATHWAYS DRIVE, PURIRI PARK LANE, RAINBOW FALLS RD, RAINBOW FALLS ROAD, RIVERVIEW ROAD, ROSER AVE, SELWYN PLACE, SILKWOOD LANE, SKUDDERS BEACH ROAD, SPOONBILL DRIVE, STATE HIGHWAY 10, TAREHA PLACE, THE LAKES DRIVE, TITOKI PLACE, TOTARA PLACE, TUI PLACE, WAIPAPA LANDING PLACE, WAIPAPA ROAD, WAITOTARA DRIVE, WATERS LANE, WATSON LANE"
+              },
+              "customersAffected": "1267",
+              "feeder": "RIVERVIEW",
+              "lastUpdateTime": "03/01/2026 07:56 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-02T19:15:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/01/2026",
+              "startTime": "08:01 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "285, KERIKERI, WAIPAPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AMBER LANE, AMSHARLO DRIVE, AO MARAMA PLACE, ASCOT DOWNS, ASCOT DOWNS LANE",
+                "hiddenStreets": "ASCOT LANE, ASTRID DRIVE, AWHITU ROAD, BLUE MARLIN DRIVE, BLUE PENGUIN DRIVE, CLEO JANE MEMORIAL DRIVE, COCHRANE DRIVE, COTTLE WAY, DOONSIDE ROAD, EDKINS ROAD, FANTAIL RISE, FERNBIRD GROVE, GREENFIELDS WAY, HARMONY LANE, HERITAGE BYPASS, JAMES KEMP PLACE, KAPIRO ROAD, KARAKA DRIVE, KEMP ROAD, KENDALL ROAD, KERIKERI ROAD, KINGFISHER DRIVE, LACEBARK LANE, LANDING ROAD, LEATHAM TERRACE, LENSVELT LANE, MARSDEN PLACE, MATAU PLACE, MILLERS LANE, MISSION ROAD, NEWTON DRIVE, NEWTON WATTS DRIVE, PALM DRIVE, PARETU DRIVE, PATHWAYS DRIVE, PURIRI PARK LANE, RAINBOW FALLS RD, RAINBOW FALLS ROAD, RIVERVIEW ROAD, ROSER AVE, SELWYN PLACE, SILKWOOD LANE, SKUDDERS BEACH ROAD, SPOONBILL DRIVE, STATE HIGHWAY 10, TAREHA PLACE, THE LAKES DRIVE, TITOKI PLACE, TOTARA PLACE, TUI PLACE, WAIPAPA LANDING PLACE, WAIPAPA ROAD, WAITOTARA DRIVE, WATERS LANE, WATSON LANE"
+              },
+              "customersAffected": "1267",
+              "feeder": "RIVERVIEW",
+              "lastUpdateTime": "03/01/2026 07:56 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-02T19:30:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/01/2026",
+              "startTime": "07:57 AM",
+              "estimatedRestorationDate": "03/01/2026",
+              "estimatedRestorationTime": "09:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KERIKERI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AO MARAMA PLACE, BLUE PENGUIN DRIVE, CLEO JANE MEMORIAL DRIVE, DOONSIDE ROAD, EDKINS ROAD",
+                "hiddenStreets": "FANTAIL RISE, FERNBIRD GROVE, JAMES KEMP PLACE, KAPIRO ROAD, KEMP ROAD, KENDALL ROAD, KERIKERI ROAD, KINGFISHER DRIVE, LANDING ROAD, LENSVELT LANE, MARSDEN PLACE, MISSION ROAD, NEWTON DRIVE, NEWTON WATTS DRIVE, PALM DRIVE, PARETU DRIVE, RIVERVIEW ROAD, SELWYN PLACE, SKUDDERS BEACH ROAD, SPOONBILL DRIVE, TAREHA PLACE, TITOKI PLACE, TOTARA PLACE, TUI PLACE, WAIPAPA LANDING PLACE, WAIPAPA ROAD"
+              },
+              "customersAffected": "683",
+              "feeder": "RIVERVIEW",
+              "lastUpdateTime": "03/01/2026 07:56 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36281F\n**Status:** Active\n**Feeder / Circuit:** RIVERVIEW\n**Cause:** Equipment fault\n**Customers Affected:** 683\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nAO MARAMA PLACE\nBLUE PENGUIN DRIVE\nCLEO JANE MEMORIAL DRIVE\nDOONSIDE ROAD\nEDKINS ROAD\n---\n**Update History:**\n- 2026-01-02T19:30:47Z: Equipment fault\n- 2026-01-02T19:15:45Z: Under Investigation\n- 2026-01-02T19:00:40Z: Under Investigation"
       }
     }
   ]
