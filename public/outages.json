@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-03T21-30-42Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-03T22-45-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8585,7 +8585,7 @@
       "id": "36290F",
       "title": "Ohaeawai (2 customers)",
       "start": "2026-01-03T06:30:54Z",
-      "end": null,
+      "end": "2026-01-03T22:15:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
