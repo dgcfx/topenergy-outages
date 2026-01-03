@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-03T06-45-44Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-03T07-30-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8687,9 +8687,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-03T07:15:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/01/2026",
+              "startTime": "07:33 PM",
+              "estimatedRestorationDate": "03/01/2026",
+              "estimatedRestorationTime": "10:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "OKAIHAU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "COOK ROAD, DONALDSON ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "9",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "03/01/2026 07:34 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36293F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Equipment fault\n**Customers Affected:** 9\n**Suburbs:** OKAIHAU\n---\n**Affected Roads:**\nCOOK ROAD\nDONALDSON ROAD\n---"
+        "body": "**Outage ID:** 36293F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Equipment fault\n**Customers Affected:** 9\n**Suburbs:** OKAIHAU\n---\n**Affected Roads:**\nCOOK ROAD\nDONALDSON ROAD\n---\n**Update History:**\n- 2026-01-03T07:15:45Z: Equipment fault\n- 2026-01-03T06:45:44Z: Equipment fault"
       }
     }
   ]
