@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-03T07-30-41Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-03T08-45-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8645,9 +8645,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-03T08:30:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "03/01/2026",
+              "startTime": "07:26 PM",
+              "estimatedRestorationDate": "04/01/2026",
+              "estimatedRestorationTime": "10:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "PAKARAKA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 1",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "OHAEAWAI",
+              "lastUpdateTime": "03/01/2026 07:28 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36290F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Equipment fault\n**Customers Affected:** 2\n**Suburbs:** PAKARAKA\n---\n**Affected Roads:**\nSTATE HIGHWAY 1\n---\n**Update History:**\n- 2026-01-03T06:45:44Z: Equipment fault\n- 2026-01-03T06:30:54Z: Under Investigation"
+        "body": "**Outage ID:** 36290F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Equipment fault\n**Customers Affected:** 2\n**Suburbs:** PAKARAKA\n---\n**Affected Roads:**\nSTATE HIGHWAY 1\n---\n**Update History:**\n- 2026-01-03T08:30:40Z: Equipment fault\n- 2026-01-03T06:45:44Z: Equipment fault\n- 2026-01-03T06:30:54Z: Under Investigation"
       }
     },
     {
