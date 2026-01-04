@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-04T02-45-43Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-04T04-30-54Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8786,6 +8786,48 @@
           }
         ],
         "body": "**Outage ID:** 36296F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Equipment fault\n**Customers Affected:** 3\n**Suburbs:** UMAWERA\n---\n**Affected Roads:**\nTE TIO ROAD\n---"
+      }
+    },
+    {
+      "id": "36299F",
+      "title": "Purerua (2 customers)",
+      "start": "2026-01-04T03:00:51Z",
+      "end": "2026-01-04T03:30:40Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Purerua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-04T03:00:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/01/2026",
+              "startTime": "03:48 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KERIKERI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KAPIRO ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "04/01/2026 03:48 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36299F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Equipment fault\n**Customers Affected:** 2\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nKAPIRO ROAD\n---"
       }
     }
   ]
