@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-04T20-45-47Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-04T21-30-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8828,6 +8828,75 @@
           }
         ],
         "body": "**Outage ID:** 36299F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Equipment fault\n**Customers Affected:** 2\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nKAPIRO ROAD\n---"
+      }
+    },
+    {
+      "id": "36302F",
+      "title": "Horeke (1 customers)",
+      "start": "2026-01-04T21:00:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Horeke",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-04T21:00:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "05/01/2026",
+              "startTime": "07:53 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "OKAIHAU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "IMMS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "05/01/2026 09:56 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-04T21:15:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "05/01/2026",
+              "startTime": "07:53 AM",
+              "estimatedRestorationDate": "05/01/2026",
+              "estimatedRestorationTime": "09:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "OKAIHAU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "IMMS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "05/01/2026 09:56 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36302F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Equipment fault\n**Customers Affected:** 1\n**Suburbs:** OKAIHAU\n---\n**Affected Roads:**\nIMMS ROAD\n---\n**Update History:**\n- 2026-01-04T21:15:45Z: Equipment fault\n- 2026-01-04T21:00:51Z: Equipment fault"
       }
     }
   ]
