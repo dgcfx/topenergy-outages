@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-03T23-30-48Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-04T02-45-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8744,6 +8744,48 @@
           }
         ],
         "body": "**Outage ID:** 36293F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Equipment fault\n**Customers Affected:** 9\n**Suburbs:** OKAIHAU\n---\n**Affected Roads:**\nCOOK ROAD\nDONALDSON ROAD\n---\n**Update History:**\n- 2026-01-03T07:15:45Z: Equipment fault\n- 2026-01-03T06:45:44Z: Equipment fault"
+      }
+    },
+    {
+      "id": "36296F",
+      "title": "Rangiahua (3 customers)",
+      "start": "2026-01-04T02:00:52Z",
+      "end": "2026-01-04T02:15:42Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "3",
+        "circuit": "Rangiahua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-04T02:00:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/01/2026",
+              "startTime": "02:44 PM",
+              "estimatedRestorationDate": "04/01/2026",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "UMAWERA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "TE TIO ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "RANGIAHUA",
+              "lastUpdateTime": "04/01/2026 02:44 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36296F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Equipment fault\n**Customers Affected:** 3\n**Suburbs:** UMAWERA\n---\n**Affected Roads:**\nTE TIO ROAD\n---"
       }
     }
   ]
