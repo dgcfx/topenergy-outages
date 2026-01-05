@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-05T20-45-50Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-05T21-45-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8981,6 +8981,48 @@
           }
         ],
         "body": "**Outage ID:** 35933F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 17\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nORUAITI ROAD\nSAWYER ROAD\nWINDUST ROAD\n---"
+      }
+    },
+    {
+      "id": "35993F",
+      "title": "Rangiahua (2 customers)",
+      "start": "2026-01-05T21:15:38Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "2",
+        "circuit": "Rangiahua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-05T21:15:38Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "06/01/2026",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "06/01/2026",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "06/01/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "06/01/2026",
+              "alternativeEstimatedRestorationTime": "02:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "UMAWERA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 1, UMAWERA SCHOOL ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "RANGIAHUA",
+              "lastUpdateTime": "10/12/2025 02:28 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35993F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Line Maintenance\n**Customers Affected:** 2\n**Suburbs:** UMAWERA\n---\n**Affected Roads:**\nSTATE HIGHWAY 1\nUMAWERA SCHOOL ROAD\n---"
       }
     }
   ]
