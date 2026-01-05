@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-05T19-30-48Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-05T20-45-50Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8939,6 +8939,48 @@
           }
         ],
         "body": "**Outage ID:** 35966F\n**Status:** Active\n**Feeder / Circuit:** NORTH ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 13\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nNORTH PARK DRIVE\nNORTH ROAD\n---"
+      }
+    },
+    {
+      "id": "35933F",
+      "title": "Oruru (17 customers)",
+      "start": "2026-01-05T20:45:50Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "17",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-05T20:45:50Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "06/01/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "06/01/2026",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "07/01/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "07/01/2026",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "MANGONUI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "ORUAITI ROAD, SAWYER ROAD, WINDUST ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "17",
+              "feeder": "ORURU",
+              "lastUpdateTime": "05/12/2025 10:26 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35933F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 17\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nORUAITI ROAD\nSAWYER ROAD\nWINDUST ROAD\n---"
       }
     }
   ]
