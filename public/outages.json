@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-05T07-45-50Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-05T08-45-49Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8903,7 +8903,7 @@
       "id": "35966F",
       "title": "North Road (13 customers)",
       "start": "2026-01-05T05:45:46Z",
-      "end": null,
+      "end": "2026-01-05T08:01:17Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
