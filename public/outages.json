@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-05T21-45-46Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-05T22-45-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8945,7 +8945,7 @@
       "id": "35933F",
       "title": "Oruru (17 customers)",
       "start": "2026-01-05T20:45:50Z",
-      "end": null,
+      "end": "2026-01-05T22:30:58Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
