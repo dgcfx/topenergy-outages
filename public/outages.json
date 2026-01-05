@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-05T04-30-45Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-05T05-45-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8897,6 +8897,48 @@
           }
         ],
         "body": "**Outage ID:** 36302F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Equipment fault\n**Customers Affected:** 1\n**Suburbs:** OKAIHAU\n---\n**Affected Roads:**\nIMMS ROAD\n---\n**Update History:**\n- 2026-01-04T21:15:45Z: Equipment fault\n- 2026-01-04T21:00:51Z: Equipment fault"
+      }
+    },
+    {
+      "id": "35966F",
+      "title": "North Road (13 customers)",
+      "start": "2026-01-05T05:45:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "13",
+        "circuit": "North Road",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-05T05:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "05/01/2026",
+              "startTime": "06:30 PM",
+              "estimatedRestorationDate": "05/01/2026",
+              "estimatedRestorationTime": "08:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "09/12/2025",
+              "alternativeEstimatedRestorationTime": "08:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "NORTH PARK DRIVE, NORTH ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "13",
+              "feeder": "NORTH ROAD",
+              "lastUpdateTime": "08/12/2025 02:19 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35966F\n**Status:** Active\n**Feeder / Circuit:** NORTH ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 13\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nNORTH PARK DRIVE\nNORTH ROAD\n---"
       }
     }
   ]
