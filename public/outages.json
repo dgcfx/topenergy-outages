@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-05T22-45-44Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-06T02-30-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -8987,7 +8987,7 @@
       "id": "35993F",
       "title": "Rangiahua (2 customers)",
       "start": "2026-01-05T21:15:38Z",
-      "end": null,
+      "end": "2026-01-05T23:30:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -9023,6 +9023,75 @@
           }
         ],
         "body": "**Outage ID:** 35993F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Line Maintenance\n**Customers Affected:** 2\n**Suburbs:** UMAWERA\n---\n**Affected Roads:**\nSTATE HIGHWAY 1\nUMAWERA SCHOOL ROAD\n---"
+      }
+    },
+    {
+      "id": "36332F",
+      "title": "Whangaroa (48 customers)",
+      "start": "2026-01-06T01:45:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "48",
+        "circuit": "Whangaroa",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-06T01:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "06/01/2026",
+              "startTime": "02:39 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAEO, TAURANGA BAY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "TAURANGA BAY BEACH ROAD, TAURANGA BAY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "48",
+              "feeder": "WHANGAROA",
+              "lastUpdateTime": "06/01/2026 02:41 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-06T02:00:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "06/01/2026",
+              "startTime": "02:39 PM",
+              "estimatedRestorationDate": "06/01/2026",
+              "estimatedRestorationTime": "06:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAEO, TAURANGA BAY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "TAURANGA BAY BEACH ROAD, TAURANGA BAY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "48",
+              "feeder": "WHANGAROA",
+              "lastUpdateTime": "06/01/2026 02:41 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36332F\n**Status:** Active\n**Feeder / Circuit:** WHANGAROA\n**Cause:** Under Investigation\n**Customers Affected:** 48\n**Suburbs:** KAEO, TAURANGA BAY\n---\n**Affected Roads:**\nTAURANGA BAY BEACH ROAD\nTAURANGA BAY ROAD\n---\n**Update History:**\n- 2026-01-06T02:00:43Z: Under Investigation\n- 2026-01-06T01:45:46Z: Under Investigation"
       }
     }
   ]
