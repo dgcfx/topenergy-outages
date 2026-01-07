@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-07T02-30-56Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-07T03-45-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9092,6 +9092,48 @@
           }
         ],
         "body": "**Outage ID:** 36332F\n**Status:** Active\n**Feeder / Circuit:** WHANGAROA\n**Cause:** Under Investigation\n**Customers Affected:** 48\n**Suburbs:** KAEO, TAURANGA BAY\n---\n**Affected Roads:**\nTAURANGA BAY BEACH ROAD\nTAURANGA BAY ROAD\n---\n**Update History:**\n- 2026-01-06T02:00:43Z: Under Investigation\n- 2026-01-06T01:45:46Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36362F",
+      "title": "Mangonui (5 customers)",
+      "start": "2026-01-07T03:00:49Z",
+      "end": "2026-01-07T03:15:46Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "5",
+        "circuit": "Mangonui",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-07T03:00:49Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "07/01/2026",
+              "startTime": "03:56 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "CABLE BAY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "CABLE BAY BLOCK ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "5",
+              "feeder": "MANGONUI",
+              "lastUpdateTime": "07/01/2026 03:56 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36362F\n**Status:** Active\n**Feeder / Circuit:** MANGONUI\n**Cause:** Under Investigation\n**Customers Affected:** 5\n**Suburbs:** CABLE BAY\n---\n**Affected Roads:**\nCABLE BAY BLOCK ROAD\n---"
       }
     }
   ]
