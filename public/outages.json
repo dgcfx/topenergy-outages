@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-07T20-45-46Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-07T22-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9140,7 +9140,7 @@
       "id": "36368F",
       "title": "South Road (31 customers)",
       "start": "2026-01-07T19:00:46Z",
-      "end": null,
+      "end": "2026-01-07T21:15:52Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -9287,6 +9287,48 @@
           }
         ],
         "body": "**Outage ID:** 35792F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Line Maintenance\n**Customers Affected:** 252\n**Suburbs:** HIKURANGI, HUKERENUI, KAWAKAWA, MAROMAKU, TOWAI\n---\n**Affected Roads:**\nAKERAMA ROAD\nBARNES ROAD\nBOLERO ROAD\nFORD ROAD\nFORDS ROAD\n---"
+      }
+    },
+    {
+      "id": "36377F",
+      "title": "Rangiahua (1 customers)",
+      "start": "2026-01-07T22:30:48Z",
+      "end": "2026-01-07T22:45:45Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Rangiahua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-07T22:30:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "08/01/2026",
+              "startTime": "11:26 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "UMAWERA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "GROVE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "RANGIAHUA",
+              "lastUpdateTime": "08/01/2026 11:28 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36377F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** UMAWERA\n---\n**Affected Roads:**\nGROVE ROAD\n---"
       }
     }
   ]
