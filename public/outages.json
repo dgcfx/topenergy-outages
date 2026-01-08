@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-08T21-45-55Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-08T22-45-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9398,6 +9398,48 @@
           }
         ],
         "body": "**Outage ID:** 36380F\n**Status:** Active\n**Feeder / Circuit:** MANGONUI\n**Cause:** Equipment fault\n**Customers Affected:** 178\n**Suburbs:** CABLE BAY, COOPERS BEACH, MANGONUI\n---\n**Affected Roads:**\nCABLE BAY BLOCK RD\nCABLE BAY BLOCK ROAD\nEAGLES WAY\nHAEKARO LANE\nNANCY WAKE PLACE\n---"
+      }
+    },
+    {
+      "id": "36395F",
+      "title": "Rawene (4 customers)",
+      "start": "2026-01-08T22:45:43Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "4",
+        "circuit": "Rawene",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-08T22:45:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/01/2026",
+              "startTime": "11:34 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "RAWENE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "HONEY STREET, PARNELL STREET",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "4",
+              "feeder": "RAWENE",
+              "lastUpdateTime": "09/01/2026 11:34 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36395F\n**Status:** Active\n**Feeder / Circuit:** RAWENE\n**Cause:** Under Investigation\n**Customers Affected:** 4\n**Suburbs:** RAWENE\n---\n**Affected Roads:**\nHONEY STREET\nPARNELL STREET\n---"
       }
     }
   ]
