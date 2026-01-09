@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-09T20-45-45Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-09T22-45-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9440,6 +9440,75 @@
           }
         ],
         "body": "**Outage ID:** 36395F\n**Status:** Active\n**Feeder / Circuit:** RAWENE\n**Cause:** Under Investigation\n**Customers Affected:** 4\n**Suburbs:** RAWENE\n---\n**Affected Roads:**\nHONEY STREET\nPARNELL STREET\n---"
+      }
+    },
+    {
+      "id": "36407F",
+      "title": "Purerua (290 customers)",
+      "start": "2026-01-09T22:30:44Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "290",
+        "circuit": "Purerua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-09T22:30:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/01/2026",
+              "startTime": "11:00 AM",
+              "estimatedRestorationDate": "10/01/2026",
+              "estimatedRestorationTime": "01:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "KERIKERI, PURERUA, TAPUAETAHI, TE TII",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "385 RANGIHOUA ROAD, AHIRAU ROAD, HANSEN ROAD, HEWITT ROAD, KAPIRO ROAD",
+                "hiddenStreets": "KERI DOWNS ROAD, MCKENZIE ROAD, MORRIS LANE, MT MATAKA ROAD, NINE PIN TRACK, OIHI ROAD, PURERUA ROAD, RANGIHOUA ROAD, SOMERVILLE ROAD, TARONUI ROAD, TE TII ROAD, TE TII ROAD EXTENSION, WHARENGAERE ROAD"
+              },
+              "customersAffected": "290",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "10/01/2026 11:29 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-09T22:45:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/01/2026",
+              "startTime": "11:00 AM",
+              "estimatedRestorationDate": "10/01/2026",
+              "estimatedRestorationTime": "01:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "KERIKERI, PURERUA, TAPUAETAHI, TE TII, WAIPAPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "385 RANGIHOUA ROAD, AHIRAU ROAD, HANSEN ROAD, HEWITT ROAD, KAPIRO ROAD",
+                "hiddenStreets": "KERI DOWNS ROAD, MCKENZIE ROAD, MORRIS LANE, MT MATAKA ROAD, NINE PIN TRACK, OIHI ROAD, PURERUA ROAD, RANGIHOUA ROAD, SOMERVILLE ROAD, TARONUI ROAD, TE TII ROAD, TE TII ROAD EXTENSION, WHARENGAERE ROAD"
+              },
+              "customersAffected": "300",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "10/01/2026 11:33 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36407F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Equipment damage\n**Customers Affected:** 300\n**Suburbs:** KERIKERI, PURERUA, TAPUAETAHI, TE TII, WAIPAPA\n---\n**Affected Roads:**\n385 RANGIHOUA ROAD\nAHIRAU ROAD\nHANSEN ROAD\nHEWITT ROAD\nKAPIRO ROAD\n---\n**Update History:**\n- 2026-01-09T22:45:42Z: Equipment damage\n- 2026-01-09T22:30:44Z: Equipment damage"
       }
     }
   ]
