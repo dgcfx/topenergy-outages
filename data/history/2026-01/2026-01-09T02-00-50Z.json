@@ -1,0 +1,183 @@
+{
+  "timestamp": "2026-01-09T02:00:50Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "489b492136c9ad6b",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "489b492136c9ad6b",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [],
+      "planned": [
+        {
+          "id": "32387F",
+          "lat": -35.428717685079334,
+          "lng": 173.47160904174385
+        },
+        {
+          "id": "34988F",
+          "lat": -35.40282001950548,
+          "lng": 173.85105016156513
+        },
+        {
+          "id": "35936F",
+          "lat": -35.05611537370818,
+          "lng": 173.454710890711
+        },
+        {
+          "id": "35939F",
+          "lat": -35.01152106605072,
+          "lng": 173.77860588053213
+        },
+        {
+          "id": "36011F",
+          "lat": -35.22907494590785,
+          "lng": 173.94664303337308
+        },
+        {
+          "id": "36113F",
+          "lat": -35.114641393451734,
+          "lng": 173.94035897920335
+        },
+        {
+          "id": "36116F",
+          "lat": -35.255301083714635,
+          "lng": 173.24788218941768
+        },
+        {
+          "id": "36398F",
+          "lat": -35.39615249419694,
+          "lng": 173.84119296169897
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 0,
+      "activeOutageCount": 0,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36113F",
+          "startTimestamp": 1768167000,
+          "isActive": false,
+          "circuitName": "Takou Bay",
+          "customersCurrentlyOff": "31",
+          "startDateTime": "12th January 10:30 am",
+          "endDateTime": "12th January 01:30 pm",
+          "alternativeStartDateTime": "13th January 10:30 am",
+          "alternativeEndDateTime": "13th January 01:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36116F",
+          "startTimestamp": 1768249800,
+          "isActive": false,
+          "circuitName": "Herekino",
+          "customersCurrentlyOff": "58",
+          "startDateTime": "13th January 09:30 am",
+          "endDateTime": "13th January 03:30 pm",
+          "alternativeStartDateTime": "14th January 09:30 am",
+          "alternativeEndDateTime": "14th January 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "32387F",
+          "startTimestamp": 1768336200,
+          "isActive": false,
+          "circuitName": "Opononi",
+          "customersCurrentlyOff": "31",
+          "startDateTime": "14th January 09:30 am",
+          "endDateTime": "14th January 03:00 pm",
+          "alternativeStartDateTime": "4th February 09:30 am",
+          "alternativeEndDateTime": "4th February 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35936F",
+          "startTimestamp": 1768336200,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "39",
+          "startDateTime": "14th January 09:30 am",
+          "endDateTime": "14th January 03:30 pm",
+          "alternativeStartDateTime": "21st January 09:30 am",
+          "alternativeEndDateTime": "21st January 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36398F",
+          "startTimestamp": 1768421700,
+          "isActive": false,
+          "circuitName": "Ohaeawai",
+          "customersCurrentlyOff": "4",
+          "startDateTime": "15th January 09:15 am",
+          "endDateTime": "15th January 03:15 pm",
+          "alternativeStartDateTime": "16th January 09:15 am",
+          "alternativeEndDateTime": "16th January 03:15 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "34988F",
+          "startTimestamp": 1768422600,
+          "isActive": false,
+          "circuitName": "Ohaeawai",
+          "customersCurrentlyOff": "82",
+          "startDateTime": "15th January 09:30 am",
+          "endDateTime": "15th January 03:00 pm",
+          "alternativeStartDateTime": "15th January 09:30 am",
+          "alternativeEndDateTime": "15th January 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35939F",
+          "startTimestamp": 1768507200,
+          "isActive": false,
+          "circuitName": "Whangaroa",
+          "customersCurrentlyOff": "94",
+          "startDateTime": "16th January 09:00 am",
+          "endDateTime": "16th January 02:30 pm",
+          "alternativeStartDateTime": "23rd January 09:00 am",
+          "alternativeEndDateTime": "23rd January 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36011F",
+          "startTimestamp": 1768802400,
+          "isActive": false,
+          "circuitName": "Ranui Avenue",
+          "customersCurrentlyOff": "17",
+          "startDateTime": "19th January 07:00 pm",
+          "endDateTime": "19th January 09:00 pm",
+          "alternativeStartDateTime": "2nd February 07:00 pm",
+          "alternativeEndDateTime": "2nd February 09:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": []
+    }
+  },
+  "detailedOutageInfo": {}
+}
