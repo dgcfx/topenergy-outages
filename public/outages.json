@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-10T07-30-42Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-10T08-45-49Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9548,9 +9548,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-10T07:45:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/01/2026",
+              "startTime": "08:26 PM",
+              "estimatedRestorationDate": "10/01/2026",
+              "estimatedRestorationTime": "09:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KARIKARI PENINSULA, WHATUWHIWHI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "INLAND ROAD, MATAI BAY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "44",
+              "feeder": "TAIPALS",
+              "lastUpdateTime": "10/01/2026 08:26 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36410F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Under Investigation\n**Customers Affected:** 44\n**Suburbs:** KARIKARI PENINSULA, WHATUWHIWHI\n---\n**Affected Roads:**\nINLAND ROAD\nMATAI BAY ROAD\n---"
+        "body": "**Outage ID:** 36410F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Under Investigation\n**Customers Affected:** 44\n**Suburbs:** KARIKARI PENINSULA, WHATUWHIWHI\n---\n**Affected Roads:**\nINLAND ROAD\nMATAI BAY ROAD\n---\n**Update History:**\n- 2026-01-10T07:45:45Z: Under Investigation\n- 2026-01-10T07:30:42Z: Under Investigation"
       }
     }
   ]
