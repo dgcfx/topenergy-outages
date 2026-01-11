@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-11T21-30-50Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-11T22-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9662,6 +9662,48 @@
           }
         ],
         "body": "**Outage ID:** 36419F\n**Status:** Active\n**Feeder / Circuit:** TOTARA NORTH\n**Cause:** Under Investigation\n**Customers Affected:** 95\n**Suburbs:** KAEO, PUPUKE\n---\n**Affected Roads:**\nCOPPER MINE RD\nCOPPER MINE ROAD\nCOPPERMINE ROAD\nPUPUKE MANGAPA ROAD\nRATAROA ROAD\n---"
+      }
+    },
+    {
+      "id": "36113F",
+      "title": "Takou Bay (31 customers)",
+      "start": "2026-01-11T21:45:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "31",
+        "circuit": "Takou Bay",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-11T21:45:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/01/2026",
+              "startTime": "10:30 AM",
+              "estimatedRestorationDate": "12/01/2026",
+              "estimatedRestorationTime": "01:30 PM",
+              "alternativeStartDate": "13/01/2026",
+              "alternativeStartTime": "10:30 AM",
+              "alternativeEstimatedRestorationDate": "13/01/2026",
+              "alternativeEstimatedRestorationTime": "01:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAEO, TAKOU BAY",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "OTAHA ROAD, TE RA ROAD, TUATUA TERRACE",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "31",
+              "feeder": "TAKOU BAY",
+              "lastUpdateTime": "23/12/2025 07:52 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36113F\n**Status:** Active\n**Feeder / Circuit:** TAKOU BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 31\n**Suburbs:** KAEO, TAKOU BAY\n---\n**Affected Roads:**\nOTAHA ROAD\nTE RA ROAD\nTUATUA TERRACE\n---"
       }
     }
   ]
