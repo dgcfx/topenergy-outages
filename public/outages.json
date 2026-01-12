@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-11T23-30-45Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-12T02-30-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9668,7 +9668,7 @@
       "id": "36113F",
       "title": "Takou Bay (31 customers)",
       "start": "2026-01-11T21:45:47Z",
-      "end": null,
+      "end": "2026-01-12T00:15:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -9704,6 +9704,90 @@
           }
         ],
         "body": "**Outage ID:** 36113F\n**Status:** Active\n**Feeder / Circuit:** TAKOU BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 31\n**Suburbs:** KAEO, TAKOU BAY\n---\n**Affected Roads:**\nOTAHA ROAD\nTE RA ROAD\nTUATUA TERRACE\n---"
+      }
+    },
+    {
+      "id": "36422F",
+      "title": "Awanui (15 customers)",
+      "start": "2026-01-12T01:15:48Z",
+      "end": "2026-01-12T02:30:41Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "15",
+        "circuit": "Awanui",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-12T01:15:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/01/2026",
+              "startTime": "01:48 PM",
+              "estimatedRestorationDate": "12/01/2026",
+              "estimatedRestorationTime": "04:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": "KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BELL ROAD, GILL ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "15",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "12/01/2026 02:07 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36422F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Vehicle impact\n**Customers Affected:** 15\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nBELL ROAD\nGILL ROAD\n---"
+      }
+    },
+    {
+      "id": "36425F",
+      "title": "Opua (17 customers)",
+      "start": "2026-01-12T01:30:46Z",
+      "end": "2026-01-12T01:45:43Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "17",
+        "circuit": "Opua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-12T01:30:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/01/2026",
+              "startTime": "02:04 PM",
+              "estimatedRestorationDate": "12/01/2026",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "OPUA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "FRANKLIN STREET, KANE STREET, PENNEY STREET",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "17",
+              "feeder": "OPUA",
+              "lastUpdateTime": "12/01/2026 02:27 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36425F\n**Status:** Active\n**Feeder / Circuit:** OPUA\n**Cause:** Equipment fault\n**Customers Affected:** 17\n**Suburbs:** OPUA\n---\n**Affected Roads:**\nFRANKLIN STREET\nKANE STREET\nPENNEY STREET\n---"
       }
     }
   ]
