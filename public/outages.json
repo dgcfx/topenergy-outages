@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-12T21-45-52Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-12T22-45-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9836,7 +9836,7 @@
       "id": "36428F",
       "title": "Awanui (15 customers)",
       "start": "2026-01-12T21:30:44Z",
-      "end": null,
+      "end": "2026-01-12T22:45:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
