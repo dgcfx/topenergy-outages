@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-12T19-30-56Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-12T20-45-48Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9788,6 +9788,48 @@
           }
         ],
         "body": "**Outage ID:** 36425F\n**Status:** Active\n**Feeder / Circuit:** OPUA\n**Cause:** Equipment fault\n**Customers Affected:** 17\n**Suburbs:** OPUA\n---\n**Affected Roads:**\nFRANKLIN STREET\nKANE STREET\nPENNEY STREET\n---"
+      }
+    },
+    {
+      "id": "36116F",
+      "title": "Herekino (58 customers)",
+      "start": "2026-01-12T20:45:48Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "58",
+        "circuit": "Herekino",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-12T20:45:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/01/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "13/01/2026",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "14/01/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "14/01/2026",
+              "alternativeEstimatedRestorationTime": "03:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "BROADWOOD, HEREKINO, KAITAIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "AWAROA ROAD, DIGGERS VALLEY ROAD, KAITAIA-AWAROA ROAD, MCDONALD ROAD, OROWHANA ROAD",
+                "hiddenStreets": "POWELL ROAD, SMITH ROAD"
+              },
+              "customersAffected": "58",
+              "feeder": "HEREKINO",
+              "lastUpdateTime": "23/12/2025 08:42 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36116F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Line Maintenance\n**Customers Affected:** 58\n**Suburbs:** BROADWOOD, HEREKINO, KAITAIA\n---\n**Affected Roads:**\nAWAROA ROAD\nDIGGERS VALLEY ROAD\nKAITAIA-AWAROA ROAD\nMCDONALD ROAD\nOROWHANA ROAD\n---"
       }
     }
   ]
