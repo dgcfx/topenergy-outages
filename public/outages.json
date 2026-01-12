@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-12T20-45-48Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-12T21-45-52Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9830,6 +9830,48 @@
           }
         ],
         "body": "**Outage ID:** 36116F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Line Maintenance\n**Customers Affected:** 58\n**Suburbs:** BROADWOOD, HEREKINO, KAITAIA\n---\n**Affected Roads:**\nAWAROA ROAD\nDIGGERS VALLEY ROAD\nKAITAIA-AWAROA ROAD\nMCDONALD ROAD\nOROWHANA ROAD\n---"
+      }
+    },
+    {
+      "id": "36428F",
+      "title": "Awanui (15 customers)",
+      "start": "2026-01-12T21:30:44Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "15",
+        "circuit": "Awanui",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-12T21:30:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/01/2026",
+              "startTime": "09:02 AM",
+              "estimatedRestorationDate": "13/01/2026",
+              "estimatedRestorationTime": "12:02 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BELL ROAD, GILL ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "15",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "13/01/2026 10:19 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36428F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Equipment fault\n**Customers Affected:** 15\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nBELL ROAD\nGILL ROAD\n---"
       }
     }
   ]
