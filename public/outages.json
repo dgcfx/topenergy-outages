@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-12T23-30-50Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-13T02-30-39Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9794,7 +9794,7 @@
       "id": "36116F",
       "title": "Herekino (58 customers)",
       "start": "2026-01-12T20:45:48Z",
-      "end": null,
+      "end": "2026-01-13T00:45:47Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -9872,6 +9872,48 @@
           }
         ],
         "body": "**Outage ID:** 36428F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Equipment fault\n**Customers Affected:** 15\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nBELL ROAD\nGILL ROAD\n---"
+      }
+    },
+    {
+      "id": "36431F",
+      "title": "Waima (1 customers)",
+      "start": "2026-01-13T02:15:42Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Waima",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-13T02:15:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/01/2026",
+              "startTime": "03:07 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PUNAKITERE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "WAIMA",
+              "lastUpdateTime": "13/01/2026 03:11 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36431F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** KAIKOHE\n---\n**Affected Roads:**\nPUNAKITERE ROAD\n---"
       }
     }
   ]
