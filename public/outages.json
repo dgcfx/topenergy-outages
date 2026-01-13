@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-13T19-30-55Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-13T20-45-51Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9914,6 +9914,90 @@
           }
         ],
         "body": "**Outage ID:** 36431F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** KAIKOHE\n---\n**Affected Roads:**\nPUNAKITERE ROAD\n---"
+      }
+    },
+    {
+      "id": "32387F",
+      "title": "Opononi (31 customers)",
+      "start": "2026-01-13T20:45:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "31",
+        "circuit": "Opononi",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-13T20:45:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "14/01/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "14/01/2026",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "04/02/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "04/02/2026",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAIKOHE, OUE",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "OPARA ROAD, WHAREKAWA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "31",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "12/05/2025 08:01 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 32387F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Line Maintenance\n**Customers Affected:** 31\n**Suburbs:** KAIKOHE, OUE\n---\n**Affected Roads:**\nOPARA ROAD\nWHAREKAWA ROAD\n---"
+      }
+    },
+    {
+      "id": "35936F",
+      "title": "Oruru (39 customers)",
+      "start": "2026-01-13T20:45:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "39",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-13T20:45:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "14/01/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "14/01/2026",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "21/01/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "21/01/2026",
+              "alternativeEstimatedRestorationTime": "03:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA, PARANUI, PERIA, TAIPA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "CAMPBELL ROAD, PARANUI ROAD, PARANUI-TOATOA ROAD, PARAPARA-TOATOA ROAD, TAYLOR ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "39",
+              "feeder": "ORURU",
+              "lastUpdateTime": "05/12/2025 11:15 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35936F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 39\n**Suburbs:** KAITAIA, PARANUI, PERIA, TAIPA\n---\n**Affected Roads:**\nCAMPBELL ROAD\nPARANUI ROAD\nPARANUI-TOATOA ROAD\nPARAPARA-TOATOA ROAD\nTAYLOR ROAD\n---"
       }
     }
   ]
