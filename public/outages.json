@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-13T20-45-51Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-13T21-45-48Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9998,6 +9998,48 @@
           }
         ],
         "body": "**Outage ID:** 35936F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 39\n**Suburbs:** KAITAIA, PARANUI, PERIA, TAIPA\n---\n**Affected Roads:**\nCAMPBELL ROAD\nPARANUI ROAD\nPARANUI-TOATOA ROAD\nPARAPARA-TOATOA ROAD\nTAYLOR ROAD\n---"
+      }
+    },
+    {
+      "id": "36434F",
+      "title": "Awarua (2 customers)",
+      "start": "2026-01-13T21:00:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Awarua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-13T21:00:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "14/01/2026",
+              "startTime": "09:25 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "NUKUTAWHITI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MANGAKAHIA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "14/01/2026 09:48 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36434F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** NUKUTAWHITI\n---\n**Affected Roads:**\nMANGAKAHIA ROAD\n---"
       }
     }
   ]
