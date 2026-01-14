@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-14T04-30-48Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-14T05-45-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -10046,7 +10046,7 @@
       "id": "36476F",
       "title": "Puketi (96 customers)",
       "start": "2026-01-14T04:15:53Z",
-      "end": null,
+      "end": "2026-01-14T05:00:41Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
