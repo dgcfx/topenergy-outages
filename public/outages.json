@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-13T22-45-48Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-14T02-30-51Z.json",
   "events": [
     {
       "id": "35660F",
@@ -9920,7 +9920,7 @@
       "id": "32387F",
       "title": "Opononi (31 customers)",
       "start": "2026-01-13T20:45:51Z",
-      "end": null,
+      "end": "2026-01-14T02:15:53Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -9962,7 +9962,7 @@
       "id": "35936F",
       "title": "Oruru (39 customers)",
       "start": "2026-01-13T20:45:51Z",
-      "end": null,
+      "end": "2026-01-14T00:30:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
