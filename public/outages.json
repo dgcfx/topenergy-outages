@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-14T02-30-51Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-14T04-30-48Z.json",
   "events": [
     {
       "id": "35660F",
@@ -10040,6 +10040,48 @@
           }
         ],
         "body": "**Outage ID:** 36434F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** NUKUTAWHITI\n---\n**Affected Roads:**\nMANGAKAHIA ROAD\n---"
+      }
+    },
+    {
+      "id": "36476F",
+      "title": "Puketi (96 customers)",
+      "start": "2026-01-14T04:15:53Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "96",
+        "circuit": "Puketi",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-14T04:15:53Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "14/01/2026",
+              "startTime": "05:10 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KERIKERI, WAIPAPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "CAPRINE ROAD, DAROUX DRIVE, MANUWAI ROAD, NONI LANE, ONEKURA ROAD",
+                "hiddenStreets": "PUNGAERE ROAD, PURIRI DALE WAY"
+              },
+              "customersAffected": "96",
+              "feeder": "PUKETI",
+              "lastUpdateTime": "14/01/2026 05:10 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36476F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Under Investigation\n**Customers Affected:** 96\n**Suburbs:** KERIKERI, WAIPAPA\n---\n**Affected Roads:**\nCAPRINE ROAD\nDAROUX DRIVE\nMANUWAI ROAD\nNONI LANE\nONEKURA ROAD\n---"
       }
     }
   ]
