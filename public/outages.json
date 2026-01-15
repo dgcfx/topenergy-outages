@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-15T19-45-45Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-15T20-45-48Z.json",
   "events": [
     {
       "id": "35660F",
@@ -10166,6 +10166,48 @@
           }
         ],
         "body": "**Outage ID:** 36494F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** TAUTORO\n---\n**Affected Roads:**\nMANGAKAHIA ROAD\n---"
+      }
+    },
+    {
+      "id": "35939F",
+      "title": "Whangaroa (94 customers)",
+      "start": "2026-01-15T20:16:08Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "94",
+        "circuit": "Whangaroa",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-15T20:16:08Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/01/2026",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "16/01/2026",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "23/01/2026",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "23/01/2026",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAEO, TAURANGA BAY",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "TAURANGA BAY BEACH ROAD, TAURANGA BAY ROAD, WHANGAROA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "94",
+              "feeder": "WHANGAROA",
+              "lastUpdateTime": "05/12/2025 11:16 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 35939F\n**Status:** Active\n**Feeder / Circuit:** WHANGAROA\n**Cause:** Line Maintenance\n**Customers Affected:** 94\n**Suburbs:** KAEO, TAURANGA BAY\n---\n**Affected Roads:**\nTAURANGA BAY BEACH ROAD\nTAURANGA BAY ROAD\nWHANGAROA ROAD\n---"
       }
     }
   ]
