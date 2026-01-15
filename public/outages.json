@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-15T03-45-40Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-15T05-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -10130,7 +10130,7 @@
       "id": "36494F",
       "title": "Awarua (2 customers)",
       "start": "2026-01-15T03:45:40Z",
-      "end": null,
+      "end": "2026-01-15T04:45:39Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
