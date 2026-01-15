@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-15T02-30-44Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-15T03-45-40Z.json",
   "events": [
     {
       "id": "35660F",
@@ -10124,6 +10124,48 @@
           }
         ],
         "body": "**Outage ID:** 34988F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Line Maintenance\n**Customers Affected:** 79\n**Suburbs:** NGAWHA, NGAWHA SPRINGS\n---\n**Affected Roads:**\nNGAWHA SPRINGS ROAD\nOHARA STREET\nPUIA STREET\n---"
+      }
+    },
+    {
+      "id": "36494F",
+      "title": "Awarua (2 customers)",
+      "start": "2026-01-15T03:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Awarua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-15T03:45:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "15/01/2026",
+              "startTime": "04:42 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "TAUTORO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MANGAKAHIA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "15/01/2026 04:42 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36494F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** TAUTORO\n---\n**Affected Roads:**\nMANGAKAHIA ROAD\n---"
       }
     }
   ]
