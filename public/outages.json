@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-16T13-15-54Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-16T13-45-50Z.json",
   "events": [
     {
       "id": "35660F",
@@ -10235,6 +10235,48 @@
           }
         ],
         "body": "**Outage ID:** 35939F\n**Status:** Active\n**Feeder / Circuit:** WHANGAROA\n**Cause:** Line Maintenance\n**Customers Affected:** 2\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nTAURANGA BAY ROAD\n---\n**Update History:**\n- 2026-01-16T01:30:45Z: Line Maintenance\n- 2026-01-15T20:16:08Z: Line Maintenance"
+      }
+    },
+    {
+      "id": "36512F",
+      "title": "Pukenui South (606 customers)",
+      "start": "2026-01-16T13:45:50Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "606",
+        "circuit": "Pukenui South",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-16T13:45:50Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "17/01/2026",
+              "startTime": "02:39 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "AWANUI, HOUHORA, KAIMAUMAU, KAITAIA, MOTUTANGI, PUKENUI, WAIHARARA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BIG FLAT ROAD, BURNAGE ROAD, CAMEL VIEW HEIGHTS, CAMP ROAD, COX ROAD",
+                "hiddenStreets": "FAR NORTH ROAD, FITZGERALD ROAD, GUMBOOT ROAD, HAGGER STREET, HEATH ROAD, HOUHORA HEADS ROAD, HUKATERE ROAD, JUNIPER LANE, KAIMAUMAU ROAD, KATAVICH ROAD, LAKE ROAD, LAMB ROAD, NORTHWOOD AVENUE, NORTON ROAD, SRHOJ ROAD, STATE HIGHWAY 1, STATE HIGHWAY 1F, TURK VALLEY ROAD, WAGENER GROVE, WATERFRONT ROAD, WATERSIDE WAY, WHALERS ROAD"
+              },
+              "customersAffected": "606",
+              "feeder": "PUKENUI SOUTH",
+              "lastUpdateTime": "17/01/2026 02:39 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36512F\n**Status:** Active\n**Feeder / Circuit:** PUKENUI SOUTH\n**Cause:** Under Investigation\n**Customers Affected:** 606\n**Suburbs:** AWANUI, HOUHORA, KAIMAUMAU, KAITAIA, MOTUTANGI, PUKENUI, WAIHARARA\n---\n**Affected Roads:**\nBIG FLAT ROAD\nBURNAGE ROAD\nCAMEL VIEW HEIGHTS\nCAMP ROAD\nCOX ROAD\n---"
       }
     }
   ]
