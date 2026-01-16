@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-16T13-45-50Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-16T14-45-50Z.json",
   "events": [
     {
       "id": "35660F",
@@ -10274,9 +10274,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-16T14:45:50Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "17/01/2026",
+              "startTime": "02:45 AM",
+              "estimatedRestorationDate": "17/01/2026",
+              "estimatedRestorationTime": "04:45 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "HOUHORA, KAITAIA, MOTUTANGI, PUKENUI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BURNAGE ROAD, CAMEL VIEW HEIGHTS, FAR NORTH ROAD, FITZGERALD ROAD, GUMBOOT ROAD",
+                "hiddenStreets": "HOUHORA HEADS ROAD, HUKATERE ROAD, JUNIPER LANE, LAMB ROAD, NORTHWOOD AVENUE, STATE HIGHWAY 1, STATE HIGHWAY 1F, WAGENER GROVE, WATERFRONT ROAD, WATERSIDE WAY, WHALERS ROAD"
+              },
+              "customersAffected": "367",
+              "feeder": "PUKENUI SOUTH",
+              "lastUpdateTime": "17/01/2026 02:39 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36512F\n**Status:** Active\n**Feeder / Circuit:** PUKENUI SOUTH\n**Cause:** Under Investigation\n**Customers Affected:** 606\n**Suburbs:** AWANUI, HOUHORA, KAIMAUMAU, KAITAIA, MOTUTANGI, PUKENUI, WAIHARARA\n---\n**Affected Roads:**\nBIG FLAT ROAD\nBURNAGE ROAD\nCAMEL VIEW HEIGHTS\nCAMP ROAD\nCOX ROAD\n---"
+        "body": "**Outage ID:** 36512F\n**Status:** Active\n**Feeder / Circuit:** PUKENUI SOUTH\n**Cause:** Under Investigation\n**Customers Affected:** 367\n**Suburbs:** HOUHORA, KAITAIA, MOTUTANGI, PUKENUI\n---\n**Affected Roads:**\nBURNAGE ROAD\nCAMEL VIEW HEIGHTS\nFAR NORTH ROAD\nFITZGERALD ROAD\nGUMBOOT ROAD\n---\n**Update History:**\n- 2026-01-16T14:45:50Z: Under Investigation\n- 2026-01-16T13:45:50Z: Under Investigation"
       }
     }
   ]
