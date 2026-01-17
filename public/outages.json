@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-17T05-45-42Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-17T06-45-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -10310,7 +10310,7 @@
       "id": "36515F",
       "title": "Herekino (239 customers)",
       "start": "2026-01-16T23:30:43Z",
-      "end": null,
+      "end": "2026-01-17T06:45:46Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -10505,9 +10505,63 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-17T06:00:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "17/01/2026",
+              "startTime": "12:24 PM",
+              "estimatedRestorationDate": "17/01/2026",
+              "estimatedRestorationTime": "08:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "BROADWOOD, HEREKINO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AWAROA ROAD, KAITAIA-AWAROA ROAD, SMITH ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "10",
+              "feeder": "HEREKINO",
+              "lastUpdateTime": "17/01/2026 12:28 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-17T06:30:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "17/01/2026",
+              "startTime": "12:24 PM",
+              "estimatedRestorationDate": "17/01/2026",
+              "estimatedRestorationTime": "07:17 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "HEREKINO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KAITAIA-AWAROA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "HEREKINO",
+              "lastUpdateTime": "17/01/2026 12:28 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36515F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Tree contact\n**Customers Affected:** 10\n**Suburbs:** BROADWOOD, HEREKINO\n---\n**Affected Roads:**\nAWAROA ROAD\nKAITAIA-AWAROA ROAD\nSMITH ROAD\n---\n**Update History:**\n- 2026-01-17T05:00:45Z: Tree contact\n- 2026-01-17T04:00:45Z: Tree contact\n- 2026-01-17T02:15:41Z: Under Investigation\n- 2026-01-17T00:45:43Z: Under Investigation\n- 2026-01-17T00:15:45Z: Under Investigation\n- 2026-01-16T23:45:41Z: Under Investigation\n- 2026-01-16T23:30:43Z: Under Investigation"
+        "body": "**Outage ID:** 36515F\n**Status:** Active\n**Feeder / Circuit:** HEREKINO\n**Cause:** Tree contact\n**Customers Affected:** 2\n**Suburbs:** HEREKINO\n---\n**Affected Roads:**\nKAITAIA-AWAROA ROAD\n---\n**Update History:**\n- 2026-01-17T06:30:48Z: Tree contact\n- 2026-01-17T06:00:44Z: Tree contact\n- 2026-01-17T05:00:45Z: Tree contact\n- 2026-01-17T04:00:45Z: Tree contact\n- 2026-01-17T02:15:41Z: Under Investigation\n- 2026-01-17T00:45:43Z: Under Investigation\n- 2026-01-17T00:15:45Z: Under Investigation\n- 2026-01-16T23:45:41Z: Under Investigation\n- 2026-01-16T23:30:43Z: Under Investigation"
       }
     },
     {
