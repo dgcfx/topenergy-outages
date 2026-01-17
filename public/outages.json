@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-17T19-30-41Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-17T21-30-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -10610,7 +10610,7 @@
       "id": "36521F",
       "title": "Oruru (1 customers)",
       "start": "2026-01-17T19:15:41Z",
-      "end": null,
+      "end": "2026-01-17T20:15:47Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -10643,9 +10643,162 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-17T19:45:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "08:09 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "MANGONUI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AKATERE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "ORURU",
+              "lastUpdateTime": "18/01/2026 08:09 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36521F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nAKATERE ROAD\n---"
+        "body": "**Outage ID:** 36521F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Equipment fault\n**Customers Affected:** 1\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nAKATERE ROAD\n---\n**Update History:**\n- 2026-01-17T19:45:44Z: Equipment fault\n- 2026-01-17T19:15:41Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36530F",
+      "title": "Russell Express (85 customers)",
+      "start": "2026-01-17T20:45:43Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "85",
+        "circuit": "Russell Express",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-17T20:45:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "09:38 AM",
+              "estimatedRestorationDate": "18/01/2026",
+              "estimatedRestorationTime": "11:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "RAWHITI, RUSSELL",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AHITAPU ROAD, RAWHITI ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "85",
+              "feeder": "RUSSELL EXPRESS",
+              "lastUpdateTime": "18/01/2026 09:39 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36530F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Under Investigation\n**Customers Affected:** 85\n**Suburbs:** RAWHITI, RUSSELL\n---\n**Affected Roads:**\nAHITAPU ROAD\nRAWHITI ROAD\n---"
+      }
+    },
+    {
+      "id": "36533F",
+      "title": "Russell Express (3 customers)",
+      "start": "2026-01-17T20:45:43Z",
+      "end": "2026-01-17T21:00:45Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "3",
+        "circuit": "Russell Express",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-17T20:45:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "09:42 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "RAWHITI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "RAWHITI ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "RUSSELL EXPRESS",
+              "lastUpdateTime": "18/01/2026 09:42 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36533F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Under Investigation\n**Customers Affected:** 3\n**Suburbs:** RAWHITI\n---\n**Affected Roads:**\nRAWHITI ROAD\n---"
+      }
+    },
+    {
+      "id": "36539F",
+      "title": "Puketi (96 customers)",
+      "start": "2026-01-17T21:30:43Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "96",
+        "circuit": "Puketi",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-17T21:30:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "10:14 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KERIKERI, WAIPAPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "CAPRINE ROAD, DAROUX DRIVE, MANUWAI ROAD, NONI LANE, ONEKURA ROAD",
+                "hiddenStreets": "PUNGAERE ROAD, PURIRI DALE WAY"
+              },
+              "customersAffected": "96",
+              "feeder": "PUKETI",
+              "lastUpdateTime": "18/01/2026 10:17 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36539F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Under Investigation\n**Customers Affected:** 96\n**Suburbs:** KERIKERI, WAIPAPA\n---\n**Affected Roads:**\nCAPRINE ROAD\nDAROUX DRIVE\nMANUWAI ROAD\nNONI LANE\nONEKURA ROAD\n---"
       }
     }
   ]
