@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-17T18-45-39Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-17T19-30-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -10604,6 +10604,48 @@
           }
         ],
         "body": "**Outage ID:** 36518F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** BROADWOOD\n---\n**Affected Roads:**\nWAIOTEHUE ROAD\n---"
+      }
+    },
+    {
+      "id": "36521F",
+      "title": "Oruru (1 customers)",
+      "start": "2026-01-17T19:15:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-17T19:15:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "08:09 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "MANGONUI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AKATERE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "ORURU",
+              "lastUpdateTime": "18/01/2026 08:09 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36521F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nAKATERE ROAD\n---"
       }
     }
   ]
