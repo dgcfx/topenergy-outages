@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-17T21-30-43Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-17T22-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -10712,9 +10712,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-17T21:45:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "09:38 AM",
+              "estimatedRestorationDate": "18/01/2026",
+              "estimatedRestorationTime": "05:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "RAWHITI, RUSSELL",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AHITAPU ROAD, RAWHITI ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "85",
+              "feeder": "RUSSELL EXPRESS",
+              "lastUpdateTime": "18/01/2026 09:39 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36530F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Under Investigation\n**Customers Affected:** 85\n**Suburbs:** RAWHITI, RUSSELL\n---\n**Affected Roads:**\nAHITAPU ROAD\nRAWHITI ROAD\n---"
+        "body": "**Outage ID:** 36530F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Under Investigation\n**Customers Affected:** 85\n**Suburbs:** RAWHITI, RUSSELL\n---\n**Affected Roads:**\nAHITAPU ROAD\nRAWHITI ROAD\n---\n**Update History:**\n- 2026-01-17T21:45:42Z: Under Investigation\n- 2026-01-17T20:45:43Z: Under Investigation"
       }
     },
     {
@@ -10796,9 +10823,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-17T22:00:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "10:14 AM",
+              "estimatedRestorationDate": "18/01/2026",
+              "estimatedRestorationTime": "01:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KERIKERI, WAIPAPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "CAPRINE ROAD, DAROUX DRIVE, MANUWAI ROAD, NONI LANE, ONEKURA ROAD",
+                "hiddenStreets": "PUNGAERE ROAD, PURIRI DALE WAY"
+              },
+              "customersAffected": "96",
+              "feeder": "PUKETI",
+              "lastUpdateTime": "18/01/2026 10:17 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36539F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Under Investigation\n**Customers Affected:** 96\n**Suburbs:** KERIKERI, WAIPAPA\n---\n**Affected Roads:**\nCAPRINE ROAD\nDAROUX DRIVE\nMANUWAI ROAD\nNONI LANE\nONEKURA ROAD\n---"
+        "body": "**Outage ID:** 36539F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Under Investigation\n**Customers Affected:** 96\n**Suburbs:** KERIKERI, WAIPAPA\n---\n**Affected Roads:**\nCAPRINE ROAD\nDAROUX DRIVE\nMANUWAI ROAD\nNONI LANE\nONEKURA ROAD\n---\n**Update History:**\n- 2026-01-17T22:00:46Z: Under Investigation\n- 2026-01-17T21:30:43Z: Under Investigation"
       }
     }
   ]
