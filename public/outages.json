@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-17T23-30-51Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-18T02-45-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -10679,7 +10679,7 @@
       "id": "36530F",
       "title": "Russell Express (85 customers)",
       "start": "2026-01-17T20:45:43Z",
-      "end": null,
+      "end": "2026-01-18T01:30:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -10853,6 +10853,171 @@
           }
         ],
         "body": "**Outage ID:** 36539F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Under Investigation\n**Customers Affected:** 96\n**Suburbs:** KERIKERI, WAIPAPA\n---\n**Affected Roads:**\nCAPRINE ROAD\nDAROUX DRIVE\nMANUWAI ROAD\nNONI LANE\nONEKURA ROAD\n---\n**Update History:**\n- 2026-01-17T22:00:46Z: Under Investigation\n- 2026-01-17T21:30:43Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36542F",
+      "title": "Totara North (12 customers)",
+      "start": "2026-01-17T23:45:44Z",
+      "end": "2026-01-18T01:01:11Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "12",
+        "circuit": "Totara North",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-17T23:45:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "12:39 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "TOTARA NORTH",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "SCHOOL ROAD, TOTARA NORTH ROAD, TOTARA SCHOOL ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "12",
+              "feeder": "TOTARA NORTH",
+              "lastUpdateTime": "18/01/2026 12:40 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-18T00:30:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "10:47 AM",
+              "estimatedRestorationDate": "18/01/2026",
+              "estimatedRestorationTime": "01:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "TOTARA NORTH",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "SCHOOL ROAD, TOTARA NORTH ROAD, TOTARA SCHOOL ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "12",
+              "feeder": "TOTARA NORTH",
+              "lastUpdateTime": "18/01/2026 01:26 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36542F\n**Status:** Active\n**Feeder / Circuit:** TOTARA NORTH\n**Cause:** Equipment fault\n**Customers Affected:** 12\n**Suburbs:** TOTARA NORTH\n---\n**Affected Roads:**\nSCHOOL ROAD\nTOTARA NORTH ROAD\nTOTARA SCHOOL ROAD\n---\n**Update History:**\n- 2026-01-18T00:30:52Z: Equipment fault\n- 2026-01-17T23:45:44Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36545F",
+      "title": "Russell Express (46 customers)",
+      "start": "2026-01-18T01:15:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "46",
+        "circuit": "Russell Express",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-18T01:15:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "02:05 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "RUSSELL, WAIKARE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WAIKARE ROAD, WAIKARE VALLEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "46",
+              "feeder": "RUSSELL EXPRESS",
+              "lastUpdateTime": "18/01/2026 02:06 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-18T02:15:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "02:05 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "RUSSELL, WAIKARE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WAIKARE ROAD, WAIKARE VALLEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "43",
+              "feeder": "RUSSELL EXPRESS",
+              "lastUpdateTime": "18/01/2026 02:06 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-18T02:30:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "02:05 PM",
+              "estimatedRestorationDate": "18/01/2026",
+              "estimatedRestorationTime": "07:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "RUSSELL, WAIKARE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WAIKARE ROAD, WAIKARE VALLEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "43",
+              "feeder": "RUSSELL EXPRESS",
+              "lastUpdateTime": "18/01/2026 02:06 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36545F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Under Investigation\n**Customers Affected:** 43\n**Suburbs:** RUSSELL, WAIKARE\n---\n**Affected Roads:**\nWAIKARE ROAD\nWAIKARE VALLEY ROAD\n---\n**Update History:**\n- 2026-01-18T02:30:51Z: Under Investigation\n- 2026-01-18T02:15:44Z: Under Investigation\n- 2026-01-18T01:15:41Z: Under Investigation"
       }
     }
   ]
