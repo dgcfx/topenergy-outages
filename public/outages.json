@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-18T07-30-40Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-18T08-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -11114,6 +11114,48 @@
           }
         ],
         "body": "**Outage ID:** 36551F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Equipment damage\n**Customers Affected:** 11\n**Suburbs:** MITIMITI\n---\n**Affected Roads:**\nWEST COAST ROAD\n---"
+      }
+    },
+    {
+      "id": "36554F",
+      "title": "Russell Express (8 customers)",
+      "start": "2026-01-18T08:00:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "8",
+        "circuit": "Russell Express",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-18T08:00:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "08:25 PM",
+              "estimatedRestorationDate": "18/01/2026",
+              "estimatedRestorationTime": "10:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "RUSSELL",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "OTAMARUA ROAD, PAROA ROAD, RUSSELL WHAKAPARA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "8",
+              "feeder": "RUSSELL EXPRESS",
+              "lastUpdateTime": "18/01/2026 08:50 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36554F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Under Investigation\n**Customers Affected:** 8\n**Suburbs:** RUSSELL\n---\n**Affected Roads:**\nOTAMARUA ROAD\nPAROA ROAD\nRUSSELL WHAKAPARA ROAD\n---"
       }
     }
   ]
