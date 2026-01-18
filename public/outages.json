@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-18T04-45-51Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-18T05-45-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -11015,9 +11015,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-18T05:00:49Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "02:05 PM",
+              "estimatedRestorationDate": "18/01/2026",
+              "estimatedRestorationTime": "07:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "RUSSELL, WAIKARE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WAIKARE ROAD, WAIKARE VALLEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "43",
+              "feeder": "RUSSELL EXPRESS",
+              "lastUpdateTime": "18/01/2026 02:06 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36545F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Under Investigation\n**Customers Affected:** 43\n**Suburbs:** RUSSELL, WAIKARE\n---\n**Affected Roads:**\nWAIKARE ROAD\nWAIKARE VALLEY ROAD\n---\n**Update History:**\n- 2026-01-18T02:30:51Z: Under Investigation\n- 2026-01-18T02:15:44Z: Under Investigation\n- 2026-01-18T01:15:41Z: Under Investigation"
+        "body": "**Outage ID:** 36545F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Tree contact\n**Customers Affected:** 43\n**Suburbs:** RUSSELL, WAIKARE\n---\n**Affected Roads:**\nWAIKARE ROAD\nWAIKARE VALLEY ROAD\n---\n**Update History:**\n- 2026-01-18T05:00:49Z: Tree contact\n- 2026-01-18T02:30:51Z: Under Investigation\n- 2026-01-18T02:15:44Z: Under Investigation\n- 2026-01-18T01:15:41Z: Under Investigation"
       }
     }
   ]
