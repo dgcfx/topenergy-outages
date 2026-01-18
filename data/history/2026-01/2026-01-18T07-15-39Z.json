@@ -1,0 +1,233 @@
+{
+  "timestamp": "2026-01-18T07:15:39Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "1ceab7dc17bc7c2e",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "1ceab7dc17bc7c2e",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [],
+      "planned": [
+        {
+          "id": "35921F",
+          "lat": -35.38531808959488,
+          "lng": 174.03419514360897
+        },
+        {
+          "id": "36038F",
+          "lat": -34.98579506118855,
+          "lng": 173.65395217069033
+        },
+        {
+          "id": "36158F",
+          "lat": -35.01874370237448,
+          "lng": 173.47793832681955
+        },
+        {
+          "id": "36212F",
+          "lat": -35.435417501096794,
+          "lng": 174.13013008636108
+        },
+        {
+          "id": "36260F",
+          "lat": -35.38704658761912,
+          "lng": 173.6016593550603
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 0,
+      "activeOutageCount": 0,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36011F",
+          "startTimestamp": 1768802400,
+          "isActive": false,
+          "circuitName": "Ranui Avenue",
+          "customersCurrentlyOff": "17",
+          "startDateTime": "19th January 07:00 pm",
+          "endDateTime": "19th January 09:00 pm",
+          "alternativeStartDateTime": "2nd February 07:00 pm",
+          "alternativeEndDateTime": "2nd February 09:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36389F",
+          "startTimestamp": 1768852800,
+          "isActive": false,
+          "circuitName": "Russell Express",
+          "customersCurrentlyOff": "25",
+          "startDateTime": "20th January 09:00 am",
+          "endDateTime": "20th January 03:00 pm",
+          "alternativeStartDateTime": "29th January 09:00 am",
+          "alternativeEndDateTime": "29th January 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36338F",
+          "startTimestamp": 1768856400,
+          "isActive": false,
+          "circuitName": "Purerua",
+          "customersCurrentlyOff": "452",
+          "startDateTime": "20th January 10:00 am",
+          "endDateTime": "20th January 02:30 pm",
+          "alternativeStartDateTime": "28th January 10:00 am",
+          "alternativeEndDateTime": "28th January 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36260F",
+          "startTimestamp": 1768858200,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "9",
+          "startDateTime": "20th January 10:30 am",
+          "endDateTime": "20th January 03:00 pm",
+          "alternativeStartDateTime": "28th January 10:30 am",
+          "alternativeEndDateTime": "28th January 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35921F",
+          "startTimestamp": 1768941000,
+          "isActive": false,
+          "circuitName": "Tau Block",
+          "customersCurrentlyOff": "1",
+          "startDateTime": "21st January 09:30 am",
+          "endDateTime": "21st January 03:00 pm",
+          "alternativeStartDateTime": "27th January 09:30 am",
+          "alternativeEndDateTime": "27th January 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36158F",
+          "startTimestamp": 1768941000,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "73",
+          "startDateTime": "21st January 09:30 am",
+          "endDateTime": "21st January 03:30 pm",
+          "alternativeStartDateTime": "23rd January 09:30 am",
+          "alternativeEndDateTime": "23rd January 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36038F",
+          "startTimestamp": 1769027400,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "233",
+          "startDateTime": "22nd January 09:30 am",
+          "endDateTime": "22nd January 03:30 pm",
+          "alternativeStartDateTime": "23rd January 09:30 am",
+          "alternativeEndDateTime": "23rd January 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36212F",
+          "startTimestamp": 1769029200,
+          "isActive": false,
+          "circuitName": "Towai",
+          "customersCurrentlyOff": "22",
+          "startDateTime": "22nd January 10:00 am",
+          "endDateTime": "22nd January 02:00 pm",
+          "alternativeStartDateTime": "28th January 10:00 am",
+          "alternativeEndDateTime": "28th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36449F",
+          "startTimestamp": 1769113800,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "23rd January 09:30 am",
+          "endDateTime": "23rd January 12:30 pm",
+          "alternativeStartDateTime": "27th January 09:30 am",
+          "alternativeEndDateTime": "27th January 12:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35945F",
+          "startTimestamp": 1769457600,
+          "isActive": false,
+          "circuitName": "Russell Express",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "27th January 09:00 am",
+          "endDateTime": "27th January 02:30 pm",
+          "alternativeStartDateTime": "28th January 09:00 am",
+          "alternativeEndDateTime": "28th January 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35969F",
+          "startTimestamp": 1769459400,
+          "isActive": false,
+          "circuitName": "Purerua",
+          "customersCurrentlyOff": "47",
+          "startDateTime": "27th January 09:30 am",
+          "endDateTime": "27th January 03:00 pm",
+          "alternativeStartDateTime": "2nd February 09:30 am",
+          "alternativeEndDateTime": "2nd February 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36329F",
+          "startTimestamp": 1769459400,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "112",
+          "startDateTime": "27th January 09:30 am",
+          "endDateTime": "27th January 03:30 pm",
+          "alternativeStartDateTime": "30th January 09:30 am",
+          "alternativeEndDateTime": "30th January 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36341F",
+          "startTimestamp": 1769545800,
+          "isActive": false,
+          "circuitName": "Opua",
+          "customersCurrentlyOff": "228",
+          "startDateTime": "28th January 09:30 am",
+          "endDateTime": "28th January 02:30 pm",
+          "alternativeStartDateTime": "2nd February 09:30 am",
+          "alternativeEndDateTime": "2nd February 02:30 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": []
+    }
+  },
+  "detailedOutageInfo": {}
+}
