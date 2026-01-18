@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-18T21-30-40Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-18T22-45-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -11210,6 +11210,48 @@
           }
         ],
         "body": "**Outage ID:** 36554F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Equipment fault\n**Customers Affected:** 8\n**Suburbs:** RUSSELL\n---\n**Affected Roads:**\nOTAMARUA ROAD\nPAROA ROAD\nRUSSELL WHAKAPARA ROAD\n---\n**Update History:**\n- 2026-01-18T19:45:43Z: Equipment fault\n- 2026-01-18T09:00:45Z: Equipment fault\n- 2026-01-18T08:00:47Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36560F",
+      "title": "Awanui (547 customers)",
+      "start": "2026-01-18T22:00:41Z",
+      "end": "2026-01-18T22:15:42Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "547",
+        "circuit": "Awanui",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-18T22:00:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/01/2026",
+              "startTime": "10:18 PM",
+              "estimatedRestorationDate": "18/01/2026",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": "AHIPARA, AWANUI, KAITAIA, PAPARORE, WAIHARARA, WAIPAPAKAURI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ALBATROSS ALLEY, BELL ROAD, BIRD ROAD, CLARKE ROAD, DICK SMITH LOOP ROAD",
+                "hiddenStreets": "DOEL ROAD, FAR NORTH ROAD, GILL ROAD, HEATH ROAD, HINAU STREET, IMMS ROAD, KUNICICH ROAD, LAKE NGATU ROAD, MATAI STREET, MATICH ROAD, NGAKAPUA ROAD, NORTH ROAD, PAPARORE ROAD, POKO POHAIA ROAD, POSEIDON WAY, RAMP ROAD, RATA STREET, ROSEMAY LANE, ROTOKAWAU ROAD, SANDHILLS ROAD, SOUTHEY STREET, SPAINS ROAD, STATE HIGHWAY 1, STATE HIGHWAY 1F, SULENTA LOOP ROAD, SWEETWATER ROAD, TAMATEA ROAD, THE ANCHORAGE, UNAHI ROAD, WAIMANONI ROAD, WALKER ROAD, WEKA STREET, WEST COAST ROAD, WHANGATANE DRIVE, WIRELESS ROAD"
+              },
+              "customersAffected": "547",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "19/01/2026 10:54 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36560F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Vehicle impact\n**Customers Affected:** 547\n**Suburbs:** AHIPARA, AWANUI, KAITAIA, PAPARORE, WAIHARARA, WAIPAPAKAURI\n---\n**Affected Roads:**\nALBATROSS ALLEY\nBELL ROAD\nBIRD ROAD\nCLARKE ROAD\nDICK SMITH LOOP ROAD\n---"
       }
     }
   ]
