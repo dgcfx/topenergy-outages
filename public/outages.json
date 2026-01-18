@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-18T22-45-42Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-18T23-30-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -11252,6 +11252,48 @@
           }
         ],
         "body": "**Outage ID:** 36560F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Vehicle impact\n**Customers Affected:** 547\n**Suburbs:** AHIPARA, AWANUI, KAITAIA, PAPARORE, WAIHARARA, WAIPAPAKAURI\n---\n**Affected Roads:**\nALBATROSS ALLEY\nBELL ROAD\nBIRD ROAD\nCLARKE ROAD\nDICK SMITH LOOP ROAD\n---"
+      }
+    },
+    {
+      "id": "36563F",
+      "title": "Towai (22 customers)",
+      "start": "2026-01-18T23:30:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "22",
+        "circuit": "Towai",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-18T23:30:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "19/01/2026",
+              "startTime": "12:16 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": "HUKERENUI, TOWAI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AKERAMA ROAD, HAY ROAD, MONUMENT ROAD, RUAPEKAPEKA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "22",
+              "feeder": "TOWAI",
+              "lastUpdateTime": "19/01/2026 12:17 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36563F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Vehicle impact\n**Customers Affected:** 22\n**Suburbs:** HUKERENUI, TOWAI\n---\n**Affected Roads:**\nAKERAMA ROAD\nHAY ROAD\nMONUMENT ROAD\nRUAPEKAPEKA ROAD\n---"
       }
     }
   ]
