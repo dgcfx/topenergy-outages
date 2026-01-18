@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-18T06-45-49Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-18T07-30-40Z.json",
   "events": [
     {
       "id": "35660F",
@@ -11078,7 +11078,7 @@
       "id": "36551F",
       "title": "South Road (11 customers)",
       "start": "2026-01-18T06:15:44Z",
-      "end": null,
+      "end": "2026-01-18T07:15:39Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
