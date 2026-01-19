@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-19T07-00-45Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-19T07-45-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -11879,6 +11879,48 @@
           }
         ],
         "body": "**Outage ID:** 36578F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Vehicle impact\n**Customers Affected:** 1\n**Suburbs:** TOWAI\n---\n**Affected Roads:**\nHAY ROAD\n---\n**Update History:**\n- 2026-01-19T04:30:46Z: Vehicle impact\n- 2026-01-19T03:30:44Z: Vehicle impact\n- 2026-01-19T03:15:46Z: Vehicle impact\n- 2026-01-19T02:00:44Z: Vehicle impact\n- 2026-01-19T01:45:50Z: Vehicle impact"
+      }
+    },
+    {
+      "id": "36011F",
+      "title": "Ranui Avenue (17 customers)",
+      "start": "2026-01-19T07:15:50Z",
+      "end": "2026-01-19T07:45:46Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "17",
+        "circuit": "Ranui Avenue",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-19T07:15:50Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "19/01/2026",
+              "startTime": "08:00 PM",
+              "estimatedRestorationDate": "19/01/2026",
+              "estimatedRestorationTime": "09:00 PM",
+              "alternativeStartDate": "02/02/2026",
+              "alternativeStartTime": "07:00 PM",
+              "alternativeEstimatedRestorationDate": "02/02/2026",
+              "alternativeEstimatedRestorationTime": "09:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "BUTLER ROAD, KERIKERI ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "17",
+              "feeder": "RANUI AVENUE",
+              "lastUpdateTime": "11/12/2025 03:29 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36011F\n**Status:** Active\n**Feeder / Circuit:** RANUI AVENUE\n**Cause:** Line Maintenance\n**Customers Affected:** 17\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nBUTLER ROAD\nKERIKERI ROAD\n---"
       }
     }
   ]
