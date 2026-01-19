@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-19T05-45-42Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-19T07-00-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -11315,9 +11315,63 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-19T06:30:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "08:25 PM",
+              "estimatedRestorationDate": "19/01/2026",
+              "estimatedRestorationTime": "10:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line fault",
+              "suburbs": "RUSSELL",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "OTAMARUA ROAD, PAROA ROAD, RUSSELL WHAKAPARA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "8",
+              "feeder": "RUSSELL EXPRESS",
+              "lastUpdateTime": "19/01/2026 04:00 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-19T06:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/01/2026",
+              "startTime": "08:25 PM",
+              "estimatedRestorationDate": "20/01/2026",
+              "estimatedRestorationTime": "12:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line fault",
+              "suburbs": "RUSSELL",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "OTAMARUA ROAD, PAROA ROAD, RUSSELL WHAKAPARA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "8",
+              "feeder": "RUSSELL EXPRESS",
+              "lastUpdateTime": "19/01/2026 04:00 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36554F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Line fault\n**Customers Affected:** 8\n**Suburbs:** RUSSELL\n---\n**Affected Roads:**\nOTAMARUA ROAD\nPAROA ROAD\nRUSSELL WHAKAPARA ROAD\n---\n**Update History:**\n- 2026-01-19T03:15:46Z: Line fault\n- 2026-01-19T02:15:42Z: Line fault\n- 2026-01-19T00:30:44Z: Line fault\n- 2026-01-19T00:15:45Z: Line fault\n- 2026-01-18T19:45:43Z: Equipment fault\n- 2026-01-18T09:00:45Z: Equipment fault\n- 2026-01-18T08:00:47Z: Under Investigation"
+        "body": "**Outage ID:** 36554F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Line fault\n**Customers Affected:** 8\n**Suburbs:** RUSSELL\n---\n**Affected Roads:**\nOTAMARUA ROAD\nPAROA ROAD\nRUSSELL WHAKAPARA ROAD\n---\n**Update History:**\n- 2026-01-19T06:45:46Z: Line fault\n- 2026-01-19T06:30:47Z: Line fault\n- 2026-01-19T03:15:46Z: Line fault\n- 2026-01-19T02:15:42Z: Line fault\n- 2026-01-19T00:30:44Z: Line fault\n- 2026-01-19T00:15:45Z: Line fault\n- 2026-01-18T19:45:43Z: Equipment fault\n- 2026-01-18T09:00:45Z: Equipment fault\n- 2026-01-18T08:00:47Z: Under Investigation"
       }
     },
     {
