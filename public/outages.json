@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-19T22-45-45Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-19T23-45-53Z.json",
   "events": [
     {
       "id": "35660F",
@@ -11996,7 +11996,7 @@
       "id": "36584F",
       "title": "Rawene (41 customers)",
       "start": "2026-01-19T21:30:46Z",
-      "end": null,
+      "end": "2026-01-19T23:00:42Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -12092,7 +12092,7 @@
       "id": "36587F",
       "title": "Opononi (5 customers)",
       "start": "2026-01-19T22:30:51Z",
-      "end": null,
+      "end": "2026-01-19T23:45:53Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
