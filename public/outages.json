@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-19T20-45-47Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-19T22-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -11948,6 +11948,186 @@
           }
         ],
         "body": "**Outage ID:** 36011F\n**Status:** Active\n**Feeder / Circuit:** RANUI AVENUE\n**Cause:** Line Maintenance\n**Customers Affected:** 17\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nBUTLER ROAD\nKERIKERI ROAD\n---"
+      }
+    },
+    {
+      "id": "36338F",
+      "title": "Purerua (452 customers)",
+      "start": "2026-01-19T21:15:49Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "452",
+        "circuit": "Purerua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-19T21:15:49Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "20/01/2026",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "20/01/2026",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "28/01/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "28/01/2026",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI, OPITO BAY, RANGITANE",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "AKEAKE ROAD, ANCHORAGE HEIGHTS PLACE, BUSH POINT ROAD, DOVES BAY ROAD, KOTUKU ROAD",
+                "hiddenStreets": "KURAPARI ROAD, MAGNOLIA TREE WAY, MANUKA BAY ROAD, OPITO BAY ROAD, OPITO ROAD, POUNAMU PLACE, PUKEWHAU ROAD, RANGITANE LOOP ROAD, RANGITANE ROAD, REDCLIFFS ROAD, ROWSELL LANE, ST ANTHONYS WAY, TE KOWHAI POINT ROAD, TIKORANGI ROAD, WAIRANGI ROAD, WAITETE HEIGHTS LANE, YACHT DRIVE"
+              },
+              "customersAffected": "452",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "06/01/2026 03:31 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36338F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Line Maintenance\n**Customers Affected:** 452\n**Suburbs:** KERIKERI, OPITO BAY, RANGITANE\n---\n**Affected Roads:**\nAKEAKE ROAD\nANCHORAGE HEIGHTS PLACE\nBUSH POINT ROAD\nDOVES BAY ROAD\nKOTUKU ROAD\n---"
+      }
+    },
+    {
+      "id": "36584F",
+      "title": "Rawene (41 customers)",
+      "start": "2026-01-19T21:30:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "41",
+        "circuit": "Rawene",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-19T21:30:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "20/01/2026",
+              "startTime": "10:07 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "OPONONI, WAIMAMAKU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PINEHILL ROAD, SMOOTHY ROAD, WAIOTEMARAMA GORGE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "41",
+              "feeder": "RAWENE",
+              "lastUpdateTime": "20/01/2026 10:24 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-19T21:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "20/01/2026",
+              "startTime": "10:07 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "OPONONI, WAIMAMAKU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PINEHILL ROAD, SMOOTHY ROAD, WAIOTEMARAMA GORGE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "41",
+              "feeder": "RAWENE",
+              "lastUpdateTime": "20/01/2026 10:31 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-19T22:00:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "20/01/2026",
+              "startTime": "10:07 AM",
+              "estimatedRestorationDate": "20/01/2026",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "OPONONI, WAIMAMAKU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PINEHILL ROAD, SMOOTHY ROAD, WAIOTEMARAMA GORGE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "41",
+              "feeder": "RAWENE",
+              "lastUpdateTime": "20/01/2026 10:31 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36584F\n**Status:** Active\n**Feeder / Circuit:** RAWENE\n**Cause:** Equipment damage\n**Customers Affected:** 41\n**Suburbs:** OPONONI, WAIMAMAKU\n---\n**Affected Roads:**\nPINEHILL ROAD\nSMOOTHY ROAD\nWAIOTEMARAMA GORGE ROAD\n---\n**Update History:**\n- 2026-01-19T22:00:43Z: Equipment damage\n- 2026-01-19T21:45:46Z: Equipment damage\n- 2026-01-19T21:30:46Z: Equipment damage"
+      }
+    },
+    {
+      "id": "36587F",
+      "title": "Opononi (5 customers)",
+      "start": "2026-01-19T22:30:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "5",
+        "circuit": "Opononi",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-19T22:30:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "20/01/2026",
+              "startTime": "11:17 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "OPONONI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 12, WAIOTEMARAMA GORGE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "5",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "20/01/2026 11:18 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36587F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Equipment fault\n**Customers Affected:** 5\n**Suburbs:** OPONONI\n---\n**Affected Roads:**\nSTATE HIGHWAY 12\nWAIOTEMARAMA GORGE ROAD\n---"
       }
     }
   ]
