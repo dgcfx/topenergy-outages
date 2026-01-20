@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-20T19-31-10Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-20T20-45-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -12128,6 +12128,48 @@
           }
         ],
         "body": "**Outage ID:** 36587F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Equipment fault\n**Customers Affected:** 5\n**Suburbs:** OPONONI\n---\n**Affected Roads:**\nSTATE HIGHWAY 12\nWAIOTEMARAMA GORGE ROAD\n---"
+      }
+    },
+    {
+      "id": "36158F",
+      "title": "Oruru (73 customers)",
+      "start": "2026-01-20T20:45:44Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "73",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-20T20:45:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "21/01/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "21/01/2026",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "23/01/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "23/01/2026",
+              "alternativeEstimatedRestorationTime": "03:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "PERIA, TAIPA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "BACKRIVER ROAD, BARRIBALL ROAD, MATAHOURUA CLOSE, ORURU ROAD, ORURU VALLEY ROAD",
+                "hiddenStreets": "PARANUI ROAD, PARIRI ROAD"
+              },
+              "customersAffected": "73",
+              "feeder": "ORURU",
+              "lastUpdateTime": "28/12/2025 03:29 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36158F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 73\n**Suburbs:** PERIA, TAIPA\n---\n**Affected Roads:**\nBACKRIVER ROAD\nBARRIBALL ROAD\nMATAHOURUA CLOSE\nORURU ROAD\nORURU VALLEY ROAD\n---"
       }
     }
   ]
