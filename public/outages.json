@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-21T21-45-52Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-21T22-45-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -12533,7 +12533,7 @@
       "id": "36620F",
       "title": "Takou Bay (4 customers)",
       "start": "2026-01-21T11:00:44Z",
-      "end": null,
+      "end": "2026-01-21T22:15:52Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -12629,7 +12629,7 @@
       "id": "36626F",
       "title": "Bulls Gorge (42 customers)",
       "start": "2026-01-21T19:00:43Z",
-      "end": null,
+      "end": "2026-01-21T22:30:41Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -12716,16 +12716,43 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-21T22:15:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/01/2026",
+              "startTime": "07:51 AM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "10:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "OROMAHOE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PUKETONA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "BULLS GORGE",
+              "lastUpdateTime": "22/01/2026 07:54 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36626F\n**Status:** Active\n**Feeder / Circuit:** BULLS GORGE\n**Cause:** Under Investigation\n**Customers Affected:** 3\n**Suburbs:** OROMAHOE\n---\n**Affected Roads:**\nPUKETONA ROAD\n---\n**Update History:**\n- 2026-01-21T20:01:06Z: Under Investigation\n- 2026-01-21T19:31:17Z: Under Investigation\n- 2026-01-21T19:00:43Z: Under Investigation"
+        "body": "**Outage ID:** 36626F\n**Status:** Active\n**Feeder / Circuit:** BULLS GORGE\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** OROMAHOE\n---\n**Affected Roads:**\nPUKETONA ROAD\n---\n**Update History:**\n- 2026-01-21T22:15:52Z: Under Investigation\n- 2026-01-21T20:01:06Z: Under Investigation\n- 2026-01-21T19:31:17Z: Under Investigation\n- 2026-01-21T19:00:43Z: Under Investigation"
       }
     },
     {
       "id": "36629F",
       "title": "Taheke (216 customers)",
       "start": "2026-01-21T19:31:17Z",
-      "end": null,
+      "end": "2026-01-21T22:30:41Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -12911,9 +12938,63 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-21T22:01:00Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/01/2026",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "28/01/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "28/01/2026",
+              "alternativeEstimatedRestorationTime": "02:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "HUKERENUI, TOWAI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "AKERAMA ROAD, HAY ROAD, MONUMENT ROAD, RUAPEKAPEKA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "21",
+              "feeder": "TOWAI",
+              "lastUpdateTime": "29/12/2025 07:51 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-21T22:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/01/2026",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "28/01/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "28/01/2026",
+              "alternativeEstimatedRestorationTime": "02:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "TOWAI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "HAY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "TOWAI",
+              "lastUpdateTime": "29/12/2025 07:51 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36212F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Line Maintenance\n**Customers Affected:** 18\n**Suburbs:** HUKERENUI, TOWAI\n---\n**Affected Roads:**\nAKERAMA ROAD\nMONUMENT ROAD\nRUAPEKAPEKA ROAD\n---"
+        "body": "**Outage ID:** 36212F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Line Maintenance\n**Customers Affected:** 3\n**Suburbs:** TOWAI\n---\n**Affected Roads:**\nHAY ROAD\n---\n**Update History:**\n- 2026-01-21T22:45:46Z: Line Maintenance\n- 2026-01-21T22:01:00Z: Line Maintenance\n- 2026-01-21T21:31:08Z: Line Maintenance"
       }
     }
   ]
