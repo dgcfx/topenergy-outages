@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-21T10-45-53Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-21T11-45-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -12527,6 +12527,102 @@
           }
         ],
         "body": "**Outage ID:** 36614F\n**Status:** Active\n**Feeder / Circuit:** CROSSROADS\n**Cause:** Equipment fault\n**Customers Affected:** 13\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nWAIMATE NORTH ROAD\nWAIMATE ROAD\n---"
+      }
+    },
+    {
+      "id": "36620F",
+      "title": "Takou Bay (4 customers)",
+      "start": "2026-01-21T11:00:44Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "4",
+        "circuit": "Takou Bay",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-21T11:00:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "21/01/2026",
+              "startTime": "11:57 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KERIKERI, WAIPAPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KIRIKIRI LANE, SANDYS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "4",
+              "feeder": "TAKOU BAY",
+              "lastUpdateTime": "21/01/2026 11:58 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-21T11:15:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "21/01/2026",
+              "startTime": "11:57 PM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "01:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KERIKERI, WAIPAPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KIRIKIRI LANE, SANDYS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "4",
+              "feeder": "TAKOU BAY",
+              "lastUpdateTime": "21/01/2026 11:58 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-21T11:30:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "21/01/2026",
+              "startTime": "11:57 PM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "01:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KERIKERI, WAIPAPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KIRIKIRI LANE, SANDYS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "4",
+              "feeder": "TAKOU BAY",
+              "lastUpdateTime": "21/01/2026 11:58 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36620F\n**Status:** Active\n**Feeder / Circuit:** TAKOU BAY\n**Cause:** Equipment fault\n**Customers Affected:** 4\n**Suburbs:** KERIKERI, WAIPAPA\n---\n**Affected Roads:**\nKIRIKIRI LANE\nSANDYS ROAD\n---\n**Update History:**\n- 2026-01-21T11:30:47Z: Equipment fault\n- 2026-01-21T11:15:42Z: Equipment fault\n- 2026-01-21T11:00:44Z: Under Investigation"
       }
     }
   ]
