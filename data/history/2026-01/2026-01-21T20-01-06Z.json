@@ -1,0 +1,444 @@
+{
+  "timestamp": "2026-01-21T20:01:06Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "c6bd692b61bc4e52",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "c6bd692b61bc4e52",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36593F",
+          "lat": -35.24302193423861,
+          "lng": 173.3058782929981
+        },
+        {
+          "id": "36620F",
+          "lat": -35.176382534739325,
+          "lng": 173.87031708814203
+        },
+        {
+          "id": "36626F",
+          "lat": -35.299460131081936,
+          "lng": 173.96427133307222
+        },
+        {
+          "id": "36629F",
+          "lat": -35.486764732057225,
+          "lng": 173.73745400587316
+        }
+      ],
+      "planned": [
+        {
+          "id": "35945F",
+          "lat": -35.27743445676377,
+          "lng": 174.18002766950136
+        },
+        {
+          "id": "35969F",
+          "lat": -35.193942794678826,
+          "lng": 174.02850122626688
+        },
+        {
+          "id": "36038F",
+          "lat": -34.98094570309255,
+          "lng": 173.66983797740122
+        },
+        {
+          "id": "36212F",
+          "lat": -35.44737640804392,
+          "lng": 174.14595454394595
+        },
+        {
+          "id": "36260F",
+          "lat": -35.384393068478055,
+          "lng": 173.6021213028531
+        },
+        {
+          "id": "36266F",
+          "lat": -35.04394145544761,
+          "lng": 173.70882040770562
+        },
+        {
+          "id": "36329F",
+          "lat": -35.116593812376514,
+          "lng": 173.46354596988525
+        },
+        {
+          "id": "36341F",
+          "lat": -35.378449065987205,
+          "lng": 174.07566858616403
+        },
+        {
+          "id": "36344F",
+          "lat": -35.11973893605652,
+          "lng": 173.32856895284033
+        },
+        {
+          "id": "36374F",
+          "lat": -35.12859123171205,
+          "lng": 173.44959973189953
+        },
+        {
+          "id": "36389F",
+          "lat": -35.255605369853214,
+          "lng": 174.20618602364928
+        },
+        {
+          "id": "36449F",
+          "lat": -35.00236454267577,
+          "lng": 173.59489453935626
+        },
+        {
+          "id": "36590F",
+          "lat": -35.247094486725004,
+          "lng": 173.89950123716014
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 230,
+      "activeOutageCount": 4,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36038F",
+          "startTimestamp": 1769027400,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "233",
+          "startDateTime": "22nd January 09:30 am",
+          "endDateTime": "22nd January 03:30 pm",
+          "alternativeStartDateTime": "23rd January 09:30 am",
+          "alternativeEndDateTime": "23rd January 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36212F",
+          "startTimestamp": 1769029200,
+          "isActive": false,
+          "circuitName": "Towai",
+          "customersCurrentlyOff": "22",
+          "startDateTime": "22nd January 10:00 am",
+          "endDateTime": "22nd January 02:00 pm",
+          "alternativeStartDateTime": "28th January 10:00 am",
+          "alternativeEndDateTime": "28th January 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36449F",
+          "startTimestamp": 1769113800,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "23rd January 09:30 am",
+          "endDateTime": "23rd January 12:30 pm",
+          "alternativeStartDateTime": "27th January 09:30 am",
+          "alternativeEndDateTime": "27th January 12:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35945F",
+          "startTimestamp": 1769457600,
+          "isActive": false,
+          "circuitName": "Russell Express",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "27th January 09:00 am",
+          "endDateTime": "27th January 02:30 pm",
+          "alternativeStartDateTime": "28th January 09:00 am",
+          "alternativeEndDateTime": "28th January 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35969F",
+          "startTimestamp": 1769459400,
+          "isActive": false,
+          "circuitName": "Purerua",
+          "customersCurrentlyOff": "47",
+          "startDateTime": "27th January 09:30 am",
+          "endDateTime": "27th January 03:00 pm",
+          "alternativeStartDateTime": "2nd February 09:30 am",
+          "alternativeEndDateTime": "2nd February 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36329F",
+          "startTimestamp": 1769459400,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "112",
+          "startDateTime": "27th January 09:30 am",
+          "endDateTime": "27th January 03:30 pm",
+          "alternativeStartDateTime": "30th January 09:30 am",
+          "alternativeEndDateTime": "30th January 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36341F",
+          "startTimestamp": 1769545800,
+          "isActive": false,
+          "circuitName": "Opua",
+          "customersCurrentlyOff": "228",
+          "startDateTime": "28th January 09:30 am",
+          "endDateTime": "28th January 02:30 pm",
+          "alternativeStartDateTime": "2nd February 09:30 am",
+          "alternativeEndDateTime": "2nd February 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36260F",
+          "startTimestamp": 1769549400,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "9",
+          "startDateTime": "28th January 10:30 am",
+          "endDateTime": "28th January 03:00 pm",
+          "alternativeStartDateTime": "28th January 10:30 am",
+          "alternativeEndDateTime": "28th January 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36389F",
+          "startTimestamp": 1769630400,
+          "isActive": false,
+          "circuitName": "Russell Express",
+          "customersCurrentlyOff": "25",
+          "startDateTime": "29th January 09:00 am",
+          "endDateTime": "29th January 03:00 pm",
+          "alternativeStartDateTime": "29th January 09:00 am",
+          "alternativeEndDateTime": "29th January 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36266F",
+          "startTimestamp": 1769634000,
+          "isActive": false,
+          "circuitName": "Totara North",
+          "customersCurrentlyOff": "7",
+          "startDateTime": "29th January 10:00 am",
+          "endDateTime": "29th January 01:00 pm",
+          "alternativeStartDateTime": "2nd February 10:00 am",
+          "alternativeEndDateTime": "2nd February 01:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36344F",
+          "startTimestamp": 1769634000,
+          "isActive": false,
+          "circuitName": "Sub-transmission",
+          "customersCurrentlyOff": "19",
+          "startDateTime": "29th January 10:00 am",
+          "endDateTime": "29th January 03:00 pm",
+          "alternativeStartDateTime": "30th January 10:00 am",
+          "alternativeEndDateTime": "30th January 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36374F",
+          "startTimestamp": 1769716800,
+          "isActive": false,
+          "circuitName": "Oxford Street",
+          "customersCurrentlyOff": "24",
+          "startDateTime": "30th January 09:00 am",
+          "endDateTime": "30th January 03:30 pm",
+          "alternativeStartDateTime": "2nd February 09:00 am",
+          "alternativeEndDateTime": "2nd February 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36590F",
+          "startTimestamp": 1769720400,
+          "isActive": false,
+          "circuitName": "Crossroads",
+          "customersCurrentlyOff": "75",
+          "startDateTime": "30th January 10:00 am",
+          "endDateTime": "30th January 12:30 pm",
+          "alternativeStartDateTime": "2nd February 10:00 am",
+          "alternativeEndDateTime": "2nd February 12:30 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36593F",
+          "startTimestamp": 1768939560,
+          "isActive": true,
+          "circuitName": "South Road",
+          "customersCurrentlyOff": "7",
+          "startDateTime": "21st January 09:06 am",
+          "endDateTime": "22nd January 01:00 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "unplanned",
+          "name": "36620F",
+          "startTimestamp": 1768993020,
+          "isActive": true,
+          "circuitName": "Takou Bay",
+          "customersCurrentlyOff": "4",
+          "startDateTime": "21st January 11:57 pm",
+          "endDateTime": "22nd January 01:00 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "unplanned",
+          "name": "36626F",
+          "startTimestamp": 1769021460,
+          "isActive": true,
+          "circuitName": "Bulls Gorge",
+          "customersCurrentlyOff": "3",
+          "startDateTime": "22nd January 07:51 am",
+          "endDateTime": "22nd January 10:00 am",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "unplanned",
+          "name": "36629F",
+          "startTimestamp": 1769023560,
+          "isActive": true,
+          "circuitName": "Taheke",
+          "customersCurrentlyOff": "216",
+          "startDateTime": "22nd January 08:26 am",
+          "endDateTime": "22nd January 10:30 am",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36593F": {
+      "duration": "Unknown",
+      "startDate": "21/01/2026",
+      "startTime": "09:06 AM",
+      "estimatedRestorationDate": "22/01/2026",
+      "estimatedRestorationTime": "01:00 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": "BROADWOOD, HEREKINO",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "EATON ROAD, WAIOTEHUE ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "7",
+      "feeder": "SOUTH ROAD",
+      "lastUpdateTime": "21/01/2026 06:17 PM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "36620F": {
+      "duration": "Unknown",
+      "startDate": "21/01/2026",
+      "startTime": "11:57 PM",
+      "estimatedRestorationDate": "22/01/2026",
+      "estimatedRestorationTime": "01:00 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Equipment fault",
+      "suburbs": "KERIKERI, WAIPAPA",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "KIRIKIRI LANE, SANDYS ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "4",
+      "feeder": "TAKOU BAY",
+      "lastUpdateTime": "21/01/2026 11:58 PM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "36626F": {
+      "duration": "Unknown",
+      "startDate": "22/01/2026",
+      "startTime": "07:51 AM",
+      "estimatedRestorationDate": "22/01/2026",
+      "estimatedRestorationTime": "10:00 AM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": "OROMAHOE",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "PUKETONA ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "3",
+      "feeder": "BULLS GORGE",
+      "lastUpdateTime": "22/01/2026 07:54 AM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "36629F": {
+      "duration": "Unknown",
+      "startDate": "22/01/2026",
+      "startTime": "08:26 AM",
+      "estimatedRestorationDate": "22/01/2026",
+      "estimatedRestorationTime": "10:30 AM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": "KAIKOHE, OTAUA, TAHEKE",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "BROWNS ROAD, HILLCREST ROAD, JORDAN ROAD, MATARAUA ROAD, OMAPERE ROAD",
+        "hiddenStreets": "PARKER ROAD, PICADILLY ROAD, STATE HIGHWAY 12, STEWARD ROAD, TAHEKE ROAD, TE IRENGA ROAD, WAIMATENUI ROAD, WHAREPUNGA ROAD, WHIU ROAD"
+      },
+      "customersAffected": "216",
+      "feeder": "TAHEKE",
+      "lastUpdateTime": "22/01/2026 08:28 AM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
