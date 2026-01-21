@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-21T02-30-45Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-21T04-30-53Z.json",
   "events": [
     {
       "id": "35660F",
@@ -12317,16 +12317,43 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-21T03:30:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "21/01/2026",
+              "startTime": "09:06 AM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "01:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "BROADWOOD, HEREKINO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "EATON ROAD, WAIOTEHUE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "7",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "21/01/2026 10:07 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36593F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Under Investigation\n**Customers Affected:** 7\n**Suburbs:** BROADWOOD, HEREKINO\n---\n**Affected Roads:**\nEATON ROAD\nWAIOTEHUE ROAD\n---\n**Update History:**\n- 2026-01-21T01:30:42Z: Under Investigation\n- 2026-01-21T00:00:48Z: Under Investigation\n- 2026-01-20T23:15:52Z: Under Investigation\n- 2026-01-20T22:15:46Z: Under Investigation\n- 2026-01-20T21:15:43Z: Under Investigation"
+        "body": "**Outage ID:** 36593F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Under Investigation\n**Customers Affected:** 7\n**Suburbs:** BROADWOOD, HEREKINO\n---\n**Affected Roads:**\nEATON ROAD\nWAIOTEHUE ROAD\n---\n**Update History:**\n- 2026-01-21T03:30:46Z: Under Investigation\n- 2026-01-21T01:30:42Z: Under Investigation\n- 2026-01-21T00:00:48Z: Under Investigation\n- 2026-01-20T23:15:52Z: Under Investigation\n- 2026-01-20T22:15:46Z: Under Investigation\n- 2026-01-20T21:15:43Z: Under Investigation"
       }
     },
     {
       "id": "36599F",
       "title": "Opononi (9 customers)",
       "start": "2026-01-21T01:15:50Z",
-      "end": null,
+      "end": "2026-01-21T03:00:45Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -12368,7 +12395,7 @@
       "id": "36602F",
       "title": "Russell Express (135 customers)",
       "start": "2026-01-21T02:30:45Z",
-      "end": null,
+      "end": "2026-01-21T04:30:53Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -12401,9 +12428,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-21T04:00:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "21/01/2026",
+              "startTime": "03:18 PM",
+              "estimatedRestorationDate": "21/01/2026",
+              "estimatedRestorationTime": "07:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "RAWHITI, RUSSELL",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AHITAPU ROAD, HIKUWAI ROAD, KOKINGA POINT ROAD, RAWHITI ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "112",
+              "feeder": "RUSSELL EXPRESS",
+              "lastUpdateTime": "21/01/2026 03:18 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36602F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Under Investigation\n**Customers Affected:** 135\n**Suburbs:** PAREKURA BAY, RAWHITI, RUSSELL\n---\n**Affected Roads:**\nAHITAPU ROAD\nHIKUWAI ROAD\nKOKINGA POINT ROAD\nMANAWAORA ROAD\nRAWHITI ROAD\n---"
+        "body": "**Outage ID:** 36602F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Under Investigation\n**Customers Affected:** 112\n**Suburbs:** RAWHITI, RUSSELL\n---\n**Affected Roads:**\nAHITAPU ROAD\nHIKUWAI ROAD\nKOKINGA POINT ROAD\nRAWHITI ROAD\n---\n**Update History:**\n- 2026-01-21T04:00:41Z: Under Investigation\n- 2026-01-21T02:30:45Z: Under Investigation"
       }
     }
   ]
