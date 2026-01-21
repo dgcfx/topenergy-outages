@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-21T19-45-55Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-21T20-45-57Z.json",
   "events": [
     {
       "id": "35660F",
@@ -12689,9 +12689,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-21T20:01:06Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/01/2026",
+              "startTime": "07:51 AM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "10:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "OROMAHOE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PUKETONA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "BULLS GORGE",
+              "lastUpdateTime": "22/01/2026 07:54 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36626F\n**Status:** Active\n**Feeder / Circuit:** BULLS GORGE\n**Cause:** Under Investigation\n**Customers Affected:** 172\n**Suburbs:** HARURU, KAWAKAWA, KERIKERI, OROMAHOE, PAKARAKA, PUKETONA\n---\n**Affected Roads:**\nBULLS ROAD\nMACDONALD ROAD\nMCDONALD ROAD\nMCINTYRE ROAD\nOLD BAY ROAD\n---\n**Update History:**\n- 2026-01-21T19:31:17Z: Under Investigation\n- 2026-01-21T19:00:43Z: Under Investigation"
+        "body": "**Outage ID:** 36626F\n**Status:** Active\n**Feeder / Circuit:** BULLS GORGE\n**Cause:** Under Investigation\n**Customers Affected:** 3\n**Suburbs:** OROMAHOE\n---\n**Affected Roads:**\nPUKETONA ROAD\n---\n**Update History:**\n- 2026-01-21T20:01:06Z: Under Investigation\n- 2026-01-21T19:31:17Z: Under Investigation\n- 2026-01-21T19:00:43Z: Under Investigation"
       }
     },
     {
@@ -12731,16 +12758,43 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-21T20:45:57Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/01/2026",
+              "startTime": "08:26 AM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "10:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, TAHEKE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "HILLCREST ROAD, JORDAN ROAD, STATE HIGHWAY 12",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "22",
+              "feeder": "TAHEKE",
+              "lastUpdateTime": "22/01/2026 08:28 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36629F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Under Investigation\n**Customers Affected:** 216\n**Suburbs:** KAIKOHE, OTAUA, TAHEKE\n---\n**Affected Roads:**\nBROWNS ROAD\nHILLCREST ROAD\nJORDAN ROAD\nMATARAUA ROAD\nOMAPERE ROAD\n---"
+        "body": "**Outage ID:** 36629F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Under Investigation\n**Customers Affected:** 22\n**Suburbs:** KAIKOHE, TAHEKE\n---\n**Affected Roads:**\nHILLCREST ROAD\nJORDAN ROAD\nSTATE HIGHWAY 12\n---\n**Update History:**\n- 2026-01-21T20:45:57Z: Under Investigation\n- 2026-01-21T19:31:17Z: Under Investigation"
       }
     },
     {
       "id": "36575F",
       "title": "Riverview (35 customers)",
       "start": "2026-01-21T19:45:55Z",
-      "end": null,
+      "end": "2026-01-21T20:01:06Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -12776,6 +12830,48 @@
           }
         ],
         "body": "**Outage ID:** 36575F\n**Status:** Active\n**Feeder / Circuit:** RIVERVIEW\n**Cause:** Line Maintenance\n**Customers Affected:** 35\n**Suburbs:** KERIKERI, WAIPAPA\n---\n**Affected Roads:**\nPATHWAYS DRIVE\nWAIPAPA ROAD\n---"
+      }
+    },
+    {
+      "id": "36038F",
+      "title": "Oruru (233 customers)",
+      "start": "2026-01-21T20:45:57Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "233",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-21T20:45:57Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/01/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "23/01/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "23/01/2026",
+              "alternativeEstimatedRestorationTime": "03:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "MANGONUI, TAUPO BAY",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "AKATERE ROAD, BOWDEN ROAD, MAKO STREET, MARLIN DRIVE, STONEY CREEK ROAD",
+                "hiddenStreets": "TAUPO BAY RD, TAUPO BAY ROAD, TUNA PLACE"
+              },
+              "customersAffected": "233",
+              "feeder": "ORURU",
+              "lastUpdateTime": "13/12/2025 08:39 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36038F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 233\n**Suburbs:** MANGONUI, TAUPO BAY\n---\n**Affected Roads:**\nAKATERE ROAD\nBOWDEN ROAD\nMAKO STREET\nMARLIN DRIVE\nSTONEY CREEK ROAD\n---"
       }
     }
   ]
