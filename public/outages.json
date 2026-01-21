@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-21T19-00-43Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-21T19-45-55Z.json",
   "events": [
     {
       "id": "35660F",
@@ -12491,7 +12491,7 @@
       "id": "36614F",
       "title": "Crossroads (13 customers)",
       "start": "2026-01-21T09:15:43Z",
-      "end": null,
+      "end": "2026-01-21T19:31:17Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -12662,9 +12662,120 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-21T19:31:17Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/01/2026",
+              "startTime": "07:51 AM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "10:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "HARURU, KAWAKAWA, KERIKERI, OROMAHOE, PAKARAKA, PUKETONA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BULLS ROAD, MACDONALD ROAD, MCDONALD ROAD, MCINTYRE ROAD, OLD BAY ROAD",
+                "hiddenStreets": "OROMAHOE ROAD, OROMAHOE SCHOOL ROAD, POROTU ROAD, POROTU ROADWAY, PUKETONA ROAD, PUKEWHAU ROAD, STATE HIGHWAY 1, STATE HIGHWAY 10, TE AHU AHU ROAD, TE AUTE ROAD, WAKELIN ROAD"
+              },
+              "customersAffected": "172",
+              "feeder": "BULLS GORGE",
+              "lastUpdateTime": "22/01/2026 07:54 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36626F\n**Status:** Active\n**Feeder / Circuit:** BULLS GORGE\n**Cause:** Under Investigation\n**Customers Affected:** 42\n**Suburbs:** KERIKERI, OROMAHOE, PUKETONA\n---\n**Affected Roads:**\nBULLS ROAD\nOLD BAY ROAD\nPUKETONA ROAD\nPUKEWHAU ROAD\nSTATE HIGHWAY 1\n---"
+        "body": "**Outage ID:** 36626F\n**Status:** Active\n**Feeder / Circuit:** BULLS GORGE\n**Cause:** Under Investigation\n**Customers Affected:** 172\n**Suburbs:** HARURU, KAWAKAWA, KERIKERI, OROMAHOE, PAKARAKA, PUKETONA\n---\n**Affected Roads:**\nBULLS ROAD\nMACDONALD ROAD\nMCDONALD ROAD\nMCINTYRE ROAD\nOLD BAY ROAD\n---\n**Update History:**\n- 2026-01-21T19:31:17Z: Under Investigation\n- 2026-01-21T19:00:43Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36629F",
+      "title": "Taheke (216 customers)",
+      "start": "2026-01-21T19:31:17Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "216",
+        "circuit": "Taheke",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-21T19:31:17Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/01/2026",
+              "startTime": "08:26 AM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "10:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, OTAUA, TAHEKE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BROWNS ROAD, HILLCREST ROAD, JORDAN ROAD, MATARAUA ROAD, OMAPERE ROAD",
+                "hiddenStreets": "PARKER ROAD, PICADILLY ROAD, STATE HIGHWAY 12, STEWARD ROAD, TAHEKE ROAD, TE IRENGA ROAD, WAIMATENUI ROAD, WHAREPUNGA ROAD, WHIU ROAD"
+              },
+              "customersAffected": "216",
+              "feeder": "TAHEKE",
+              "lastUpdateTime": "22/01/2026 08:28 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36629F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Under Investigation\n**Customers Affected:** 216\n**Suburbs:** KAIKOHE, OTAUA, TAHEKE\n---\n**Affected Roads:**\nBROWNS ROAD\nHILLCREST ROAD\nJORDAN ROAD\nMATARAUA ROAD\nOMAPERE ROAD\n---"
+      }
+    },
+    {
+      "id": "36575F",
+      "title": "Riverview (35 customers)",
+      "start": "2026-01-21T19:45:55Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "35",
+        "circuit": "Riverview",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-21T19:45:55Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/01/2026",
+              "startTime": "08:30 AM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "08:45 AM",
+              "alternativeStartDate": "27/01/2026",
+              "alternativeStartTime": "08:30 AM",
+              "alternativeEstimatedRestorationDate": "27/01/2026",
+              "alternativeEstimatedRestorationTime": "08:45 AM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI, WAIPAPA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "PATHWAYS DRIVE, WAIPAPA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "35",
+              "feeder": "RIVERVIEW",
+              "lastUpdateTime": "19/01/2026 02:32 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36575F\n**Status:** Active\n**Feeder / Circuit:** RIVERVIEW\n**Cause:** Line Maintenance\n**Customers Affected:** 35\n**Suburbs:** KERIKERI, WAIPAPA\n---\n**Affected Roads:**\nPATHWAYS DRIVE\nWAIPAPA ROAD\n---"
       }
     }
   ]
