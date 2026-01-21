@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-21T20-45-57Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-21T21-45-52Z.json",
   "events": [
     {
       "id": "35660F",
@@ -12872,6 +12872,48 @@
           }
         ],
         "body": "**Outage ID:** 36038F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 233\n**Suburbs:** MANGONUI, TAUPO BAY\n---\n**Affected Roads:**\nAKATERE ROAD\nBOWDEN ROAD\nMAKO STREET\nMARLIN DRIVE\nSTONEY CREEK ROAD\n---"
+      }
+    },
+    {
+      "id": "36212F",
+      "title": "Towai (18 customers)",
+      "start": "2026-01-21T21:31:08Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "18",
+        "circuit": "Towai",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-21T21:31:08Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/01/2026",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "28/01/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "28/01/2026",
+              "alternativeEstimatedRestorationTime": "02:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "HUKERENUI, TOWAI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "AKERAMA ROAD, MONUMENT ROAD, RUAPEKAPEKA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "18",
+              "feeder": "TOWAI",
+              "lastUpdateTime": "29/12/2025 07:51 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36212F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Line Maintenance\n**Customers Affected:** 18\n**Suburbs:** HUKERENUI, TOWAI\n---\n**Affected Roads:**\nAKERAMA ROAD\nMONUMENT ROAD\nRUAPEKAPEKA ROAD\n---"
       }
     }
   ]
