@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-21T08-45-43Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-21T09-45-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -12485,6 +12485,48 @@
           }
         ],
         "body": "**Outage ID:** 36602F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Under Investigation\n**Customers Affected:** 112\n**Suburbs:** RAWHITI, RUSSELL\n---\n**Affected Roads:**\nAHITAPU ROAD\nHIKUWAI ROAD\nKOKINGA POINT ROAD\nRAWHITI ROAD\n---\n**Update History:**\n- 2026-01-21T04:00:41Z: Under Investigation\n- 2026-01-21T02:30:45Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36614F",
+      "title": "Crossroads (13 customers)",
+      "start": "2026-01-21T09:15:43Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "13",
+        "circuit": "Crossroads",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-21T09:15:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "21/01/2026",
+              "startTime": "10:01 PM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "11:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KERIKERI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WAIMATE NORTH ROAD, WAIMATE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "13",
+              "feeder": "CROSSROADS",
+              "lastUpdateTime": "21/01/2026 10:12 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36614F\n**Status:** Active\n**Feeder / Circuit:** CROSSROADS\n**Cause:** Equipment fault\n**Customers Affected:** 13\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nWAIMATE NORTH ROAD\nWAIMATE ROAD\n---"
       }
     }
   ]
