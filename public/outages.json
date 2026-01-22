@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-21T23-45-52Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-22T02-31-01Z.json",
   "events": [
     {
       "id": "35660F",
@@ -12890,7 +12890,7 @@
       "id": "36038F",
       "title": "Oruru (233 customers)",
       "start": "2026-01-21T20:45:57Z",
-      "end": null,
+      "end": "2026-01-22T01:00:59Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -12932,7 +12932,7 @@
       "id": "36212F",
       "title": "Towai (18 customers)",
       "start": "2026-01-21T21:31:08Z",
-      "end": null,
+      "end": "2026-01-22T01:30:42Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -13022,6 +13022,48 @@
           }
         ],
         "body": "**Outage ID:** 36212F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Line Maintenance\n**Customers Affected:** 3\n**Suburbs:** TOWAI\n---\n**Affected Roads:**\nHAY ROAD\n---\n**Update History:**\n- 2026-01-21T22:45:46Z: Line Maintenance\n- 2026-01-21T22:01:00Z: Line Maintenance\n- 2026-01-21T21:31:08Z: Line Maintenance"
+      }
+    },
+    {
+      "id": "36632F",
+      "title": "Russell Express (85 customers)",
+      "start": "2026-01-22T00:31:09Z",
+      "end": "2026-01-22T01:30:42Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "85",
+        "circuit": "Russell Express",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-22T00:31:09Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/01/2026",
+              "startTime": "01:16 PM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "05:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "RAWHITI, RUSSELL",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AHITAPU ROAD, RAWHITI ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "85",
+              "feeder": "RUSSELL EXPRESS",
+              "lastUpdateTime": "22/01/2026 01:22 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36632F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Under Investigation\n**Customers Affected:** 85\n**Suburbs:** RAWHITI, RUSSELL\n---\n**Affected Roads:**\nAHITAPU ROAD\nRAWHITI ROAD\n---"
       }
     }
   ]
