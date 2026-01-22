@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-22T19-45-47Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-22T20-45-50Z.json",
   "events": [
     {
       "id": "35660F",
@@ -13202,6 +13202,48 @@
           }
         ],
         "body": "**Outage ID:** 36650F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nFRYER ROAD\n---"
+      }
+    },
+    {
+      "id": "36449F",
+      "title": "Oruru (6 customers)",
+      "start": "2026-01-22T20:45:50Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "6",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-22T20:45:50Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "23/01/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "23/01/2026",
+              "estimatedRestorationTime": "12:30 PM",
+              "alternativeStartDate": "27/01/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "27/01/2026",
+              "alternativeEstimatedRestorationTime": "12:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "MANGONUI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 10",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "ORURU",
+              "lastUpdateTime": "14/01/2026 01:56 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36449F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 6\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nSTATE HIGHWAY 10\n---"
       }
     }
   ]
