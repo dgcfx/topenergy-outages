@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-22T20-45-50Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-22T21-45-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -13244,6 +13244,75 @@
           }
         ],
         "body": "**Outage ID:** 36449F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 6\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nSTATE HIGHWAY 10\n---"
+      }
+    },
+    {
+      "id": "36653F",
+      "title": "South Road (3 customers)",
+      "start": "2026-01-22T21:16:01Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "3",
+        "circuit": "South Road",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-22T21:16:01Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "23/01/2026",
+              "startTime": "08:07 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "PANGURU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PUKETAWA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "23/01/2026 10:08 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-22T21:45:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "23/01/2026",
+              "startTime": "08:07 AM",
+              "estimatedRestorationDate": "23/01/2026",
+              "estimatedRestorationTime": "01:07 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "PANGURU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PUKETAWA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "23/01/2026 10:08 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36653F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Equipment damage\n**Customers Affected:** 3\n**Suburbs:** PANGURU\n---\n**Affected Roads:**\nPUKETAWA ROAD\n---\n**Update History:**\n- 2026-01-22T21:45:44Z: Equipment damage\n- 2026-01-22T21:16:01Z: Equipment damage"
       }
     }
   ]
