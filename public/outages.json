@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-22T04-30-42Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-22T05-45-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -13103,9 +13103,63 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-22T05:00:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/01/2026",
+              "startTime": "05:18 PM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "08:18 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "HOUHORA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 1F",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "TE KAO",
+              "lastUpdateTime": "22/01/2026 05:25 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-22T05:15:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/01/2026",
+              "startTime": "05:18 PM",
+              "estimatedRestorationDate": "22/01/2026",
+              "estimatedRestorationTime": "08:18 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "HOUHORA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 1F",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "TE KAO",
+              "lastUpdateTime": "22/01/2026 06:14 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36644F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Under Investigation\n**Customers Affected:** 3\n**Suburbs:** HOUHORA\n---\n**Affected Roads:**\nSTATE HIGHWAY 1F\n---"
+        "body": "**Outage ID:** 36644F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Equipment damage\n**Customers Affected:** 3\n**Suburbs:** HOUHORA\n---\n**Affected Roads:**\nSTATE HIGHWAY 1F\n---\n**Update History:**\n- 2026-01-22T05:15:46Z: Equipment damage\n- 2026-01-22T05:00:43Z: Equipment damage\n- 2026-01-22T04:30:42Z: Under Investigation"
       }
     }
   ]
