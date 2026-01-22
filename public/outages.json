@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-22T21-45-44Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-22T22-45-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -13208,7 +13208,7 @@
       "id": "36449F",
       "title": "Oruru (6 customers)",
       "start": "2026-01-22T20:45:50Z",
-      "end": null,
+      "end": "2026-01-22T22:01:00Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -13250,7 +13250,7 @@
       "id": "36653F",
       "title": "South Road (3 customers)",
       "start": "2026-01-22T21:16:01Z",
-      "end": null,
+      "end": "2026-01-22T22:30:49Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
