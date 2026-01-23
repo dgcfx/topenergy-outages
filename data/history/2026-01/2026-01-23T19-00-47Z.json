@@ -1,0 +1,282 @@
+{
+  "timestamp": "2026-01-23T19:00:47Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "6e11e6cf5d963835",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "6e11e6cf5d963835",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36665F",
+          "lat": -35.57312031459573,
+          "lng": 173.5701534262507
+        }
+      ],
+      "planned": [
+        {
+          "id": "35945F",
+          "lat": -35.277455318567455,
+          "lng": 174.1800276753623
+        },
+        {
+          "id": "35969F",
+          "lat": -35.19393567225797,
+          "lng": 174.02853054523376
+        },
+        {
+          "id": "36266F",
+          "lat": -35.043952843455344,
+          "lng": 173.70872946968709
+        },
+        {
+          "id": "36314F",
+          "lat": -35.54135968514375,
+          "lng": 173.44392005715807
+        },
+        {
+          "id": "36329F",
+          "lat": -35.11658331333345,
+          "lng": 173.46356217747788
+        },
+        {
+          "id": "36341F",
+          "lat": -35.37845535003178,
+          "lng": 174.07568143210133
+        },
+        {
+          "id": "36344F",
+          "lat": -35.11972943358816,
+          "lng": 173.3285611520289
+        },
+        {
+          "id": "36374F",
+          "lat": -35.12859122451282,
+          "lng": 173.44957073193578
+        },
+        {
+          "id": "36389F",
+          "lat": -35.25561184877343,
+          "lng": 174.2061420127357
+        },
+        {
+          "id": "36491F",
+          "lat": -35.10819644848371,
+          "lng": 173.2545049594915
+        },
+        {
+          "id": "36590F",
+          "lat": -35.24709383388773,
+          "lng": 173.89950140662157
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 49,
+      "activeOutageCount": 1,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "35945F",
+          "startTimestamp": 1769457600,
+          "isActive": false,
+          "circuitName": "Russell Express",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "27th January 09:00 am",
+          "endDateTime": "27th January 02:30 pm",
+          "alternativeStartDateTime": "28th January 09:00 am",
+          "alternativeEndDateTime": "28th January 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35969F",
+          "startTimestamp": 1769459400,
+          "isActive": false,
+          "circuitName": "Purerua",
+          "customersCurrentlyOff": "47",
+          "startDateTime": "27th January 09:30 am",
+          "endDateTime": "27th January 03:00 pm",
+          "alternativeStartDateTime": "2nd February 09:30 am",
+          "alternativeEndDateTime": "2nd February 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36329F",
+          "startTimestamp": 1769459400,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "112",
+          "startDateTime": "27th January 09:30 am",
+          "endDateTime": "27th January 03:30 pm",
+          "alternativeStartDateTime": "30th January 09:30 am",
+          "alternativeEndDateTime": "30th January 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36341F",
+          "startTimestamp": 1769545800,
+          "isActive": false,
+          "circuitName": "Opua",
+          "customersCurrentlyOff": "228",
+          "startDateTime": "28th January 09:30 am",
+          "endDateTime": "28th January 02:30 pm",
+          "alternativeStartDateTime": "2nd February 09:30 am",
+          "alternativeEndDateTime": "2nd February 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36389F",
+          "startTimestamp": 1769630400,
+          "isActive": false,
+          "circuitName": "Russell Express",
+          "customersCurrentlyOff": "25",
+          "startDateTime": "29th January 09:00 am",
+          "endDateTime": "29th January 03:00 pm",
+          "alternativeStartDateTime": "29th January 09:00 am",
+          "alternativeEndDateTime": "29th January 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36266F",
+          "startTimestamp": 1769634000,
+          "isActive": false,
+          "circuitName": "Totara North",
+          "customersCurrentlyOff": "7",
+          "startDateTime": "29th January 10:00 am",
+          "endDateTime": "29th January 01:00 pm",
+          "alternativeStartDateTime": "2nd February 10:00 am",
+          "alternativeEndDateTime": "2nd February 01:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36344F",
+          "startTimestamp": 1769634000,
+          "isActive": false,
+          "circuitName": "Sub-transmission",
+          "customersCurrentlyOff": "19",
+          "startDateTime": "29th January 10:00 am",
+          "endDateTime": "29th January 03:00 pm",
+          "alternativeStartDateTime": "30th January 10:00 am",
+          "alternativeEndDateTime": "30th January 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36374F",
+          "startTimestamp": 1769716800,
+          "isActive": false,
+          "circuitName": "Oxford Street",
+          "customersCurrentlyOff": "24",
+          "startDateTime": "30th January 09:00 am",
+          "endDateTime": "30th January 03:30 pm",
+          "alternativeStartDateTime": "2nd February 09:00 am",
+          "alternativeEndDateTime": "2nd February 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36590F",
+          "startTimestamp": 1769720400,
+          "isActive": false,
+          "circuitName": "Crossroads",
+          "customersCurrentlyOff": "75",
+          "startDateTime": "30th January 10:00 am",
+          "endDateTime": "30th January 12:30 pm",
+          "alternativeStartDateTime": "2nd February 10:00 am",
+          "alternativeEndDateTime": "2nd February 12:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36314F",
+          "startTimestamp": 1770066000,
+          "isActive": false,
+          "circuitName": "Rawene",
+          "customersCurrentlyOff": "41",
+          "startDateTime": "3rd February 10:00 am",
+          "endDateTime": "3rd February 02:30 pm",
+          "alternativeStartDateTime": "5th February 10:00 am",
+          "alternativeEndDateTime": "5th February 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36491F",
+          "startTimestamp": 1770066000,
+          "isActive": false,
+          "circuitName": "Pukepoto",
+          "customersCurrentlyOff": "202",
+          "startDateTime": "3rd February 10:00 am",
+          "endDateTime": "3rd February 01:00 pm",
+          "alternativeStartDateTime": "4th February 10:00 am",
+          "alternativeEndDateTime": "4th February 01:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36665F",
+          "startTimestamp": 1769170020,
+          "isActive": true,
+          "circuitName": "Opononi",
+          "customersCurrentlyOff": "49",
+          "startDateTime": "24th January 01:07 am",
+          "endDateTime": "24th January 01:00 pm",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36665F": {
+      "duration": "Unknown",
+      "startDate": "24/01/2026",
+      "startTime": "01:07 AM",
+      "estimatedRestorationDate": "24/01/2026",
+      "estimatedRestorationTime": "01:00 PM",
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": "WAIMAMAKU",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "WEKAWEKA ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "49",
+      "feeder": "OPONONI",
+      "lastUpdateTime": "24/01/2026 06:12 AM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
