@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-23T16-45-53Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-23T17-45-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -13541,9 +13541,78 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-23T17:15:55Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/01/2026",
+              "startTime": "01:21 AM",
+              "estimatedRestorationDate": "24/01/2026",
+              "estimatedRestorationTime": "09:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "HOREKE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "OKAKA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "24/01/2026 05:03 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36662F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Tree contact\n**Customers Affected:** 6\n**Suburbs:** HOREKE\n---\n**Affected Roads:**\nOKAKA ROAD\n---\n**Update History:**\n- 2026-01-23T16:15:46Z: Tree contact\n- 2026-01-23T16:00:45Z: Tree contact\n- 2026-01-23T15:45:54Z: Under Investigation\n- 2026-01-23T15:30:47Z: Under Investigation\n- 2026-01-23T15:15:45Z: Under Investigation\n- 2026-01-23T15:00:56Z: Under Investigation\n- 2026-01-23T14:15:43Z: Under Investigation\n- 2026-01-23T12:30:44Z: Under Investigation"
+        "body": "**Outage ID:** 36662F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Tree contact\n**Customers Affected:** 6\n**Suburbs:** HOREKE\n---\n**Affected Roads:**\nOKAKA ROAD\n---\n**Update History:**\n- 2026-01-23T17:15:55Z: Tree contact\n- 2026-01-23T16:15:46Z: Tree contact\n- 2026-01-23T16:00:45Z: Tree contact\n- 2026-01-23T15:45:54Z: Under Investigation\n- 2026-01-23T15:30:47Z: Under Investigation\n- 2026-01-23T15:15:45Z: Under Investigation\n- 2026-01-23T15:00:56Z: Under Investigation\n- 2026-01-23T14:15:43Z: Under Investigation\n- 2026-01-23T12:30:44Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36665F",
+      "title": "Opononi (49 customers)",
+      "start": "2026-01-23T17:15:55Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "49",
+        "circuit": "Opononi",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-23T17:15:55Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/01/2026",
+              "startTime": "01:07 AM",
+              "estimatedRestorationDate": "24/01/2026",
+              "estimatedRestorationTime": "01:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "WAIMAMAKU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WEKAWEKA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "49",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "24/01/2026 06:12 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36665F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Under Investigation\n**Customers Affected:** 49\n**Suburbs:** WAIMAMAKU\n---\n**Affected Roads:**\nWEKAWEKA ROAD\n---"
       }
     }
   ]
