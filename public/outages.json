@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-23T22-45-42Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-24T02-15-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -13667,6 +13667,48 @@
           }
         ],
         "body": "**Outage ID:** 36665F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Under Investigation\n**Customers Affected:** 31\n**Suburbs:** WAIMAMAKU\n---\n**Affected Roads:**\nWEKAWEKA ROAD\n---\n**Update History:**\n- 2026-01-23T21:45:43Z: Under Investigation\n- 2026-01-23T21:15:47Z: Under Investigation\n- 2026-01-23T17:15:55Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36671F",
+      "title": "Opononi (6 customers)",
+      "start": "2026-01-24T00:30:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "6",
+        "circuit": "Opononi",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-24T00:30:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/01/2026",
+              "startTime": "01:11 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "OPONONI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PAKANAE CEMETERY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "24/01/2026 01:18 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36671F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Under Investigation\n**Customers Affected:** 6\n**Suburbs:** OPONONI\n---\n**Affected Roads:**\nPAKANAE CEMETERY ROAD\n---"
       }
     }
   ]
