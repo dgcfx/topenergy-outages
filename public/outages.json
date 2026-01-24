@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-24T05-45-41Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-24T06-45-40Z.json",
   "events": [
     {
       "id": "35660F",
@@ -13859,16 +13859,70 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-24T06:00:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/01/2026",
+              "startTime": "06:00 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "MANGONUI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KOHUMARU ROAD, TIPATIPA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "ORURU",
+              "lastUpdateTime": "24/01/2026 06:39 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-24T06:45:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/01/2026",
+              "startTime": "06:00 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "MANGONUI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KOHUMARU ROAD, TIPATIPA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "ORURU",
+              "lastUpdateTime": "24/01/2026 06:39 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36686F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nKOHUMARU ROAD\n---"
+        "body": "**Outage ID:** 36686F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Equipment fault\n**Customers Affected:** 3\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nKOHUMARU ROAD\nTIPATIPA ROAD\n---\n**Update History:**\n- 2026-01-24T06:45:40Z: Equipment fault\n- 2026-01-24T06:00:42Z: Under Investigation\n- 2026-01-24T05:45:41Z: Under Investigation"
       }
     },
     {
       "id": "36683F",
       "title": "South Road (15 customers)",
       "start": "2026-01-24T05:45:41Z",
-      "end": null,
+      "end": "2026-01-24T06:15:41Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -13904,6 +13958,75 @@
           }
         ],
         "body": "**Outage ID:** 36683F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Under Investigation\n**Customers Affected:** 15\n**Suburbs:** BROADWOOD, HEREKINO\n---\n**Affected Roads:**\nAWAROA ROAD\nHAUMANGA ROAD\n---"
+      }
+    },
+    {
+      "id": "36689F",
+      "title": "Oruru (339 customers)",
+      "start": "2026-01-24T06:30:48Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "339",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-24T06:30:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/01/2026",
+              "startTime": "07:20 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "FAIRBURN, KAITAIA, MANGONUI, ORURU, PARANUI, PERIA, TAIPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BECKHAM ROAD, BURMA ROAD, CAMPBELL ROAD, DANGEN ROAD, DUTTON ROAD",
+                "hiddenStreets": "FAIRBURN ROAD, FERN FLAT ROAD, GARTON ROAD, HONEYMOON VALLEY ROAD, JASON ROAD, KOHUMARU ROAD, OMATAI ROAD, ORURU ROAD, PARANUI ROAD, PARANUI-TOATOA ROAD, PARAPARA-TOATOA ROAD, PERIA ROAD, PERIA VALLEY ROAD, PIRIKAHA ROAD, SHEPHERD ROAD, TAYLOR ROAD, TE KAROA ROAD, TIPATIPA ROAD, WELLS ROAD"
+              },
+              "customersAffected": "339",
+              "feeder": "ORURU",
+              "lastUpdateTime": "24/01/2026 07:20 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-24T06:45:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/01/2026",
+              "startTime": "07:21 PM",
+              "estimatedRestorationDate": "24/01/2026",
+              "estimatedRestorationTime": "10:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line fault",
+              "suburbs": "MANGONUI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KOHUMARU ROAD, TIPATIPA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "30",
+              "feeder": "ORURU",
+              "lastUpdateTime": "24/01/2026 07:20 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36689F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line fault\n**Customers Affected:** 30\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nKOHUMARU ROAD\nTIPATIPA ROAD\n---\n**Update History:**\n- 2026-01-24T06:45:40Z: Line fault\n- 2026-01-24T06:30:48Z: Under Investigation"
       }
     }
   ]
