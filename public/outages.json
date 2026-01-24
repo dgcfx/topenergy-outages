@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-24T06-45-40Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-24T07-30-39Z.json",
   "events": [
     {
       "id": "35660F",
@@ -14024,9 +14024,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-24T07:30:39Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/01/2026",
+              "startTime": "07:21 PM",
+              "estimatedRestorationDate": "25/01/2026",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Line fault",
+              "suburbs": "MANGONUI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KOHUMARU ROAD, TIPATIPA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "30",
+              "feeder": "ORURU",
+              "lastUpdateTime": "24/01/2026 08:28 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36689F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line fault\n**Customers Affected:** 30\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nKOHUMARU ROAD\nTIPATIPA ROAD\n---\n**Update History:**\n- 2026-01-24T06:45:40Z: Line fault\n- 2026-01-24T06:30:48Z: Under Investigation"
+        "body": "**Outage ID:** 36689F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line fault\n**Customers Affected:** 30\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nKOHUMARU ROAD\nTIPATIPA ROAD\n---\n**Update History:**\n- 2026-01-24T07:30:39Z: Line fault\n- 2026-01-24T06:45:40Z: Line fault\n- 2026-01-24T06:30:48Z: Under Investigation"
       }
     }
   ]
