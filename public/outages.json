@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-24T18-45-41Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-24T19-30-40Z.json",
   "events": [
     {
       "id": "35660F",
@@ -14114,7 +14114,7 @@
       "id": "36695F",
       "title": "Horeke (497 customers)",
       "start": "2026-01-24T16:45:49Z",
-      "end": null,
+      "end": "2026-01-24T19:00:45Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
