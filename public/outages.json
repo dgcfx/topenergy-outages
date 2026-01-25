@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-25T03-00-43Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-25T04-30-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -13826,7 +13826,7 @@
       "id": "36686F",
       "title": "Oruru (1 customers)",
       "start": "2026-01-24T05:45:41Z",
-      "end": null,
+      "end": "2026-01-25T03:45:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -13967,9 +13967,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-25T03:30:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "24/01/2026",
+              "startTime": "06:00 PM",
+              "estimatedRestorationDate": "25/01/2026",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "MANGONUI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KOHUMARU ROAD, TIPATIPA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "ORURU",
+              "lastUpdateTime": "24/01/2026 08:30 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36686F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Equipment fault\n**Customers Affected:** 3\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nKOHUMARU ROAD\nTIPATIPA ROAD\n---\n**Update History:**\n- 2026-01-24T21:15:46Z: Equipment fault\n- 2026-01-24T07:45:41Z: Equipment fault\n- 2026-01-24T06:45:40Z: Equipment fault\n- 2026-01-24T06:00:42Z: Under Investigation\n- 2026-01-24T05:45:41Z: Under Investigation"
+        "body": "**Outage ID:** 36686F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Equipment fault\n**Customers Affected:** 2\n**Suburbs:** MANGONUI\n---\n**Affected Roads:**\nKOHUMARU ROAD\nTIPATIPA ROAD\n---\n**Update History:**\n- 2026-01-25T03:30:46Z: Equipment fault\n- 2026-01-24T21:15:46Z: Equipment fault\n- 2026-01-24T07:45:41Z: Equipment fault\n- 2026-01-24T06:45:40Z: Equipment fault\n- 2026-01-24T06:00:42Z: Under Investigation\n- 2026-01-24T05:45:41Z: Under Investigation"
       }
     },
     {
@@ -14018,7 +14045,7 @@
       "id": "36689F",
       "title": "Oruru (339 customers)",
       "start": "2026-01-24T06:30:48Z",
-      "end": null,
+      "end": "2026-01-25T03:15:46Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
