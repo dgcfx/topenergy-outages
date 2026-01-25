@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-25T19-30-41Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-25T20-45-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -14519,6 +14519,48 @@
           }
         ],
         "body": "**Outage ID:** 36704F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Tree contact\n**Customers Affected:** 427\n**Suburbs:** HOREKE, KOHUKOHU, MOTUKIORE, OKAIHAU, PANGURU, RAWENE, UTAKURA\n---\n**Affected Roads:**\nBEACH ROAD\nBLUE MOUNTAIN ROAD\nCHURCH STREET\nCLASSEN ROAD\nCREAMERY ROAD\n---\n**Update History:**\n- 2026-01-25T17:45:51Z: Tree contact\n- 2026-01-25T17:15:42Z: Equipment fault\n- 2026-01-25T16:15:41Z: Equipment fault\n- 2026-01-25T15:30:43Z: Restored no fault found\n- 2026-01-25T15:15:44Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36707F",
+      "title": "South Road (1 customers)",
+      "start": "2026-01-25T20:00:45Z",
+      "end": "2026-01-25T20:15:45Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "South Road",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-25T20:00:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "26/01/2026",
+              "startTime": "08:48 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Animal Contact",
+              "suburbs": "BROADWOOD",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WAIOTEHUE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "SOUTH ROAD",
+              "lastUpdateTime": "26/01/2026 08:49 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36707F\n**Status:** Active\n**Feeder / Circuit:** SOUTH ROAD\n**Cause:** Animal Contact\n**Customers Affected:** 1\n**Suburbs:** BROADWOOD\n---\n**Affected Roads:**\nWAIOTEHUE ROAD\n---"
       }
     }
   ]
