@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-27T19-00-44Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-27T19-45-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -14783,6 +14783,48 @@
           }
         ],
         "body": "**Outage ID:** 36716F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Animal Contact\n**Customers Affected:** 1\n**Suburbs:** HOREKE\n---\n**Affected Roads:**\nRANGIAHUA ROAD\n---\n**Update History:**\n- 2026-01-27T01:15:47Z: Animal Contact\n- 2026-01-27T01:00:44Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36725F",
+      "title": "Waima (3 customers)",
+      "start": "2026-01-27T19:45:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "3",
+        "circuit": "Waima",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-27T19:45:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "28/01/2026",
+              "startTime": "08:34 AM",
+              "estimatedRestorationDate": "28/01/2026",
+              "estimatedRestorationTime": "09:34 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "OTAUA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MANGATAWA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "WAIMA",
+              "lastUpdateTime": "28/01/2026 08:34 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36725F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Equipment fault\n**Customers Affected:** 3\n**Suburbs:** OTAUA\n---\n**Affected Roads:**\nMANGATAWA ROAD\n---"
       }
     }
   ]
