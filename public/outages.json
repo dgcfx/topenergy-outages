@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-26T23-45-44Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-27T02-30-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -14567,7 +14567,7 @@
       "id": "35945F",
       "title": "Russell Express (6 customers)",
       "start": "2026-01-26T20:31:29Z",
-      "end": null,
+      "end": "2026-01-27T01:15:47Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -14609,7 +14609,7 @@
       "id": "35969F",
       "title": "Purerua (47 customers)",
       "start": "2026-01-26T20:45:46Z",
-      "end": null,
+      "end": "2026-01-27T02:30:45Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -14642,16 +14642,43 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-27T01:30:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "27/01/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "27/01/2026",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "02/02/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "02/02/2026",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "DOVES BAY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "19",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "08/12/2025 03:29 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 35969F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Line Maintenance\n**Customers Affected:** 47\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nDOVES BAY ROAD\n---"
+        "body": "**Outage ID:** 35969F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Line Maintenance\n**Customers Affected:** 19\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nDOVES BAY ROAD\n---\n**Update History:**\n- 2026-01-27T01:30:48Z: Line Maintenance\n- 2026-01-26T20:45:46Z: Line Maintenance"
       }
     },
     {
       "id": "36329F",
       "title": "Oruru (112 customers)",
       "start": "2026-01-26T20:45:46Z",
-      "end": null,
+      "end": "2026-01-27T01:00:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -14687,6 +14714,75 @@
           }
         ],
         "body": "**Outage ID:** 36329F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 112\n**Suburbs:** FAIRBURN, KAITAIA, PERIA\n---\n**Affected Roads:**\nBECKHAM ROAD\nBURMA ROAD\nDUTTON ROAD\nFAIRBURN ROAD\nHONEYMOON VALLEY ROAD\n---"
+      }
+    },
+    {
+      "id": "36716F",
+      "title": "Horeke (1 customers)",
+      "start": "2026-01-27T01:00:44Z",
+      "end": "2026-01-27T01:30:48Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Horeke",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-27T01:00:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "27/01/2026",
+              "startTime": "01:57 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "HOREKE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "RANGIAHUA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "27/01/2026 01:58 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-01-27T01:15:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "27/01/2026",
+              "startTime": "01:57 PM",
+              "estimatedRestorationDate": "27/01/2026",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Animal Contact",
+              "suburbs": "HOREKE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "RANGIAHUA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "27/01/2026 01:58 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36716F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Animal Contact\n**Customers Affected:** 1\n**Suburbs:** HOREKE\n---\n**Affected Roads:**\nRANGIAHUA ROAD\n---\n**Update History:**\n- 2026-01-27T01:15:47Z: Animal Contact\n- 2026-01-27T01:00:44Z: Under Investigation"
       }
     }
   ]
