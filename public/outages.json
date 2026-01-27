@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-27T19-45-47Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-27T20-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -14789,7 +14789,7 @@
       "id": "36725F",
       "title": "Waima (3 customers)",
       "start": "2026-01-27T19:45:47Z",
-      "end": null,
+      "end": "2026-01-27T20:15:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -14825,6 +14825,48 @@
           }
         ],
         "body": "**Outage ID:** 36725F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Equipment fault\n**Customers Affected:** 3\n**Suburbs:** OTAUA\n---\n**Affected Roads:**\nMANGATAWA ROAD\n---"
+      }
+    },
+    {
+      "id": "36341F",
+      "title": "Opua (228 customers)",
+      "start": "2026-01-27T20:45:45Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "228",
+        "circuit": "Opua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-27T20:45:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "28/01/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "28/01/2026",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "02/02/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "02/02/2026",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAWAKAWA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "DERRICK ROAD, GILL DRIVE, HARRYS PLACE, LEONARD STREET, NEUMANN STREET",
+                "hiddenStreets": "NORTH ROAD, RAILWAY ROAD, RAYMOND STREET, WHITEMAN ROAD, WILLIAMS STREET"
+              },
+              "customersAffected": "228",
+              "feeder": "OPUA",
+              "lastUpdateTime": "07/01/2026 12:51 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36341F\n**Status:** Active\n**Feeder / Circuit:** OPUA\n**Cause:** Line Maintenance\n**Customers Affected:** 228\n**Suburbs:** KAWAKAWA\n---\n**Affected Roads:**\nDERRICK ROAD\nGILL DRIVE\nHARRYS PLACE\nLEONARD STREET\nNEUMANN STREET\n---"
       }
     }
   ]
