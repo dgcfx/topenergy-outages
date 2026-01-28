@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-27T23-45-46Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-28T02-30-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -14831,7 +14831,7 @@
       "id": "36341F",
       "title": "Opua (228 customers)",
       "start": "2026-01-27T20:45:45Z",
-      "end": null,
+      "end": "2026-01-28T02:00:57Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -14864,9 +14864,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-28T01:45:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "28/01/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "28/01/2026",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "02/02/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "02/02/2026",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAWAKAWA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "DERRICK ROAD, NORTH ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "37",
+              "feeder": "OPUA",
+              "lastUpdateTime": "07/01/2026 12:51 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36341F\n**Status:** Active\n**Feeder / Circuit:** OPUA\n**Cause:** Line Maintenance\n**Customers Affected:** 228\n**Suburbs:** KAWAKAWA\n---\n**Affected Roads:**\nDERRICK ROAD\nGILL DRIVE\nHARRYS PLACE\nLEONARD STREET\nNEUMANN STREET\n---"
+        "body": "**Outage ID:** 36341F\n**Status:** Active\n**Feeder / Circuit:** OPUA\n**Cause:** Line Maintenance\n**Customers Affected:** 37\n**Suburbs:** KAWAKAWA\n---\n**Affected Roads:**\nDERRICK ROAD\nNORTH ROAD\n---\n**Update History:**\n- 2026-01-28T01:45:43Z: Line Maintenance\n- 2026-01-27T20:45:45Z: Line Maintenance"
       }
     }
   ]
