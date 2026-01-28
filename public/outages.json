@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-28T22-45-45Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-28T23-45-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -14900,7 +14900,7 @@
       "id": "36389F",
       "title": "Russell Express (25 customers)",
       "start": "2026-01-28T20:15:45Z",
-      "end": null,
+      "end": "2026-01-28T23:00:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
