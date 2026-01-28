@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-28T19-45-41Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-28T20-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -14894,6 +14894,48 @@
           }
         ],
         "body": "**Outage ID:** 36341F\n**Status:** Active\n**Feeder / Circuit:** OPUA\n**Cause:** Line Maintenance\n**Customers Affected:** 37\n**Suburbs:** KAWAKAWA\n---\n**Affected Roads:**\nDERRICK ROAD\nNORTH ROAD\n---\n**Update History:**\n- 2026-01-28T01:45:43Z: Line Maintenance\n- 2026-01-27T20:45:45Z: Line Maintenance"
+      }
+    },
+    {
+      "id": "36389F",
+      "title": "Russell Express (25 customers)",
+      "start": "2026-01-28T20:15:45Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "25",
+        "circuit": "Russell Express",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-28T20:15:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/01/2026",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "29/01/2026",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "29/01/2026",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "29/01/2026",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "PAREKURA BAY, RAWHITI, RUSSELL",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "MANAWAORA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "25",
+              "feeder": "RUSSELL EXPRESS",
+              "lastUpdateTime": "08/01/2026 05:34 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36389F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Line Maintenance\n**Customers Affected:** 25\n**Suburbs:** PAREKURA BAY, RAWHITI, RUSSELL\n---\n**Affected Roads:**\nMANAWAORA ROAD\n---"
       }
     }
   ]
