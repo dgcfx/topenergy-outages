@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-28T20-45-45Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-28T21-45-48Z.json",
   "events": [
     {
       "id": "35660F",
@@ -14936,6 +14936,90 @@
           }
         ],
         "body": "**Outage ID:** 36389F\n**Status:** Active\n**Feeder / Circuit:** RUSSELL EXPRESS\n**Cause:** Line Maintenance\n**Customers Affected:** 25\n**Suburbs:** PAREKURA BAY, RAWHITI, RUSSELL\n---\n**Affected Roads:**\nMANAWAORA ROAD\n---"
+      }
+    },
+    {
+      "id": "36266F",
+      "title": "Totara North (7 customers)",
+      "start": "2026-01-28T21:15:52Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "7",
+        "circuit": "Totara North",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-28T21:15:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/01/2026",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "29/01/2026",
+              "estimatedRestorationTime": "01:00 PM",
+              "alternativeStartDate": "02/02/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "02/02/2026",
+              "alternativeEstimatedRestorationTime": "01:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "TOTARA NORTH",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "GANGWAY ROAD, TOTARA NORTH ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "7",
+              "feeder": "TOTARA NORTH",
+              "lastUpdateTime": "01/01/2026 10:51 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36266F\n**Status:** Active\n**Feeder / Circuit:** TOTARA NORTH\n**Cause:** Line Maintenance\n**Customers Affected:** 7\n**Suburbs:** TOTARA NORTH\n---\n**Affected Roads:**\nGANGWAY ROAD\nTOTARA NORTH ROAD\n---"
+      }
+    },
+    {
+      "id": "36344F",
+      "title": "Sub-transmission (19 customers)",
+      "start": "2026-01-28T21:15:52Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "19",
+        "circuit": "Sub-transmission",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-28T21:15:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/01/2026",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "29/01/2026",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "30/01/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "30/01/2026",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 1",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "19",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "07/01/2026 03:14 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36344F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Line Maintenance\n**Customers Affected:** 19\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nSTATE HIGHWAY 1\n---"
       }
     }
   ]
