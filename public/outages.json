@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-28T21-45-48Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-28T22-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -14942,7 +14942,7 @@
       "id": "36266F",
       "title": "Totara North (7 customers)",
       "start": "2026-01-28T21:15:52Z",
-      "end": null,
+      "end": "2026-01-28T22:45:45Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
