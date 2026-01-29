@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-29T06-00-45Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-29T07-15-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -15026,7 +15026,7 @@
       "id": "36737F",
       "title": "Rangiahua (2 customers)",
       "start": "2026-01-29T05:00:44Z",
-      "end": null,
+      "end": "2026-01-29T07:15:46Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
