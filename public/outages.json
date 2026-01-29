@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-29T20-45-45Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-29T21-46-00Z.json",
   "events": [
     {
       "id": "35660F",
@@ -15323,6 +15323,48 @@
           }
         ],
         "body": "**Outage ID:** 36374F\n**Status:** Active\n**Feeder / Circuit:** OXFORD STREET\n**Cause:** Line Maintenance\n**Customers Affected:** 24\n**Suburbs:** KAITAIA, PERIA\n---\n**Affected Roads:**\nEDWARDS ROAD\nJACENTHO ROAD\nPERIA ROAD\nPERIA VALLEY ROAD\n---"
+      }
+    },
+    {
+      "id": "36590F",
+      "title": "Crossroads (75 customers)",
+      "start": "2026-01-29T21:15:54Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "75",
+        "circuit": "Crossroads",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-29T21:15:54Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/01/2026",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "30/01/2026",
+              "estimatedRestorationTime": "12:30 PM",
+              "alternativeStartDate": "02/02/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "02/02/2026",
+              "alternativeEstimatedRestorationTime": "12:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI, WAIPAPA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "BILLS LANE, VALENCIA LANE, WAINGARO LANE",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "75",
+              "feeder": "CROSSROADS",
+              "lastUpdateTime": "21/01/2026 10:10 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36590F\n**Status:** Active\n**Feeder / Circuit:** CROSSROADS\n**Cause:** Line Maintenance\n**Customers Affected:** 75\n**Suburbs:** KERIKERI, WAIPAPA\n---\n**Affected Roads:**\nBILLS LANE\nVALENCIA LANE\nWAINGARO LANE\n---"
       }
     }
   ]
