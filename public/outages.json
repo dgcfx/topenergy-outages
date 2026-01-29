@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-29T04-45-48Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-29T06-00-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -15020,6 +15020,48 @@
           }
         ],
         "body": "**Outage ID:** 36344F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Line Maintenance\n**Customers Affected:** 19\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nSTATE HIGHWAY 1\n---"
+      }
+    },
+    {
+      "id": "36737F",
+      "title": "Rangiahua (2 customers)",
+      "start": "2026-01-29T05:00:44Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Rangiahua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-29T05:00:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "29/01/2026",
+              "startTime": "05:45 PM",
+              "estimatedRestorationDate": "29/01/2026",
+              "estimatedRestorationTime": "08:45 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "UMAWERA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MUDGWAY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "RANGIAHUA",
+              "lastUpdateTime": "29/01/2026 05:48 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36737F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Equipment fault\n**Customers Affected:** 2\n**Suburbs:** UMAWERA\n---\n**Affected Roads:**\nMUDGWAY ROAD\n---"
       }
     }
   ]
