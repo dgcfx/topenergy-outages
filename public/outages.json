@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-29T21-46-00Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-29T22-45-48Z.json",
   "events": [
     {
       "id": "35660F",
@@ -15329,7 +15329,7 @@
       "id": "36590F",
       "title": "Crossroads (75 customers)",
       "start": "2026-01-29T21:15:54Z",
-      "end": null,
+      "end": "2026-01-29T22:45:48Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
