@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-29T19-00-58Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-29T19-45-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -15155,9 +15155,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-29T19:15:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/01/2026",
+              "startTime": "06:27 AM",
+              "estimatedRestorationDate": "30/01/2026",
+              "estimatedRestorationTime": "01:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "TAHEKE, WAIMA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BEDGGOOD ROAD, MISSION OAK ROAD, OTATARA MARAE ROAD, PUHA ROAD, WAIMA VALLEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "31",
+              "feeder": "WAIMA",
+              "lastUpdateTime": "30/01/2026 06:28 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36743F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Under Investigation\n**Customers Affected:** 31\n**Suburbs:** TAHEKE, WAIMA\n---\n**Affected Roads:**\nBEDGGOOD ROAD\nMISSION OAK ROAD\nOTATARA MARAE ROAD\nPUHA ROAD\nWAIMA VALLEY ROAD\n---\n**Update History:**\n- 2026-01-29T19:00:58Z: Under Investigation\n- 2026-01-29T18:15:44Z: Under Investigation\n- 2026-01-29T17:30:41Z: Under Investigation"
+        "body": "**Outage ID:** 36743F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Equipment fault\n**Customers Affected:** 31\n**Suburbs:** TAHEKE, WAIMA\n---\n**Affected Roads:**\nBEDGGOOD ROAD\nMISSION OAK ROAD\nOTATARA MARAE ROAD\nPUHA ROAD\nWAIMA VALLEY ROAD\n---\n**Update History:**\n- 2026-01-29T19:15:51Z: Equipment fault\n- 2026-01-29T19:00:58Z: Under Investigation\n- 2026-01-29T18:15:44Z: Under Investigation\n- 2026-01-29T17:30:41Z: Under Investigation"
       }
     },
     {
@@ -15197,9 +15224,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-01-29T19:15:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/01/2026",
+              "startTime": "07:51 AM",
+              "estimatedRestorationDate": "30/01/2026",
+              "estimatedRestorationTime": "09:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "OKAIHAU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "IMMS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "30/01/2026 07:51 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36749F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** OKAIHAU\n---\n**Affected Roads:**\nIMMS ROAD\n---"
+        "body": "**Outage ID:** 36749F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Equipment fault\n**Customers Affected:** 1\n**Suburbs:** OKAIHAU\n---\n**Affected Roads:**\nIMMS ROAD\n---\n**Update History:**\n- 2026-01-29T19:15:51Z: Equipment fault\n- 2026-01-29T19:00:58Z: Under Investigation"
       }
     }
   ]
