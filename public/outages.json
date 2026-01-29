@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-29T17-00-50Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-29T18-00-49Z.json",
   "events": [
     {
       "id": "35660F",
@@ -15062,6 +15062,48 @@
           }
         ],
         "body": "**Outage ID:** 36737F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Equipment fault\n**Customers Affected:** 2\n**Suburbs:** UMAWERA\n---\n**Affected Roads:**\nMUDGWAY ROAD\n---"
+      }
+    },
+    {
+      "id": "36743F",
+      "title": "Waima (31 customers)",
+      "start": "2026-01-29T17:30:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "31",
+        "circuit": "Waima",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-29T17:30:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "30/01/2026",
+              "startTime": "06:27 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "TAHEKE, WAIMA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BEDGGOOD ROAD, MISSION OAK ROAD, OTATARA MARAE ROAD, PUHA ROAD, WAIMA VALLEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "31",
+              "feeder": "WAIMA",
+              "lastUpdateTime": "30/01/2026 06:28 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36743F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Under Investigation\n**Customers Affected:** 31\n**Suburbs:** TAHEKE, WAIMA\n---\n**Affected Roads:**\nBEDGGOOD ROAD\nMISSION OAK ROAD\nOTATARA MARAE ROAD\nPUHA ROAD\nWAIMA VALLEY ROAD\n---"
       }
     }
   ]
