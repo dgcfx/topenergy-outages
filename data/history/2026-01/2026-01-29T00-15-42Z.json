@@ -1,0 +1,282 @@
+{
+  "timestamp": "2026-01-29T00:15:42Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "d3381bc00d8f4a41",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "Treat all lines as live",
+        "bannerType": "info",
+        "bannerExcerpt": "Treat all lines as live",
+        "bannerMessageWebURLSupport": []
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "d3381bc00d8f4a41",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [],
+      "planned": [
+        {
+          "id": "32444F",
+          "lat": -35.414714706625645,
+          "lng": 173.47756619778949
+        },
+        {
+          "id": "36305F",
+          "lat": -35.03193016248407,
+          "lng": 173.53179939776774
+        },
+        {
+          "id": "36308F",
+          "lat": -34.97044384471294,
+          "lng": 173.55311978015393
+        },
+        {
+          "id": "36314F",
+          "lat": -35.5413573706119,
+          "lng": 173.44391802195105
+        },
+        {
+          "id": "36374F",
+          "lat": -35.12860584594549,
+          "lng": 173.44959449196534
+        },
+        {
+          "id": "36491F",
+          "lat": -35.10818932810333,
+          "lng": 173.2545051678045
+        },
+        {
+          "id": "36590F",
+          "lat": -35.247094486607665,
+          "lng": 173.89951422624804
+        },
+        {
+          "id": "36647F",
+          "lat": -35.384387436677336,
+          "lng": 173.60211040166482
+        },
+        {
+          "id": "36710F",
+          "lat": -35.21084270533496,
+          "lng": 173.96038901796786
+        },
+        {
+          "id": "36713F",
+          "lat": -35.01375034801386,
+          "lng": 173.84853084770688
+        },
+        {
+          "id": "36731F",
+          "lat": -35.34856394309698,
+          "lng": 173.49104311994674
+        }
+      ],
+      "plannedActive": [
+        {
+          "id": "36344F",
+          "lat": -35.11973893605652,
+          "lng": 173.32856895284033
+        }
+      ]
+    },
+    "outageList": {
+      "customersCurrentlyOff": 19,
+      "activeOutageCount": 1,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36374F",
+          "startTimestamp": 1769716800,
+          "isActive": false,
+          "circuitName": "Oxford Street",
+          "customersCurrentlyOff": "24",
+          "startDateTime": "30th January 09:00 am",
+          "endDateTime": "30th January 03:30 pm",
+          "alternativeStartDateTime": "2nd February 09:00 am",
+          "alternativeEndDateTime": "2nd February 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36590F",
+          "startTimestamp": 1769720400,
+          "isActive": false,
+          "circuitName": "Crossroads",
+          "customersCurrentlyOff": "75",
+          "startDateTime": "30th January 10:00 am",
+          "endDateTime": "30th January 12:30 pm",
+          "alternativeStartDateTime": "2nd February 10:00 am",
+          "alternativeEndDateTime": "2nd February 12:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36713F",
+          "startTimestamp": 1769979600,
+          "isActive": false,
+          "circuitName": "Matauri Bay",
+          "customersCurrentlyOff": "7",
+          "startDateTime": "2nd February 10:00 am",
+          "endDateTime": "2nd February 02:00 pm",
+          "alternativeStartDateTime": "9th February 10:00 am",
+          "alternativeEndDateTime": "9th February 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36731F",
+          "startTimestamp": 1770064200,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "30",
+          "startDateTime": "3rd February 09:30 am",
+          "endDateTime": "3rd February 12:30 pm",
+          "alternativeStartDateTime": "5th February 09:30 am",
+          "alternativeEndDateTime": "5th February 12:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36314F",
+          "startTimestamp": 1770066000,
+          "isActive": false,
+          "circuitName": "Rawene",
+          "customersCurrentlyOff": "41",
+          "startDateTime": "3rd February 10:00 am",
+          "endDateTime": "3rd February 02:30 pm",
+          "alternativeStartDateTime": "5th February 10:00 am",
+          "alternativeEndDateTime": "5th February 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36491F",
+          "startTimestamp": 1770066000,
+          "isActive": false,
+          "circuitName": "Pukepoto",
+          "customersCurrentlyOff": "202",
+          "startDateTime": "3rd February 10:00 am",
+          "endDateTime": "3rd February 01:00 pm",
+          "alternativeStartDateTime": "4th February 10:00 am",
+          "alternativeEndDateTime": "4th February 01:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36308F",
+          "startTimestamp": 1770150600,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "274",
+          "startDateTime": "4th February 09:30 am",
+          "endDateTime": "4th February 03:30 pm",
+          "alternativeStartDateTime": "6th February 09:30 am",
+          "alternativeEndDateTime": "6th February 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "32444F",
+          "startTimestamp": 1770152400,
+          "isActive": false,
+          "circuitName": "Opononi",
+          "customersCurrentlyOff": "4",
+          "startDateTime": "4th February 10:00 am",
+          "endDateTime": "4th February 03:00 pm",
+          "alternativeStartDateTime": "9th February 10:00 am",
+          "alternativeEndDateTime": "9th February 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36710F",
+          "startTimestamp": 1770235200,
+          "isActive": false,
+          "circuitName": "Riverview",
+          "customersCurrentlyOff": "16",
+          "startDateTime": "5th February 09:00 am",
+          "endDateTime": "5th February 12:00 pm",
+          "alternativeStartDateTime": "9th February 09:00 am",
+          "alternativeEndDateTime": "9th February 12:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36305F",
+          "startTimestamp": 1770237000,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "46",
+          "startDateTime": "5th February 09:30 am",
+          "endDateTime": "5th February 01:30 pm",
+          "alternativeStartDateTime": "9th February 09:30 am",
+          "alternativeEndDateTime": "9th February 01:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36647F",
+          "startTimestamp": 1770240600,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "9",
+          "startDateTime": "5th February 10:30 am",
+          "endDateTime": "5th February 03:00 pm",
+          "alternativeStartDateTime": "9th February 10:30 am",
+          "alternativeEndDateTime": "9th February 03:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "planned",
+          "name": "36344F",
+          "startTimestamp": 1769634000,
+          "isActive": true,
+          "circuitName": "Sub-transmission",
+          "customersCurrentlyOff": "19",
+          "startDateTime": "29th January 10:00 am",
+          "endDateTime": "29th January 03:00 pm",
+          "alternativeStartDateTime": "30th January 10:00 am",
+          "alternativeEndDateTime": "30th January 03:00 pm",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36344F": {
+      "duration": "Unknown",
+      "startDate": "29/01/2026",
+      "startTime": "10:00 AM",
+      "estimatedRestorationDate": "29/01/2026",
+      "estimatedRestorationTime": "03:00 PM",
+      "alternativeStartDate": "30/01/2026",
+      "alternativeStartTime": "10:00 AM",
+      "alternativeEstimatedRestorationDate": "30/01/2026",
+      "alternativeEstimatedRestorationTime": "03:00 PM",
+      "additionalInformation": "",
+      "cause": "Line Maintenance",
+      "suburbs": "KAITAIA",
+      "noticeType": "Planned",
+      "streets": {
+        "showStreets": "STATE HIGHWAY 1",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "19",
+      "feeder": "Sub-Transmission",
+      "lastUpdateTime": "07/01/2026 03:14 PM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
