@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-01/2026-01-31T20-45-46Z.json",
+  "lastProcessedFile": "data/history/2026-01/2026-01-31T21-45-54Z.json",
   "events": [
     {
       "id": "35660F",
@@ -15461,6 +15461,48 @@
           }
         ],
         "body": "**Outage ID:** 36764F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Under Investigation\n**Customers Affected:** 9\n**Suburbs:** MAROMAKU\n---\n**Affected Roads:**\nINKSTER ROAD\nRATA TIPENE ROAD\n---"
+      }
+    },
+    {
+      "id": "36770F",
+      "title": "Totara North (30 customers)",
+      "start": "2026-01-31T21:15:45Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "30",
+        "circuit": "Totara North",
+        "detail_history": [
+          {
+            "capture_ts": "2026-01-31T21:15:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "01/02/2026",
+              "startTime": "10:09 AM",
+              "estimatedRestorationDate": "01/02/2026",
+              "estimatedRestorationTime": "12:15 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KAEO, KAHOE, MANGONUI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "GOSHEN VALLEY ROAD, HOBBS ROAD, SAWYER ROAD, TARATARA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "30",
+              "feeder": "TOTARA NORTH",
+              "lastUpdateTime": "01/02/2026 10:10 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36770F\n**Status:** Active\n**Feeder / Circuit:** TOTARA NORTH\n**Cause:** Equipment fault\n**Customers Affected:** 30\n**Suburbs:** KAEO, KAHOE, MANGONUI\n---\n**Affected Roads:**\nGOSHEN VALLEY ROAD\nHOBBS ROAD\nSAWYER ROAD\nTARATARA ROAD\n---"
       }
     }
   ]
