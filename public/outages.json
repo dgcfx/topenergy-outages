@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-01T20-45-44Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-01T21-45-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -15503,6 +15503,117 @@
           }
         ],
         "body": "**Outage ID:** 36770F\n**Status:** Active\n**Feeder / Circuit:** TOTARA NORTH\n**Cause:** Equipment fault\n**Customers Affected:** 30\n**Suburbs:** KAEO, KAHOE, MANGONUI\n---\n**Affected Roads:**\nGOSHEN VALLEY ROAD\nHOBBS ROAD\nSAWYER ROAD\nTARATARA ROAD\n---"
+      }
+    },
+    {
+      "id": "36782F",
+      "title": "Taheke (84 customers)",
+      "start": "2026-02-01T21:00:43Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "84",
+        "circuit": "Taheke",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-01T21:00:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "02/02/2026",
+              "startTime": "09:58 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, OTAUA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MATARAUA ROAD, PARKER ROAD, PICADILLY ROAD, STEWARD ROAD, TE IRENGA ROAD",
+                "hiddenStreets": "WAIMATENUI ROAD, WHAREPUNGA ROAD, WHIU ROAD"
+              },
+              "customersAffected": "84",
+              "feeder": "TAHEKE",
+              "lastUpdateTime": "02/02/2026 09:58 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-01T21:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "02/02/2026",
+              "startTime": "10:01 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "OTAUA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MATARAUA ROAD, PARKER ROAD, STEWARD ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "19",
+              "feeder": "TAHEKE",
+              "lastUpdateTime": "02/02/2026 09:58 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36782F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Under Investigation\n**Customers Affected:** 19\n**Suburbs:** OTAUA\n---\n**Affected Roads:**\nMATARAUA ROAD\nPARKER ROAD\nSTEWARD ROAD\n---\n**Update History:**\n- 2026-02-01T21:45:46Z: Under Investigation\n- 2026-02-01T21:00:43Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36713F",
+      "title": "Matauri Bay (7 customers)",
+      "start": "2026-02-01T21:30:50Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "7",
+        "circuit": "Matauri Bay",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-01T21:30:50Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "02/02/2026",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "02/02/2026",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "09/02/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "09/02/2026",
+              "alternativeEstimatedRestorationTime": "02:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAEO, WHANGAROA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "MAHINEPUA ROAD, WAINUI ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "7",
+              "feeder": "MATAURI BAY",
+              "lastUpdateTime": "27/01/2026 12:53 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36713F\n**Status:** Active\n**Feeder / Circuit:** MATAURI BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 7\n**Suburbs:** KAEO, WHANGAROA\n---\n**Affected Roads:**\nMAHINEPUA ROAD\nWAINUI ROAD\n---"
       }
     }
   ]
