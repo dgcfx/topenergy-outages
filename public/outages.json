@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-02T10-15-41Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-02T11-15-56Z.json",
   "events": [
     {
       "id": "35660F",
@@ -15791,9 +15791,63 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-02T10:30:57Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "02/02/2026",
+              "startTime": "09:33 PM",
+              "estimatedRestorationDate": "03/02/2026",
+              "estimatedRestorationTime": "02:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "MANGAMUKA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MANGATAIPA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "10",
+              "feeder": "RANGIAHUA",
+              "lastUpdateTime": "02/02/2026 10:46 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-02T10:45:55Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "02/02/2026",
+              "startTime": "09:33 PM",
+              "estimatedRestorationDate": "03/02/2026",
+              "estimatedRestorationTime": "03:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "MANGAMUKA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MANGATAIPA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "10",
+              "feeder": "RANGIAHUA",
+              "lastUpdateTime": "02/02/2026 10:46 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36806F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Under Investigation\n**Customers Affected:** 10\n**Suburbs:** MANGAMUKA\n---\n**Affected Roads:**\nMANGATAIPA ROAD\n---"
+        "body": "**Outage ID:** 36806F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Equipment damage\n**Customers Affected:** 10\n**Suburbs:** MANGAMUKA\n---\n**Affected Roads:**\nMANGATAIPA ROAD\n---\n**Update History:**\n- 2026-02-02T10:45:55Z: Equipment damage\n- 2026-02-02T10:30:57Z: Equipment damage\n- 2026-02-02T10:00:46Z: Under Investigation"
       }
     }
   ]
