@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-02T05-00-49Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-02T06-30-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -15716,7 +15716,7 @@
       "id": "36803F",
       "title": "Towai (1 customers)",
       "start": "2026-02-02T04:45:41Z",
-      "end": null,
+      "end": "2026-02-02T05:30:49Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
