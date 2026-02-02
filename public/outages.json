@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-01T23-45-48Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-02T03-15-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -15605,7 +15605,7 @@
       "id": "36713F",
       "title": "Matauri Bay (7 customers)",
       "start": "2026-02-01T21:30:50Z",
-      "end": null,
+      "end": "2026-02-02T00:30:47Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -15641,6 +15641,75 @@
           }
         ],
         "body": "**Outage ID:** 36713F\n**Status:** Active\n**Feeder / Circuit:** MATAURI BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 7\n**Suburbs:** KAEO, WHANGAROA\n---\n**Affected Roads:**\nMAHINEPUA ROAD\nWAINUI ROAD\n---"
+      }
+    },
+    {
+      "id": "36797F",
+      "title": "Purerua (452 customers)",
+      "start": "2026-02-02T01:00:48Z",
+      "end": "2026-02-02T02:30:45Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "452",
+        "circuit": "Purerua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-02T01:00:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "02/02/2026",
+              "startTime": "01:46 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KERIKERI, OPITO BAY, RANGITANE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AKEAKE ROAD, ANCHORAGE HEIGHTS PLACE, BUSH POINT ROAD, DOVES BAY ROAD, KOTUKU ROAD",
+                "hiddenStreets": "KURAPARI ROAD, MAGNOLIA TREE WAY, MANUKA BAY ROAD, OPITO BAY ROAD, OPITO ROAD, POUNAMU PLACE, PUKEWHAU ROAD, RANGITANE LOOP ROAD, RANGITANE ROAD, REDCLIFFS ROAD, ROWSELL LANE, ST ANTHONYS WAY, TE KOWHAI POINT ROAD, TIKORANGI ROAD, WAIRANGI ROAD, WAITETE HEIGHTS LANE, YACHT DRIVE"
+              },
+              "customersAffected": "452",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "02/02/2026 01:44 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-02T01:45:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "02/02/2026",
+              "startTime": "01:46 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KERIKERI, OPITO BAY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AKEAKE ROAD, ANCHORAGE HEIGHTS PLACE, BUSH POINT ROAD, DOVES BAY ROAD, MANUKA BAY ROAD",
+                "hiddenStreets": "OPITO BAY ROAD, OPITO ROAD, PUKEWHAU ROAD, ROWSELL LANE, TIKORANGI ROAD, YACHT DRIVE"
+              },
+              "customersAffected": "192",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "02/02/2026 01:44 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36797F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Under Investigation\n**Customers Affected:** 192\n**Suburbs:** KERIKERI, OPITO BAY\n---\n**Affected Roads:**\nAKEAKE ROAD\nANCHORAGE HEIGHTS PLACE\nBUSH POINT ROAD\nDOVES BAY ROAD\nMANUKA BAY ROAD\n---\n**Update History:**\n- 2026-02-02T01:45:43Z: Under Investigation\n- 2026-02-02T01:00:48Z: Under Investigation"
       }
     }
   ]
