@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-03T20-00-52Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-03T21-01-09Z.json",
   "events": [
     {
       "id": "35660F",
@@ -15890,6 +15890,48 @@
           }
         ],
         "body": "**Outage ID:** 36314F\n**Status:** Active\n**Feeder / Circuit:** RAWENE\n**Cause:** Line Maintenance\n**Customers Affected:** 41\n**Suburbs:** OPONONI, WAIMAMAKU\n---\n**Affected Roads:**\nPINEHILL ROAD\nSMOOTHY ROAD\nWAIOTEMARAMA GORGE ROAD\n---"
+      }
+    },
+    {
+      "id": "36308F",
+      "title": "Oruru (274 customers)",
+      "start": "2026-02-03T20:45:48Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "274",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-03T20:45:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/02/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "04/02/2026",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "06/02/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "06/02/2026",
+              "alternativeEstimatedRestorationTime": "03:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "HIHI, HIHI BEACH, MANGONUI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "COMPASS COVE, DRIFTWOOD LANE, FAIRWINDS PLACE, FOSTERS ROAD, HIHI BEACH ROAD",
+                "hiddenStreets": "HIHI ROAD, MARCHANT ROAD, PENINSULA PARADE, TAEMARO ROAD, WAIAUA ROAD, WHITECAPS PLACE, WILSON WAY"
+              },
+              "customersAffected": "274",
+              "feeder": "ORURU",
+              "lastUpdateTime": "05/01/2026 10:59 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36308F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 274\n**Suburbs:** HIHI, HIHI BEACH, MANGONUI\n---\n**Affected Roads:**\nCOMPASS COVE\nDRIFTWOOD LANE\nFAIRWINDS PLACE\nFOSTERS ROAD\nHIHI BEACH ROAD\n---"
       }
     }
   ]
