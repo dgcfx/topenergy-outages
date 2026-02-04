@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-04T03-15-44Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-04T04-46-01Z.json",
   "events": [
     {
       "id": "35660F",
@@ -15974,6 +15974,75 @@
           }
         ],
         "body": "**Outage ID:** 32444F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Line Maintenance\n**Customers Affected:** 4\n**Suburbs:** OUE\n---\n**Affected Roads:**\nWHAREKAWA ROAD\n---"
+      }
+    },
+    {
+      "id": "36836F",
+      "title": "Waima (1 customers)",
+      "start": "2026-02-04T04:15:48Z",
+      "end": "2026-02-04T04:46:01Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Waima",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-04T04:15:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/02/2026",
+              "startTime": "05:09 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PUNAKITERE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "WAIMA",
+              "lastUpdateTime": "04/02/2026 05:09 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-04T04:30:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "04/02/2026",
+              "startTime": "05:09 PM",
+              "estimatedRestorationDate": "04/02/2026",
+              "estimatedRestorationTime": "05:45 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KAIKOHE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "PUNAKITERE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "WAIMA",
+              "lastUpdateTime": "04/02/2026 05:19 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36836F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Equipment fault\n**Customers Affected:** 1\n**Suburbs:** KAIKOHE\n---\n**Affected Roads:**\nPUNAKITERE ROAD\n---\n**Update History:**\n- 2026-02-04T04:30:45Z: Equipment fault\n- 2026-02-04T04:15:48Z: Under Investigation"
       }
     }
   ]
