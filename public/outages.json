@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-04T19-15-45Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-04T21-00-49Z.json",
   "events": [
     {
       "id": "35660F",
@@ -16043,6 +16043,90 @@
           }
         ],
         "body": "**Outage ID:** 36836F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Equipment fault\n**Customers Affected:** 1\n**Suburbs:** KAIKOHE\n---\n**Affected Roads:**\nPUNAKITERE ROAD\n---\n**Update History:**\n- 2026-02-04T04:30:45Z: Equipment fault\n- 2026-02-04T04:15:48Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36710F",
+      "title": "Riverview (16 customers)",
+      "start": "2026-02-04T20:15:45Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "16",
+        "circuit": "Riverview",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-04T20:15:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "05/02/2026",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "05/02/2026",
+              "estimatedRestorationTime": "12:00 PM",
+              "alternativeStartDate": "09/02/2026",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "09/02/2026",
+              "alternativeEstimatedRestorationTime": "12:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "EDKINS ROAD, WAIPAPA ROAD, WATERS LANE",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "16",
+              "feeder": "RIVERVIEW",
+              "lastUpdateTime": "27/01/2026 08:29 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36710F\n**Status:** Active\n**Feeder / Circuit:** RIVERVIEW\n**Cause:** Line Maintenance\n**Customers Affected:** 16\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nEDKINS ROAD\nWAIPAPA ROAD\nWATERS LANE\n---"
+      }
+    },
+    {
+      "id": "36305F",
+      "title": "Oruru (47 customers)",
+      "start": "2026-02-04T20:45:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "47",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-04T20:45:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "05/02/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "05/02/2026",
+              "estimatedRestorationTime": "01:30 PM",
+              "alternativeStartDate": "09/02/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "09/02/2026",
+              "alternativeEstimatedRestorationTime": "01:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "MANGONUI, PERIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "APUTEREWA ROAD, BACKRIVER ROAD, KOHUMARU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "47",
+              "feeder": "ORURU",
+              "lastUpdateTime": "05/01/2026 10:19 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36305F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 47\n**Suburbs:** MANGONUI, PERIA\n---\n**Affected Roads:**\nAPUTEREWA ROAD\nBACKRIVER ROAD\nKOHUMARU ROAD\n---"
       }
     }
   ]
