@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-04T21-00-49Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-04T21-46-05Z.json",
   "events": [
     {
       "id": "35660F",
@@ -16049,7 +16049,7 @@
       "id": "36710F",
       "title": "Riverview (16 customers)",
       "start": "2026-02-04T20:15:45Z",
-      "end": null,
+      "end": "2026-02-04T21:46:05Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -16127,6 +16127,48 @@
           }
         ],
         "body": "**Outage ID:** 36305F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Line Maintenance\n**Customers Affected:** 47\n**Suburbs:** MANGONUI, PERIA\n---\n**Affected Roads:**\nAPUTEREWA ROAD\nBACKRIVER ROAD\nKOHUMARU ROAD\n---"
+      }
+    },
+    {
+      "id": "36647F",
+      "title": "Horeke (9 customers)",
+      "start": "2026-02-04T21:46:05Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "9",
+        "circuit": "Horeke",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-04T21:46:05Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "05/02/2026",
+              "startTime": "10:30 AM",
+              "estimatedRestorationDate": "05/02/2026",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "09/02/2026",
+              "alternativeStartTime": "10:30 AM",
+              "alternativeEstimatedRestorationDate": "09/02/2026",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "HOREKE",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "HOREKE ROAD, MACDONELL ROAD, MCDONNELL ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "9",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "23/01/2026 08:01 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36647F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Line Maintenance\n**Customers Affected:** 9\n**Suburbs:** HOREKE\n---\n**Affected Roads:**\nHOREKE ROAD\nMACDONELL ROAD\nMCDONNELL ROAD\n---"
       }
     }
   ]
