@@ -1,0 +1,272 @@
+{
+  "timestamp": "2026-02-05T01:15:45Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "ec9b4d8f1933aafc",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "110kV line outage and generator support area. Treat all lines as live",
+        "bannerType": "warning",
+        "bannerExcerpt": "110kV line outage and generator",
+        "bannerMessageWebURLSupport": {
+          "message": "110kV line outage and generator support area {Map} Treat all lines as live",
+          "urls": [
+            {
+              "text": "Map",
+              "url": "https://outages.topenergy.co.nz/storage/notice/OutageMap2026.pdf"
+            }
+          ]
+        }
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "ec9b4d8f1933aafc",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [],
+      "planned": [
+        {
+          "id": "36317F",
+          "lat": -35.41864230500614,
+          "lng": 173.74408407151552
+        },
+        {
+          "id": "36413F",
+          "lat": -35.14323525279275,
+          "lng": 173.44976354805715
+        },
+        {
+          "id": "36557F",
+          "lat": -35.1058294983781,
+          "lng": 173.6171325541834
+        },
+        {
+          "id": "36596F",
+          "lat": -35.15135452607023,
+          "lng": 173.9146940301519
+        },
+        {
+          "id": "36635F",
+          "lat": -35.00934259773655,
+          "lng": 173.5514817836513
+        },
+        {
+          "id": "36638F",
+          "lat": -35.38531808959488,
+          "lng": 174.03419514360897
+        },
+        {
+          "id": "36755F",
+          "lat": -35.462835346826665,
+          "lng": 173.52421703381745
+        },
+        {
+          "id": "36767F",
+          "lat": -35.48760096996467,
+          "lng": 174.1084124147219
+        },
+        {
+          "id": "36779F",
+          "lat": -35.02259798301017,
+          "lng": 173.8629110642204
+        },
+        {
+          "id": "36821F",
+          "lat": -35.35172700036823,
+          "lng": 173.8816492338436
+        }
+      ],
+      "plannedActive": [
+        {
+          "id": "36647F",
+          "lat": -35.384393063895615,
+          "lng": 173.60212129850146
+        }
+      ]
+    },
+    "outageList": {
+      "customersCurrentlyOff": 9,
+      "activeOutageCount": 1,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36413F",
+          "startTimestamp": 1770580800,
+          "isActive": false,
+          "circuitName": "Fairburn Road",
+          "customersCurrentlyOff": "31",
+          "startDateTime": "9th February 09:00 am",
+          "endDateTime": "9th February 10:30 am",
+          "alternativeStartDateTime": "10th February 09:00 am",
+          "alternativeEndDateTime": "10th February 10:30 am",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36596F",
+          "startTimestamp": 1770582600,
+          "isActive": false,
+          "circuitName": "Takou Bay",
+          "customersCurrentlyOff": "9",
+          "startDateTime": "9th February 09:30 am",
+          "endDateTime": "9th February 02:30 pm",
+          "alternativeStartDateTime": "12th February 09:30 am",
+          "alternativeEndDateTime": "12th February 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36767F",
+          "startTimestamp": 1770584400,
+          "isActive": false,
+          "circuitName": "Towai",
+          "customersCurrentlyOff": "4",
+          "startDateTime": "9th February 10:00 am",
+          "endDateTime": "9th February 02:30 pm",
+          "alternativeStartDateTime": "16th February 10:00 am",
+          "alternativeEndDateTime": "16th February 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36317F",
+          "startTimestamp": 1770665400,
+          "isActive": false,
+          "circuitName": "Taheke",
+          "customersCurrentlyOff": "17",
+          "startDateTime": "10th February 08:30 am",
+          "endDateTime": "10th February 03:00 pm",
+          "alternativeStartDateTime": "11th February 08:30 am",
+          "alternativeEndDateTime": "11th February 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36557F",
+          "startTimestamp": 1770753600,
+          "isActive": false,
+          "circuitName": "Totara North",
+          "customersCurrentlyOff": "42",
+          "startDateTime": "11th February 09:00 am",
+          "endDateTime": "11th February 03:00 pm",
+          "alternativeStartDateTime": "13th February 09:00 am",
+          "alternativeEndDateTime": "13th February 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36635F",
+          "startTimestamp": 1770753600,
+          "isActive": false,
+          "circuitName": "Oruru",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "11th February 09:00 am",
+          "endDateTime": "11th February 10:30 am",
+          "alternativeStartDateTime": "12th February 09:00 am",
+          "alternativeEndDateTime": "12th February 10:30 am",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36638F",
+          "startTimestamp": 1770755400,
+          "isActive": false,
+          "circuitName": "Tau Block",
+          "customersCurrentlyOff": "1",
+          "startDateTime": "11th February 09:30 am",
+          "endDateTime": "11th February 03:00 pm",
+          "alternativeStartDateTime": "23rd February 09:30 am",
+          "alternativeEndDateTime": "23rd February 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36755F",
+          "startTimestamp": 1770840900,
+          "isActive": false,
+          "circuitName": "Rawene",
+          "customersCurrentlyOff": "32",
+          "startDateTime": "12th February 09:15 am",
+          "endDateTime": "12th February 11:15 am",
+          "alternativeStartDateTime": "13th February 09:15 am",
+          "alternativeEndDateTime": "13th February 11:15 am",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36821F",
+          "startTimestamp": 1771101000,
+          "isActive": false,
+          "circuitName": "Ohaeawai",
+          "customersCurrentlyOff": "100",
+          "startDateTime": "15th February 09:30 am",
+          "endDateTime": "15th February 02:30 pm",
+          "alternativeStartDateTime": "22nd February 09:30 am",
+          "alternativeEndDateTime": "22nd February 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36779F",
+          "startTimestamp": 1771189200,
+          "isActive": false,
+          "circuitName": "Matauri Bay",
+          "customersCurrentlyOff": "3",
+          "startDateTime": "16th February 10:00 am",
+          "endDateTime": "16th February 02:00 pm",
+          "alternativeStartDateTime": "16th February 10:00 am",
+          "alternativeEndDateTime": "16th February 02:15 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "planned",
+          "name": "36647F",
+          "startTimestamp": 1770240600,
+          "isActive": true,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "9",
+          "startDateTime": "5th February 10:30 am",
+          "endDateTime": "5th February 03:00 pm",
+          "alternativeStartDateTime": "9th February 10:30 am",
+          "alternativeEndDateTime": "9th February 03:00 pm",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36647F": {
+      "duration": "Unknown",
+      "startDate": "05/02/2026",
+      "startTime": "10:30 AM",
+      "estimatedRestorationDate": "05/02/2026",
+      "estimatedRestorationTime": "03:00 PM",
+      "alternativeStartDate": "09/02/2026",
+      "alternativeStartTime": "10:30 AM",
+      "alternativeEstimatedRestorationDate": "09/02/2026",
+      "alternativeEstimatedRestorationTime": "03:00 PM",
+      "additionalInformation": "",
+      "cause": "Line Maintenance",
+      "suburbs": "HOREKE",
+      "noticeType": "Planned",
+      "streets": {
+        "showStreets": "HOREKE ROAD, MACDONELL ROAD, MCDONNELL ROAD",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "9",
+      "feeder": "HOREKE",
+      "lastUpdateTime": "23/01/2026 08:01 AM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
