@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-06T03-15-49Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-06T05-00-49Z.json",
   "events": [
     {
       "id": "35660F",
@@ -16169,6 +16169,102 @@
           }
         ],
         "body": "**Outage ID:** 36647F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Line Maintenance\n**Customers Affected:** 9\n**Suburbs:** HOREKE\n---\n**Affected Roads:**\nHOREKE ROAD\nMACDONELL ROAD\nMCDONNELL ROAD\n---"
+      }
+    },
+    {
+      "id": "36866F",
+      "title": "Mangonui (94 customers)",
+      "start": "2026-02-06T04:00:59Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "94",
+        "circuit": "Mangonui",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-06T04:00:59Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "06/02/2026",
+              "startTime": "04:25 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": ", CABLE BAY, TAIPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BUSH POINT ROAD, CABLE BAY HEIGHTS DRIVE, OLIVE VIEW HEIGHTS DRIVE, STATE HIGHWAY 10, TAIPA HEIGHTS DRIVE",
+                "hiddenStreets": "TAIPA TIDES DRIVE"
+              },
+              "customersAffected": "94",
+              "feeder": "MANGONUI",
+              "lastUpdateTime": "06/02/2026 04:52 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-06T04:15:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "06/02/2026",
+              "startTime": "04:25 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": ", CABLE BAY, TAIPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BUSH POINT ROAD, CABLE BAY HEIGHTS DRIVE, OLIVE VIEW HEIGHTS DRIVE, STATE HIGHWAY 10, TAIPA HEIGHTS DRIVE",
+                "hiddenStreets": "TAIPA TIDES DRIVE"
+              },
+              "customersAffected": "94",
+              "feeder": "MANGONUI",
+              "lastUpdateTime": "06/02/2026 05:02 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-06T04:30:53Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "06/02/2026",
+              "startTime": "04:25 PM",
+              "estimatedRestorationDate": "06/02/2026",
+              "estimatedRestorationTime": "09:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": ", CABLE BAY, TAIPA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BUSH POINT ROAD, CABLE BAY HEIGHTS DRIVE, OLIVE VIEW HEIGHTS DRIVE, STATE HIGHWAY 10, TAIPA HEIGHTS DRIVE",
+                "hiddenStreets": "TAIPA TIDES DRIVE"
+              },
+              "customersAffected": "94",
+              "feeder": "MANGONUI",
+              "lastUpdateTime": "06/02/2026 05:02 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36866F\n**Status:** Active\n**Feeder / Circuit:** MANGONUI\n**Cause:** Vehicle impact\n**Customers Affected:** 94\n**Suburbs:** , CABLE BAY, TAIPA\n---\n**Affected Roads:**\nBUSH POINT ROAD\nCABLE BAY HEIGHTS DRIVE\nOLIVE VIEW HEIGHTS DRIVE\nSTATE HIGHWAY 10\nTAIPA HEIGHTS DRIVE\n---\n**Update History:**\n- 2026-02-06T04:30:53Z: Vehicle impact\n- 2026-02-06T04:15:44Z: Vehicle impact\n- 2026-02-06T04:00:59Z: Vehicle impact"
       }
     }
   ]
