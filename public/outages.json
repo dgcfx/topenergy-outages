@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-06T21-45-52Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-06T22-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -16292,6 +16292,75 @@
           }
         ],
         "body": "**Outage ID:** 36866F\n**Status:** Active\n**Feeder / Circuit:** MANGONUI\n**Cause:** Vehicle impact\n**Customers Affected:** 94\n**Suburbs:** , CABLE BAY, TAIPA\n---\n**Affected Roads:**\nBUSH POINT ROAD\nCABLE BAY HEIGHTS DRIVE\nOLIVE VIEW HEIGHTS DRIVE\nSTATE HIGHWAY 10\nTAIPA HEIGHTS DRIVE\n---\n**Update History:**\n- 2026-02-06T08:30:53Z: Vehicle impact\n- 2026-02-06T04:30:53Z: Vehicle impact\n- 2026-02-06T04:15:44Z: Vehicle impact\n- 2026-02-06T04:00:59Z: Vehicle impact"
+      }
+    },
+    {
+      "id": "36869F",
+      "title": "Te Kao (6 customers)",
+      "start": "2026-02-06T22:00:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "6",
+        "circuit": "Te Kao",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-06T22:00:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "07/02/2026",
+              "startTime": "10:57 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "TE KAO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "FAR NORTH ROAD, STATE HIGHWAY 1F",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "TE KAO",
+              "lastUpdateTime": "07/02/2026 10:58 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-06T22:15:50Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "07/02/2026",
+              "startTime": "10:57 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Tree contact",
+              "suburbs": "TE KAO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "FAR NORTH ROAD, STATE HIGHWAY 1F",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "TE KAO",
+              "lastUpdateTime": "07/02/2026 10:58 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36869F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Tree contact\n**Customers Affected:** 6\n**Suburbs:** TE KAO\n---\n**Affected Roads:**\nFAR NORTH ROAD\nSTATE HIGHWAY 1F\n---\n**Update History:**\n- 2026-02-06T22:15:50Z: Tree contact\n- 2026-02-06T22:00:47Z: Under Investigation"
       }
     }
   ]
