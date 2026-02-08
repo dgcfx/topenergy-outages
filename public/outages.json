@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-08T20-45-51Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-08T21-45-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -16400,9 +16400,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-08T21:30:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/02/2026",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "09/02/2026",
+              "estimatedRestorationTime": "10:30 AM",
+              "alternativeStartDate": "10/02/2026",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "10/02/2026",
+              "alternativeEstimatedRestorationTime": "10:30 AM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "PERIA VALLEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "FAIRBURN ROAD",
+              "lastUpdateTime": "11/01/2026 08:45 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36413F\n**Status:** Active\n**Feeder / Circuit:** FAIRBURN ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 31\n**Suburbs:** KAITAIA, PERIA\n---\n**Affected Roads:**\nEDWARDS ROAD\nJACENTHO ROAD\nMANGATOETOE ROAD\nPERIA ROAD\nPERIA VALLEY ROAD\n---"
+        "body": "**Outage ID:** 36413F\n**Status:** Active\n**Feeder / Circuit:** FAIRBURN ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 1\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nPERIA VALLEY ROAD\n---\n**Update History:**\n- 2026-02-08T21:30:51Z: Line Maintenance\n- 2026-02-08T20:15:57Z: Line Maintenance"
       }
     },
     {
@@ -16445,6 +16472,48 @@
           }
         ],
         "body": "**Outage ID:** 36596F\n**Status:** Active\n**Feeder / Circuit:** TAKOU BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 9\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nSTANNERS ROAD\n---"
+      }
+    },
+    {
+      "id": "36767F",
+      "title": "Towai (4 customers)",
+      "start": "2026-02-08T21:30:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "4",
+        "circuit": "Towai",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-08T21:30:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/02/2026",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "09/02/2026",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "16/02/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "16/02/2026",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "MAROMAKU, TOWAI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "MARLOW ROAD, TOWAI ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "4",
+              "feeder": "TOWAI",
+              "lastUpdateTime": "31/01/2026 05:38 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36767F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Line Maintenance\n**Customers Affected:** 4\n**Suburbs:** MAROMAKU, TOWAI\n---\n**Affected Roads:**\nMARLOW ROAD\nTOWAI ROAD\n---"
       }
     }
   ]
