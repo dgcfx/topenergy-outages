@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-08T19-45-45Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-08T20-45-51Z.json",
   "events": [
     {
       "id": "35660F",
@@ -16361,6 +16361,90 @@
           }
         ],
         "body": "**Outage ID:** 36869F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Tree contact\n**Customers Affected:** 6\n**Suburbs:** TE KAO\n---\n**Affected Roads:**\nFAR NORTH ROAD\nSTATE HIGHWAY 1F\n---\n**Update History:**\n- 2026-02-06T22:15:50Z: Tree contact\n- 2026-02-06T22:00:47Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36413F",
+      "title": "Fairburn Road (31 customers)",
+      "start": "2026-02-08T20:15:57Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "31",
+        "circuit": "Fairburn Road",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-08T20:15:57Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/02/2026",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "09/02/2026",
+              "estimatedRestorationTime": "10:30 AM",
+              "alternativeStartDate": "10/02/2026",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "10/02/2026",
+              "alternativeEstimatedRestorationTime": "10:30 AM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA, PERIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "EDWARDS ROAD, JACENTHO ROAD, MANGATOETOE ROAD, PERIA ROAD, PERIA VALLEY ROAD",
+                "hiddenStreets": "STATE HIGHWAY 1, TRACEY ROAD"
+              },
+              "customersAffected": "31",
+              "feeder": "FAIRBURN ROAD",
+              "lastUpdateTime": "11/01/2026 08:45 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36413F\n**Status:** Active\n**Feeder / Circuit:** FAIRBURN ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 31\n**Suburbs:** KAITAIA, PERIA\n---\n**Affected Roads:**\nEDWARDS ROAD\nJACENTHO ROAD\nMANGATOETOE ROAD\nPERIA ROAD\nPERIA VALLEY ROAD\n---"
+      }
+    },
+    {
+      "id": "36596F",
+      "title": "Takou Bay (9 customers)",
+      "start": "2026-02-08T20:45:51Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "9",
+        "circuit": "Takou Bay",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-08T20:45:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/02/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "09/02/2026",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "12/02/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "12/02/2026",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KERIKERI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "STANNERS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "9",
+              "feeder": "TAKOU BAY",
+              "lastUpdateTime": "21/01/2026 01:08 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36596F\n**Status:** Active\n**Feeder / Circuit:** TAKOU BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 9\n**Suburbs:** KERIKERI\n---\n**Affected Roads:**\nSTANNERS ROAD\n---"
       }
     }
   ]
