@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-08T22-45-50Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-08T23-45-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -16436,7 +16436,7 @@
       "id": "36596F",
       "title": "Takou Bay (9 customers)",
       "start": "2026-02-08T20:45:51Z",
-      "end": null,
+      "end": "2026-02-08T23:01:09Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -16553,9 +16553,63 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-08T23:16:10Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/02/2026",
+              "startTime": "11:24 AM",
+              "estimatedRestorationDate": "09/02/2026",
+              "estimatedRestorationTime": "01:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "OKAIHAU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "SIGNAL ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "29",
+              "feeder": "PUKETI",
+              "lastUpdateTime": "09/02/2026 11:22 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-08T23:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/02/2026",
+              "startTime": "11:24 AM",
+              "estimatedRestorationDate": "09/02/2026",
+              "estimatedRestorationTime": "04:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "OKAIHAU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "SIGNAL ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "29",
+              "feeder": "PUKETI",
+              "lastUpdateTime": "09/02/2026 11:22 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36872F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Under Investigation\n**Customers Affected:** 182\n**Suburbs:** KERIKERI, OKAIHAU\n---\n**Affected Roads:**\nLODORE ROAD\nLODORE ROAD EAST\nMANGAKARETU ROAD\nPUKETI ROAD\nPUKETOTARA ROAD\n---"
+        "body": "**Outage ID:** 36872F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Equipment damage\n**Customers Affected:** 29\n**Suburbs:** OKAIHAU\n---\n**Affected Roads:**\nSIGNAL ROAD\n---\n**Update History:**\n- 2026-02-08T23:45:46Z: Equipment damage\n- 2026-02-08T23:16:10Z: Under Investigation\n- 2026-02-08T22:30:48Z: Under Investigation"
       }
     }
   ]
