@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-09T18-15-59Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-09T19-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -16637,6 +16637,48 @@
           }
         ],
         "body": "**Outage ID:** 36872F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Equipment damage\n**Customers Affected:** 29\n**Suburbs:** OKAIHAU\n---\n**Affected Roads:**\nSIGNAL ROAD\n---\n**Update History:**\n- 2026-02-08T23:45:46Z: Equipment damage\n- 2026-02-08T23:16:10Z: Under Investigation\n- 2026-02-08T22:30:48Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36317F",
+      "title": "Taheke (17 customers)",
+      "start": "2026-02-09T19:45:45Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "17",
+        "circuit": "Taheke",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-09T19:45:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/02/2026",
+              "startTime": "08:30 AM",
+              "estimatedRestorationDate": "10/02/2026",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "11/02/2026",
+              "alternativeStartTime": "08:30 AM",
+              "alternativeEstimatedRestorationDate": "11/02/2026",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAIKOHE, TAHEKE",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "JORDAN ROAD, STATE HIGHWAY 12",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "17",
+              "feeder": "TAHEKE",
+              "lastUpdateTime": "05/01/2026 05:49 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36317F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Line Maintenance\n**Customers Affected:** 17\n**Suburbs:** KAIKOHE, TAHEKE\n---\n**Affected Roads:**\nJORDAN ROAD\nSTATE HIGHWAY 12\n---"
       }
     }
   ]
