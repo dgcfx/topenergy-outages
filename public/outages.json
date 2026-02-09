@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-08T23-45-46Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-09T03-30-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -16478,7 +16478,7 @@
       "id": "36767F",
       "title": "Towai (4 customers)",
       "start": "2026-02-08T21:30:51Z",
-      "end": null,
+      "end": "2026-02-09T02:15:46Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -16511,16 +16511,43 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-09T02:00:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "09/02/2026",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "09/02/2026",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "16/02/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "16/02/2026",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "TOWAI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "TOWAI ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "TOWAI",
+              "lastUpdateTime": "31/01/2026 05:38 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36767F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Line Maintenance\n**Customers Affected:** 4\n**Suburbs:** MAROMAKU, TOWAI\n---\n**Affected Roads:**\nMARLOW ROAD\nTOWAI ROAD\n---"
+        "body": "**Outage ID:** 36767F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Line Maintenance\n**Customers Affected:** 2\n**Suburbs:** TOWAI\n---\n**Affected Roads:**\nTOWAI ROAD\n---\n**Update History:**\n- 2026-02-09T02:00:42Z: Line Maintenance\n- 2026-02-08T21:30:51Z: Line Maintenance"
       }
     },
     {
       "id": "36872F",
       "title": "Puketi (182 customers)",
       "start": "2026-02-08T22:30:48Z",
-      "end": null,
+      "end": "2026-02-09T02:15:46Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
