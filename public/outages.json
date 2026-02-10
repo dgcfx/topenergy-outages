@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-10T09-30-48Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-10T11-15-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -16790,6 +16790,75 @@
           }
         ],
         "body": "**Outage ID:** 36896F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Equipment damage\n**Customers Affected:** 8\n**Suburbs:** HUKERENUI, TOWAI\n---\n**Affected Roads:**\nAKERAMA ROAD\nMONUMENT ROAD\n---"
+      }
+    },
+    {
+      "id": "36899F",
+      "title": "Horeke (497 customers)",
+      "start": "2026-02-10T10:15:48Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "497",
+        "circuit": "Horeke",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-10T10:15:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/02/2026",
+              "startTime": "11:11 PM",
+              "estimatedRestorationDate": "11/02/2026",
+              "estimatedRestorationTime": "01:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "HOREKE, KERIKERI, KOHUKOHU, MOTUKIORE, OKAIHAU, PANGURU, RAWENE, UTAKURA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BEACH ROAD, BLUE MOUNTAIN ROAD, CHURCH STREET, CLASSEN ROAD, COOK ROAD",
+                "hiddenStreets": "CREAMERY ROAD, DONALDSON ROAD, DUDDY ROAD, HAPANGA ROAD, HARRISON ROAD, HAWKINS ROAD, HOREKE ROAD, KIRKPATRICK STREET, KOHUKOHU ROAD, MACDONELL ROAD, MANGATARAIRE ROAD, MANING STREET, MARRINER STREET, MATAWERA ROAD, MCDONNELL ROAD, MOTUKARAKA POINT ROAD, MOTUKIORE ROAD, OKAKA ROAD, OLD BEACH ROAD, PAPONGA ROAD, PAREMATA ROADWAY, POTTER STREET, PUKEWHAO ROAD, RAKAUTAPU ROAD, RANGIAHUA ROAD, RANGIORA NARROWS FERRY RAMP, RIDDELL ROAD, SETTLERS WAY, SMITHS DEVIATION ROAD, TAHEKE ROAD, TAUTEIHIHI ROAD, TAUTEIHIIHI ROAD, TE HUA HUA ROAD, UTAKURA VALLEY ROAD, WAIKERIKERI FORD ROAD, WAIKERIKERI ROAD, WEST COAST ROAD, YARBOROUGH STREET"
+              },
+              "customersAffected": "497",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "10/02/2026 11:13 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-10T10:30:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/02/2026",
+              "startTime": "11:11 PM",
+              "estimatedRestorationDate": "11/02/2026",
+              "estimatedRestorationTime": "01:30 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "HOREKE, KERIKERI, KOHUKOHU, MOTUKIORE, OKAIHAU, PANGURU, RAWENE, UTAKURA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BEACH ROAD, BLUE MOUNTAIN ROAD, CHURCH STREET, CLASSEN ROAD, COOK ROAD",
+                "hiddenStreets": "CREAMERY ROAD, DONALDSON ROAD, DUDDY ROAD, HAPANGA ROAD, HARRISON ROAD, HAWKINS ROAD, HOREKE ROAD, KIRKPATRICK STREET, KOHUKOHU ROAD, MACDONELL ROAD, MANGATARAIRE ROAD, MANING STREET, MARRINER STREET, MATAWERA ROAD, MCDONNELL ROAD, MOTUKARAKA POINT ROAD, MOTUKIORE ROAD, OKAKA ROAD, OLD BEACH ROAD, PAPONGA ROAD, PAREMATA ROADWAY, POTTER STREET, PUKEWHAO ROAD, RAKAUTAPU ROAD, RANGIAHUA ROAD, RANGIORA NARROWS FERRY RAMP, RIDDELL ROAD, SETTLERS WAY, SMITHS DEVIATION ROAD, TAHEKE ROAD, TAUTEIHIHI ROAD, TAUTEIHIIHI ROAD, TE HUA HUA ROAD, UTAKURA VALLEY ROAD, WAIKERIKERI FORD ROAD, WAIKERIKERI ROAD, WEST COAST ROAD, YARBOROUGH STREET"
+              },
+              "customersAffected": "497",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "10/02/2026 11:13 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36899F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Equipment damage\n**Customers Affected:** 497\n**Suburbs:** HOREKE, KERIKERI, KOHUKOHU, MOTUKIORE, OKAIHAU, PANGURU, RAWENE, UTAKURA\n---\n**Affected Roads:**\nBEACH ROAD\nBLUE MOUNTAIN ROAD\nCHURCH STREET\nCLASSEN ROAD\nCOOK ROAD\n---\n**Update History:**\n- 2026-02-10T10:30:51Z: Equipment damage\n- 2026-02-10T10:15:48Z: Under Investigation"
       }
     }
   ]
