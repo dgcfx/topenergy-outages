@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-10T03-30-46Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-10T05-45-40Z.json",
   "events": [
     {
       "id": "35660F",
@@ -16679,6 +16679,90 @@
           }
         ],
         "body": "**Outage ID:** 36317F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Line Maintenance\n**Customers Affected:** 17\n**Suburbs:** KAIKOHE, TAHEKE\n---\n**Affected Roads:**\nJORDAN ROAD\nSTATE HIGHWAY 12\n---"
+      }
+    },
+    {
+      "id": "36893F",
+      "title": "Broadwood (27 customers)",
+      "start": "2026-02-10T04:30:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "27",
+        "circuit": "Broadwood",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-10T04:30:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/02/2026",
+              "startTime": "05:07 PM",
+              "estimatedRestorationDate": "10/02/2026",
+              "estimatedRestorationTime": "08:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "PAWARENGA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KOHE ROAD, PAWARENGA ROAD, PROCTOR ROAD, TAMAHO ROAD, TE RIHA ROADWAY",
+                "hiddenStreets": "TE UMUHUKI ROAD"
+              },
+              "customersAffected": "27",
+              "feeder": "BROADWOOD",
+              "lastUpdateTime": "10/02/2026 05:14 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36893F\n**Status:** Active\n**Feeder / Circuit:** BROADWOOD\n**Cause:** Under Investigation\n**Customers Affected:** 27\n**Suburbs:** PAWARENGA\n---\n**Affected Roads:**\nKOHE ROAD\nPAWARENGA ROAD\nPROCTOR ROAD\nTAMAHO ROAD\nTE RIHA ROADWAY\n---"
+      }
+    },
+    {
+      "id": "36896F",
+      "title": "Towai (8 customers)",
+      "start": "2026-02-10T05:31:03Z",
+      "end": "2026-02-10T05:45:40Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "8",
+        "circuit": "Towai",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-10T05:31:03Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "10/02/2026",
+              "startTime": "06:10 PM",
+              "estimatedRestorationDate": "10/02/2026",
+              "estimatedRestorationTime": "08:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment damage",
+              "suburbs": "HUKERENUI, TOWAI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AKERAMA ROAD, MONUMENT ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "8",
+              "feeder": "TOWAI",
+              "lastUpdateTime": "10/02/2026 06:15 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36896F\n**Status:** Active\n**Feeder / Circuit:** TOWAI\n**Cause:** Equipment damage\n**Customers Affected:** 8\n**Suburbs:** HUKERENUI, TOWAI\n---\n**Affected Roads:**\nAKERAMA ROAD\nMONUMENT ROAD\n---"
       }
     }
   ]
