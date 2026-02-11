@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-11T22-00-44Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-11T23-00-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -17183,7 +17183,7 @@
       "id": "36917F",
       "title": "Awarua (2 customers)",
       "start": "2026-02-11T21:00:55Z",
-      "end": null,
+      "end": "2026-02-11T22:15:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -17258,16 +17258,70 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-11T22:15:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/02/2026",
+              "startTime": "10:29 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, KOUTU, OMANAIA, OMAPERE, OPONONI, OTAUA, OUE, PAKANAE, RAWENE, TAHEKE, WAIMA, WAIMAMAKU, WHIRINAKI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AKIHA STREET, AMBLER ROAD, AUCKLAND BLOCK ROAD, AYRTON ROAD, BAKER ROAD",
+                "hiddenStreets": "BEDGGOOD ROAD, BIRCH STREET, BRINDLE ROAD, CABBAGE TREE BAY ROAD, CAMPBELL STREET, CLENDON ESPLANADE, CURTIS ROAD, DE THIERRY STREET, DUDDY ROAD, DUNE RISE, FAIRLIE CRESCENT, FREESE PARK ROAD, GOODWIN ROAD, GRAHAM ROAD, GUNDRY STREET, GUTHRIE ROAD, HALL ROAD, HAMBLIN STREET, HANSEN ROAD, HILLCREST ROAD, HIVE ROAD, HOKIANGA HARBOUR DRIVE, HONEY STREET, HOREKE ROAD, JACKSON ROAD, JAMIESON ROAD, JORDAN ROAD, KARUHIRUHI ROAD, KELLY ROAD, KOKOHUIA ROAD, KORARI PLACE, KOUTU BEACH ROAD, KOUTU LOOP ROAD, KOUTU POINT RD, KOUTU POINT ROAD, KOUTU TERRACE, MAHINA ROAD, MANGAPARA ROAD, MANGAPUPU ROAD, MANGATAWA ROAD, MANNING STREET, MARINER STREET, MARMON STREET, MARTIN ROAD, MATARAUA ROAD, MCDONELL STREET, MIRO AVENUE, MIRO PLACE, MISSION OAK ROAD, MITCHELL ROAD, MOTUTOA ROAD, MOUNTAIN ROAD, NEWTON ROAD, NIMMO STREET, NINIHI ROAD, OHURI ROAD, OLD WHARF ROAD, OMANAIA ROAD, OMAPERE ROAD, OPARA ROAD, OPONONI HEIGHTS, OPONONI HEIGHTS DRIVE, OTAHI ROAD, OTATARA MARAE ROAD, OTAUA ROAD, PAKANAE CEMETERY ROAD, PANIORA ROAD, PARNELL STREET, PERAS ROAD, PINEHILL ROAD, PIONEER WALK, POKAS ROAD, PUHA ROAD, PUKAWA ROAD, PUNAKITERE ROAD, RAKAUWAHIA ROAD, RAMSEY ROAD, RAWENE ROAD, RENWICK ROAD, ROGER ROAD, RUSSELL ESPLANADE, SIGNAL STATION ROAD, SMOOTHY ROAD, STATE HIGHWAY 12, TAHEKE ROAD, TAITA ROAD, TAPP ROAD, TAUMATAWIWI STREET, TE HUNOKE ROAD, TE IRENGA WEST ROAD, TE OHU ROAD, VUJCICH ROAD, WAIANGA PLACE, WAIHOTU ROAD, WAIHUKA ROAD, WAIMA SCHOOL ROAD, WAIMA VALLEY ROAD, WAIMAMAKU BEACH ROAD, WAIONE ROAD, WAIOTEMARAMA GORGE ROAD, WAOKU ROAD, WEBSTER STREET, WEKAWEKA ROAD, WELLSFORD ROAD, WHAREKAWA ROAD, WHAREPUNGA ROAD, WHIRINAKI SCHOOL ROAD, WHITE STREET, WIKAIRA ROAD, YOUNG ROAD"
+              },
+              "customersAffected": "2000",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "12/02/2026 10:25 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-11T23:00:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/02/2026",
+              "startTime": "10:29 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, KOUTU, OMANAIA, OMAPERE, OPONONI, OUE, PAKANAE, RAWENE, TAHEKE, WAIMAMAKU, WHIRINAKI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AKIHA STREET, AMBLER ROAD, BAKER ROAD, BIRCH STREET, BRINDLE ROAD",
+                "hiddenStreets": "CABBAGE TREE BAY ROAD, CAMPBELL STREET, CLENDON ESPLANADE, CURTIS ROAD, DE THIERRY STREET, DUNE RISE, FAIRLIE CRESCENT, FREESE PARK ROAD, GOODWIN ROAD, GUNDRY STREET, HALL ROAD, HAMBLIN STREET, HANSEN ROAD, HILLCREST ROAD, HIVE ROAD, HOKIANGA HARBOUR DRIVE, HONEY STREET, JACKSON ROAD, JAMIESON ROAD, JORDAN ROAD, KARUHIRUHI ROAD, KELLY ROAD, KOKOHUIA ROAD, KORARI PLACE, KOUTU BEACH ROAD, KOUTU LOOP ROAD, KOUTU POINT RD, KOUTU POINT ROAD, KOUTU TERRACE, MAHINA ROAD, MANGAPARA ROAD, MANGAPUPU ROAD, MANNING STREET, MARINER STREET, MARMON STREET, MARTIN ROAD, MCDONELL STREET, MIRO AVENUE, MIRO PLACE, MITCHELL ROAD, MOTUTOA ROAD, MOUNTAIN ROAD, NEWTON ROAD, NIMMO STREET, OHURI ROAD, OLD WHARF ROAD, OMANAIA ROAD, OPARA ROAD, OPONONI HEIGHTS, OPONONI HEIGHTS DRIVE, OTAHI ROAD, PAKANAE CEMETERY ROAD, PANIORA ROAD, PARNELL STREET, PINEHILL ROAD, PIONEER WALK, POKAS ROAD, PUKAWA ROAD, RAWENE ROAD, RUSSELL ESPLANADE, SIGNAL STATION ROAD, SMOOTHY ROAD, STATE HIGHWAY 12, TAITA ROAD, TAPP ROAD, TAUMATAWIWI STREET, TE HUNOKE ROAD, VUJCICH ROAD, WAIANGA PLACE, WAIHOTU ROAD, WAIHUKA ROAD, WAIMAMAKU BEACH ROAD, WAIONE ROAD, WAIOTEMARAMA GORGE ROAD, WEBSTER STREET, WEKAWEKA ROAD, WELLSFORD ROAD, WHAREKAWA ROAD, WHIRINAKI SCHOOL ROAD, WHITE STREET, WIKAIRA ROAD"
+              },
+              "customersAffected": "1501",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "12/02/2026 10:25 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36923F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Under Investigation\n**Customers Affected:** 1479\n**Suburbs:** KAIKOHE, KOUTU, OMANAIA, OMAPERE, OPONONI, OUE, PAKANAE, RAWENE, WAIMAMAKU, WHIRINAKI\n---\n**Affected Roads:**\nAKIHA STREET\nAMBLER ROAD\nBAKER ROAD\nBIRCH STREET\nBRINDLE ROAD\n---"
+        "body": "**Outage ID:** 36923F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Under Investigation\n**Customers Affected:** 1501\n**Suburbs:** KAIKOHE, KOUTU, OMANAIA, OMAPERE, OPONONI, OUE, PAKANAE, RAWENE, TAHEKE, WAIMAMAKU, WHIRINAKI\n---\n**Affected Roads:**\nAKIHA STREET\nAMBLER ROAD\nBAKER ROAD\nBIRCH STREET\nBRINDLE ROAD\n---\n**Update History:**\n- 2026-02-11T23:00:43Z: Under Investigation\n- 2026-02-11T22:15:43Z: Under Investigation\n- 2026-02-11T21:30:57Z: Under Investigation"
       }
     },
     {
       "id": "36926F",
       "title": "Sub-transmission (654 customers)",
       "start": "2026-02-11T21:30:57Z",
-      "end": null,
+      "end": "2026-02-11T23:00:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
