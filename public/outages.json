@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-11T21-00-55Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-11T22-00-44Z.json",
   "events": [
     {
       "id": "35660F",
@@ -17219,6 +17219,144 @@
           }
         ],
         "body": "**Outage ID:** 36917F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** NUKUTAWHITI\n---\n**Affected Roads:**\nMANGAKAHIA ROAD\n---"
+      }
+    },
+    {
+      "id": "36923F",
+      "title": "Sub-transmission (1479 customers)",
+      "start": "2026-02-11T21:30:57Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1479",
+        "circuit": "Sub-transmission",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-11T21:30:57Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/02/2026",
+              "startTime": "10:25 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, KOUTU, OMANAIA, OMAPERE, OPONONI, OUE, PAKANAE, RAWENE, WAIMAMAKU, WHIRINAKI",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AKIHA STREET, AMBLER ROAD, BAKER ROAD, BIRCH STREET, BRINDLE ROAD",
+                "hiddenStreets": "CABBAGE TREE BAY ROAD, CAMPBELL STREET, CLENDON ESPLANADE, CURTIS ROAD, DE THIERRY STREET, DUNE RISE, FAIRLIE CRESCENT, FREESE PARK ROAD, GOODWIN ROAD, GUNDRY STREET, HALL ROAD, HAMBLIN STREET, HANSEN ROAD, HIVE ROAD, HOKIANGA HARBOUR DRIVE, HONEY STREET, JACKSON ROAD, JAMIESON ROAD, KARUHIRUHI ROAD, KELLY ROAD, KOKOHUIA ROAD, KORARI PLACE, KOUTU BEACH ROAD, KOUTU LOOP ROAD, KOUTU POINT RD, KOUTU POINT ROAD, KOUTU TERRACE, MAHINA ROAD, MANGAPARA ROAD, MANGAPUPU ROAD, MANNING STREET, MARINER STREET, MARMON STREET, MARTIN ROAD, MCDONELL STREET, MIRO AVENUE, MIRO PLACE, MITCHELL ROAD, MOTUTOA ROAD, MOUNTAIN ROAD, NEWTON ROAD, NIMMO STREET, OHURI ROAD, OLD WHARF ROAD, OMANAIA ROAD, OPARA ROAD, OPONONI HEIGHTS, OPONONI HEIGHTS DRIVE, OTAHI ROAD, PAKANAE CEMETERY ROAD, PANIORA ROAD, PARNELL STREET, PINEHILL ROAD, PIONEER WALK, POKAS ROAD, PUKAWA ROAD, RAWENE ROAD, RUSSELL ESPLANADE, SIGNAL STATION ROAD, SMOOTHY ROAD, STATE HIGHWAY 12, TAITA ROAD, TAPP ROAD, TAUMATAWIWI STREET, TE HUNOKE ROAD, VUJCICH ROAD, WAIANGA PLACE, WAIHOTU ROAD, WAIHUKA ROAD, WAIMAMAKU BEACH ROAD, WAIONE ROAD, WAIOTEMARAMA GORGE ROAD, WEBSTER STREET, WEKAWEKA ROAD, WELLSFORD ROAD, WHAREKAWA ROAD, WHIRINAKI SCHOOL ROAD, WHITE STREET, WIKAIRA ROAD"
+              },
+              "customersAffected": "1479",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "12/02/2026 10:25 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36923F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Under Investigation\n**Customers Affected:** 1479\n**Suburbs:** KAIKOHE, KOUTU, OMANAIA, OMAPERE, OPONONI, OUE, PAKANAE, RAWENE, WAIMAMAKU, WHIRINAKI\n---\n**Affected Roads:**\nAKIHA STREET\nAMBLER ROAD\nBAKER ROAD\nBIRCH STREET\nBRINDLE ROAD\n---"
+      }
+    },
+    {
+      "id": "36926F",
+      "title": "Sub-transmission (654 customers)",
+      "start": "2026-02-11T21:30:57Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "654",
+        "circuit": "Sub-transmission",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-11T21:30:57Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/02/2026",
+              "startTime": "10:25 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, OMANAIA, OTAUA, RAWENE, TAHEKE, WAIMA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AUCKLAND BLOCK ROAD, AYRTON ROAD, BEDGGOOD ROAD, BROWNS ROAD, DUDDY ROAD",
+                "hiddenStreets": "GRAHAM ROAD, GUTHRIE ROAD, HILLCREST ROAD, HOREKE ROAD, JORDAN ROAD, MANGATAWA ROAD, MATARAUA ROAD, MISSION OAK ROAD, NINIHI ROAD, OMAPERE ROAD, OTATARA MARAE ROAD, OTAUA ROAD, PARKER ROAD, PERAS ROAD, PICADILLY ROAD, PUHA ROAD, PUNAKITERE ROAD, RAKAUWAHIA ROAD, RAMSEY ROAD, RENWICK ROAD, ROGER ROAD, STATE HIGHWAY 12, STEWARD ROAD, TAHEKE ROAD, TE IRENGA ROAD, TE IRENGA WEST ROAD, TE OHU ROAD, WAIMA SCHOOL ROAD, WAIMA VALLEY ROAD, WAIMATENUI ROAD, WAOKU ROAD, WHAREPUNGA ROAD, WHIU ROAD, YOUNG ROAD"
+              },
+              "customersAffected": "654",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "12/02/2026 10:25 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-11T21:45:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/02/2026",
+              "startTime": "10:29 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, OMANAIA, OTAUA, RAWENE, TAHEKE, WAIMA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AUCKLAND BLOCK ROAD, AYRTON ROAD, BEDGGOOD ROAD, BROWNS ROAD, DUDDY ROAD",
+                "hiddenStreets": "GRAHAM ROAD, GUTHRIE ROAD, HILLCREST ROAD, HOREKE ROAD, JORDAN ROAD, MANGATAWA ROAD, MATARAUA ROAD, MISSION OAK ROAD, NINIHI ROAD, OMAPERE ROAD, OTATARA MARAE ROAD, OTAUA ROAD, PARKER ROAD, PERAS ROAD, PICADILLY ROAD, PUHA ROAD, PUNAKITERE ROAD, RAKAUWAHIA ROAD, RAMSEY ROAD, RENWICK ROAD, ROGER ROAD, STATE HIGHWAY 12, STEWARD ROAD, TAHEKE ROAD, TE IRENGA ROAD, TE IRENGA WEST ROAD, TE OHU ROAD, WAIMA SCHOOL ROAD, WAIMA VALLEY ROAD, WAIMATENUI ROAD, WAOKU ROAD, WHAREPUNGA ROAD, WHIU ROAD, YOUNG ROAD"
+              },
+              "customersAffected": "654",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "12/02/2026 10:25 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-11T22:00:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/02/2026",
+              "startTime": "10:29 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, OTAUA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BROWNS ROAD, MATARAUA ROAD, PARKER ROAD, PICADILLY ROAD, STEWARD ROAD",
+                "hiddenStreets": "TE IRENGA ROAD, WAIMATENUI ROAD, WHAREPUNGA ROAD, WHIU ROAD"
+              },
+              "customersAffected": "133",
+              "feeder": "TAHEKE",
+              "lastUpdateTime": "12/02/2026 10:25 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36926F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Under Investigation\n**Customers Affected:** 133\n**Suburbs:** KAIKOHE, OTAUA\n---\n**Affected Roads:**\nBROWNS ROAD\nMATARAUA ROAD\nPARKER ROAD\nPICADILLY ROAD\nSTEWARD ROAD\n---\n**Update History:**\n- 2026-02-11T22:00:44Z: Under Investigation\n- 2026-02-11T21:45:52Z: Under Investigation\n- 2026-02-11T21:30:57Z: Under Investigation"
       }
     }
   ]
