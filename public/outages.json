@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-11T23-00-43Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-11T23-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -17312,9 +17312,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-11T23:15:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/02/2026",
+              "startTime": "10:29 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, TAHEKE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "HILLCREST ROAD, JORDAN ROAD, STATE HIGHWAY 12",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "22",
+              "feeder": "TAHEKE",
+              "lastUpdateTime": "12/02/2026 10:25 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36923F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Under Investigation\n**Customers Affected:** 1501\n**Suburbs:** KAIKOHE, KOUTU, OMANAIA, OMAPERE, OPONONI, OUE, PAKANAE, RAWENE, TAHEKE, WAIMAMAKU, WHIRINAKI\n---\n**Affected Roads:**\nAKIHA STREET\nAMBLER ROAD\nBAKER ROAD\nBIRCH STREET\nBRINDLE ROAD\n---\n**Update History:**\n- 2026-02-11T23:00:43Z: Under Investigation\n- 2026-02-11T22:15:43Z: Under Investigation\n- 2026-02-11T21:30:57Z: Under Investigation"
+        "body": "**Outage ID:** 36923F\n**Status:** Active\n**Feeder / Circuit:** TAHEKE\n**Cause:** Under Investigation\n**Customers Affected:** 22\n**Suburbs:** KAIKOHE, TAHEKE\n---\n**Affected Roads:**\nHILLCREST ROAD\nJORDAN ROAD\nSTATE HIGHWAY 12\n---\n**Update History:**\n- 2026-02-11T23:15:45Z: Under Investigation\n- 2026-02-11T23:00:43Z: Under Investigation\n- 2026-02-11T22:15:43Z: Under Investigation\n- 2026-02-11T21:30:57Z: Under Investigation"
       }
     },
     {
