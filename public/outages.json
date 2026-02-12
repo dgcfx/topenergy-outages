@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-12T09-15-44Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-12T10-15-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -17522,6 +17522,48 @@
           }
         ],
         "body": "**Outage ID:** 36938F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Under Investigation\n**Customers Affected:** 14\n**Suburbs:** TAHEKE\n---\n**Affected Roads:**\nAUCKLAND BLOCK ROAD\nRAMSEY ROAD\n---"
+      }
+    },
+    {
+      "id": "36947F",
+      "title": "Pokapu (4 customers)",
+      "start": "2026-02-12T10:00:46Z",
+      "end": "2026-02-12T10:15:46Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "4",
+        "circuit": "Pokapu",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-12T10:00:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/02/2026",
+              "startTime": "10:41 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "MOEREWA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "LUCAS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "4",
+              "feeder": "POKAPU",
+              "lastUpdateTime": "12/02/2026 10:54 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36947F\n**Status:** Active\n**Feeder / Circuit:** POKAPU\n**Cause:** Under Investigation\n**Customers Affected:** 4\n**Suburbs:** MOEREWA\n---\n**Affected Roads:**\nLUCAS ROAD\n---"
       }
     }
   ]
