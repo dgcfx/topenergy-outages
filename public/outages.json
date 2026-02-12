@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-12T22-45-45Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-12T23-45-37Z.json",
   "events": [
     {
       "id": "35660F",
@@ -17708,7 +17708,7 @@
       "id": "36959F",
       "title": "Sub-transmission (4612 customers)",
       "start": "2026-02-12T22:30:44Z",
-      "end": null,
+      "end": "2026-02-12T23:30:39Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -17741,16 +17741,43 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-12T23:15:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "11:26 AM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "12:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "CABLE BAY, PERIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "CABLE BAY BLOCK ROAD, TE KAROA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "13/02/2026 11:52 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36959F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Under Investigation\n**Customers Affected:** 4612\n**Suburbs:** , CABLE BAY, COOPERS BEACH, DOUBTLESS BAY, FAIRBURN, HIHI, HIHI BEACH, KAINGAROA, KAITAIA, KARIKARI, KARIKARI PENINSULA, KARIKARI PENINSULAR, KARIKARI PENNINSULA, KARIKARI PENSULIA, LAKE OHIA, MANGONUI, MILL BAY, ORURU, PAEWHENUA ISLAND, PARANUI, PARAPARA, PERIA, RANGIPUTA, TAIPA, TAUPO BAY, TOKERAU BEACH, WHATUWHIWHI\n---\n**Affected Roads:**\nADAMSON ROAD\nAKATERE ROAD\nAKEAKE CRESCENT\nALEXANDER STREET\nAMELIE PLACE\n---"
+        "body": "**Outage ID:** 36959F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Equipment fault\n**Customers Affected:** 6\n**Suburbs:** CABLE BAY, PERIA\n---\n**Affected Roads:**\nCABLE BAY BLOCK ROAD\nTE KAROA ROAD\n---\n**Update History:**\n- 2026-02-12T23:15:42Z: Equipment fault\n- 2026-02-12T22:30:44Z: Under Investigation"
       }
     },
     {
       "id": "36956F",
       "title": "Sub-transmission (6680 customers)",
       "start": "2026-02-12T22:30:44Z",
-      "end": null,
+      "end": "2026-02-12T23:30:39Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -17783,9 +17810,78 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-12T23:15:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "11:26 AM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "12:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "AHIPARA, HEREKINO, KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BRASS ROAD, KAITAIA-AWAROA ROAD, SANDHILLS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "5",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "13/02/2026 11:51 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36956F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Under Investigation\n**Customers Affected:** 6680\n**Suburbs:** , AHIPARA, AWANUI, BROADWOOD, HENDERSON BAY, HEREKINO, HOUHORA, HOUHOURA, KAIANGAROA, KAIMAUMAU, KAINGAROA, KAITAIA, MOTUTANGI, NGATAKI, OKAIHAU, PAPARORE, PUKENUI, PUKEPOTO, TE HAPUA, TE KAO, TE PAKI, TEHAPUA, WAIHARARA, WAIHOPO, WAIPAPAKAURI, WHANGAPE\n---\n**Affected Roads:**\nAHIPARA ROAD\nALBATROSS ALLEY\nALLEN BELL DRIVE\nARAROA ROAD\nARAWHATA ROAD\n---"
+        "body": "**Outage ID:** 36956F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Equipment fault\n**Customers Affected:** 5\n**Suburbs:** AHIPARA, HEREKINO, KAITAIA\n---\n**Affected Roads:**\nBRASS ROAD\nKAITAIA-AWAROA ROAD\nSANDHILLS ROAD\n---\n**Update History:**\n- 2026-02-12T23:15:42Z: Equipment fault\n- 2026-02-12T22:30:44Z: Under Investigation"
+      }
+    },
+    {
+      "id": "1133J",
+      "title": "Omaunu Road (1 customers)",
+      "start": "2026-02-12T23:15:42Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Omaunu Road",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-12T23:15:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "11:16 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Restored no fault found",
+              "suburbs": "KAEO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "OMAUNU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "OMAUNU ROAD",
+              "lastUpdateTime": "13/02/2026 11:49 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 1133J\n**Status:** Active\n**Feeder / Circuit:** OMAUNU ROAD\n**Cause:** Restored no fault found\n**Customers Affected:** 1\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nOMAUNU ROAD\n---"
       }
     }
   ]
