@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-12T05-00-48Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-12T06-30-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -17480,6 +17480,48 @@
           }
         ],
         "body": "**Outage ID:** 36935F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Under Investigation\n**Customers Affected:** 13\n**Suburbs:** KAITAIA, KARIKARI PENINSULA\n---\n**Affected Roads:**\nDICK URLICH ROAD\n---"
+      }
+    },
+    {
+      "id": "36938F",
+      "title": "Waima (14 customers)",
+      "start": "2026-02-12T06:30:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "14",
+        "circuit": "Waima",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-12T06:30:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "12/02/2026",
+              "startTime": "03:13 PM",
+              "estimatedRestorationDate": "12/02/2026",
+              "estimatedRestorationTime": "09:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "TAHEKE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AUCKLAND BLOCK ROAD, RAMSEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "14",
+              "feeder": "WAIMA",
+              "lastUpdateTime": "12/02/2026 07:21 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36938F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Under Investigation\n**Customers Affected:** 14\n**Suburbs:** TAHEKE\n---\n**Affected Roads:**\nAUCKLAND BLOCK ROAD\nRAMSEY ROAD\n---"
       }
     }
   ]
