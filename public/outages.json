@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-12T17-31-06Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-12T19-30-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -17564,6 +17564,48 @@
           }
         ],
         "body": "**Outage ID:** 36947F\n**Status:** Active\n**Feeder / Circuit:** POKAPU\n**Cause:** Under Investigation\n**Customers Affected:** 4\n**Suburbs:** MOEREWA\n---\n**Affected Roads:**\nLUCAS ROAD\n---"
+      }
+    },
+    {
+      "id": "36950F",
+      "title": "Totara North (42 customers)",
+      "start": "2026-02-12T17:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "42",
+        "circuit": "Totara North",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-12T17:45:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "02:30 AM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "06:39 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAEO, MANGAMUKA, PERIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AIRSTRIP ROAD, IWITAUA ROAD, OTANGAROA ROAD, OTANGAROA SIDE ROAD, RAUTAHI LANE",
+                "hiddenStreets": "TE RANGA ROAD, TIPATIPA ROAD"
+              },
+              "customersAffected": "42",
+              "feeder": "TOTARA NORTH",
+              "lastUpdateTime": "13/02/2026 06:40 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36950F\n**Status:** Active\n**Feeder / Circuit:** TOTARA NORTH\n**Cause:** Under Investigation\n**Customers Affected:** 42\n**Suburbs:** KAEO, MANGAMUKA, PERIA\n---\n**Affected Roads:**\nAIRSTRIP ROAD\nIWITAUA ROAD\nOTANGAROA ROAD\nOTANGAROA SIDE ROAD\nRAUTAHI LANE\n---"
       }
     }
   ]
