@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-12T19-45-51Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-12T21-00-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -17603,9 +17603,105 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-12T20:15:38Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "02:30 AM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "12:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAEO, MANGAMUKA, PERIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AIRSTRIP ROAD, IWITAUA ROAD, OTANGAROA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "11",
+              "feeder": "TOTARA NORTH",
+              "lastUpdateTime": "13/02/2026 06:40 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-12T20:30:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "02:30 AM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "12:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAEO, MANGAMUKA, PERIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AIRSTRIP ROAD, IWITAUA ROAD, OTANGAROA ROAD, OTANGAROA SIDE ROAD, RAUTAHI LANE",
+                "hiddenStreets": "TE RANGA ROAD, TIPATIPA ROAD"
+              },
+              "customersAffected": "42",
+              "feeder": "TOTARA NORTH",
+              "lastUpdateTime": "13/02/2026 06:40 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36950F\n**Status:** Active\n**Feeder / Circuit:** TOTARA NORTH\n**Cause:** Under Investigation\n**Customers Affected:** 42\n**Suburbs:** KAEO, MANGAMUKA, PERIA\n---\n**Affected Roads:**\nAIRSTRIP ROAD\nIWITAUA ROAD\nOTANGAROA ROAD\nOTANGAROA SIDE ROAD\nRAUTAHI LANE\n---"
+        "body": "**Outage ID:** 36950F\n**Status:** Active\n**Feeder / Circuit:** TOTARA NORTH\n**Cause:** Under Investigation\n**Customers Affected:** 42\n**Suburbs:** KAEO, MANGAMUKA, PERIA\n---\n**Affected Roads:**\nAIRSTRIP ROAD\nIWITAUA ROAD\nOTANGAROA ROAD\nOTANGAROA SIDE ROAD\nRAUTAHI LANE\n---\n**Update History:**\n- 2026-02-12T20:30:45Z: Under Investigation\n- 2026-02-12T20:15:38Z: Under Investigation\n- 2026-02-12T17:45:40Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36881F",
+      "title": "Te Kao (1 customers)",
+      "start": "2026-02-12T21:00:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "1",
+        "circuit": "Te Kao",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-12T21:00:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "03:30 PM",
+              "alternativeStartDate": "17/02/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "17/02/2026",
+              "alternativeEstimatedRestorationTime": "03:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "TE KAO",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "STATE HIGHWAY 1F",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "TE KAO",
+              "lastUpdateTime": "09/02/2026 01:56 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36881F\n**Status:** Active\n**Feeder / Circuit:** TE KAO\n**Cause:** Line Maintenance\n**Customers Affected:** 1\n**Suburbs:** TE KAO\n---\n**Affected Roads:**\nSTATE HIGHWAY 1F\n---"
       }
     }
   ]
