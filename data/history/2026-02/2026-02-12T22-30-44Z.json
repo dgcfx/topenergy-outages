@@ -1,0 +1,429 @@
+{
+  "timestamp": "2026-02-12T22:30:44Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "ca91299df6b1c52d",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "110kV line outage and generator support area. Treat all lines as live",
+        "bannerType": "warning",
+        "bannerExcerpt": "110kV line outage and generator",
+        "bannerMessageWebURLSupport": {
+          "message": "110kV line outage and generator support area {Map} Treat all lines as live",
+          "urls": [
+            {
+              "text": "Map",
+              "url": "https://outages.topenergy.co.nz/storage/notice/OutageMap2026.pdf"
+            }
+          ]
+        }
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "ca91299df6b1c52d",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [
+        {
+          "id": "36956F",
+          "lat": -34.90767080663298,
+          "lng": 173.08557944174893
+        },
+        {
+          "id": "36959F",
+          "lat": -34.99023398789613,
+          "lng": 173.5128478885807
+        }
+      ],
+      "planned": [
+        {
+          "id": "36641F",
+          "lat": -34.873791815116526,
+          "lng": 173.3707236701222
+        },
+        {
+          "id": "36656F",
+          "lat": -35.25976140465191,
+          "lng": 173.9179953333371
+        },
+        {
+          "id": "36719F",
+          "lat": -35.10226745900771,
+          "lng": 173.18150021706094
+        },
+        {
+          "id": "36722F",
+          "lat": -35.10096330982783,
+          "lng": 173.1883327695666
+        },
+        {
+          "id": "36728F",
+          "lat": -35.27793174624966,
+          "lng": 174.07851615702663
+        },
+        {
+          "id": "36755F",
+          "lat": -35.462816416662,
+          "lng": 173.5242470862985
+        },
+        {
+          "id": "36779F",
+          "lat": -35.02256437148541,
+          "lng": 173.8629269775209
+        },
+        {
+          "id": "36800F",
+          "lat": -35.04305669479507,
+          "lng": 173.21759894666144
+        },
+        {
+          "id": "36821F",
+          "lat": -35.35172187156193,
+          "lng": 173.88166673304906
+        },
+        {
+          "id": "36830F",
+          "lat": -35.33305818758859,
+          "lng": 173.66423490959968
+        },
+        {
+          "id": "36839F",
+          "lat": -34.99988375018146,
+          "lng": 173.8394874631766
+        },
+        {
+          "id": "36845F",
+          "lat": -35.428241569819825,
+          "lng": 173.47584585762795
+        },
+        {
+          "id": "36890F",
+          "lat": -35.19802950665829,
+          "lng": 173.8795886101603
+        },
+        {
+          "id": "36920F",
+          "lat": -35.31415014925117,
+          "lng": 173.45800124926134
+        }
+      ],
+      "plannedActive": [
+        {
+          "id": "36881F",
+          "lat": -34.682011885513695,
+          "lng": 173.0099772639387
+        }
+      ]
+    },
+    "outageList": {
+      "customersCurrentlyOff": 11293,
+      "activeOutageCount": 3,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36755F",
+          "startTimestamp": 1770840900,
+          "isActive": false,
+          "circuitName": "Rawene",
+          "customersCurrentlyOff": "32",
+          "startDateTime": "12th February 09:15 am",
+          "endDateTime": "12th February 11:15 am",
+          "alternativeStartDateTime": "13th February 09:15 am",
+          "alternativeEndDateTime": "13th February 11:15 am",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36821F",
+          "startTimestamp": 1771101000,
+          "isActive": false,
+          "circuitName": "Ohaeawai",
+          "customersCurrentlyOff": "100",
+          "startDateTime": "15th February 09:30 am",
+          "endDateTime": "15th February 02:30 pm",
+          "alternativeStartDateTime": "22nd February 09:30 am",
+          "alternativeEndDateTime": "22nd February 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36800F",
+          "startTimestamp": 1771185600,
+          "isActive": false,
+          "circuitName": "Awanui",
+          "customersCurrentlyOff": "55",
+          "startDateTime": "16th February 09:00 am",
+          "endDateTime": "16th February 03:00 pm",
+          "alternativeStartDateTime": "17th February 09:00 am",
+          "alternativeEndDateTime": "17th February 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36641F",
+          "startTimestamp": 1771187400,
+          "isActive": false,
+          "circuitName": "Taipals",
+          "customersCurrentlyOff": "10",
+          "startDateTime": "16th February 09:30 am",
+          "endDateTime": "16th February 01:30 pm",
+          "alternativeStartDateTime": "17th February 09:30 am",
+          "alternativeEndDateTime": "17th February 01:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36779F",
+          "startTimestamp": 1771189200,
+          "isActive": false,
+          "circuitName": "Matauri Bay",
+          "customersCurrentlyOff": "3",
+          "startDateTime": "16th February 10:00 am",
+          "endDateTime": "16th February 02:00 pm",
+          "alternativeStartDateTime": "16th February 10:00 am",
+          "alternativeEndDateTime": "16th February 02:15 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36656F",
+          "startTimestamp": 1771358400,
+          "isActive": false,
+          "circuitName": "Crossroads",
+          "customersCurrentlyOff": "85",
+          "startDateTime": "18th February 09:00 am",
+          "endDateTime": "18th February 01:00 pm",
+          "alternativeStartDateTime": "19th February 09:00 am",
+          "alternativeEndDateTime": "19th February 01:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36719F",
+          "startTimestamp": 1771360200,
+          "isActive": false,
+          "circuitName": "Awanui",
+          "customersCurrentlyOff": "2",
+          "startDateTime": "18th February 09:30 am",
+          "endDateTime": "18th February 03:30 pm",
+          "alternativeStartDateTime": "20th February 09:30 am",
+          "alternativeEndDateTime": "20th February 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36845F",
+          "startTimestamp": 1771362900,
+          "isActive": false,
+          "circuitName": "Opononi",
+          "customersCurrentlyOff": "47",
+          "startDateTime": "18th February 10:15 am",
+          "endDateTime": "18th February 02:45 pm",
+          "alternativeStartDateTime": "2nd March 10:15 am",
+          "alternativeEndDateTime": "2nd March 02:45 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36920F",
+          "startTimestamp": 1771446600,
+          "isActive": false,
+          "circuitName": "Broadwood",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "19th February 09:30 am",
+          "endDateTime": "19th February 11:30 am",
+          "alternativeStartDateTime": "20th February 09:30 am",
+          "alternativeEndDateTime": "20th February 11:30 am",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36839F",
+          "startTimestamp": 1771448400,
+          "isActive": false,
+          "circuitName": "Whangaroa",
+          "customersCurrentlyOff": "38",
+          "startDateTime": "19th February 10:00 am",
+          "endDateTime": "19th February 03:00 pm",
+          "alternativeStartDateTime": "9th March 10:00 am",
+          "alternativeEndDateTime": "9th March 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36722F",
+          "startTimestamp": 1771533000,
+          "isActive": false,
+          "circuitName": "Awanui",
+          "customersCurrentlyOff": "19",
+          "startDateTime": "20th February 09:30 am",
+          "endDateTime": "20th February 03:30 pm",
+          "alternativeStartDateTime": "23rd February 09:30 am",
+          "alternativeEndDateTime": "23rd February 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36890F",
+          "startTimestamp": 1771535700,
+          "isActive": false,
+          "circuitName": "Puketi",
+          "customersCurrentlyOff": "4",
+          "startDateTime": "20th February 10:15 am",
+          "endDateTime": "20th February 03:00 pm",
+          "alternativeStartDateTime": "23rd February 10:15 am",
+          "alternativeEndDateTime": "23rd February 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36830F",
+          "startTimestamp": 1771540200,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "20th February 11:30 am",
+          "endDateTime": "20th February 02:30 pm",
+          "alternativeStartDateTime": "2nd March 11:30 am",
+          "alternativeEndDateTime": "2nd March 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36728F",
+          "startTimestamp": 1771794000,
+          "isActive": false,
+          "circuitName": "Ti Bay",
+          "customersCurrentlyOff": "123",
+          "startDateTime": "23rd February 10:00 am",
+          "endDateTime": "23rd February 03:00 pm",
+          "alternativeStartDateTime": "24th February 10:00 am",
+          "alternativeEndDateTime": "24th February 03:00 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": [
+        {
+          "type": "unplanned",
+          "name": "36959F",
+          "startTimestamp": 1770934680,
+          "isActive": true,
+          "circuitName": "Sub-transmission",
+          "customersCurrentlyOff": "4612",
+          "startDateTime": "13th February 11:18 am",
+          "endDateTime": "Not available",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "unplanned",
+          "name": "36956F",
+          "startTimestamp": 1770934680,
+          "isActive": true,
+          "circuitName": "Sub-transmission",
+          "customersCurrentlyOff": "6680",
+          "startDateTime": "13th February 11:18 am",
+          "endDateTime": "Not available",
+          "alternativeStartDateTime": "",
+          "alternativeEndDateTime": "",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36881F",
+          "startTimestamp": 1770928200,
+          "isActive": true,
+          "circuitName": "Te Kao",
+          "customersCurrentlyOff": "1",
+          "startDateTime": "13th February 09:30 am",
+          "endDateTime": "13th February 03:30 pm",
+          "alternativeStartDateTime": "17th February 09:30 am",
+          "alternativeEndDateTime": "17th February 03:30 pm",
+          "additionalInformation": ""
+        }
+      ]
+    }
+  },
+  "detailedOutageInfo": {
+    "36959F": {
+      "duration": "Unknown",
+      "startDate": "13/02/2026",
+      "startTime": "11:18 AM",
+      "estimatedRestorationDate": null,
+      "estimatedRestorationTime": null,
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": ", CABLE BAY, COOPERS BEACH, DOUBTLESS BAY, FAIRBURN, HIHI, HIHI BEACH, KAINGAROA, KAITAIA, KARIKARI, KARIKARI PENINSULA, KARIKARI PENINSULAR, KARIKARI PENNINSULA, KARIKARI PENSULIA, LAKE OHIA, MANGONUI, MILL BAY, ORURU, PAEWHENUA ISLAND, PARANUI, PARAPARA, PERIA, RANGIPUTA, TAIPA, TAUPO BAY, TOKERAU BEACH, WHATUWHIWHI",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "ADAMSON ROAD, AKATERE ROAD, AKEAKE CRESCENT, ALEXANDER STREET, AMELIE PLACE",
+        "hiddenStreets": "APUTEREWA ROAD, ARKLES WAY, AURERE BEACH ROAD, BACKRIVER ROAD, BANKSIA ROAD, BANYAN ROAD, BARRIBALL ROAD, BAY HEIGHTS DRIVE, BAY VIEW ROAD, BAYSIDE DRIVE, BAYVIEW ROAD, BEACH ROAD, BECKHAM ROAD, BERGHAN ROAD, BOWDEN ROAD, BRAEMAR AVENUE, BROOKE ROAD, BRUNTON PLACE, BURMA ROAD, BUSH POINT ROAD, CABLE BAY BLOCK RD, CABLE BAY BLOCK ROAD, CABLE BAY HEIGHTS DRIVE, CAMPBELL ROAD, CARRINGTON DRIVE, CHRISTINE DRIVE, CHUCKS COVE, COACHMANS WAY, COLONEL MOULD DRIVE, COMPASS COVE, CONAGLEN ROAD, COOPERS DRIVE, COURTNEY PLACE, DANGEN ROAD, DE SURVILLE ROAD, DICK URLICH ROAD, DOUBTLESS BAY DRIVE, DRIFTWOOD LANE, DUDLEY CRESCENT, DUTTON ROAD, EAGLES WAY, EAST STREET, FAIRBURN ROAD, FAIRWINDS PLACE, FAITH LANE, FERN FLAT ROAD, FLAME TREE LANE, FOSTERS ROAD, FRANGIPANI STREET, FRANTOIO RIDGE ROAD, FRAZER PLACE, FREAR RISE, FREYJA CRESCENT, GARTON ROAD, GEORGE STREET, GILLIES ROAD, GREY STREET, GREY STREET EAST, HAEKARO LANE, HARBOUR VIEW RISE, HEIMDAL WAY, HERETAUNGA CRESCENT, HERETAUNGA CRESENT, HIBISCUS AVE, HIBISCUS AVENUE, HIHI BEACH ROAD, HIHI ROAD, HONEYMOON VALLEY ROAD, HOUSHAM ROAD, INLAND FLOOD BYPASS ROAD, INLAND ROAD, JASON ROAD, KARAMEA ROAD, KOHUMARU ROAD, KOTARE DRIVE, KUPE ROAD, LAKE OHIA ROAD, LECCINO VALLEY ROAD, LESLIE ROAD, LINDSEY WAY, LOKE CRESCENT, LORI LANE, MABEL THORBURN PLACE, MAGNOLIA DRIVE, MAHOE LANE, MAKO STREET, MAMARU ROAD, MANGATETE ROAD, MARCHANT ROAD, MARLIN DRIVE, MARREINE PLACE, MARY HASSETT STREET, MATAHOURUA CLOSE, MATAI BAY ROAD, MATARIKI PLACE, MEENAS PLACE, MELISSA ROAD, MELODY LANE, MIDGARD ROAD, MIDGLEY ROAD, MILL BAY ROAD, MOREY ROAD, MOTUTARA DRIVE, NANCY WAKE PLACE, NGATIKAHU ROAD, OCEAN VIEW ROAD, OCEANVIEW ROAD, ODEN HILL, OLIVE VIEW HEIGHTS DRIVE, OMATAI ROAD, OPARIHI ROAD, OPOI LANE, ORUAITI ROAD, ORURU ROAD, ORURU VALLEY ROAD, PACKARD ROAD, PARADISE ROAD, PARANUI ROAD, PARANUI-TOATOA ROAD, PARAPARA ROAD, PARAPARA -TOATOA ROAD, PARAPARA-TOATOA ROAD, PAREMATA NEXUS ROAD, PARIRI ROAD, PEKAMA DRIVE, PEKERAU ROAD, PENINSULA PARADE, PEREHIPE ROAD, PERIA ROAD, PERIA VALLEY ROAD, PIRIKAHA ROAD, POHUTUKAWA DRIVE, POWELLS ROAD, PROTEA DRIVE, PUHEKE ROAD, PUKETITI DRIVE, PUKEWHAI ROAD, RAMP ROAD, RANGIKAPITI ROAD, RANGINUI STREET, RANGIPUTA ROAD, RICHMOND ROAD, RUSSELL ROAD, RYDER ROAD, SAN MARINO DRIVE, SAWYER ROAD, SEASCAPE LANE, SEAVIEW ROAD, SHEPHERD ROAD, SILVER EGG ROAD, SIMMENTAL LANE, SIMON URLICH ROAD, SIMPSON ROAD, SPICER ROAD, ST JOHNS ROAD, STATE HIGHWAY 10, STONEY BAY LANE, STONEY CREEK ROAD, STRATFORD DRIVE, SUNLOVER WAY, SUNRISE PLACE, SUNSET HEIGHTS, TAEMARO ROAD, TAHANGA ROAD, TAIPA HEIGHTS DRIVE, TAIPA POINT ROAD, TAIPA TIDES DRIVE, TAIPA VIEW ROAD, TASMAN STREET, TAUMATA ROAD, TAUPO BAY RD, TAUPO BAY ROAD, TAYLOR ROAD, TE AHU PLACE, TE KAROA ROAD, TE MOHO ROAD, TE RANGINUI PLACE, THOMAS STREET, THOMPSON PLACE, TIPATIPA ROAD, TOKERAU BEACH RD, TOKERAU BEACH ROAD, TORSBY ROAD, TUITONGA ROAD, TUNA PLACE, TURVEY ROAD, VIDAR WAY, VIRTUE CRESCENT, WAIAUA ROAD, WAIMANGO ROAD, WALLACE ROAD, WALTERS WAY, WATERFRONT DRIVE, WATERFRONT ROAD, WELLS ROAD, WHALE CRESCENT, WHATUWHIWHI ROAD, WHITECAPS PLACE, WHITNEY LANE, WILSON WAY, WINDUST ROAD, WRATHALL ROAD, ZIDICH ROAD"
+      },
+      "customersAffected": "4612",
+      "feeder": "Sub-Transmission",
+      "lastUpdateTime": "13/02/2026 11:18 AM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "36956F": {
+      "duration": "Unknown",
+      "startDate": "13/02/2026",
+      "startTime": "11:18 AM",
+      "estimatedRestorationDate": null,
+      "estimatedRestorationTime": null,
+      "alternativeStartDate": "",
+      "alternativeStartTime": "",
+      "alternativeEstimatedRestorationDate": "",
+      "alternativeEstimatedRestorationTime": "",
+      "additionalInformation": "",
+      "cause": "Under Investigation",
+      "suburbs": ", AHIPARA, AWANUI, BROADWOOD, HENDERSON BAY, HEREKINO, HOUHORA, HOUHOURA, KAIANGAROA, KAIMAUMAU, KAINGAROA, KAITAIA, MOTUTANGI, NGATAKI, OKAIHAU, PAPARORE, PUKENUI, PUKEPOTO, TE HAPUA, TE KAO, TE PAKI, TEHAPUA, WAIHARARA, WAIHOPO, WAIPAPAKAURI, WHANGAPE",
+      "noticeType": "Unplanned",
+      "streets": {
+        "showStreets": "AHIPARA ROAD, ALBATROSS ALLEY, ALLEN BELL DRIVE, ARAROA ROAD, ARAWHATA ROAD",
+        "hiddenStreets": "ARCHIBALD STREET, ATKINSON ROAD, AWAROA ROAD, BANK STREET, BARRIBALL ROAD, BEATSON PLACE, BELL ROAD, BIG FLAT ROAD, BIRD ROAD, BLENCOWE STREET, BOBS WAY, BONNETT ROAD, BONNETTS ROAD, BRASS ROAD, BROTT  ROAD, BURNAGE ROAD, CAMEL VIEW HEIGHTS, CAMP ROAD, CAPE REINGA ROAD, CHAMPION ROAD, CHURCH ROAD, CHURTON ROAD, CLARKE ROAD, COLLARD STREET, COMMERCE STREET, COX ROAD, DAVIS STREET, DICK SMITH LOOP ROAD, DIGGERS VALLEY ROAD, DOEL ROAD, DOMINION ROAD, DONALD LANE, DONALD ROAD, DUKE STREET, DUNCAN ROAD, DUNN STREET, DYKIN ROAD, DYSART ROAD, EDEN TERRACE, ELINGAMITE DRIVE, EMPIRE STREET, ENID AVENUE, EVERITT ROAD, FAR NORTH RD, FAR NORTH ROAD, FARRIMOND PLACE, FISHER-RILEY ROAD, FITZGERALD ROAD, FOLEY STREET, FORESHORE ROAD, GILL ROAD, GODINOVICH ROAD, GRIGG STREET, GUMBOOT ROAD, GUMFIELDS ROAD, HAGGER STREET, HARBOUR VIEW ROAD, HARRY'S LANE, HEATH ROAD, HENDERSON BAY ROAD, HESTER PLACE, HIGHFIELDS ROAD, HILLCREST ROAD, HINAU STREET, HOUHORA GREENS WAY, HOUHORA HEADS ROAD, HUI ROAD, HUKATERE ROAD, HUREPO PLACE, IMMS ROAD, JAMIESON ROAD, JUNIPER LANE, KAIAWE ROAD, KAIKATIA ROAD, KAIMAUMAU ROAD, KAITAIA AWAROA ROAD, KAITAIA-AWAROA ROAD, KAKA STREET, KAKAPO STREET, KARAWAKA STREET, KATAVICH ROAD, KAUERE ROAD, KAUHANGA ROAD, KIMBERLEY ROAD, KITCHENER STREET, KIWI STREET, KOHUHU STREET, KOKOPU STREET, KORIMAKO LANE, KORORA STREET, KOTARE STREET, KUMI ROAD, KUNICICH ROAD, LAKE NGATU ROAD, LAKE ROAD, LAMB ROAD, LARMER ROAD, LONG STREET, MAIMARU LANE, MAIN ROAD, MANGATETE HEIGHTS, MANGATETE HEIGHTS ROAD, MANGATETE ROAD, MANUKAU ROAD, MARY ANN PLACE, MASFEN TERRACE, MASTERS ACCESS ROAD, MASTERS PLACE, MATAI STREET, MATARAU ROAD, MATICH ROAD, MATILDA PLACE, MATTHEWS AVENUE, MAY ROAD, MCDONALD ROAD, MCMANUS ROAD, MELBA STREET, MELODY LANE, MILKY WAY, MILL ROAD, MIRO PLACE, MISSION PLACE, MOA STREET, NGAKAPUA ROAD, NGAKAROA ROAD, NGATAKI ROAD, NOLA PLACE, NORMAN SENN AVENUE, NORTH PARK DRIVE, NORTH ROAD, NORTH WAY, NORTHWOOD AVENUE, NORTON ROAD, OHOTU WAY, OINU ROAD, OKAHU DOWNS DRIVE, OKAHU RD, OKAHU ROAD, ORCHARD PLACE, OROWHANA ROAD, OTAIPANGO ROAD, OTURU BLOCK ROAD, OTURU ROAD, OWHATA ROAD, OXFORD STREET, PAIRATAHI ROAD, PANAKAREAO STREET, PANORAMA LANE, PAPARORE ROAD, PARKDALE CRESCENT, PAUA ROAD, PINE BLOCK ROAD, POKO POHAIA ROAD, POSEIDON WAY, POTAHI ROAD, POWELL ROAD, PUCKEY AVENUE, PUCKEY ROAD, PUHATA ROAD, PUKENUI WHARF ROAD, PUKEPOTO ROAD, PURIRI BLOCK ROAD, PURIRI PLACE, QUARRY ROAD, QUEEN STREET, RAMP ROAD, RANGIKOHU ROAD, RANGIKOHU SETTLEMENT WAY, RARAWA BEACH ROAD, RATA PLACE, RATA STREET, REDAN ROAD, REDAN TERRACE, REEF VIEW ROAD, REEFVIEW ROAD, ROMA ROAD, RONAS PLACE, RONGOPAI PLACE, ROSEMAY LANE, ROTOKAWAU ROAD, SALEYARD AVENUE, SALT ROAD, SALVATION ROAD, SANDHILLS ROAD, SMITH ROAD, SOUTH ROAD, SOUTHEY STREET, SPAINS ROAD, SRHOJ ROAD, STANDING PLACE, STATE HIGHWAY 1, STATE HIGHWAY 10, STATE HIGHWAY 1F, SUBRITZKY ROAD, SULENTA LOOP ROAD, SUMMERVILLE AVENUE, SWEETWATER ROAD, SYDANN PLACE, TAAFFE STREET, TAHUNA ROAD, TAKAHE ROAD, TAMATEA ROAD, TANGONGE CRESCENT, TANGONGE ROAD, TASMAN HEIGHTS, TASMAN HEIGHTS ROAD, TATANA ROAD, TAUPATA PLACE, TAYLOR ROAD, TE AHU ROAD, TE AHU STREET, TE HAPUA ROAD, TE MAIRE AVENUE, TE PAIA LANE, TE PAKI STREAM ROAD, TE PUA ROAD, TE RAWHITIROA ROAD, TE REINGA STREET, TERRY CRESCENT, THE ANCHORAGE, TODD LANE, TRIG ROAD, TUI STREET, TURK VALLEY ROAD, UNAHI ROAD, VEGAR STREET, VIEW LANE, WAGENER GROVE, WAHARUA ROAD, WAIMANONI ROAD, WAINUI ROAD, WAIPAPAKAURI DOMAIN ROAD, WAITEHUIA ROAD, WALKER ROAD, WARAU STREET, WARD STREET, WATERFRONT ROAD, WATERSIDE WAY, WATTS STREET, WEBER PLACE, WEKA STREET, WEST COAST ROAD, WEST ROAD, WHALERS ROAD, WHANGAPE ROAD, WHANGATANE DRIVE, WHARO WAY, WILLIAMS STREET, WIRELESS ROAD, WORTH STREET, WRECK BAY ROAD"
+      },
+      "customersAffected": "6680",
+      "feeder": "Sub-Transmission",
+      "lastUpdateTime": "13/02/2026 11:18 AM",
+      "status": "Active",
+      "offsupply": "1"
+    },
+    "36881F": {
+      "duration": "Unknown",
+      "startDate": "13/02/2026",
+      "startTime": "09:30 AM",
+      "estimatedRestorationDate": "13/02/2026",
+      "estimatedRestorationTime": "03:30 PM",
+      "alternativeStartDate": "17/02/2026",
+      "alternativeStartTime": "09:30 AM",
+      "alternativeEstimatedRestorationDate": "17/02/2026",
+      "alternativeEstimatedRestorationTime": "03:30 PM",
+      "additionalInformation": "",
+      "cause": "Line Maintenance",
+      "suburbs": "TE KAO",
+      "noticeType": "Planned",
+      "streets": {
+        "showStreets": "STATE HIGHWAY 1F",
+        "hiddenStreets": ""
+      },
+      "customersAffected": "1",
+      "feeder": "TE KAO",
+      "lastUpdateTime": "09/02/2026 01:56 PM",
+      "status": "Active",
+      "offsupply": "1"
+    }
+  }
+}
