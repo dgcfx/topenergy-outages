@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-13T05-00-45Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-13T06-30-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -18176,7 +18176,7 @@
       "id": "36974F",
       "title": "Awarua (2 customers)",
       "start": "2026-02-13T04:45:45Z",
-      "end": null,
+      "end": "2026-02-13T05:45:36Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -18236,9 +18236,105 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-13T05:15:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "02:23 PM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "06:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Extreme weather",
+              "suburbs": "KAIKOHE, PUNAKITERE VALLEY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ORAKAU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "13/02/2026 05:30 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36974F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Extreme weather\n**Customers Affected:** 5\n**Suburbs:** KAIKOHE, PUNAKITERE VALLEY\n---\n**Affected Roads:**\nORAKAU ROAD\n---\n**Update History:**\n- 2026-02-13T05:00:45Z: Extreme weather\n- 2026-02-13T04:45:45Z: Extreme weather"
+        "body": "**Outage ID:** 36974F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Extreme weather\n**Customers Affected:** 3\n**Suburbs:** KAIKOHE, PUNAKITERE VALLEY\n---\n**Affected Roads:**\nORAKAU ROAD\n---\n**Update History:**\n- 2026-02-13T05:15:40Z: Extreme weather\n- 2026-02-13T05:00:45Z: Extreme weather\n- 2026-02-13T04:45:45Z: Extreme weather"
+      }
+    },
+    {
+      "id": "36977F",
+      "title": "Sub-transmission (5 customers)",
+      "start": "2026-02-13T06:00:38Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "5",
+        "circuit": "Sub-transmission",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-13T06:00:38Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "02:23 PM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "06:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Extreme weather",
+              "suburbs": "MOEREWA, PUNAKITERE VALLEY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "NGAPIPITO ROAD, ORAKAU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "5",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "13/02/2026 06:50 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-13T06:30:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "02:23 PM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "06:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Extreme weather",
+              "suburbs": "MOEREWA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "NGAPIPITO ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "POKAPU",
+              "lastUpdateTime": "13/02/2026 06:50 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36977F\n**Status:** Active\n**Feeder / Circuit:** POKAPU\n**Cause:** Extreme weather\n**Customers Affected:** 2\n**Suburbs:** MOEREWA\n---\n**Affected Roads:**\nNGAPIPITO ROAD\n---\n**Update History:**\n- 2026-02-13T06:30:41Z: Extreme weather\n- 2026-02-13T06:00:38Z: Extreme weather"
       }
     }
   ]
