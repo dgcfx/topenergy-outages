@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-13T06-30-41Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-13T08-00-50Z.json",
   "events": [
     {
       "id": "35660F",
@@ -18107,7 +18107,7 @@
       "id": "36971F",
       "title": "Pokapu (4 customers)",
       "start": "2026-02-13T04:30:43Z",
-      "end": null,
+      "end": "2026-02-13T07:00:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -18332,9 +18332,132 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-13T06:45:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "02:23 PM",
+              "estimatedRestorationDate": "14/02/2026",
+              "estimatedRestorationTime": "11:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Extreme weather",
+              "suburbs": "MOEREWA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "NGAPIPITO ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "POKAPU",
+              "lastUpdateTime": "13/02/2026 06:50 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-13T07:15:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "01:14 PM",
+              "estimatedRestorationDate": "14/02/2026",
+              "estimatedRestorationTime": "11:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Extreme weather",
+              "suburbs": "AWARUA, MOEREWA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MANGAKAHIA ROAD, NGAPIPITO ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "13/02/2026 06:50 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-13T07:30:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "01:14 PM",
+              "estimatedRestorationDate": "14/02/2026",
+              "estimatedRestorationTime": "11:00 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Extreme weather",
+              "suburbs": "MOEREWA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "NGAPIPITO ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "POKAPU",
+              "lastUpdateTime": "13/02/2026 06:50 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36977F\n**Status:** Active\n**Feeder / Circuit:** POKAPU\n**Cause:** Extreme weather\n**Customers Affected:** 2\n**Suburbs:** MOEREWA\n---\n**Affected Roads:**\nNGAPIPITO ROAD\n---\n**Update History:**\n- 2026-02-13T06:30:41Z: Extreme weather\n- 2026-02-13T06:00:38Z: Extreme weather"
+        "body": "**Outage ID:** 36977F\n**Status:** Active\n**Feeder / Circuit:** POKAPU\n**Cause:** Extreme weather\n**Customers Affected:** 2\n**Suburbs:** MOEREWA\n---\n**Affected Roads:**\nNGAPIPITO ROAD\n---\n**Update History:**\n- 2026-02-13T07:30:44Z: Extreme weather\n- 2026-02-13T07:15:40Z: Extreme weather\n- 2026-02-13T06:45:41Z: Extreme weather\n- 2026-02-13T06:30:41Z: Extreme weather\n- 2026-02-13T06:00:38Z: Extreme weather"
+      }
+    },
+    {
+      "id": "36986F",
+      "title": "Broadwood (2 customers)",
+      "start": "2026-02-13T08:00:50Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "2",
+        "circuit": "Broadwood",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-13T08:00:50Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "08:56 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "TAKAHUE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "BROADWOOD",
+              "lastUpdateTime": "13/02/2026 08:57 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36986F\n**Status:** Active\n**Feeder / Circuit:** BROADWOOD\n**Cause:** Under Investigation\n**Customers Affected:** 2\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nTAKAHUE ROAD\n---"
       }
     }
   ]
