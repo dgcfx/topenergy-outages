@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-12T23-45-37Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-13T03-30-36Z.json",
   "events": [
     {
       "id": "35660F",
@@ -17666,7 +17666,7 @@
       "id": "36881F",
       "title": "Te Kao (1 customers)",
       "start": "2026-02-12T21:00:46Z",
-      "end": null,
+      "end": "2026-02-13T00:00:38Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -17882,6 +17882,183 @@
           }
         ],
         "body": "**Outage ID:** 1133J\n**Status:** Active\n**Feeder / Circuit:** OMAUNU ROAD\n**Cause:** Restored no fault found\n**Customers Affected:** 1\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nOMAUNU ROAD\n---"
+      }
+    },
+    {
+      "id": "1136J",
+      "title": "Awarua (4 customers)",
+      "start": "2026-02-13T01:30:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "4",
+        "circuit": "Awarua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-13T01:30:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "02:23 PM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "04:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Extreme weather",
+              "suburbs": "PUNAKITERE VALLEY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MATENE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "4",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "13/02/2026 02:24 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-13T01:45:36Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "02:23 PM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "04:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Extreme weather",
+              "suburbs": "PUNAKITERE VALLEY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MATENE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "3",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "13/02/2026 02:24 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-13T02:00:39Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "02:23 PM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "04:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Extreme weather",
+              "suburbs": "PUNAKITERE VALLEY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MATENE ROAD, ORAKAU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "5",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "13/02/2026 02:24 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-13T02:30:38Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "02:23 PM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "04:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Extreme weather",
+              "suburbs": "PUNAKITERE VALLEY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ORAKAU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "13/02/2026 02:24 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-13T02:45:42Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "02:23 PM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "04:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Extreme weather",
+              "suburbs": "KAIKOHE, PUNAKITERE VALLEY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ORAKAU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "13/02/2026 02:24 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-13T03:30:36Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "02:23 PM",
+              "estimatedRestorationDate": "13/02/2026",
+              "estimatedRestorationTime": "04:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Extreme weather",
+              "suburbs": "PUNAKITERE VALLEY, TAUTORO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ORAKAU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "2",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "13/02/2026 02:24 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 1136J\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Extreme weather\n**Customers Affected:** 2\n**Suburbs:** PUNAKITERE VALLEY, TAUTORO\n---\n**Affected Roads:**\nORAKAU ROAD\n---\n**Update History:**\n- 2026-02-13T03:30:36Z: Extreme weather\n- 2026-02-13T02:45:42Z: Extreme weather\n- 2026-02-13T02:30:38Z: Extreme weather\n- 2026-02-13T02:00:39Z: Extreme weather\n- 2026-02-13T01:45:36Z: Extreme weather\n- 2026-02-13T01:30:40Z: Extreme weather"
       }
     }
   ]
