@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-14T17-45-38Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-14T19-00-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -18527,6 +18527,48 @@
           }
         ],
         "body": "**Outage ID:** 36995F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** KOHUKOHU\n---\n**Affected Roads:**\nPAPONGA ROAD\n---"
+      }
+    },
+    {
+      "id": "36998F",
+      "title": "Waima (438 customers)",
+      "start": "2026-02-14T18:45:46Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "438",
+        "circuit": "Waima",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-14T18:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "15/02/2026",
+              "startTime": "07:40 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE, OMANAIA, OTAUA, RAWENE, TAHEKE, WAIMA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AUCKLAND BLOCK ROAD, AYRTON ROAD, BEDGGOOD ROAD, DUDDY ROAD, GRAHAM ROAD",
+                "hiddenStreets": "GUTHRIE ROAD, HOREKE ROAD, JORDAN ROAD, MANGATAWA ROAD, MISSION OAK ROAD, NINIHI ROAD, OTATARA MARAE ROAD, OTAUA ROAD, PERAS ROAD, PUHA ROAD, PUNAKITERE ROAD, RAKAUWAHIA ROAD, RAMSEY ROAD, RENWICK ROAD, ROGER ROAD, STATE HIGHWAY 12, TAHEKE ROAD, TE IRENGA WEST ROAD, TE OHU ROAD, WAIMA SCHOOL ROAD, WAIMA VALLEY ROAD, WAOKU ROAD, WHAREPUNGA ROAD, YOUNG ROAD"
+              },
+              "customersAffected": "438",
+              "feeder": "WAIMA",
+              "lastUpdateTime": "15/02/2026 07:40 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36998F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Under Investigation\n**Customers Affected:** 438\n**Suburbs:** KAIKOHE, OMANAIA, OTAUA, RAWENE, TAHEKE, WAIMA\n---\n**Affected Roads:**\nAUCKLAND BLOCK ROAD\nAYRTON ROAD\nBEDGGOOD ROAD\nDUDDY ROAD\nGRAHAM ROAD\n---"
       }
     }
   ]
