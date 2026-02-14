@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-14T20-45-43Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-14T21-45-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -18620,9 +18620,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-14T21:45:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "15/02/2026",
+              "startTime": "07:47 AM",
+              "estimatedRestorationDate": "15/02/2026",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": "KAIKOHE, TAHEKE, WAIMA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BEDGGOOD ROAD, HOREKE ROAD, MISSION OAK ROAD, OTATARA MARAE ROAD, PERAS ROAD",
+                "hiddenStreets": "PUHA ROAD, RAMSEY ROAD, STATE HIGHWAY 12, WAIMA VALLEY ROAD, WAOKU ROAD"
+              },
+              "customersAffected": "115",
+              "feeder": "WAIMA",
+              "lastUpdateTime": "15/02/2026 07:40 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 36998F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Vehicle impact\n**Customers Affected:** 115\n**Suburbs:** KAIKOHE, TAHEKE, WAIMA\n---\n**Affected Roads:**\nBEDGGOOD ROAD\nHOREKE ROAD\nMISSION OAK ROAD\nOTATARA MARAE ROAD\nPERAS ROAD\n---\n**Update History:**\n- 2026-02-14T19:45:42Z: Vehicle impact\n- 2026-02-14T19:30:40Z: Vehicle impact\n- 2026-02-14T18:45:46Z: Under Investigation"
+        "body": "**Outage ID:** 36998F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Vehicle impact\n**Customers Affected:** 115\n**Suburbs:** KAIKOHE, TAHEKE, WAIMA\n---\n**Affected Roads:**\nBEDGGOOD ROAD\nHOREKE ROAD\nMISSION OAK ROAD\nOTATARA MARAE ROAD\nPERAS ROAD\n---\n**Update History:**\n- 2026-02-14T21:45:41Z: Vehicle impact\n- 2026-02-14T19:45:42Z: Vehicle impact\n- 2026-02-14T19:30:40Z: Vehicle impact\n- 2026-02-14T18:45:46Z: Under Investigation"
       }
     }
   ]
