@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-14T22-45-44Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-14T23-45-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -18533,7 +18533,7 @@
       "id": "36998F",
       "title": "Waima (438 customers)",
       "start": "2026-02-14T18:45:46Z",
-      "end": null,
+      "end": "2026-02-14T23:30:40Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
