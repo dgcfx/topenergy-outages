@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-14T23-45-41Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-15T03-30-42Z.json",
   "events": [
     {
       "id": "35660F",
@@ -18650,6 +18650,48 @@
           }
         ],
         "body": "**Outage ID:** 36998F\n**Status:** Active\n**Feeder / Circuit:** WAIMA\n**Cause:** Vehicle impact\n**Customers Affected:** 115\n**Suburbs:** KAIKOHE, TAHEKE, WAIMA\n---\n**Affected Roads:**\nBEDGGOOD ROAD\nHOREKE ROAD\nMISSION OAK ROAD\nOTATARA MARAE ROAD\nPERAS ROAD\n---\n**Update History:**\n- 2026-02-14T21:45:41Z: Vehicle impact\n- 2026-02-14T19:45:42Z: Vehicle impact\n- 2026-02-14T19:30:40Z: Vehicle impact\n- 2026-02-14T18:45:46Z: Under Investigation"
+      }
+    },
+    {
+      "id": "37001F",
+      "title": "Crossroads (90 customers)",
+      "start": "2026-02-15T01:30:44Z",
+      "end": "2026-02-15T01:45:44Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "90",
+        "circuit": "Crossroads",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-15T01:30:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "15/02/2026",
+              "startTime": "02:12 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KERIKERI, WAIMATE NORTH",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "ARTHUR TAYLOR PLACE, FLAX GROVE, MONTROSE ROAD, WAIMATE NORTH ROAD, WAIMATE ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "90",
+              "feeder": "CROSSROADS",
+              "lastUpdateTime": "15/02/2026 02:16 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 37001F\n**Status:** Active\n**Feeder / Circuit:** CROSSROADS\n**Cause:** Under Investigation\n**Customers Affected:** 90\n**Suburbs:** KERIKERI, WAIMATE NORTH\n---\n**Affected Roads:**\nARTHUR TAYLOR PLACE\nFLAX GROVE\nMONTROSE ROAD\nWAIMATE NORTH ROAD\nWAIMATE ROAD\n---"
       }
     }
   ]
