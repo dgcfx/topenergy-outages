@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-15T20-45-43Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-15T21-45-40Z.json",
   "events": [
     {
       "id": "35660F",
@@ -18767,7 +18767,7 @@
       "id": "36641F",
       "title": "Taipals (10 customers)",
       "start": "2026-02-15T20:45:43Z",
-      "end": null,
+      "end": "2026-02-15T21:30:42Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -18803,6 +18803,48 @@
           }
         ],
         "body": "**Outage ID:** 36641F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Line Maintenance\n**Customers Affected:** 10\n**Suburbs:** KARIKARI PENINSULA\n---\n**Affected Roads:**\nINLAND ROAD\n---"
+      }
+    },
+    {
+      "id": "37004F",
+      "title": "Ohaeawai (4 customers)",
+      "start": "2026-02-15T21:00:51Z",
+      "end": "2026-02-15T21:45:40Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "4",
+        "circuit": "Ohaeawai",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-15T21:00:51Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/02/2026",
+              "startTime": "09:46 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "WAIMATE NORTH",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WAIKARAMU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "4",
+              "feeder": "OHAEAWAI",
+              "lastUpdateTime": "16/02/2026 09:47 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 37004F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Under Investigation\n**Customers Affected:** 4\n**Suburbs:** WAIMATE NORTH\n---\n**Affected Roads:**\nWAIKARAMU ROAD\n---"
       }
     }
   ]
