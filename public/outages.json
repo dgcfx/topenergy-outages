@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-15T19-45-45Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-15T20-45-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -17879,9 +17879,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-15T20:30:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "13/02/2026",
+              "startTime": "11:16 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KAEO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "OMAUNU ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "OMAUNU ROAD",
+              "lastUpdateTime": "13/02/2026 11:49 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 1133J\n**Status:** Active\n**Feeder / Circuit:** OMAUNU ROAD\n**Cause:** Restored no fault found\n**Customers Affected:** 1\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nOMAUNU ROAD\n---"
+        "body": "**Outage ID:** 1133J\n**Status:** Active\n**Feeder / Circuit:** OMAUNU ROAD\n**Cause:** Equipment fault\n**Customers Affected:** 1\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nOMAUNU ROAD\n---\n**Update History:**\n- 2026-02-15T20:30:47Z: Equipment fault\n- 2026-02-12T23:15:42Z: Restored no fault found"
       }
     },
     {
@@ -18692,6 +18719,90 @@
           }
         ],
         "body": "**Outage ID:** 37001F\n**Status:** Active\n**Feeder / Circuit:** CROSSROADS\n**Cause:** Under Investigation\n**Customers Affected:** 90\n**Suburbs:** KERIKERI, WAIMATE NORTH\n---\n**Affected Roads:**\nARTHUR TAYLOR PLACE\nFLAX GROVE\nMONTROSE ROAD\nWAIMATE NORTH ROAD\nWAIMATE ROAD\n---"
+      }
+    },
+    {
+      "id": "36800F",
+      "title": "Awanui (55 customers)",
+      "start": "2026-02-15T20:30:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "55",
+        "circuit": "Awanui",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-15T20:30:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/02/2026",
+              "startTime": "09:00 AM",
+              "estimatedRestorationDate": "16/02/2026",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "17/02/2026",
+              "alternativeStartTime": "09:00 AM",
+              "alternativeEstimatedRestorationDate": "17/02/2026",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "AWANUI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "BIRD ROAD, KUNICICH ROAD, SPAINS ROAD, SWEETWATER ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "55",
+              "feeder": "AWANUI",
+              "lastUpdateTime": "02/02/2026 02:45 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36800F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Line Maintenance\n**Customers Affected:** 55\n**Suburbs:** AWANUI\n---\n**Affected Roads:**\nBIRD ROAD\nKUNICICH ROAD\nSPAINS ROAD\nSWEETWATER ROAD\n---"
+      }
+    },
+    {
+      "id": "36641F",
+      "title": "Taipals (10 customers)",
+      "start": "2026-02-15T20:45:43Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "10",
+        "circuit": "Taipals",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-15T20:45:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/02/2026",
+              "startTime": "09:30 AM",
+              "estimatedRestorationDate": "16/02/2026",
+              "estimatedRestorationTime": "01:30 PM",
+              "alternativeStartDate": "17/02/2026",
+              "alternativeStartTime": "09:30 AM",
+              "alternativeEstimatedRestorationDate": "17/02/2026",
+              "alternativeEstimatedRestorationTime": "01:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KARIKARI PENINSULA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "INLAND ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "10",
+              "feeder": "TAIPALS",
+              "lastUpdateTime": "22/01/2026 03:56 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36641F\n**Status:** Active\n**Feeder / Circuit:** TAIPALS\n**Cause:** Line Maintenance\n**Customers Affected:** 10\n**Suburbs:** KARIKARI PENINSULA\n---\n**Affected Roads:**\nINLAND ROAD\n---"
       }
     }
   ]
