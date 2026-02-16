@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-16T05-15-43Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-16T06-30-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -18941,7 +18941,7 @@
       "id": "37028F",
       "title": "Whangaroa (9 customers)",
       "start": "2026-02-16T03:30:43Z",
-      "end": null,
+      "end": "2026-02-16T05:30:39Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -19025,7 +19025,7 @@
       "id": "37037F",
       "title": "Rangiahua (1 customers)",
       "start": "2026-02-16T04:45:40Z",
-      "end": null,
+      "end": "2026-02-16T05:30:39Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
