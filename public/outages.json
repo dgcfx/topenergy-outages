@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-16T03-15-39Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-16T05-15-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -18935,6 +18935,132 @@
           }
         ],
         "body": "**Outage ID:** 37019F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** PERIA\n---\n**Affected Roads:**\nTE KAROA ROAD\n---"
+      }
+    },
+    {
+      "id": "37028F",
+      "title": "Whangaroa (9 customers)",
+      "start": "2026-02-16T03:30:43Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "9",
+        "circuit": "Whangaroa",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-16T03:30:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/02/2026",
+              "startTime": "03:58 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAEO",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "WAINUI ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "9",
+              "feeder": "WHANGAROA",
+              "lastUpdateTime": "16/02/2026 04:16 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 37028F\n**Status:** Active\n**Feeder / Circuit:** WHANGAROA\n**Cause:** Under Investigation\n**Customers Affected:** 9\n**Suburbs:** KAEO\n---\n**Affected Roads:**\nWAINUI ROAD\n---"
+      }
+    },
+    {
+      "id": "37031F",
+      "title": "Purerua (192 customers)",
+      "start": "2026-02-16T03:30:43Z",
+      "end": "2026-02-16T04:45:40Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "192",
+        "circuit": "Purerua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-16T03:30:43Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/02/2026",
+              "startTime": "04:19 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KERIKERI, OPITO BAY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AKEAKE ROAD, ANCHORAGE HEIGHTS PLACE, BUSH POINT ROAD, DOVES BAY ROAD, MANUKA BAY ROAD",
+                "hiddenStreets": "OPITO BAY ROAD, OPITO ROAD, PUKEWHAU ROAD, ROWSELL LANE, TIKORANGI ROAD, YACHT DRIVE"
+              },
+              "customersAffected": "192",
+              "feeder": "PURERUA",
+              "lastUpdateTime": "16/02/2026 04:19 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 37031F\n**Status:** Active\n**Feeder / Circuit:** PURERUA\n**Cause:** Under Investigation\n**Customers Affected:** 192\n**Suburbs:** KERIKERI, OPITO BAY\n---\n**Affected Roads:**\nAKEAKE ROAD\nANCHORAGE HEIGHTS PLACE\nBUSH POINT ROAD\nDOVES BAY ROAD\nMANUKA BAY ROAD\n---"
+      }
+    },
+    {
+      "id": "37037F",
+      "title": "Rangiahua (1 customers)",
+      "start": "2026-02-16T04:45:40Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Rangiahua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-16T04:45:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/02/2026",
+              "startTime": "05:35 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Animal Contact",
+              "suburbs": "KOHUKOHU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MATA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "RANGIAHUA",
+              "lastUpdateTime": "16/02/2026 05:35 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 37037F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Animal Contact\n**Customers Affected:** 1\n**Suburbs:** KOHUKOHU\n---\n**Affected Roads:**\nMATA ROAD\n---"
       }
     }
   ]
