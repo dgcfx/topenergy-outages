@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-15T23-45-53Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-16T03-15-39Z.json",
   "events": [
     {
       "id": "35660F",
@@ -18725,7 +18725,7 @@
       "id": "36800F",
       "title": "Awanui (55 customers)",
       "start": "2026-02-15T20:30:47Z",
-      "end": null,
+      "end": "2026-02-16T02:15:44Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -18758,9 +18758,15 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-16T02:01:11Z",
+            "details": {
+              "no_results": true
+            }
           }
         ],
-        "body": "**Outage ID:** 36800F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Line Maintenance\n**Customers Affected:** 55\n**Suburbs:** AWANUI\n---\n**Affected Roads:**\nBIRD ROAD\nKUNICICH ROAD\nSPAINS ROAD\nSWEETWATER ROAD\n---"
+        "body": "**Outage ID:** 36800F\n**Status:** N/A\n**Feeder / Circuit:** N/A\n**Cause:** N/A\n**Customers Affected:** N/A\n**Suburbs:** N/A\n---\n**Affected Roads:**\nN/A\n---\n**Update History:**\n- 2026-02-16T02:01:11Z: N/A\n- 2026-02-15T20:30:47Z: Line Maintenance"
       }
     },
     {
@@ -18845,6 +18851,90 @@
           }
         ],
         "body": "**Outage ID:** 37004F\n**Status:** Active\n**Feeder / Circuit:** OHAEAWAI\n**Cause:** Under Investigation\n**Customers Affected:** 4\n**Suburbs:** WAIMATE NORTH\n---\n**Affected Roads:**\nWAIKARAMU ROAD\n---"
+      }
+    },
+    {
+      "id": "37016F",
+      "title": "Sub-transmission (5 customers)",
+      "start": "2026-02-16T02:15:44Z",
+      "end": "2026-02-16T02:30:43Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "5",
+        "circuit": "Sub-transmission",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-16T02:15:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/02/2026",
+              "startTime": "03:02 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "AHIPARA, HEREKINO, KAITAIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BRASS ROAD, KAITAIA-AWAROA ROAD, SANDHILLS ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "5",
+              "feeder": "Sub-Transmission",
+              "lastUpdateTime": "16/02/2026 03:03 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 37016F\n**Status:** Active\n**Feeder / Circuit:** Sub-Transmission\n**Cause:** Under Investigation\n**Customers Affected:** 5\n**Suburbs:** AHIPARA, HEREKINO, KAITAIA\n---\n**Affected Roads:**\nBRASS ROAD\nKAITAIA-AWAROA ROAD\nSANDHILLS ROAD\n---"
+      }
+    },
+    {
+      "id": "37019F",
+      "title": "Oruru (1 customers)",
+      "start": "2026-02-16T02:15:44Z",
+      "end": "2026-02-16T02:30:43Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Oruru",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-16T02:15:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "16/02/2026",
+              "startTime": "03:02 PM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "PERIA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "TE KAROA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "ORURU",
+              "lastUpdateTime": "16/02/2026 03:03 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 37019F\n**Status:** Active\n**Feeder / Circuit:** ORURU\n**Cause:** Under Investigation\n**Customers Affected:** 1\n**Suburbs:** PERIA\n---\n**Affected Roads:**\nTE KAROA ROAD\n---"
       }
     }
   ]
