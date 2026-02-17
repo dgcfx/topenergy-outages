@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-17T19-15-41Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-17T20-00-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -17846,7 +17846,7 @@
       "id": "1133J",
       "title": "Omaunu Road (1 customers)",
       "start": "2026-02-12T23:15:42Z",
-      "end": null,
+      "end": "2026-02-17T20:00:43Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
