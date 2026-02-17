@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-17T21-02-49Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-17T21-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -19460,6 +19460,48 @@
           }
         ],
         "body": "**Outage ID:** 36719F\n**Status:** Active\n**Feeder / Circuit:** AWANUI\n**Cause:** Line Maintenance\n**Customers Affected:** 2\n**Suburbs:** AHIPARA, KAITAIA\n---\n**Affected Roads:**\nSANDHILLS ROAD\n---"
+      }
+    },
+    {
+      "id": "36845F",
+      "title": "Opononi (47 customers)",
+      "start": "2026-02-17T21:30:47Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "47",
+        "circuit": "Opononi",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-17T21:30:47Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/02/2026",
+              "startTime": "10:15 AM",
+              "estimatedRestorationDate": "18/02/2026",
+              "estimatedRestorationTime": "02:45 PM",
+              "alternativeStartDate": "02/03/2026",
+              "alternativeStartTime": "10:15 AM",
+              "alternativeEstimatedRestorationDate": "02/03/2026",
+              "alternativeEstimatedRestorationTime": "02:45 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAIKOHE, OMANAIA, OUE",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "HIVE ROAD, JAMIESON ROAD, OMANAIA ROAD, OPARA ROAD, STATE HIGHWAY 12",
+                "hiddenStreets": "WHAREKAWA ROAD"
+              },
+              "customersAffected": "47",
+              "feeder": "OPONONI",
+              "lastUpdateTime": "05/02/2026 10:37 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36845F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Line Maintenance\n**Customers Affected:** 47\n**Suburbs:** KAIKOHE, OMANAIA, OUE\n---\n**Affected Roads:**\nHIVE ROAD\nJAMIESON ROAD\nOMANAIA ROAD\nOPARA ROAD\nSTATE HIGHWAY 12\n---"
       }
     }
   ]
