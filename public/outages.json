@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-17T07-30-46Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-17T09-15-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -19163,7 +19163,7 @@
       "id": "37043F",
       "title": "Awarua (347 customers)",
       "start": "2026-02-17T02:00:42Z",
-      "end": null,
+      "end": "2026-02-17T08:30:50Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -19304,9 +19304,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-17T08:00:40Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "17/02/2026",
+              "startTime": "02:50 PM",
+              "estimatedRestorationDate": "17/02/2026",
+              "estimatedRestorationTime": "09:30 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": "KAIKOHE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "EDWARDS ROAD (NGAPUHI), NGAPUHI ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "10",
+              "feeder": "AWARUA",
+              "lastUpdateTime": "17/02/2026 02:47 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 37043F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Vehicle impact\n**Customers Affected:** 10\n**Suburbs:** KAIKOHE\n---\n**Affected Roads:**\nEDWARDS ROAD (NGAPUHI)\nNGAPUHI ROAD\n---\n**Update History:**\n- 2026-02-17T07:30:46Z: Vehicle impact\n- 2026-02-17T06:00:38Z: Vehicle impact\n- 2026-02-17T02:45:44Z: Vehicle impact\n- 2026-02-17T02:15:46Z: Vehicle impact\n- 2026-02-17T02:00:42Z: Under Investigation"
+        "body": "**Outage ID:** 37043F\n**Status:** Active\n**Feeder / Circuit:** AWARUA\n**Cause:** Vehicle impact\n**Customers Affected:** 10\n**Suburbs:** KAIKOHE\n---\n**Affected Roads:**\nEDWARDS ROAD (NGAPUHI)\nNGAPUHI ROAD\n---\n**Update History:**\n- 2026-02-17T08:00:40Z: Vehicle impact\n- 2026-02-17T07:30:46Z: Vehicle impact\n- 2026-02-17T06:00:38Z: Vehicle impact\n- 2026-02-17T02:45:44Z: Vehicle impact\n- 2026-02-17T02:15:46Z: Vehicle impact\n- 2026-02-17T02:00:42Z: Under Investigation"
       }
     },
     {
