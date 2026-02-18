@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-18T21-00-46Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-18T21-45-41Z.json",
   "events": [
     {
       "id": "35660F",
@@ -19640,6 +19640,48 @@
           }
         ],
         "body": "**Outage ID:** 37076F\n**Status:** Active\n**Feeder / Circuit:** BROADWOOD\n**Cause:** Under Investigation\n**Customers Affected:** 539\n**Suburbs:** BROADWOOD, HEREKINO, KOHUKOHU, MITIMITI, PANGURU, PAWARENGA\n---\n**Affected Roads:**\nAWAROA ROAD\nBONNIES LANE\nBROADWOOD ROAD\nBUCHANAN ROAD\nCARMEN ROAD\n---\n**Update History:**\n- 2026-02-18T13:45:45Z: Under Investigation\n- 2026-02-18T13:15:41Z: Under Investigation"
+      }
+    },
+    {
+      "id": "36839F",
+      "title": "Whangaroa (38 customers)",
+      "start": "2026-02-18T21:15:44Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "38",
+        "circuit": "Whangaroa",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-18T21:15:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "19/02/2026",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "19/02/2026",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "09/03/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "09/03/2026",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAEO, WHANGAROA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "MAHINEPUA ROAD, OMIRU ROAD, RHODES WAY",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "38",
+              "feeder": "WHANGAROA",
+              "lastUpdateTime": "05/02/2026 08:19 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36839F\n**Status:** Active\n**Feeder / Circuit:** WHANGAROA\n**Cause:** Line Maintenance\n**Customers Affected:** 38\n**Suburbs:** KAEO, WHANGAROA\n---\n**Affected Roads:**\nMAHINEPUA ROAD\nOMIRU ROAD\nRHODES WAY\n---"
       }
     }
   ]
