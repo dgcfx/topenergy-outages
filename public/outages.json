@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-18T13-45-45Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-18T15-15-54Z.json",
   "events": [
     {
       "id": "35660F",
@@ -19577,7 +19577,7 @@
       "id": "37076F",
       "title": "Broadwood (732 customers)",
       "start": "2026-02-18T13:15:41Z",
-      "end": null,
+      "end": "2026-02-18T14:01:11Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
