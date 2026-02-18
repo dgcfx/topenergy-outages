@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-18T12-00-40Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-18T13-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -19571,6 +19571,75 @@
           }
         ],
         "body": "**Outage ID:** 37070F\n**Status:** Active\n**Feeder / Circuit:** NORTH ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 22\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nNORTH ROAD\nTE PAIA LANE\nWHANGATANE DRIVE\n---"
+      }
+    },
+    {
+      "id": "37076F",
+      "title": "Broadwood (732 customers)",
+      "start": "2026-02-18T13:15:41Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "732",
+        "circuit": "Broadwood",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-18T13:15:41Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "19/02/2026",
+              "startTime": "02:05 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "BROADWOOD, HEREKINO, KAITAIA, KOHUKOHU, MITIMITI, PANGURU, PAWARENGA, TAKAHUE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "115 RUAROA ROAD, AWAROA ROAD, BONNIES LANE, BROADWOOD ROAD, BUCHANAN ROAD",
+                "hiddenStreets": "CARMEN ROAD, CARR ROAD, CEMETERY ROAD, CRENE ROAD, DIGGERS VALLEY ROAD, EATON ROAD, GROUNDS ROAD, GUEST ROAD, HAUMANGA ROAD, HICKS ROAD, HOHAIA ROAD, HUMPHREYS ROAD, IRVINE ROAD, KOHE ROAD, KOWHITIKARU ROAD, MAMARI VILLAGE ROAD, MANSBRIDGE ROAD, MATAWERA ROAD, MIHIRAU ROAD, MOTUTI ROAD, OKAKEWAI ROAD, OTENGI ROAD, PAPARANGI DRIVE, PAPONGA ROAD, PAWARENGA ROAD, PROCTOR ROAD, PUKEMIRO ROAD, PUKETAWA ROAD, RANGI POINT ROAD, RUAROA ROAD, RUNARUNA ROAD, SIMPSON ROAD, TAKAHUE ROAD, TAKAHUE SADDLE ROAD, TAMAHO ROAD, TAUTORO ROAD, TE KARAKA ROAD, TE RIHA ROADWAY, TE RORE ROAD, TE UMUHUKI ROAD, TEACHERS ROAD, WAIOTEHUE ROAD, WAIROA STREAM ROAD, WEST COAST ROAD, WINDY HILL ROAD"
+              },
+              "customersAffected": "732",
+              "feeder": "BROADWOOD",
+              "lastUpdateTime": "19/02/2026 02:05 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-18T13:45:45Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "19/02/2026",
+              "startTime": "02:31 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "BROADWOOD, HEREKINO, KOHUKOHU, MITIMITI, PANGURU, PAWARENGA",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "AWAROA ROAD, BONNIES LANE, BROADWOOD ROAD, BUCHANAN ROAD, CARMEN ROAD",
+                "hiddenStreets": "GROUNDS ROAD, GUEST ROAD, HAUMANGA ROAD, HICKS ROAD, HOHAIA ROAD, HUMPHREYS ROAD, IRVINE ROAD, KOHE ROAD, KOWHITIKARU ROAD, MAMARI VILLAGE ROAD, MANSBRIDGE ROAD, MATAWERA ROAD, MIHIRAU ROAD, MOTUTI ROAD, OTENGI ROAD, PAPARANGI DRIVE, PAPONGA ROAD, PAWARENGA ROAD, PROCTOR ROAD, PUKEMIRO ROAD, PUKETAWA ROAD, RANGI POINT ROAD, RUNARUNA ROAD, TAKAHUE SADDLE ROAD, TAMAHO ROAD, TAUTORO ROAD, TE KARAKA ROAD, TE RIHA ROADWAY, TE UMUHUKI ROAD, TEACHERS ROAD, WAIROA STREAM ROAD, WEST COAST ROAD, WINDY HILL ROAD"
+              },
+              "customersAffected": "539",
+              "feeder": "BROADWOOD",
+              "lastUpdateTime": "19/02/2026 02:05 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 37076F\n**Status:** Active\n**Feeder / Circuit:** BROADWOOD\n**Cause:** Under Investigation\n**Customers Affected:** 539\n**Suburbs:** BROADWOOD, HEREKINO, KOHUKOHU, MITIMITI, PANGURU, PAWARENGA\n---\n**Affected Roads:**\nAWAROA ROAD\nBONNIES LANE\nBROADWOOD ROAD\nBUCHANAN ROAD\nCARMEN ROAD\n---\n**Update History:**\n- 2026-02-18T13:45:45Z: Under Investigation\n- 2026-02-18T13:15:41Z: Under Investigation"
       }
     }
   ]
