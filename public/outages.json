@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-18T06-30-37Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-18T08-00-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -19529,6 +19529,48 @@
           }
         ],
         "body": "**Outage ID:** 36845F\n**Status:** Active\n**Feeder / Circuit:** OPONONI\n**Cause:** Line Maintenance\n**Customers Affected:** 47\n**Suburbs:** KAIKOHE, OMANAIA, OUE\n---\n**Affected Roads:**\nHIVE ROAD\nJAMIESON ROAD\nOMANAIA ROAD\nOPARA ROAD\nSTATE HIGHWAY 12\n---"
+      }
+    },
+    {
+      "id": "37070F",
+      "title": "North Road (22 customers)",
+      "start": "2026-02-18T06:45:46Z",
+      "end": "2026-02-18T07:15:46Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "22",
+        "circuit": "North Road",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-18T06:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "18/02/2026",
+              "startTime": "07:30 PM",
+              "estimatedRestorationDate": "18/02/2026",
+              "estimatedRestorationTime": "08:30 PM",
+              "alternativeStartDate": "19/02/2026",
+              "alternativeStartTime": "07:30 PM",
+              "alternativeEstimatedRestorationDate": "19/02/2026",
+              "alternativeEstimatedRestorationTime": "08:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "KAITAIA",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "NORTH ROAD, TE PAIA LANE, WHANGATANE DRIVE",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "22",
+              "feeder": "NORTH ROAD",
+              "lastUpdateTime": "18/02/2026 07:36 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 37070F\n**Status:** Active\n**Feeder / Circuit:** NORTH ROAD\n**Cause:** Line Maintenance\n**Customers Affected:** 22\n**Suburbs:** KAITAIA\n---\n**Affected Roads:**\nNORTH ROAD\nTE PAIA LANE\nWHANGATANE DRIVE\n---"
       }
     }
   ]
