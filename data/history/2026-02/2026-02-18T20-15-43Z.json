@@ -1,0 +1,335 @@
+{
+  "timestamp": "2026-02-18T20:15:43Z",
+  "rawFrontendInitData": {
+    "backendState": {
+      "eTag": "a2eedbb5a115dbc5",
+      "loadControlEnabled": "0",
+      "emergencyBannerSettings": {
+        "bannerEnabled": 1,
+        "bannerMessage": "110kV line outage and generator support area. Treat all lines as live",
+        "bannerType": "warning",
+        "bannerExcerpt": "110kV line outage and generator",
+        "bannerMessageWebURLSupport": {
+          "message": "110kV line outage and generator support area {Map} Treat all lines as live",
+          "urls": [
+            {
+              "text": "Map",
+              "url": "https://outages.topenergy.co.nz/storage/notice/OutageMap2026.pdf"
+            }
+          ]
+        }
+      },
+      "mapOverrides": {
+        "showNorth": 0,
+        "showSouth": 0
+      }
+    },
+    "lastEtag": "a2eedbb5a115dbc5",
+    "lastMapOverrides": {
+      "showNorth": 0,
+      "showSouth": 0
+    },
+    "markers": {
+      "unplanned": [],
+      "planned": [
+        {
+          "id": "35951F",
+          "lat": -35.01152106612399,
+          "lng": 173.7786160220831
+        },
+        {
+          "id": "36311F",
+          "lat": -35.02335161686288,
+          "lng": 173.788225415094
+        },
+        {
+          "id": "36722F",
+          "lat": -35.10096330982783,
+          "lng": 173.1883327695666
+        },
+        {
+          "id": "36728F",
+          "lat": -35.277935831969636,
+          "lng": 174.07851951227298
+        },
+        {
+          "id": "36761F",
+          "lat": -35.432044253847295,
+          "lng": 173.3098854082372
+        },
+        {
+          "id": "36809F",
+          "lat": -35.0332647760055,
+          "lng": 173.30761506483236
+        },
+        {
+          "id": "36812F",
+          "lat": -35.10098031110106,
+          "lng": 173.77430592789148
+        },
+        {
+          "id": "36824F",
+          "lat": -35.11979411165539,
+          "lng": 173.92870817237176
+        },
+        {
+          "id": "36830F",
+          "lat": -35.33305818758859,
+          "lng": 173.66423490959968
+        },
+        {
+          "id": "36839F",
+          "lat": -34.99988375008255,
+          "lng": 173.83949536666648
+        },
+        {
+          "id": "36842F",
+          "lat": -35.27890082215899,
+          "lng": 174.08072558766258
+        },
+        {
+          "id": "36851F",
+          "lat": -35.176531788165434,
+          "lng": 173.14195429142748
+        },
+        {
+          "id": "36890F",
+          "lat": -35.198018630121766,
+          "lng": 173.87954672869745
+        },
+        {
+          "id": "36911F",
+          "lat": -35.43493665534515,
+          "lng": 174.14860037748025
+        },
+        {
+          "id": "37052F",
+          "lat": -35.14655858989827,
+          "lng": 173.7126337506116
+        },
+        {
+          "id": "37055F",
+          "lat": -35.28893896341561,
+          "lng": 174.12912444473238
+        }
+      ],
+      "plannedActive": []
+    },
+    "outageList": {
+      "customersCurrentlyOff": 0,
+      "activeOutageCount": 0,
+      "planned": [
+        {
+          "type": "planned",
+          "name": "36839F",
+          "startTimestamp": 1771448400,
+          "isActive": false,
+          "circuitName": "Whangaroa",
+          "customersCurrentlyOff": "38",
+          "startDateTime": "19th February 10:00 am",
+          "endDateTime": "19th February 03:00 pm",
+          "alternativeStartDateTime": "9th March 10:00 am",
+          "alternativeEndDateTime": "9th March 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36722F",
+          "startTimestamp": 1771533000,
+          "isActive": false,
+          "circuitName": "Awanui",
+          "customersCurrentlyOff": "19",
+          "startDateTime": "20th February 09:30 am",
+          "endDateTime": "20th February 03:30 pm",
+          "alternativeStartDateTime": "23rd February 09:30 am",
+          "alternativeEndDateTime": "23rd February 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36890F",
+          "startTimestamp": 1771535700,
+          "isActive": false,
+          "circuitName": "Puketi",
+          "customersCurrentlyOff": "4",
+          "startDateTime": "20th February 10:15 am",
+          "endDateTime": "20th February 03:00 pm",
+          "alternativeStartDateTime": "23rd February 10:15 am",
+          "alternativeEndDateTime": "23rd February 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36830F",
+          "startTimestamp": 1771540200,
+          "isActive": false,
+          "circuitName": "Horeke",
+          "customersCurrentlyOff": "6",
+          "startDateTime": "20th February 11:30 am",
+          "endDateTime": "20th February 02:30 pm",
+          "alternativeStartDateTime": "2nd March 11:30 am",
+          "alternativeEndDateTime": "2nd March 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "37052F",
+          "startTimestamp": 1771542000,
+          "isActive": false,
+          "circuitName": "Omaunu Road",
+          "customersCurrentlyOff": "1",
+          "startDateTime": "20th February 12:00 pm",
+          "endDateTime": "20th February 02:00 pm",
+          "alternativeStartDateTime": "23rd February 12:00 pm",
+          "alternativeEndDateTime": "23rd February 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36728F",
+          "startTimestamp": 1771794000,
+          "isActive": false,
+          "circuitName": "Ti Bay",
+          "customersCurrentlyOff": "123",
+          "startDateTime": "23rd February 10:00 am",
+          "endDateTime": "23rd February 03:00 pm",
+          "alternativeStartDateTime": "24th February 10:00 am",
+          "alternativeEndDateTime": "24th February 03:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36311F",
+          "startTimestamp": 1771876800,
+          "isActive": false,
+          "circuitName": "Whangaroa",
+          "customersCurrentlyOff": "106",
+          "startDateTime": "24th February 09:00 am",
+          "endDateTime": "24th February 02:30 pm",
+          "alternativeStartDateTime": "27th February 09:00 am",
+          "alternativeEndDateTime": "27th February 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36761F",
+          "startTimestamp": 1771878600,
+          "isActive": false,
+          "circuitName": "Broadwood",
+          "customersCurrentlyOff": "73",
+          "startDateTime": "24th February 09:30 am",
+          "endDateTime": "24th February 03:30 pm",
+          "alternativeStartDateTime": "25th February 09:30 am",
+          "alternativeEndDateTime": "25th February 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36842F",
+          "startTimestamp": 1771920000,
+          "isActive": false,
+          "circuitName": "Te Kemara Ave",
+          "customersCurrentlyOff": "1",
+          "startDateTime": "24th February 09:00 pm",
+          "endDateTime": "25th February 02:00 am",
+          "alternativeStartDateTime": "25th February 09:00 pm",
+          "alternativeEndDateTime": "26th February 02:00 am",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36911F",
+          "startTimestamp": 1771957800,
+          "isActive": false,
+          "circuitName": "Towai",
+          "customersCurrentlyOff": "4",
+          "startDateTime": "25th February 07:30 am",
+          "endDateTime": "25th February 03:00 pm",
+          "alternativeStartDateTime": "2nd March 07:30 am",
+          "alternativeEndDateTime": "2nd March 03:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36809F",
+          "startTimestamp": 1771966800,
+          "isActive": false,
+          "circuitName": "Clough Road",
+          "customersCurrentlyOff": "7",
+          "startDateTime": "25th February 10:00 am",
+          "endDateTime": "25th February 02:00 pm",
+          "alternativeStartDateTime": "26th February 10:00 am",
+          "alternativeEndDateTime": "26th February 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36824F",
+          "startTimestamp": 1771966800,
+          "isActive": false,
+          "circuitName": "Takou Bay",
+          "customersCurrentlyOff": "142",
+          "startDateTime": "25th February 10:00 am",
+          "endDateTime": "25th February 02:00 pm",
+          "alternativeStartDateTime": "2nd March 10:00 am",
+          "alternativeEndDateTime": "2nd March 02:00 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "37055F",
+          "startTimestamp": 1771967700,
+          "isActive": false,
+          "circuitName": "Russell Express",
+          "customersCurrentlyOff": "4",
+          "startDateTime": "25th February 10:15 am",
+          "endDateTime": "25th February 01:15 pm",
+          "alternativeStartDateTime": "9th March 10:15 am",
+          "alternativeEndDateTime": "9th March 01:15 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "35951F",
+          "startTimestamp": 1772049600,
+          "isActive": false,
+          "circuitName": "Whangaroa",
+          "customersCurrentlyOff": "94",
+          "startDateTime": "26th February 09:00 am",
+          "endDateTime": "26th February 02:30 pm",
+          "alternativeStartDateTime": "3rd March 09:00 am",
+          "alternativeEndDateTime": "3rd March 02:30 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36851F",
+          "startTimestamp": 1772137800,
+          "isActive": false,
+          "circuitName": "Herekino",
+          "customersCurrentlyOff": "391",
+          "startDateTime": "27th February 09:30 am",
+          "endDateTime": "27th February 03:45 pm",
+          "alternativeStartDateTime": "2nd March 09:30 am",
+          "alternativeEndDateTime": "2nd March 03:45 pm",
+          "additionalInformation": ""
+        },
+        {
+          "type": "planned",
+          "name": "36812F",
+          "startTimestamp": 1772139600,
+          "isActive": false,
+          "circuitName": "Totara North",
+          "customersCurrentlyOff": "80",
+          "startDateTime": "27th February 10:00 am",
+          "endDateTime": "27th February 02:30 pm",
+          "alternativeStartDateTime": "2nd March 10:00 am",
+          "alternativeEndDateTime": "2nd March 02:30 pm",
+          "additionalInformation": ""
+        }
+      ],
+      "active": []
+    }
+  },
+  "detailedOutageInfo": {}
+}
