@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-19T21-30-48Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-19T23-00-52Z.json",
   "events": [
     {
       "id": "35660F",
@@ -19808,6 +19808,48 @@
           }
         ],
         "body": "**Outage ID:** 36890F\n**Status:** Active\n**Feeder / Circuit:** PUKETI\n**Cause:** Line Maintenance\n**Customers Affected:** 4\n**Suburbs:** WAIPAPA\n---\n**Affected Roads:**\nKORANAE ROAD\n---"
+      }
+    },
+    {
+      "id": "36830F",
+      "title": "Horeke (6 customers)",
+      "start": "2026-02-19T22:45:56Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "6",
+        "circuit": "Horeke",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-19T22:45:56Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "20/02/2026",
+              "startTime": "11:30 AM",
+              "estimatedRestorationDate": "20/02/2026",
+              "estimatedRestorationTime": "02:30 PM",
+              "alternativeStartDate": "02/03/2026",
+              "alternativeStartTime": "11:30 AM",
+              "alternativeEstimatedRestorationDate": "02/03/2026",
+              "alternativeEstimatedRestorationTime": "02:30 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": "HOREKE",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "OKAKA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "6",
+              "feeder": "HOREKE",
+              "lastUpdateTime": "04/02/2026 03:28 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36830F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Line Maintenance\n**Customers Affected:** 6\n**Suburbs:** HOREKE\n---\n**Affected Roads:**\nOKAKA ROAD\n---"
       }
     }
   ]
