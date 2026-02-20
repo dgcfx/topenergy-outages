@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-19T23-46-03Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-20T03-15-43Z.json",
   "events": [
     {
       "id": "35660F",
@@ -19688,7 +19688,7 @@
       "id": "37088F",
       "title": "Moerewa (1 customers)",
       "start": "2026-02-19T20:15:51Z",
-      "end": null,
+      "end": "2026-02-20T02:00:48Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
@@ -19730,7 +19730,7 @@
       "id": "36722F",
       "title": "Awanui (19 customers)",
       "start": "2026-02-19T20:45:46Z",
-      "end": null,
+      "end": "2026-02-20T00:45:55Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -19772,7 +19772,7 @@
       "id": "36890F",
       "title": "Puketi (4 customers)",
       "start": "2026-02-19T21:30:48Z",
-      "end": null,
+      "end": "2026-02-20T01:46:08Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -19814,7 +19814,7 @@
       "id": "36830F",
       "title": "Horeke (6 customers)",
       "start": "2026-02-19T22:45:56Z",
-      "end": null,
+      "end": "2026-02-20T00:45:55Z",
       "allDay": false,
       "extendedProps": {
         "type": "planned",
@@ -19850,6 +19850,48 @@
           }
         ],
         "body": "**Outage ID:** 36830F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Line Maintenance\n**Customers Affected:** 6\n**Suburbs:** HOREKE\n---\n**Affected Roads:**\nOKAKA ROAD\n---"
+      }
+    },
+    {
+      "id": "37097F",
+      "title": "Kaikohe (47 customers)",
+      "start": "2026-02-20T00:15:49Z",
+      "end": "2026-02-20T01:15:54Z",
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "47",
+        "circuit": "Kaikohe",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-20T00:15:49Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "20/02/2026",
+              "startTime": "12:58 PM",
+              "estimatedRestorationDate": "20/02/2026",
+              "estimatedRestorationTime": "02:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Under Investigation",
+              "suburbs": "KAIKOHE",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MONUMENT ROAD, ORRS ROAD, TUHUNA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "47",
+              "feeder": "KAIKOHE",
+              "lastUpdateTime": "20/02/2026 01:03 PM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 37097F\n**Status:** Active\n**Feeder / Circuit:** KAIKOHE\n**Cause:** Under Investigation\n**Customers Affected:** 47\n**Suburbs:** KAIKOHE\n---\n**Affected Roads:**\nMONUMENT ROAD\nORRS ROAD\nTUHUNA ROAD\n---"
       }
     }
   ]
