@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-20T20-45-46Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-20T21-45-48Z.json",
   "events": [
     {
       "id": "35660F",
@@ -19892,6 +19892,48 @@
           }
         ],
         "body": "**Outage ID:** 37097F\n**Status:** Active\n**Feeder / Circuit:** KAIKOHE\n**Cause:** Under Investigation\n**Customers Affected:** 47\n**Suburbs:** KAIKOHE\n---\n**Affected Roads:**\nMONUMENT ROAD\nORRS ROAD\nTUHUNA ROAD\n---"
+      }
+    },
+    {
+      "id": "37118F",
+      "title": "Victoria Valley (175 customers)",
+      "start": "2026-02-20T21:45:48Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "175",
+        "circuit": "Victoria Valley",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-20T21:45:48Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "21/02/2026",
+              "startTime": "10:32 AM",
+              "estimatedRestorationDate": "21/02/2026",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": ", KAITAIA, PAMAPURIA, TAKAHUE, VICTORIA VALLEY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "BRAITHWAITE ROAD, KITCHEN ROAD, KOTIPU ROAD, PANTHER ROAD, PERIA VALLEY ROAD",
+                "hiddenStreets": "SOUTH ROAD, STATE HIGHWAY 1, STATE HIGHWAY ONE, TAKAHUE ROAD, TE RORE ROAD, THOMPSON ROAD, VICTORIA VALLEY ROAD, WERNER ROAD"
+              },
+              "customersAffected": "175",
+              "feeder": "VICTORIA VALLEY",
+              "lastUpdateTime": "21/02/2026 10:35 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 37118F\n**Status:** Active\n**Feeder / Circuit:** VICTORIA VALLEY\n**Cause:** Vehicle impact\n**Customers Affected:** 175\n**Suburbs:** , KAITAIA, PAMAPURIA, TAKAHUE, VICTORIA VALLEY\n---\n**Affected Roads:**\nBRAITHWAITE ROAD\nKITCHEN ROAD\nKOTIPU ROAD\nPANTHER ROAD\nPERIA VALLEY ROAD\n---"
       }
     }
   ]
