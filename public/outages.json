@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-21T19-00-47Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-21T19-45-46Z.json",
   "events": [
     {
       "id": "35660F",
@@ -20111,6 +20111,75 @@
           }
         ],
         "body": "**Outage ID:** 37121F\n**Status:** Active\n**Feeder / Circuit:** HOREKE\n**Cause:** Under Investigation\n**Customers Affected:** 8\n**Suburbs:** HOREKE, OKAIHAU\n---\n**Affected Roads:**\nIMMS ROAD\n---"
+      }
+    },
+    {
+      "id": "37124F",
+      "title": "Rangiahua (1 customers)",
+      "start": "2026-02-21T19:30:53Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "unplanned",
+        "customers": "1",
+        "circuit": "Rangiahua",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-21T19:30:53Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/02/2026",
+              "startTime": "08:18 AM",
+              "estimatedRestorationDate": null,
+              "estimatedRestorationTime": null,
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KOHUKOHU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MATA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "RANGIAHUA",
+              "lastUpdateTime": "22/02/2026 08:18 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          },
+          {
+            "capture_ts": "2026-02-21T19:45:46Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "22/02/2026",
+              "startTime": "07:38 AM",
+              "estimatedRestorationDate": "22/02/2026",
+              "estimatedRestorationTime": "08:18 AM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Equipment fault",
+              "suburbs": "KOHUKOHU",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "MATA ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "1",
+              "feeder": "RANGIAHUA",
+              "lastUpdateTime": "22/02/2026 08:31 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 37124F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Equipment fault\n**Customers Affected:** 1\n**Suburbs:** KOHUKOHU\n---\n**Affected Roads:**\nMATA ROAD\n---\n**Update History:**\n- 2026-02-21T19:45:46Z: Equipment fault\n- 2026-02-21T19:30:53Z: Equipment fault"
       }
     }
   ]
