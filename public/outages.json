@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-21T04-45-47Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-21T06-01-15Z.json",
   "events": [
     {
       "id": "35660F",
@@ -20039,9 +20039,36 @@
               "status": "Active",
               "offsupply": "1"
             }
+          },
+          {
+            "capture_ts": "2026-02-21T05:00:44Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "21/02/2026",
+              "startTime": "10:32 AM",
+              "estimatedRestorationDate": "21/02/2026",
+              "estimatedRestorationTime": "08:00 PM",
+              "alternativeStartDate": "",
+              "alternativeStartTime": "",
+              "alternativeEstimatedRestorationDate": "",
+              "alternativeEstimatedRestorationTime": "",
+              "additionalInformation": "",
+              "cause": "Vehicle impact",
+              "suburbs": ", KAITAIA, VICTORIA VALLEY",
+              "noticeType": "Unplanned",
+              "streets": {
+                "showStreets": "KITCHEN ROAD, PANTHER ROAD, PERIA VALLEY ROAD, STATE HIGHWAY 1, VICTORIA VALLEY ROAD",
+                "hiddenStreets": ""
+              },
+              "customersAffected": "50",
+              "feeder": "VICTORIA VALLEY",
+              "lastUpdateTime": "21/02/2026 10:35 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
           }
         ],
-        "body": "**Outage ID:** 37118F\n**Status:** Active\n**Feeder / Circuit:** VICTORIA VALLEY\n**Cause:** Vehicle impact\n**Customers Affected:** 50\n**Suburbs:** , KAITAIA, VICTORIA VALLEY\n---\n**Affected Roads:**\nKITCHEN ROAD\nPANTHER ROAD\nPERIA VALLEY ROAD\nSTATE HIGHWAY 1\nVICTORIA VALLEY ROAD\n---\n**Update History:**\n- 2026-02-21T04:45:47Z: Vehicle impact\n- 2026-02-21T03:30:51Z: Vehicle impact\n- 2026-02-21T01:45:54Z: Vehicle impact\n- 2026-02-20T23:00:57Z: Vehicle impact\n- 2026-02-20T21:45:48Z: Vehicle impact"
+        "body": "**Outage ID:** 37118F\n**Status:** Active\n**Feeder / Circuit:** VICTORIA VALLEY\n**Cause:** Vehicle impact\n**Customers Affected:** 50\n**Suburbs:** , KAITAIA, VICTORIA VALLEY\n---\n**Affected Roads:**\nKITCHEN ROAD\nPANTHER ROAD\nPERIA VALLEY ROAD\nSTATE HIGHWAY 1\nVICTORIA VALLEY ROAD\n---\n**Update History:**\n- 2026-02-21T05:00:44Z: Vehicle impact\n- 2026-02-21T04:45:47Z: Vehicle impact\n- 2026-02-21T03:30:51Z: Vehicle impact\n- 2026-02-21T01:45:54Z: Vehicle impact\n- 2026-02-20T23:00:57Z: Vehicle impact\n- 2026-02-20T21:45:48Z: Vehicle impact"
       }
     }
   ]
