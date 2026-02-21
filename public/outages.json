@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-21T06-01-15Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-21T07-00-47Z.json",
   "events": [
     {
       "id": "35660F",
@@ -19898,7 +19898,7 @@
       "id": "37118F",
       "title": "Victoria Valley (175 customers)",
       "start": "2026-02-20T21:45:48Z",
-      "end": null,
+      "end": "2026-02-21T06:15:49Z",
       "allDay": false,
       "extendedProps": {
         "type": "unplanned",
