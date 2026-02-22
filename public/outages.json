@@ -1,5 +1,5 @@
 {
-  "lastProcessedFile": "data/history/2026-02/2026-02-22T20-45-48Z.json",
+  "lastProcessedFile": "data/history/2026-02/2026-02-22T21-45-45Z.json",
   "events": [
     {
       "id": "35660F",
@@ -20180,6 +20180,48 @@
           }
         ],
         "body": "**Outage ID:** 37124F\n**Status:** Active\n**Feeder / Circuit:** RANGIAHUA\n**Cause:** Equipment fault\n**Customers Affected:** 1\n**Suburbs:** KOHUKOHU\n---\n**Affected Roads:**\nMATA ROAD\n---\n**Update History:**\n- 2026-02-21T19:45:46Z: Equipment fault\n- 2026-02-21T19:30:53Z: Equipment fault"
+      }
+    },
+    {
+      "id": "36728F",
+      "title": "Ti Bay (124 customers)",
+      "start": "2026-02-22T21:15:52Z",
+      "end": null,
+      "allDay": false,
+      "extendedProps": {
+        "type": "planned",
+        "customers": "124",
+        "circuit": "Ti Bay",
+        "detail_history": [
+          {
+            "capture_ts": "2026-02-22T21:15:52Z",
+            "details": {
+              "duration": "Unknown",
+              "startDate": "23/02/2026",
+              "startTime": "10:00 AM",
+              "estimatedRestorationDate": "23/02/2026",
+              "estimatedRestorationTime": "03:00 PM",
+              "alternativeStartDate": "24/02/2026",
+              "alternativeStartTime": "10:00 AM",
+              "alternativeEstimatedRestorationDate": "24/02/2026",
+              "alternativeEstimatedRestorationTime": "03:00 PM",
+              "additionalInformation": "",
+              "cause": "Line Maintenance",
+              "suburbs": ", PAIHIA, WAITANGI",
+              "noticeType": "Planned",
+              "streets": {
+                "showStreets": "MARSDEN ROAD, NGATIRAHIRI DRIVE, OSLER AVENUE, PUKETONA ROAD, TAHUNA ROAD",
+                "hiddenStreets": "TE KARUWHA PARADE, TE KEMARA AVENUE"
+              },
+              "customersAffected": "124",
+              "feeder": "TI BAY",
+              "lastUpdateTime": "28/01/2026 10:43 AM",
+              "status": "Active",
+              "offsupply": "1"
+            }
+          }
+        ],
+        "body": "**Outage ID:** 36728F\n**Status:** Active\n**Feeder / Circuit:** TI BAY\n**Cause:** Line Maintenance\n**Customers Affected:** 124\n**Suburbs:** , PAIHIA, WAITANGI\n---\n**Affected Roads:**\nMARSDEN ROAD\nNGATIRAHIRI DRIVE\nOSLER AVENUE\nPUKETONA ROAD\nTAHUNA ROAD\n---"
       }
     }
   ]
